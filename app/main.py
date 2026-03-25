@@ -1,0 +1,104 @@
+from fastapi import FastAPI, Depends, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy.orm import Session
+from typing import List, Optional
+from . import models, schemas
+from .database import engine, get_db
+
+# Create the database tables
+models.Base.metadata.create_all(bind=engine)
+
+app = FastAPI(
+    title="Space API",
+    description="API for Space portal with Companies, Rockets, Satellites, and Launches",
+    version="1.0.0",
+)
+
+# Enable CORS for the frontend to communicate with this backend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # For production, replace "*" with your frontend's actual URL (e.g., "https://my-space-frontend.up.railway.app")
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# ---- Companies ----
+
+@app.get("/api/v1/companies", response_model=List[schemas.CompanyResponse])
+def get_companies(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+    companies = db.query(models.Company).offset(skip).limit(limit).all()
+    return companies
+
+@app.get("/api/v1/companies/{company_id}", response_model=schemas.CompanyResponse)
+def get_company(company_id: int, db: Session = Depends(get_db)):
+    company = db.query(models.Company).filter(models.Company.id == company_id).first()
+    if company is None:
+        raise HTTPException(status_code=404, detail="Company not found")
+    return company
+
+# ---- Rockets ----
+
+@app.get("/api/v1/rockets", response_model=List[schemas.RocketResponse])
+def get_rockets(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+    rockets = db.query(models.Rocket).offset(skip).limit(limit).all()
+    return rockets
+
+@app.get("/api/v1/rockets/{rocket_id}", response_model=schemas.RocketResponse)
+def get_rocket(rocket_id: int, db: Session = Depends(get_db)):
+    rocket = db.query(models.Rocket).filter(models.Rocket.id == rocket_id).first()
+    if rocket is None:
+        raise HTTPException(status_code=404, detail="Rocket not found")
+    return rocket
+
+# ---- Satellites ----
+
+@app.get("/api/v1/satellites", response_model=List[schemas.SatelliteResponse])
+def get_satellites(
+    search: Optional[str] = None, 
+    skip: int = 0, 
+    limit: int = 100, 
+    db: Session = Depends(get_db)
+):
+    query = db.query(models.Satellite)
+    if search:
+        query = query.filter(models.Satellite.name.ilike(f"%{search}%"))
+    satellites = query.offset(skip).limit(limit).all()
+    return satellites
+
+@app.get("/api/v1/satellites/{satellite_id}", response_model=schemas.SatelliteResponse)
+def get_satellite(satellite_id: int, db: Session = Depends(get_db)):
+    satellite = db.query(models.Satellite).filter(models.Satellite.id == satellite_id).first()
+    if satellite is None:
+        raise HTTPException(status_code=404, detail="Satellite not found")
+    return satellite
+
+# ---- Launches ----
+
+@app.get("/api/v1/launches", response_model=List[schemas.LaunchResponse])
+def get_launches(
+    status: Optional[str] = Query(None, description="Filter by status (e.g. upcoming, past)"),
+    skip: int = 0, 
+    limit: int = 100, 
+    db: Session = Depends(get_db)
+):
+    query = db.query(models.Launch)
+    
+    # Note: the definition of 'upcoming' vs 'past' could depend on the 'net' date or exact status strings
+    if status == 'upcoming':
+        # Simple example: you might filter by net >= current_date or status matching Go
+        query = query.filter(models.Launch.status.ilike("%upcoming%") | models.Launch.status.ilike("%Go%"))
+    elif status == 'past':
+        query = query.filter(models.Launch.status.ilike("%past%") | models.Launch.status.ilike("%Success%"))
+    elif status:
+        query = query.filter(models.Launch.status.ilike(f"%{status}%"))
+
+    launches = query.offset(skip).limit(limit).all()
+    return launches
+
+@app.get("/api/v1/launches/{launch_id}", response_model=schemas.LaunchResponse)
+def get_launch(launch_id: int, db: Session = Depends(get_db)):
+    launch = db.query(models.Launch).filter(models.Launch.id == launch_id).first()
+    if launch is None:
+        raise HTTPException(status_code=404, detail="Launch not found")
+    return launch
