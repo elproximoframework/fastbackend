@@ -23,6 +23,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# ---- Health Check ----
+
+@app.get("/api/v1/health")
+def health_check():
+    return {
+        "status": "online",
+        "message": "Backend is correctly deployed on Railway!",
+        "version": "1.0.0"
+    }
+
 # ---- Companies ----
 
 @app.get("/api/v1/companies", response_model=List[schemas.CompanyResponse])
