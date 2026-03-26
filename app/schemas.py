@@ -19,8 +19,8 @@ class CompanyBase(BaseModel):
     coordinates: Optional[Dict[str, float]] = None
     employees: Optional[int] = None
     website: Optional[str] = None
-    logo: Optional[str] = None
     description: Optional[str] = None
+    description_en: Optional[str] = None
     founded: Optional[int] = None
     ceo: Optional[str] = None
     sector: Optional[str] = None
@@ -58,6 +58,7 @@ class RocketBase(BaseModel):
     status: Optional[str] = None
     image: Optional[str] = None
     description: Optional[str] = None
+    description_en: Optional[str] = None
     costPerLaunch: Optional[float] = None
     reusable: Optional[bool] = False
 
@@ -83,9 +84,11 @@ class SatelliteBase(BaseModel):
     altitude: Optional[float] = None
     inclination: Optional[float] = None
     description: Optional[str] = None
+    description_en: Optional[str] = None
     image: Optional[str] = None
     isFeatured: Optional[bool] = False
     funFact: Optional[str] = None
+    funFact_en: Optional[str] = None
 
 class SatelliteCreate(SatelliteBase):
     pass

@@ -14,8 +14,8 @@ class Company(Base):
     coordinates = Column(JSON) # e.g. {"lat": 28.5, "lng": -80.6}
     employees = Column(Integer)
     website = Column(String)
-    logo = Column(String)
     description = Column(String)
+    description_en = Column(String)
     founded = Column(Integer)
     ceo = Column(String)
     sector = Column(String)
@@ -50,6 +50,7 @@ class Rocket(Base):
     status = Column(String) # active, development, retired, cancelled
     image = Column(String)
     description = Column(String)
+    description_en = Column(String)
     costPerLaunch = Column(Float)
     reusable = Column(Boolean)
 
@@ -70,9 +71,11 @@ class Satellite(Base):
     altitude = Column(Float)
     inclination = Column(Float)
     description = Column(String)
+    description_en = Column(String)
     image = Column(String)
     isFeatured = Column(Boolean, default=False)
     funFact = Column(String)
+    funFact_en = Column(String)
 
     operator = relationship("Company", back_populates="satellites")
 

@@ -1,0 +1,24 @@
+NAME: Estación Espacial Internacional (ISS)
+DESC: La Estación Espacial Internacional es un centro de investigación en la órbita terrestre baja. Su primera sección fue lanzada a órbita en 1998, y ha estado habitada ininterrumpidamente desde noviembre de 2000.
+---
+NAME: Telescopio Espacial Hubble
+DESC: El Hubble es uno de los telescopios espaciales más grandes y versátiles, famoso como herramienta de investigación fundamental y de relaciones públicas para la astronomía.
+---
+NAME: Telescopio Espacial James Webb (JWST)
+DESC: El JWST es un observatorio espacial optimizado para la luz infrarroja, capaz de mirar hacia atrás en el tiempo para observar la formación de las primeras galaxias.
+---
+NAME: Estación Espacial Tiangong
+DESC: Tiangong ("Palacio Celestial") es una estación espacial china construida en órbita baja terrestre.
+---
+NAME: Sentinel-2
+DESC: Misión de observación de la Tierra del Programa Copernicus que proporciona imágenes ópticas de alta resolución para servicios terrestres (monitorización de vegetación, agua, ecosistemas).
+---
+NAME: Starlink (V2 Mini)
+DESC: Parte de la megaconstelación Starlink de SpaceX para proporcionar internet global de banda ancha de baja latencia.
+---
+NAME: GPS Block III
+DESC: La generación más reciente de satélites GPS, ofrece 3x más precisión y hasta 8x mejores capacidades anti-jamming.
+---
+NAME: GOES-16 (GOES-East)
+DESC: Satélite geoestacionario meteorológico que proporciona la observación principal del tiempo monitorizando el continente americano y el Océano Atlántico.
+---

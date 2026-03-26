@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Estación Espacial Internacional (ISS)",
+    "funFact": "Da una vuelta a la Tierra cada 90 minutos, lo que significa que los astronautas ven 16 amaneceres y atardeceres cada día."
+  },
+  {
+    "id": 2,
+    "name": "Telescopio Espacial Hubble",
+    "funFact": "A pesar de sus increíbles descubrimientos astrofísicos, originalmente se lanzó con un espejo defectuoso que tuvo que ser reparado en órbita en 1993."
+  },
+  {
+    "id": 3,
+    "name": "Telescopio Espacial James Webb (JWST)",
+    "funFact": "Opera a unos increíbles -223°C (50 Kelvin) y cuenta con un parasol del tamaño de una pista de tenis."
+  },
+  {
+    "id": 4,
+    "name": "Estación Espacial Tiangong",
+    "funFact": "Es la culminación de un programa espacial chino de 30 años, ensamblada íntegramente de forma independiente por el país."
+  },
+  {
+    "id": 5,
+    "name": "Sentinel-2",
+    "funFact": "Mapea la totalidad de la superficie terrestre de nuestro planeta y las zonas costeras grandes habitualmente cada 5 días."
+  },
+  {
+    "id": 6,
+    "name": "Starlink (V2 Mini)",
+    "funFact": "Los satélites V2 Mini incluyen propulsores de efecto Hall de argón, más baratos y eficientes que la versión anterior."
+  },
+  {
+    "id": 7,
+    "name": "GPS Block III",
+    "funFact": "Un satélite GPS transmite constantemente una señal de radio con su posición y la hora exacta; en realidad todo el GPS es solo medir cuánto tarda la luz en llegarte."
+  },
+  {
+    "id": 8,
+    "name": "GOES-16 (GOES-East)",
+    "funFact": "Al estar en órbita GEO, parece estar siempre en el mismo punto sobre el ecuador porque su periodo orbital coincide exactamente con la rotación de la Tierra (1 día)."
+  }
+]
