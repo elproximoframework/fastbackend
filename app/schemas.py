@@ -125,6 +125,8 @@ class LaunchCreate(LaunchBase):
 
 class LaunchResponse(LaunchBase):
     id: int
+    rocket: Optional[RocketResponse] = None
+    provider: Optional[CompanyResponse] = None
 
     class Config:
         from_attributes = True
