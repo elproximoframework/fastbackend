@@ -1,6 +1,6 @@
 from pydantic import BaseModel, HttpUrl
 from typing import Optional, List, Any, Dict
-from datetime import date
+from datetime import date, datetime
 
 # ---- Core Schemas ----
 
@@ -104,17 +104,21 @@ class SatelliteResponse(SatelliteBase):
 
 class LaunchBase(BaseModel):
     name: str
+    api_id: Optional[str] = None
     rocket_id: Optional[int] = None
     provider_id: Optional[int] = None
-    net: Optional[date] = None
+    net: Optional[datetime] = None
     status: Optional[str] = None
     mission_description: Optional[str] = None
     mission_type: Optional[str] = None
     orbit_name: Optional[str] = None
     pad_name: Optional[str] = None
     pad_location: Optional[str] = None
+    celestial_body: Optional[str] = "Earth"
     webcast_live: Optional[bool] = False
     image: Optional[str] = None
+    vid_urls: Optional[List[Dict[str, Any]]] = []
+    info_urls: Optional[List[Dict[str, Any]]] = []
 
 class LaunchCreate(LaunchBase):
     pass

@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Float, Boolean, Date, ForeignKey, JSON
+from sqlalchemy import Column, Integer, String, Float, Boolean, Date, ForeignKey, JSON, DateTime
 from sqlalchemy.orm import relationship
 from .database import Base
 
@@ -84,18 +84,22 @@ class Launch(Base):
     __tablename__ = "launches"
 
     id = Column(Integer, primary_key=True, index=True)
+    api_id = Column(String, unique=True, index=True) # ID from Space Devs API
     name = Column(String, index=True, nullable=False)
     rocket_id = Column(Integer, ForeignKey("rockets.id"))
     provider_id = Column(Integer, ForeignKey("companies.id"))
-    net = Column(Date) # Next Estimated Time
+    net = Column(DateTime) # Next Estimated Time (TIMESTAMP)
     status = Column(String) # e.g. Go for Launch, TBD, Success, Failure
     mission_description = Column(String)
     mission_type = Column(String)
     orbit_name = Column(String)
     pad_name = Column(String)
     pad_location = Column(String)
+    celestial_body = Column(String, default="Earth")
     webcast_live = Column(Boolean, default=False)
     image = Column(String)
+    vid_urls = Column(JSON) # Webcast links
+    info_urls = Column(JSON) # Mission details
 
     rocket = relationship("Rocket", back_populates="launches")
     provider = relationship("Company", back_populates="launches")
