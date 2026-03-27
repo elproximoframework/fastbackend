@@ -124,3 +124,37 @@ class LaunchResponse(LaunchBase):
 
     class Config:
         from_attributes = True
+
+
+# ---- News Schemas ----
+
+class NewsBase(BaseModel):
+    title: str
+    title_en: Optional[str] = None
+    excerpt: Optional[str] = None
+    excerpt_en: Optional[str] = None
+    body: Optional[str] = None
+    body_en: Optional[str] = None
+    category: Optional[str] = None
+    category_en: Optional[str] = None
+    location: Optional[str] = None
+    location_en: Optional[str] = None
+    covered: bool = False
+    date: str
+    image: Optional[str] = None
+    slug: str
+    tags: Optional[List[str]] = []
+    tags_en: Optional[List[str]] = []
+    featured: bool = False
+    linkyoutube: Optional[str] = None
+    rutanoticia: Optional[str] = None
+    timestart: Optional[int] = None
+
+class NewsCreate(NewsBase):
+    pass
+
+class NewsResponse(NewsBase):
+    id: int
+
+    class Config:
+        from_attributes = True

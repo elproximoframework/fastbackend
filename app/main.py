@@ -1,9 +1,11 @@
 from fastapi import FastAPI, Depends, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from sqlalchemy.orm import Session
 from typing import List, Optional
 from . import models, schemas
 from .database import engine, get_db
+import os
 
 # Create the database tables
 models.Base.metadata.create_all(bind=engine)
@@ -22,6 +24,12 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Serve news markdown files
+news_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "news")
+if not os.path.exists(news_dir):
+    os.makedirs(news_dir)
+app.mount("/api/v1/news_content", StaticFiles(directory=news_dir), name="news")
 
 # ---- Health Check ----
 
@@ -112,3 +120,42 @@ def get_launch(launch_id: int, db: Session = Depends(get_db)):
     if launch is None:
         raise HTTPException(status_code=404, detail="Launch not found")
     return launch
+
+
+# ---- News ----
+
+@app.get("/api/v1/news", response_model=List[schemas.NewsResponse])
+def get_news(
+    category: Optional[str] = None,
+    featured: Optional[bool] = None,
+    skip: int = 0, 
+    limit: int = 100, 
+    db: Session = Depends(get_db)
+):
+    query = db.query(models.News)
+    
+    if category:
+        # Search in both category and category_en
+        query = query.filter(
+            (models.News.category.ilike(f"%{category}%")) | 
+            (models.News.category_en.ilike(f"%{category}%"))
+        )
+    
+    if featured is not None:
+        query = query.filter(models.News.featured == featured)
+        
+    # Sort by date descending (latest first)
+    news_items = query.order_by(models.News.date.desc()).offset(skip).limit(limit).all()
+    return news_items
+
+@app.get("/api/v1/news/{slug}", response_model=schemas.NewsResponse)
+def get_news_item(slug: str, db: Session = Depends(get_db)):
+    news_item = db.query(models.News).filter(models.News.slug == slug).first()
+    if news_item is None:
+        # Try to find by ID if slug not found and is numeric
+        if slug.isdigit():
+            news_item = db.query(models.News).filter(models.News.id == int(slug)).first()
+            
+    if news_item is None:
+        raise HTTPException(status_code=404, detail="News item not found")
+    return news_item

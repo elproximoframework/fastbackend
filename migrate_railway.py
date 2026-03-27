@@ -2,7 +2,7 @@ import psycopg2
 import os
 
 # Use DATABASE_URL from environment, fallback to local for testing
-URL = os.environ.get("DATABASE_URL", "postgresql://space_user:space_password@localhost:5433/space_db")
+URL = "postgresql://postgres:zjRYAsATFmvPlnQOZruilNIwwEBZcmyU@crossover.proxy.rlwy.net:29288/railway"
 
 translations = {
     "Estación Espacial Internacional (ISS)": "It orbits the Earth every 90 minutes, meaning astronauts see 16 sunrises and sunsets every day.",

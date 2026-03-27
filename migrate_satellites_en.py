@@ -1,7 +1,7 @@
 import psycopg2
 from psycopg2 import sql
 
-URL = "postgresql://space_user:space_password@localhost:5433/space_db"
+URL = "postgresql://postgres:zjRYAsATFmvPlnQOZruilNIwwEBZcmyU@crossover.proxy.rlwy.net:29288/railway"
 
 translations = {
     "Estación Espacial Internacional (ISS)": "The International Space Station is a research center in low Earth orbit. Its first section was launched into orbit in 1998, and it has been continuously inhabited since November 2000.",
