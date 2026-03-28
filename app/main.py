@@ -37,6 +37,18 @@ if not os.path.exists(news_images_dir):
     os.makedirs(news_images_dir)
 app.mount("/api/v1/news_images", StaticFiles(directory=news_images_dir), name="news_images")
 
+# Serve company logos
+company_logos_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "company_logos")
+if not os.path.exists(company_logos_dir):
+    os.makedirs(company_logos_dir)
+app.mount("/api/v1/company_logos", StaticFiles(directory=company_logos_dir), name="company_logos")
+
+# Serve rocket images
+rocket_images_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "rocket_images")
+if not os.path.exists(rocket_images_dir):
+    os.makedirs(rocket_images_dir)
+app.mount("/api/v1/rocket_images", StaticFiles(directory=rocket_images_dir), name="rocket_images")
+
 # ---- Health Check ----
 
 @app.get("/api/v1/health")
@@ -165,3 +177,33 @@ def get_news_item(slug: str, db: Session = Depends(get_db)):
     if news_item is None:
         raise HTTPException(status_code=404, detail="News item not found")
     return news_item
+
+
+# ---- Settings ----
+
+@app.get("/api/v1/settings", response_model=List[schemas.AppSettingResponse])
+def get_settings(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+    settings = db.query(models.AppSetting).offset(skip).limit(limit).all()
+    return settings
+
+@app.get("/api/v1/settings/{key}", response_model=schemas.AppSettingResponse)
+def get_setting(key: str, db: Session = Depends(get_db)):
+    setting = db.query(models.AppSetting).filter(models.AppSetting.key == key).first()
+    if setting is None:
+        raise HTTPException(status_code=404, detail="Setting not found")
+    return setting
+
+@app.put("/api/v1/settings/{key}", response_model=schemas.AppSettingResponse)
+def update_setting(key: str, setting_update: schemas.AppSettingCreate, db: Session = Depends(get_db)):
+    db_setting = db.query(models.AppSetting).filter(models.AppSetting.key == key).first()
+    if db_setting is None:
+        # Optionally create if not exists
+        db_setting = models.AppSetting(**setting_update.dict())
+        db.add(db_setting)
+    else:
+        for var, value in vars(setting_update).items():
+            setattr(db_setting, var, value) if value is not None else None
+    
+    db.commit()
+    db.refresh(db_setting)
+    return db_setting

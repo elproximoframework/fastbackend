@@ -129,3 +129,13 @@ class News(Base):
     linkyoutube = Column(String, nullable=True)
     rutanoticia = Column(String, nullable=True)
     timestart = Column(Integer, nullable=True)
+
+
+class AppSetting(Base):
+    __tablename__ = "app_settings"
+
+    id = Column(Integer, primary_key=True, index=True)
+    key = Column(String, unique=True, index=True, nullable=False)
+    value = Column(String, nullable=False)
+    type = Column(String, default="string")
+    description = Column(String, nullable=True)

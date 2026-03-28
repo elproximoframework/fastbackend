@@ -164,3 +164,21 @@ class NewsResponse(NewsBase):
 
     class Config:
         from_attributes = True
+
+
+# ---- Setting Schemas ----
+
+class AppSettingBase(BaseModel):
+    key: str
+    value: str
+    type: Optional[str] = "string"
+    description: Optional[str] = None
+
+class AppSettingCreate(AppSettingBase):
+    pass
+
+class AppSettingResponse(AppSettingBase):
+    id: int
+
+    class Config:
+        from_attributes = True
