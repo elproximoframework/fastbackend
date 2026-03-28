@@ -31,6 +31,12 @@ if not os.path.exists(news_dir):
     os.makedirs(news_dir)
 app.mount("/api/v1/news_content", StaticFiles(directory=news_dir), name="news")
 
+# Serve news images
+news_images_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "news_images")
+if not os.path.exists(news_images_dir):
+    os.makedirs(news_images_dir)
+app.mount("/api/v1/news_images", StaticFiles(directory=news_images_dir), name="news_images")
+
 # ---- Health Check ----
 
 @app.get("/api/v1/health")
