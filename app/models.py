@@ -90,7 +90,7 @@ class Launch(Base):
     name = Column(String, index=True, nullable=False)
     rocket_id = Column(Integer, ForeignKey("rockets.id"))
     provider_id = Column(Integer, ForeignKey("companies.id"))
-    net = Column(DateTime) # Next Estimated Time (TIMESTAMP)
+    net = Column(DateTime(timezone=True)) # Next Estimated Time (TIMESTAMP WITH TIME ZONE)
     status = Column(String) # e.g. Go for Launch, TBD, Success, Failure
     mission_description = Column(String)
     mission_type = Column(String)

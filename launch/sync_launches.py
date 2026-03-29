@@ -94,10 +94,12 @@ def sync_to_db(db_url, data, label="DB"):
             vid_urls = l.get("vid_urls", [])
             info_urls = l.get("info_urls", [])
             
+            webcast_live = l.get("webcast_live", False)
+            
             params = (
                 api_id, name, rocket_id, provider_id, net_dt, status_name,
                 m_desc, m_type, orbit_name, pad_name, loc_name, celestial,
-                image_url, json.dumps(vid_urls), json.dumps(info_urls)
+                image_url, json.dumps(vid_urls), json.dumps(info_urls), webcast_live
             )
             
             query = """
@@ -105,16 +107,23 @@ def sync_to_db(db_url, data, label="DB"):
                     api_id, name, rocket_id, provider_id, net, status, 
                     mission_description, mission_type, orbit_name, 
                     pad_name, pad_location, celestial_body, 
-                    image, vid_urls, info_urls
+                    image, vid_urls, info_urls, webcast_live
                 ) VALUES (
-                    %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+                    %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
                 )
                 ON CONFLICT (api_id) DO UPDATE SET
                     status = EXCLUDED.status,
                     net = EXCLUDED.net,
                     image = EXCLUDED.image,
                     vid_urls = EXCLUDED.vid_urls,
-                    info_urls = EXCLUDED.info_urls;
+                    info_urls = EXCLUDED.info_urls,
+                    webcast_live = EXCLUDED.webcast_live,
+                    mission_description = EXCLUDED.mission_description,
+                    mission_type = EXCLUDED.mission_type,
+                    orbit_name = EXCLUDED.orbit_name,
+                    pad_name = EXCLUDED.pad_name,
+                    pad_location = EXCLUDED.pad_location,
+                    celestial_body = EXCLUDED.celestial_body;
             """
             
             cur.execute(query, params)
