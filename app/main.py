@@ -63,7 +63,7 @@ def health_check():
 
 @app.get("/api/v1/companies", response_model=List[schemas.CompanyResponse])
 def get_companies(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    companies = db.query(models.Company).offset(skip).limit(limit).all()
+    companies = db.query(models.Company).filter(models.Company.show == True).offset(skip).limit(limit).all()
     return companies
 
 @app.get("/api/v1/companies/{company_id}", response_model=schemas.CompanyResponse)
@@ -96,7 +96,7 @@ def get_satellites(
     limit: int = 100, 
     db: Session = Depends(get_db)
 ):
-    query = db.query(models.Satellite)
+    query = db.query(models.Satellite).filter(models.Satellite.show == True)
     if search:
         query = query.filter(models.Satellite.name.ilike(f"%{search}%"))
     satellites = query.offset(skip).limit(limit).all()
@@ -118,7 +118,7 @@ def get_launches(
     limit: int = 100, 
     db: Session = Depends(get_db)
 ):
-    query = db.query(models.Launch)
+    query = db.query(models.Launch).filter(models.Launch.show == True)
     
     # Note: the definition of 'upcoming' vs 'past' could depend on the 'net' date or exact status strings
     if status == 'upcoming':

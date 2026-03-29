@@ -30,6 +30,7 @@ class CompanyBase(BaseModel):
     fundingStage: Optional[str] = None
     totalFunding: Optional[str] = None
     stockTicker: Optional[str] = None
+    show: bool = True
 
 class CompanyCreate(CompanyBase):
     pass
@@ -67,6 +68,7 @@ class RocketCreate(RocketBase):
 
 class RocketResponse(RocketBase):
     id: int
+    manufacturer: Optional[CompanyResponse] = None
 
     class Config:
         from_attributes = True
@@ -89,12 +91,14 @@ class SatelliteBase(BaseModel):
     isFeatured: Optional[bool] = False
     funFact: Optional[str] = None
     funFact_en: Optional[str] = None
+    show: bool = True
 
 class SatelliteCreate(SatelliteBase):
     pass
 
 class SatelliteResponse(SatelliteBase):
     id: int
+    operator: Optional[CompanyResponse] = None
 
     class Config:
         from_attributes = True
@@ -119,6 +123,7 @@ class LaunchBase(BaseModel):
     image: Optional[str] = None
     vid_urls: Optional[List[Dict[str, Any]]] = []
     info_urls: Optional[List[Dict[str, Any]]] = []
+    show: bool = True
 
 class LaunchCreate(LaunchBase):
     pass

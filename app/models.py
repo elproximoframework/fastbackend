@@ -25,6 +25,7 @@ class Company(Base):
     fundingStage = Column(String)
     totalFunding = Column(String)
     stockTicker = Column(String)
+    show = Column(Boolean, default=True)
 
     rockets = relationship("Rocket", back_populates="manufacturer")
     satellites = relationship("Satellite", back_populates="operator")
@@ -76,6 +77,7 @@ class Satellite(Base):
     isFeatured = Column(Boolean, default=False)
     funFact = Column(String)
     funFact_en = Column(String)
+    show = Column(Boolean, default=True)
 
     operator = relationship("Company", back_populates="satellites")
 
@@ -100,6 +102,7 @@ class Launch(Base):
     image = Column(String)
     vid_urls = Column(JSON) # Webcast links
     info_urls = Column(JSON) # Mission details
+    show = Column(Boolean, default=True)
 
     rocket = relationship("Rocket", back_populates="launches")
     provider = relationship("Company", back_populates="launches")
