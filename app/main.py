@@ -241,3 +241,20 @@ def update_setting(key: str, setting_update: schemas.AppSettingCreate, db: Sessi
     db.commit()
     db.refresh(db_setting)
     return db_setting
+# ---- Stats ----
+
+@app.get("/api/v1/stats", response_model=schemas.StatsResponse)
+def get_stats(db: Session = Depends(get_db)):
+    news_count = db.query(models.News).filter(models.News.show == True).count()
+    companies_count = db.query(models.Company).filter(models.Company.show == True).count()
+    rockets_count = db.query(models.Rocket).count()
+    launches_count = db.query(models.Launch).filter(models.Launch.show == True).count()
+    satellites_count = db.query(models.Satellite).filter(models.Satellite.show == True).count()
+    
+    return {
+        "news_count": news_count,
+        "companies_count": companies_count,
+        "rockets_count": rockets_count,
+        "launches_count": launches_count,
+        "satellites_count": satellites_count
+    }

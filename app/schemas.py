@@ -186,3 +186,11 @@ class AppSettingResponse(AppSettingBase):
 
     class Config:
         from_attributes = True
+# ---- Stats Schemas ----
+
+class StatsResponse(BaseModel):
+    news_count: int
+    companies_count: int
+    rockets_count: int
+    launches_count: int
+    satellites_count: int
