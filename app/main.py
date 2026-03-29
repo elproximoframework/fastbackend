@@ -49,6 +49,12 @@ if not os.path.exists(rocket_images_dir):
     os.makedirs(rocket_images_dir)
 app.mount("/api/v1/rocket_images", StaticFiles(directory=rocket_images_dir), name="rocket_images")
 
+# Serve satellite images
+satellite_images_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "satellite_images")
+if not os.path.exists(satellite_images_dir):
+    os.makedirs(satellite_images_dir)
+app.mount("/api/v1/satellite_images", StaticFiles(directory=satellite_images_dir), name="satellite_images")
+
 # ---- Health Check ----
 
 @app.get("/api/v1/health")
