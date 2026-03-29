@@ -155,6 +155,7 @@ class NewsBase(BaseModel):
     linkyoutube: Optional[str] = None
     rutanoticia: Optional[str] = None
     timestart: Optional[int] = None
+    show: bool = True
 
 class NewsCreate(NewsBase):
     pass

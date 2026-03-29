@@ -150,7 +150,7 @@ def get_news(
     limit: int = 100, 
     db: Session = Depends(get_db)
 ):
-    query = db.query(models.News)
+    query = db.query(models.News).filter(models.News.show == True)
     
     if category:
         # Search in both category and category_en
@@ -165,6 +165,23 @@ def get_news(
     # Sort by date descending (latest first)
     news_items = query.order_by(models.News.date.desc()).offset(skip).limit(limit).all()
     return news_items
+
+@app.get("/api/v1/news/featured", response_model=schemas.NewsResponse)
+def get_featured_news(db: Session = Depends(get_db)):
+    setting = db.query(models.AppSetting).filter(models.AppSetting.key == "featured_news_id").first()
+    if not setting:
+        raise HTTPException(status_code=404, detail="Featured news ID not set in settings")
+    
+    try:
+        news_id = int(setting.value)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid featured news ID in settings")
+
+    news_item = db.query(models.News).filter(models.News.id == news_id).first()
+    if not news_item:
+        raise HTTPException(status_code=404, detail="Featured news item not found")
+    
+    return news_item
 
 @app.get("/api/v1/news/{slug}", response_model=schemas.NewsResponse)
 def get_news_item(slug: str, db: Session = Depends(get_db)):

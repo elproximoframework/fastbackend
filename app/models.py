@@ -129,6 +129,7 @@ class News(Base):
     linkyoutube = Column(String, nullable=True)
     rutanoticia = Column(String, nullable=True)
     timestart = Column(Integer, nullable=True)
+    show = Column(Boolean, default=True)
 
 
 class AppSetting(Base):
