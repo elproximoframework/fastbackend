@@ -139,8 +139,6 @@ class NewsBase(BaseModel):
     title_en: Optional[str] = None
     excerpt: Optional[str] = None
     excerpt_en: Optional[str] = None
-    body: Optional[str] = None
-    body_en: Optional[str] = None
     category: Optional[str] = None
     category_en: Optional[str] = None
     location: Optional[str] = None

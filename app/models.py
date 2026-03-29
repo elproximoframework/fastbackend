@@ -113,8 +113,6 @@ class News(Base):
     title_en = Column(String, index=True)
     excerpt = Column(String)
     excerpt_en = Column(String)
-    body = Column(String)
-    body_en = Column(String)
     category = Column(String, index=True)
     category_en = Column(String, index=True)
     location = Column(String)
