@@ -192,6 +192,12 @@ class SpaceXInventory(Base):
     rutainformacion = Column(String, nullable=True)
     timestart = Column(Integer, nullable=True)
     show = Column(Boolean, default=True)
+    # Extended fields for Starship program structured data
+    serial_number = Column(String, nullable=True)   # e.g. "SN15", "B7", "R3-SN1"
+    block = Column(String, nullable=True)           # e.g. "Block 1", "Block 2", "Block 3"
+    specs = Column(JSON, nullable=True)             # Dict with technical parameters (thrust, Isp, mass, etc.)
+    flight_data = Column(JSON, nullable=True)       # Dict with IFT flight outcome per stage
+    milestones = Column(JSON, nullable=True)        # List of {date, event} dicts
 
 
 class AppSetting(Base):

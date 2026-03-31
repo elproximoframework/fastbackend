@@ -236,6 +236,12 @@ class SpaceXInventoryBase(BaseModel):
     rutainformacion: Optional[str] = None
     timestart: Optional[int] = None
     show: bool = True
+    # Extended fields for Starship program structured data
+    serial_number: Optional[str] = None
+    block: Optional[str] = None
+    specs: Optional[Dict[str, Any]] = None
+    flight_data: Optional[Dict[str, Any]] = None
+    milestones: Optional[List[Dict[str, Any]]] = None
 
 class SpaceXInventoryCreate(SpaceXInventoryBase):
     pass

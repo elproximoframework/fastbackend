@@ -310,6 +310,7 @@ def get_spacex_inventory(
     category: Optional[str] = None,
     location: Optional[str] = None,
     state: Optional[str] = None,
+    block: Optional[str] = None,
     featured: Optional[bool] = None,
     skip: int = 0, 
     limit: int = 100, 
@@ -334,6 +335,9 @@ def get_spacex_inventory(
             (models.SpaceXInventory.state.ilike(f"%{state}%")) | 
             (models.SpaceXInventory.state_en.ilike(f"%{state}%"))
         )
+
+    if block:
+        query = query.filter(models.SpaceXInventory.block.ilike(f"%{block}%"))
     
     if featured is not None:
         query = query.filter(models.SpaceXInventory.featured == featured)

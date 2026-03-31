@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "starship-sn1",
+    "title": "Starship SN1",
+    "title_en": "Starship SN1",
+    "excerpt": "Primer prototipo de la serie SN del programa Starship. Destruido el 28 de febrero de 2020 durante una prueba criogénica por el colapso del disco de empuje (thrust puck). Sentó las bases del programa de prototipos más iterativo de la historia.",
+    "excerpt_en": "First prototype in the Starship SN series. Destroyed on February 28, 2020 during a cryogenic proof test when the thrust puck collapsed. It laid the groundwork for the most iterative prototype program in rocket history.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN1",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2019-12",
+    "datesfinishfabrication": "2020-02",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": null,
+    "resultlaunch": null,
+    "resultlaunch_en": null,
+    "covered": false,
+    "featured": false,
+    "date": "2020-02-28",
+    "image": "/inventory_images/starship/starship-sn1.png",
+    "rutainformacion": "starship/starship-sn1",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor SL (previsto, nunca instalados)",
+      "material": "Acero inoxidable 301X"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2019-12-01",
+        "event": "Inicio de fabricación del SN1 en Boca Chica",
+        "event_en": "SN1 manufacturing begins at Boca Chica"
+      },
+      {
+        "date": "2020-02-04",
+        "event": "SN1 apilado y en posición vertical para pruebas",
+        "event_en": "SN1 stacked and vertical for testing"
+      },
+      {
+        "date": "2020-02-28",
+        "event": "Prueba criogénica fallida — colapso del thrust puck; SN1 destruido",
+        "event_en": "Failed cryogenic proof test — thrust puck collapse; SN1 destroyed"
+      }
+    ],
+    "tags": ["Prototipo", "SN1", "Criogénico", "Boca Chica", "2020"],
+    "tags_en": ["Prototype", "SN1", "Cryogenic", "Boca Chica", "2020"]
+  }
+]
