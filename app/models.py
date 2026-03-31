@@ -133,6 +133,31 @@ class News(Base):
     show = Column(Boolean, default=True)
 
 
+class NewsSpaceX(Base):
+    __tablename__ = "newsspacex"
+
+    id = Column(Integer, primary_key=True, index=True)
+    title = Column(String, index=True, nullable=False)
+    title_en = Column(String, index=True)
+    excerpt = Column(String)
+    excerpt_en = Column(String)
+    category = Column(String, index=True)
+    category_en = Column(String, index=True)
+    location = Column(String)
+    location_en = Column(String)
+    covered = Column(Boolean, default=False)
+    date = Column(String) # ISO format string as in mock
+    image = Column(String)
+    slug = Column(String, index=True, unique=True)
+    tags = Column(JSON) # List of strings in ES
+    tags_en = Column(JSON) # List of strings in EN
+    featured = Column(Boolean, default=False)
+    linkyoutube = Column(String, nullable=True)
+    rutanoticia = Column(String, nullable=True)
+    timestart = Column(Integer, nullable=True)
+    show = Column(Boolean, default=True)
+
+
 class AppSetting(Base):
     __tablename__ = "app_settings"
 

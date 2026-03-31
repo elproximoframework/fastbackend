@@ -48,6 +48,18 @@ if not os.path.exists(news_images_dir):
     os.makedirs(news_images_dir)
 app.mount("/api/v1/news_images", StaticFiles(directory=news_images_dir), name="news_images")
 
+# Serve SpaceX news markdown files
+newsspacex_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "newsspacex")
+if not os.path.exists(newsspacex_dir):
+    os.makedirs(newsspacex_dir)
+app.mount("/api/v1/newsspacex_content", StaticFiles(directory=newsspacex_dir), name="newsspacex")
+
+# Serve SpaceX news images
+newsspacex_images_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "newsspacex_images")
+if not os.path.exists(newsspacex_images_dir):
+    os.makedirs(newsspacex_images_dir)
+app.mount("/api/v1/newsspacex_images", StaticFiles(directory=newsspacex_images_dir), name="newsspacex_images")
+
 # Serve company logos
 company_logos_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "company_logos")
 if not os.path.exists(company_logos_dir):
@@ -213,6 +225,63 @@ def get_news_item(slug: str, db: Session = Depends(get_db)):
     return news_item
 
 
+# ---- NewsSpaceX ----
+
+@app.get("/api/v1/newsspacex", response_model=List[schemas.NewsSpaceXResponse])
+def get_news_spacex(
+    category: Optional[str] = None,
+    featured: Optional[bool] = None,
+    skip: int = 0, 
+    limit: int = 100, 
+    db: Session = Depends(get_db)
+):
+    query = db.query(models.NewsSpaceX).filter(models.NewsSpaceX.show == True)
+    
+    if category:
+        query = query.filter(
+            (models.NewsSpaceX.category.ilike(f"%{category}%")) | 
+            (models.NewsSpaceX.category_en.ilike(f"%{category}%"))
+        )
+    
+    if featured is not None:
+        query = query.filter(models.NewsSpaceX.featured == featured)
+        
+    news_items = query.order_by(models.NewsSpaceX.date.desc()).offset(skip).limit(limit).all()
+    return news_items
+
+@app.get("/api/v1/newsspacex/featured", response_model=schemas.NewsSpaceXResponse)
+def get_featured_news_spacex(db: Session = Depends(get_db)):
+    setting = db.query(models.AppSetting).filter(models.AppSetting.key == "featured_news_spacex_id").first()
+    if not setting:
+        # Fallback to the latest featured news if setting not found
+        news_item = db.query(models.NewsSpaceX).filter(models.NewsSpaceX.featured == True).order_by(models.NewsSpaceX.date.desc()).first()
+        if not news_item:
+            raise HTTPException(status_code=404, detail="No featured SpaceX news found")
+        return news_item
+    
+    try:
+        news_id = int(setting.value)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid featured news ID in settings")
+
+    news_item = db.query(models.NewsSpaceX).filter(models.NewsSpaceX.id == news_id).first()
+    if not news_item:
+        raise HTTPException(status_code=404, detail="Featured SpaceX news item not found")
+    
+    return news_item
+
+@app.get("/api/v1/newsspacex/{slug}", response_model=schemas.NewsSpaceXResponse)
+def get_news_spacex_item(slug: str, db: Session = Depends(get_db)):
+    news_item = db.query(models.NewsSpaceX).filter(models.NewsSpaceX.slug == slug).first()
+    if news_item is None:
+        if slug.isdigit():
+            news_item = db.query(models.NewsSpaceX).filter(models.NewsSpaceX.id == int(slug)).first()
+            
+    if news_item is None:
+        raise HTTPException(status_code=404, detail="SpaceX news item not found")
+    return news_item
+
+
 # ---- Settings ----
 
 @app.get("/api/v1/settings", response_model=List[schemas.AppSettingResponse])
@@ -246,6 +315,7 @@ def update_setting(key: str, setting_update: schemas.AppSettingCreate, db: Sessi
 @app.get("/api/v1/stats", response_model=schemas.StatsResponse)
 def get_stats(db: Session = Depends(get_db)):
     news_count = db.query(models.News).filter(models.News.show == True).count()
+    newsspacex_count = db.query(models.NewsSpaceX).filter(models.NewsSpaceX.show == True).count()
     companies_count = db.query(models.Company).filter(models.Company.show == True).count()
     rockets_count = db.query(models.Rocket).count()
     launches_count = db.query(models.Launch).filter(models.Launch.show == True).count()
@@ -253,6 +323,7 @@ def get_stats(db: Session = Depends(get_db)):
     
     return {
         "news_count": news_count,
+        "newsspacex_count": newsspacex_count,
         "companies_count": companies_count,
         "rockets_count": rockets_count,
         "launches_count": launches_count,

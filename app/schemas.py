@@ -170,6 +170,39 @@ class NewsResponse(NewsBase):
         from_attributes = True
 
 
+# ---- NewsSpaceX Schemas ----
+
+class NewsSpaceXBase(BaseModel):
+    title: str
+    title_en: Optional[str] = None
+    excerpt: Optional[str] = None
+    excerpt_en: Optional[str] = None
+    category: Optional[str] = None
+    category_en: Optional[str] = None
+    location: Optional[str] = None
+    location_en: Optional[str] = None
+    covered: bool = False
+    date: str
+    image: Optional[str] = None
+    slug: str
+    tags: Optional[List[str]] = []
+    tags_en: Optional[List[str]] = []
+    featured: bool = False
+    linkyoutube: Optional[str] = None
+    rutanoticia: Optional[str] = None
+    timestart: Optional[int] = None
+    show: bool = True
+
+class NewsSpaceXCreate(NewsSpaceXBase):
+    pass
+
+class NewsSpaceXResponse(NewsSpaceXBase):
+    id: int
+
+    class Config:
+        from_attributes = True
+
+
 # ---- Setting Schemas ----
 
 class AppSettingBase(BaseModel):
@@ -190,6 +223,7 @@ class AppSettingResponse(AppSettingBase):
 
 class StatsResponse(BaseModel):
     news_count: int
+    newsspacex_count: int
     companies_count: int
     rockets_count: int
     launches_count: int
