@@ -13,15 +13,16 @@ Deberás ejecutar las inserciones en ambas bases de datos:
 
 ## 1. Referencia del Esquema de la Tabla `companies`
 
-La tabla tiene los siguientes campos (basados en el modelo SQLAlchemy):
+> [!IMPORTANT]
+> Los nombres de las columnas son **sensibles a mayúsculas/minúsculas (Case-Sensitive)** en la base de datos PostgreSQL. Debes usar exactamente los nombres indicados (incluyendo CamelCase).
 
 | Campo | Tipo | Descripción |
 |---|---|---|
 | `id` | Integer | Clave primaria (autoincremental). |
 | `name` | String | Nombre oficial de la empresa (ej: `SpaceX`). |
-| `type` | String | Tipo de entidad (`startup`, `corporate`, `agency`, `academia`, `investor`, `non_profit`, `other`). Independiente del sector tecnológico. |
+| `type` | String | Tipo de entidad (`startup`, `corporate`, `agency`, `academia`, `investor`, `non_profit`, `other`). |
 | `country` | String | Código ISO del país (ej: `us`, `es`). |
-| `countryName` | String | Nombre completo del país (ej: `EEUU`, `España`). |
+| `countryName` | String | **(CamelCase)** Nombre completo del país (ej: `EEUU`). |
 | `city` | String | Ciudad de la sede principal. |
 | `coordinates` | JSON | Objeto con latitud y longitud: `{"lat": 28.5, "lng": -80.6}`. |
 | `employees` | Integer | Número aproximado de empleados. |
@@ -31,43 +32,32 @@ La tabla tiene los siguientes campos (basados en el modelo SQLAlchemy):
 | `founded` | Integer | Año de fundación (ej: `2002`). |
 | `ceo` | String | Nombre del actual CEO. |
 | `sector` | String | Sector principal (ver lista abajo). |
-| `tags` | JSON | Lista de etiquetas (ej: `["Reusable", "Mars", "Starlink"]`). |
-| `socialLinks` | JSON | Enlaces sociales: `{"twitter": "...", "linkedin": "...", "youtube": "..."}`. |
-| `keyPrograms` | JSON | Programas principales (ej: `["Starship", "Falcon 9"]`). |
-| `fundingStage` | String | Fase de financiación (ej: `Public`, `Series D`). |
-| `totalFunding` | String | Financiación total (ej: `$2B`). |
-| `stockTicker` | String | Ticker de bolsa si aplica (ej: `PLTR`, `RKLB`). |
-| `otrassede` | String | Otras sedes o sucursales de la empresa. |
-| `logo` | String | Nombre del archivo de imagen del logo (ej: `spacex.png`). Se guarda en la carpeta `company_logos`. |
-| `show` | Boolean | `True` por defecto. Determina si se muestra en el frontend. |
+| `tags` | JSON | Lista de etiquetas: `["Reusable", "Mars"]`. |
+| `socialLinks` | JSON | **(CamelCase)** Enlaces sociales: `{"twitter": "...", "linkedin": "..."}`. |
+| `keyPrograms` | JSON | **(CamelCase)** Programas principales: `["Starship", "Falcon 9"]`. |
+| `fundingStage` | String | **(CamelCase)** Fase de financiación (ej: `Public`). |
+| `totalFunding` | String | **(CamelCase)** Financiación total (ej: `$2B`). |
+| `stockTicker` | String | **(CamelCase)** Ticker de bolsa (ej: `PLTR`). |
+| `otrassede` | String | Otras sedes o sucursales. |
+| `logo` | String | Nombre del archivo de imagen (ej: `spacex.png`). |
+| `featured_espacio` | Boolean | Determina si la empresa aparece en la página "Espacio". |
+| `show` | Boolean | True por defecto. |
 
-### Valores Permitidos para `sector`:
-- `launchers`, `satellites`, `ground_segment`, `propulsion`, `space_tourism`, `defense`, `research`, `software`, `manufacturing`, `satellite_manufacturing`, `satellite_components`, `space_equipment`, `space_tech`, `launch_site`, `student_rocketry`, `earth_observation`, `in_space_logistics`, `ssa`, `satcom`, `incubator`, `innovation_hub`, `space_services`, `space_infrastructure`, `regulatory_body`.
+...
 
-## 2. Instrucciones de Generación y Logos
+## 3. Formato de Salida y Ejecución
 
-### Identidad y Localización:
-1.  **Nombre:** Debe ser el nombre comercial común.
-2.  **Coordenadas:** Busca las coordenadas reales de la sede principal si es posible.
-3.  **Descripción:** Proporciona un texto rico y profesional tanto en español como en inglés.
+Para insertar los datos, utiliza el script robusto que maneja automáticamente las mayúsculas en los nombres de las columnas:
 
-### Manejo de Logos (IMPORTANTE):
-*   **Campo `logo`:** Debes especificar el nombre del archivo del logo en el campo `logo` de la base de datos.
-*   **Convención de Nombres (Recomendada):** Aunque ahora se guarda en la base de datos, seguimos recomendando usar el "slug" para mantener orden:
-    1.  Convertir a minúsculas.
-    2.  Eliminar acentos y caracteres especiales.
-    3.  Cambiar espacios por guiones (`-`).
-    *   Ejemplo: `SpaceX` -> `spacex.png`, `Blue Origin` -> `blue-origin.png`.
-*   **Almacenamiento:** Las imágenes resultantes deben guardarse en la carpeta: `D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\company_logos`.
-*   **Formato:** Siempre usar `.png`.
-*   **Búsqueda y Creación:** 
-    1.  Debes buscar en internet el logo oficial de la empresa en alta resolución (fondo transparente preferido).
-    2.  Si **NO** encuentras un logo adecuado o la empresa no tiene uno público, deberás **generar uno** utilizando tus capacidades de creación de imágenes (DALL-E, etc.). El logo generado debe ser profesional, minimalista y relacionado con la identidad de la marca o su sector espacial.
-    3.  Asegúrate de que el archivo final sea un `.png` con el nombre de slug correcto.
+**Script:** `D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\ActualizacionBBDD\Scripts\insert_companies_from_json.py`
 
-## 3. Formato de Salida
+**Comando:**
+```bash
+python D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\ActualizacionBBDD\Scripts\insert_companies_from_json.py ruta/a/tu/archivo.json
+```
 
-Genera un script de Python que utilice SQLAlchemy para insertar estos registros, o un archivo JSON con la lista de objetos listos para ser procesados.
+> [!TIP]
+> El script ahora utiliza `psycopg2.sql` para proteger los identificadores. Esto garantiza que columnas como `countryName` se inserten correctamente sin importar las restricciones de PostgreSQL sobre minúsculas automáticas.
 
 ### Ejemplo de Estructura JSON:
 ```json
@@ -94,7 +84,11 @@ Genera un script de Python que utilice SQLAlchemy para insertar estos registros,
   "fundingStage": "Private",
   "totalFunding": "$9.8B",
   "stockTicker": null,
+  "otrassede": null,
   "logo": "spacex.png",
+  "featured_espacio": false,
   "show": true
 }
 ```
+
+*Nota: Asegúrate de incluir todos los campos, incluso si son `null` o listas vacías, para mantener la consistencia.*

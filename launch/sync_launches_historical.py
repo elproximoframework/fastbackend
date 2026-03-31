@@ -18,7 +18,8 @@ REMOTE_DB_URL = "postgresql://postgres:zjRYAsATFmvPlnQOZruilNIwwEBZcmyU@crossove
 
 # Rango de fechas: Desde 1 de Enero de 2026 hasta ahora
 START_DATE = "2026-01-01T00:00:00Z"
-END_DATE = datetime.utcnow().strftime("%Y-%m-%dT23:59:59Z")
+# END_DATE = datetime.utcnow().strftime("%Y-%m-%dT23:59:59Z")
+END_DATE = "2026-05-31T23:59:59Z"
 
 def fetch_historical_launches(start_date, end_date):
     """Obtiene todos los lanzamientos en un rango de fechas usando paginación."""
@@ -27,7 +28,7 @@ def fetch_historical_launches(start_date, end_date):
     params = {
         "net__gte": start_date,
         "net__lte": end_date,
-        "limit": 50,
+        "limit": 250,
         "offset": 0,
         "format": "json",
         "mode": "detailed"

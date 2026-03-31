@@ -37,7 +37,12 @@ La tabla tiene los siguientes campos (basados en el modelo SQLAlchemy):
 ## 2. Instrucciones de Generación e Imágenes
 
 ### Datos Técnicos:
-1.  **Operador:** Investiga qué empresa opera el satélite. Si no conoces su `id`, búscalo en la tabla `companies` por nombre antes de generar el SQL.
+1.  **Operador:** Investiga qué empresa opera el satélite.
+    *   **Paso Obligatorio:** Antes de generar el SQL, busca el `id` de la empresa utilizando el siguiente script:
+        ```bash
+        python D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\ActualizacionBBDD\Scripts\get_company_id.py "Nombre de la Empresa"
+        ```
+    *   Utiliza el `ID` devuelto para el campo `operator_id`.
 2.  **Parámetros Orbitales:** Busca la altitud e inclinación real del satélite.
 3.  **Descripciones:** Proporciona un texto rico y profesional tanto en español como en inglés.
 
@@ -53,14 +58,41 @@ La tabla tiene los siguientes campos (basados en el modelo SQLAlchemy):
 *   **Búsqueda y Creación:** 
     1.  Busca una imagen real o representación artística de alta calidad del satélite en el espacio.
     2.  Si **NO** encuentras una imagen adecuada, deberás **generar una imagen** del satélite utilizando tus capacidades de creación. La imagen debe ser realista y mostrar el satélite en su entorno orbital.
-    3.  Asegúrate de que el archivo final sea un `.png` con el nombre de slug correcto en la carpeta mencionada.
+    3.  **Imagen por Defecto:** Si se te indica explícitamente que **no generes una imagen**, o si por alguna razón técnica no puedes crear una nueva, utiliza la imagen por defecto:
+        *   Ruta: `D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\satellite_images\default-satellite.png`
+        *   En el campo `image` del SQL, deberás poner: `/api/v1/satellite_images/default-satellite.png`.
+    4.  Asegúrate de que el archivo final sea un `.png` con el nombre de slug correcto (o el nombre de la imagen por defecto) en la carpeta mencionada.
 
-## 3. Formato de Salida
+## 3. Formato de Salida y Ejecución
 
-Genera un script de Python que utilice SQLAlchemy para insertar estos registros, asegurándote de manejar correctamente las claves foráneas (`operator_id`).
+Para insertar los datos, utiliza el script robusto que maneja automáticamente las mayúsculas en los nombres de las columnas y sincroniza ambos entornos:
 
-### Ejemplo de Estructura SQL:
-```sql
-INSERT INTO satellites (name, noradId, operator_id, purpose, launchDate, orbitType, altitude, inclination, description, description_en, image, isFeatured, funFact, funFact_en, show)
-VALUES ('Hubble Space Telescope', '20580', 2, 'Astronomy', '1990-04-24', 'LEO', 540.0, 28.5, 'El telescopio espacial Hubble es un observatorio espacial que orbita la Tierra...', 'The Hubble Space Telescope is a space observatory that orbits Earth...', '/api/v1/satellite_images/hubble-space-telescope.png', true, 'El Hubble ha realizado más de 1.5 millones de observaciones.', 'Hubble has made more than 1.5 million observations.', true);
+**Script:** `D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\ActualizacionBBDD\Scripts\insert_satellites_from_json.py`
+
+**Comando:**
+```bash
+python D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\ActualizacionBBDD\Scripts\insert_satellites_from_json.py ruta/a/tu/archivo.json
 ```
+
+### Ejemplo de Estructura JSON:
+```json
+{
+  "name": "Hubble Space Telescope",
+  "noradId": "20580",
+  "operator_id": 2,
+  "purpose": "Astronomy",
+  "launchDate": "1990-04-24",
+  "orbitType": "LEO",
+  "altitude": 540.0,
+  "inclination": 28.5,
+  "description": "El telescopio espacial Hubble es un observatorio espacial que orbita la Tierra...",
+  "description_en": "The Hubble Space Telescope is a space observatory that orbits Earth...",
+  "image": "/api/v1/satellite_images/hubble-space-telescope.png",
+  "isFeatured": true,
+  "funFact": "El Hubble ha realizado más de 1.5 millones de observaciones.",
+  "funFact_en": "Hubble has made more than 1.5 million observations.",
+  "show": true
+}
+```
+
+*Nota: Asegúrate de incluir todos los campos para mantener la consistencia.*

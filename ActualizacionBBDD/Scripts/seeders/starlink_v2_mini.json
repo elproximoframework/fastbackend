@@ -1,0 +1,17 @@
+{
+  "name": "Starlink V2 Mini",
+  "noradId": "55800",
+  "operator_id": 22,
+  "purpose": "Communications",
+  "launchDate": "2023-02-27",
+  "orbitType": "LEO",
+  "altitude": 550.0,
+  "inclination": 53.0,
+  "description": "Los satélites Starlink V2 Mini son una versión más potente y capaz de la constelación de internet de SpaceX, equipados con antenas más grandes y propulsión por argón.",
+  "description_en": "Starlink V2 Mini satellites are a more powerful and capable version of SpaceX's internet constellation, featuring larger antennas and argon thrusters.",
+  "image": "/api/v1/satellite_images/starlink-v2-mini.png",
+  "isFeatured": true,
+  "funFact": "Utiliza propulsores de iones de argón por primera vez en un satélite comercial.",
+  "funFact_en": "It uses argon Hall-effect thrusters for the first time on a commercial satellite.",
+  "show": true
+}

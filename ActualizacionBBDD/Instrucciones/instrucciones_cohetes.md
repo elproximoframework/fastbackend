@@ -43,7 +43,12 @@ La tabla tiene los siguientes campos (basados en el modelo SQLAlchemy):
 ## 2. Instrucciones de Generación e Imágenes
 
 ### Datos Técnicos:
-1.  **Fabricante:** Investiga cuál es la empresa fabricante. Si no conoces su `id`, búscalo en la tabla `companies` por nombre antes de generar el SQL.
+1.  **Fabricante:** Investiga cuál es la empresa fabricante. 
+    *   **Paso Obligatorio:** Antes de generar el JSON, busca el `id` de la empresa utilizando el siguiente script:
+        ```bash
+        python D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\ActualizacionBBDD\Scripts\get_company_id.py "Nombre de la Empresa"
+        ```
+    *   Utiliza el `ID` devuelto para el campo `manufacturer_id`.
 2.  **Dimensiones:** Usa valores numéricos precisos en metros y kilogramos.
 3.  **Descripciones:** Proporciona un texto profesional, destacando hitos tecnológicos o misiones famosas.
 
@@ -59,14 +64,46 @@ La tabla tiene los siguientes campos (basados en el modelo SQLAlchemy):
 *   **Búsqueda y Creación:** 
     1.  Busca una imagen real del cohete en alta resolución (preferiblemente en lanzamiento o en plataforma, con fondo limpio).
     2.  Si **NO** encuentras una imagen real de calidad, o prefieres una estética unificada, deberás **generar una imagen** del cohete. La imagen generada debe ser realista, mostrando el cohete en detalle, idealmente en un entorno espacial o en la plataforma de lanzamiento.
-    3.  Asegúrate de que el archivo final sea un `.png` con el nombre de slug correcto en la carpeta mencionada.
+    3.  **Imagen por Defecto:** Si te indico explícitamente que **no generes imagen**, utiliza la imagen por defecto: `/api/v1/rocket_images/default-rocket.png`. En este caso, no es necesario que crees ningún archivo nuevo en la carpeta de imágenes.
+    4.  Asegúrate de que el archivo final sea un `.png` con el nombre de slug correcto en la carpeta mencionada (excepto si usas la de defecto).
 
-## 3. Formato de Salida
+## 3. Formato de Salida y Ejecución
 
-Genera un script de Python que utilice SQLAlchemy para insertar estos registros, asegurándote de manejar correctamente las claves foráneas (`manufacturer_id`).
+Para insertar los datos, utiliza el script robusto que maneja automáticamente las mayúsculas en los nombres de las columnas:
 
-### Ejemplo de Estructura SQL (para referencia):
-```sql
-INSERT INTO rockets (name, manufacturer_id, country, height, diameter, stages, fuel, leoCapacity, gtoCapacity, firstFlight, totalLaunches, successRate, status, image, description, description_en, costPerLaunch, reusable)
-VALUES ('Falcon 9', 1, 'us', 70.0, 3.7, 2, 'LOX/RP-1', 22800, 8300, '2010-06-04', 300, 99.0, 'active', '/api/v1/rocket_images/falcon-9.png', 'El Falcon 9 es un cohete de dos etapas diseñado y fabricado por SpaceX...', 'Falcon 9 is a two-stage rocket designed and manufactured by SpaceX...', 62.0, true);
+**Script:** `D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\ActualizacionBBDD\Scripts\insert_rockets_from_json.py`
+
+**Comando:**
+```bash
+python D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\ActualizacionBBDD\Scripts\insert_rockets_from_json.py ruta/a/tu/archivo.json
 ```
+
+> [!TIP]
+> El script utiliza `psycopg2.sql` para proteger los identificadores. Esto garantiza que columnas como `leoCapacity` o `firstFlight` se inserten correctamente sin importar las restricciones de PostgreSQL sobre minúsculas automáticas.
+
+### Ejemplo de Estructura JSON:
+```json
+{
+  "name": "Falcon 9",
+  "manufacturer_id": 1,
+  "country": "us",
+  "height": 70.0,
+  "diameter": 3.7,
+  "stages": 2,
+  "fuel": "LOX/RP-1",
+  "leoCapacity": 22800,
+  "gtoCapacity": 8300,
+  "firstFlight": "2010-06-04",
+  "totalLaunches": 300,
+  "successRate": 99.0,
+  "status": "active",
+  "image": "/api/v1/rocket_images/falcon-9.png",
+  "description": "El Falcon 9 es un cohete de dos etapas diseñado y fabricado por SpaceX para el transporte fiable y seguro de satélites y la nave espacial Dragon a la órbita.",
+  "description_en": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.",
+  "costPerLaunch": 62.0,
+  "reusable": true
+}
+```
+
+*Nota: Asegúrate de incluir todos los campos, incluso si son `null` o valores por defecto, para mantener la consistencia.*
+

@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy.orm import Session
 from typing import List, Optional
+from datetime import datetime
 from . import models, schemas
 from .database import engine, get_db
 import os
@@ -155,22 +156,30 @@ def get_satellite(satellite_id: int, db: Session = Depends(get_db)):
 @app.get("/api/v1/launches", response_model=List[schemas.LaunchResponse])
 def get_launches(
     status: Optional[str] = Query(None, description="Filter by status (e.g. upcoming, past)"),
+    start_date: Optional[datetime] = Query(None, description="Filter by start date (ISO format)"),
+    end_date: Optional[datetime] = Query(None, description="Filter by end date (ISO format)"),
     skip: int = 0, 
     limit: int = 100, 
     db: Session = Depends(get_db)
 ):
     query = db.query(models.Launch).filter(models.Launch.show == True)
     
-    # Note: the definition of 'upcoming' vs 'past' could depend on the 'net' date or exact status strings
+    # Date range filtering
+    if start_date:
+        query = query.filter(models.Launch.net >= start_date)
+    if end_date:
+        query = query.filter(models.Launch.net <= end_date)
+    
+    # Status filtering
     if status == 'upcoming':
-        # Simple example: you might filter by net >= current_date or status matching Go
         query = query.filter(models.Launch.status.ilike("%upcoming%") | models.Launch.status.ilike("%Go%"))
     elif status == 'past':
         query = query.filter(models.Launch.status.ilike("%past%") | models.Launch.status.ilike("%Success%"))
     elif status:
         query = query.filter(models.Launch.status.ilike(f"%{status}%"))
 
-    launches = query.offset(skip).limit(limit).all()
+    # Always sort by date for consistency
+    launches = query.order_by(models.Launch.net.asc()).offset(skip).limit(limit).all()
     return launches
 
 @app.get("/api/v1/launches/{launch_id}", response_model=schemas.LaunchResponse)

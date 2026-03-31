@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Airbus Defence and Space",
+    "type": "corporate",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Ottobrunn",
+    "coordinates": { "lat": 48.0667, "lng": 11.6667 },
+    "employees": 35000,
+    "website": "https://www.airbus.com/en/products-services/defence/space",
+    "description": "Airbus Defence and Space es la división de Airbus responsable de los productos y servicios de defensa y aeroespaciales. Es la empresa de defensa y espacio más grande de Europa y la segunda más grande del mundo en el sector espacial.",
+    "description_en": "Airbus Defence and Space is the division of Airbus responsible for defence and aerospace products and services. It is Europe's largest defence and space company and the world's second-largest space company.",
+    "founded": 2014,
+    "ceo": "Michael Schoellhorn",
+    "sector": "defense",
+    "tags": ["Military Aircraft", "Satellites", "Space Exploration", "Cybersecurity", "Ariane 6", "Copernicus"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/airbus-defence-and-space/",
+      "twitter": "https://twitter.com/AirbusSpace"
+    },
+    "keyPrograms": ["Ariane 6", "Eurofighter Typhoon", "Artemis ESM", "OneWeb", "Copernicus"],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "AIR.PA",
+    "otrassede": "Toulouse (FR), Stevenage (UK), Madrid (ES), Bremen (DE)",
+    "logo": "default-logo.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "name": "Aldoria",
+    "type": "startup",
+    "country": "fr",
+    "countryName": "Francia",
+    "city": "Toulouse",
+    "coordinates": { "lat": 43.6047, "lng": 1.4442 },
+    "employees": 50,
+    "website": "https://www.aldoria.com/",
+    "description": "Aldoria (anteriormente Share My Space) es una empresa francesa especializada en el conocimiento de la situación espacial (SSA). Utiliza una red global de telescopios ópticos para rastrear y catalogar satélites y escombros espaciales, garantizando la seguridad de las operaciones en órbita.",
+    "description_en": "Aldoria (formerly Share My Space) is a French company specializing in Space Situational Awareness (SSA). It uses a global network of optical telescopes to track and catalog satellites and space debris, ensuring the safety of orbital operations.",
+    "founded": 2017,
+    "ceo": "Romain Lucken",
+    "sector": "ssa",
+    "tags": ["SSA", "Space Traffic Management", "Optical Telescopes", "Collision Avoidance"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/aldoria-space/",
+      "twitter": "https://twitter.com/AldoriaSpace"
+    },
+    "keyPrograms": ["RIVESALT", "Optical Sensor Network", "Space Surveillance"],
+    "fundingStage": "Series A",
+    "totalFunding": "€10M",
+    "stockTicker": null,
+    "otrassede": "Paris (FR)",
+    "logo": "default-logo.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

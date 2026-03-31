@@ -1,0 +1,20 @@
+{
+  "name": "Falcon 9 Block 5",
+  "manufacturer_id": 22,
+  "country": "us",
+  "height": 70.0,
+  "diameter": 3.7,
+  "stages": 2,
+  "fuel": "LOX/RP-1",
+  "leoCapacity": 22800,
+  "gtoCapacity": 8300,
+  "firstFlight": "2018-05-11",
+  "totalLaunches": 280,
+  "successRate": 99.6,
+  "status": "active",
+  "image": "/api/v1/rocket_images/default-rocket.png",
+  "description": "El Falcon 9 Block 5 es la versión final del lanzador Falcon 9 de SpaceX, optimizado para una alta reutilización y fiabilidad. Ha llevado a cabo numerosas misiones comerciales, gubernamentales y de transporte de tripulación a la ISS.",
+  "description_en": "The Falcon 9 Block 5 is the final version of SpaceX's Falcon 9 launcher, optimized for high reusability and reliability. It has conducted numerous commercial, government, and crew transport missions to the ISS.",
+  "costPerLaunch": 67.0,
+  "reusable": true
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Miura 1",
+    "manufacturer_id": 24,
+    "country": "es",
+    "height": 12.5,
+    "diameter": 0.7,
+    "stages": 1,
+    "fuel": "LOX/Kerosene",
+    "leoCapacity": 100,
+    "gtoCapacity": 0,
+    "firstFlight": "2023-10-07",
+    "totalLaunches": 1,
+    "successRate": 100.0,
+    "status": "retired",
+    "image": "/api/v1/rocket_images/miura-1.png",
+    "description": "Miura 1 es un vehículo de lanzamiento suborbital recuperable de una sola etapa desarrollado por la empresa española PLD Space. Sirvió como demostrador tecnológico para sistemas de lanzamiento reutilizables y precursor del Miura 5.",
+    "description_en": "Miura 1 is a suborbital, single-stage, recoverable launch vehicle developed by the Spanish company PLD Space. It served as a technology demonstrator for reusable launch systems and as a precursor to the Miura 5.",
+    "costPerLaunch": 1.5,
+    "reusable": true
+  },
+  {
+    "name": "Miura 5",
+    "manufacturer_id": 24,
+    "country": "es",
+    "height": 35.7,
+    "diameter": 2.0,
+    "stages": 2,
+    "fuel": "LOX/Kerosene",
+    "leoCapacity": 1000,
+    "gtoCapacity": 0,
+    "firstFlight": "2025-12-31",
+    "totalLaunches": 0,
+    "successRate": 0.0,
+    "status": "development",
+    "image": "/api/v1/rocket_images/miura-5.png",
+    "description": "Miura 5 es un vehículo de lanzamiento orbital de dos etapas diseñado para ser parcialmente reutilizable, optimizado para el despliegue de satélites pequeños (microlauncher). Es la evolución comercial de las tecnologías probadas en Miura 1.",
+    "description_en": "Miura 5 is a two-stage orbital launch vehicle designed to be partially reusable, optimized for small satellite deployment (microlauncher). It is the commercial evolution of the technologies tested in Miura 1.",
+    "costPerLaunch": 6.5,
+    "reusable": true
+  }
+]
