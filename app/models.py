@@ -7,7 +7,7 @@ class Company(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True, nullable=False)
-    type = Column(String) # startup, agency, contractor, university
+    type = Column(String) # startup, corporate, agency, academia, investor, non_profit, other
     country = Column(String)
     countryName = Column(String)
     city = Column(String)
@@ -25,6 +25,9 @@ class Company(Base):
     fundingStage = Column(String)
     totalFunding = Column(String)
     stockTicker = Column(String)
+    otrassede = Column(String)
+    logo = Column(String)
+    featured_espacio = Column(Boolean, default=False)
     show = Column(Boolean, default=True)
 
     rockets = relationship("Rocket", back_populates="manufacturer")
@@ -154,6 +157,39 @@ class NewsSpaceX(Base):
     featured = Column(Boolean, default=False)
     linkyoutube = Column(String, nullable=True)
     rutanoticia = Column(String, nullable=True)
+    timestart = Column(Integer, nullable=True)
+    show = Column(Boolean, default=True)
+
+
+class SpaceXInventory(Base):
+    __tablename__ = "spacex_inventory"
+
+    id = Column(Integer, primary_key=True, index=True)
+    title = Column(String, index=True, nullable=False)
+    title_en = Column(String, index=True)
+    excerpt = Column(String)
+    excerpt_en = Column(String)
+    category = Column(String, index=True) # Starship, Super Heavy, Raptor, Test, Lanzamientos
+    category_en = Column(String, index=True)
+    location = Column(String) # Starbase, Florida
+    location_en = Column(String)
+    version = Column(String)
+    datestartfabrication = Column(String, nullable=True)
+    datesfinishfabrication = Column(String, nullable=True)
+    state = Column(String) # desechado, destruido, retirado, en fabricación, en testing, activo, reutilizado
+    state_en = Column(String)
+    datelaunch = Column(String, nullable=True)
+    resultlaunch = Column(String, nullable=True)
+    resultlaunch_en = Column(String, nullable=True)
+    covered = Column(Boolean, default=False)
+    date = Column(String) # ISO format string for sorting/display
+    image = Column(String)
+    slug = Column(String, index=True, unique=True)
+    tags = Column(JSON) # List of strings
+    tags_en = Column(JSON) # List of strings
+    featured = Column(Boolean, default=False)
+    linkyoutube = Column(String, nullable=True)
+    rutainformacion = Column(String, nullable=True)
     timestart = Column(Integer, nullable=True)
     show = Column(Boolean, default=True)
 

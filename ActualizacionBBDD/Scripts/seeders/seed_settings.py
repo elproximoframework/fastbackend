@@ -10,6 +10,12 @@ SETTINGS_DATA = [
         "value": "yOITTPvYTl8",
         "type": "string",
         "description": "ID del video de YouTube para la sección principal"
+    },
+    {
+        "key": "home_spacex_video_id",
+        "value": "yOITTPvYTl8",
+        "type": "string",
+        "description": "ID del video de YouTube para la sección principal de SpaceX"
     }
 ]
 

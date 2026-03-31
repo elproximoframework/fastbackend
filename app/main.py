@@ -60,6 +60,18 @@ if not os.path.exists(newsspacex_images_dir):
     os.makedirs(newsspacex_images_dir)
 app.mount("/api/v1/newsspacex_images", StaticFiles(directory=newsspacex_images_dir), name="newsspacex_images")
 
+# Serve SpaceX inventory markdown files
+inventory_docs_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "inventory_docs")
+if not os.path.exists(inventory_docs_dir):
+    os.makedirs(inventory_docs_dir)
+app.mount("/api/v1/inventory_content", StaticFiles(directory=inventory_docs_dir), name="inventory_docs")
+
+# Serve SpaceX inventory images
+inventory_images_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "inventory_images")
+if not os.path.exists(inventory_images_dir):
+    os.makedirs(inventory_images_dir)
+app.mount("/api/v1/inventory_images", StaticFiles(directory=inventory_images_dir), name="inventory_images")
+
 # Serve company logos
 company_logos_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "company_logos")
 if not os.path.exists(company_logos_dir):
@@ -282,6 +294,56 @@ def get_news_spacex_item(slug: str, db: Session = Depends(get_db)):
     return news_item
 
 
+# ---- SpaceXInventory ----
+
+@app.get("/api/v1/spacex-inventory", response_model=List[schemas.SpaceXInventoryResponse])
+def get_spacex_inventory(
+    category: Optional[str] = None,
+    location: Optional[str] = None,
+    state: Optional[str] = None,
+    featured: Optional[bool] = None,
+    skip: int = 0, 
+    limit: int = 100, 
+    db: Session = Depends(get_db)
+):
+    query = db.query(models.SpaceXInventory).filter(models.SpaceXInventory.show == True)
+    
+    if category:
+        query = query.filter(
+            (models.SpaceXInventory.category.ilike(f"%{category}%")) | 
+            (models.SpaceXInventory.category_en.ilike(f"%{category}%"))
+        )
+    
+    if location:
+        query = query.filter(
+            (models.SpaceXInventory.location.ilike(f"%{location}%")) | 
+            (models.SpaceXInventory.location_en.ilike(f"%{location}%"))
+        )
+
+    if state:
+        query = query.filter(
+            (models.SpaceXInventory.state.ilike(f"%{state}%")) | 
+            (models.SpaceXInventory.state_en.ilike(f"%{state}%"))
+        )
+    
+    if featured is not None:
+        query = query.filter(models.SpaceXInventory.featured == featured)
+        
+    items = query.order_by(models.SpaceXInventory.date.desc()).offset(skip).limit(limit).all()
+    return items
+
+@app.get("/api/v1/spacex-inventory/{slug}", response_model=schemas.SpaceXInventoryResponse)
+def get_spacex_inventory_item(slug: str, db: Session = Depends(get_db)):
+    item = db.query(models.SpaceXInventory).filter(models.SpaceXInventory.slug == slug).first()
+    if item is None:
+        if slug.isdigit():
+            item = db.query(models.SpaceXInventory).filter(models.SpaceXInventory.id == int(slug)).first()
+            
+    if item is None:
+        raise HTTPException(status_code=404, detail="SpaceX inventory item not found")
+    return item
+
+
 # ---- Settings ----
 
 @app.get("/api/v1/settings", response_model=List[schemas.AppSettingResponse])
@@ -320,6 +382,7 @@ def get_stats(db: Session = Depends(get_db)):
     rockets_count = db.query(models.Rocket).count()
     launches_count = db.query(models.Launch).filter(models.Launch.show == True).count()
     satellites_count = db.query(models.Satellite).filter(models.Satellite.show == True).count()
+    spacex_inventory_count = db.query(models.SpaceXInventory).filter(models.SpaceXInventory.show == True).count()
     
     return {
         "news_count": news_count,
@@ -327,5 +390,6 @@ def get_stats(db: Session = Depends(get_db)):
         "companies_count": companies_count,
         "rockets_count": rockets_count,
         "launches_count": launches_count,
-        "satellites_count": satellites_count
+        "satellites_count": satellites_count,
+        "spacex_inventory_count": spacex_inventory_count
     }

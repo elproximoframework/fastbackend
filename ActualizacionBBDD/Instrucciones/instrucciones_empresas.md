@@ -19,7 +19,7 @@ La tabla tiene los siguientes campos (basados en el modelo SQLAlchemy):
 |---|---|---|
 | `id` | Integer | Clave primaria (autoincremental). |
 | `name` | String | Nombre oficial de la empresa (ej: `SpaceX`). |
-| `type` | String | Tipo de entidad (`startup`, `agency`, `contractor`, `university`, `ground_segment`, `investors`, `logistics`, `other`). |
+| `type` | String | Tipo de entidad (`startup`, `corporate`, `agency`, `academia`, `investor`, `non_profit`, `other`). Independiente del sector tecnológico. |
 | `country` | String | Código ISO del país (ej: `us`, `es`). |
 | `countryName` | String | Nombre completo del país (ej: `EEUU`, `España`). |
 | `city` | String | Ciudad de la sede principal. |
@@ -37,10 +37,12 @@ La tabla tiene los siguientes campos (basados en el modelo SQLAlchemy):
 | `fundingStage` | String | Fase de financiación (ej: `Public`, `Series D`). |
 | `totalFunding` | String | Financiación total (ej: `$2B`). |
 | `stockTicker` | String | Ticker de bolsa si aplica (ej: `PLTR`, `RKLB`). |
+| `otrassede` | String | Otras sedes o sucursales de la empresa. |
+| `logo` | String | Nombre del archivo de imagen del logo (ej: `spacex.png`). Se guarda en la carpeta `company_logos`. |
 | `show` | Boolean | `True` por defecto. Determina si se muestra en el frontend. |
 
 ### Valores Permitidos para `sector`:
-- `launchers`, `satellites`, `ground_segment`, `propulsion`, `space_tourism`, `defense`, `research`, `software`, `manufacturing`.
+- `launchers`, `satellites`, `ground_segment`, `propulsion`, `space_tourism`, `defense`, `research`, `software`, `manufacturing`, `satellite_manufacturing`, `satellite_components`, `space_equipment`, `space_tech`, `launch_site`, `student_rocketry`, `earth_observation`, `in_space_logistics`, `ssa`, `satcom`, `incubator`, `innovation_hub`, `space_services`, `space_infrastructure`, `regulatory_body`.
 
 ## 2. Instrucciones de Generación y Logos
 
@@ -50,8 +52,8 @@ La tabla tiene los siguientes campos (basados en el modelo SQLAlchemy):
 3.  **Descripción:** Proporciona un texto rico y profesional tanto en español como en inglés.
 
 ### Manejo de Logos (IMPORTANTE):
-*   **Convención de Nombres:** El logo de la empresa **NO** se guarda en la base de datos (según el modelo actual). El frontend lo carga dinámicamente usando el nombre de la empresa convertido a "slug".
-*   **Proceso de Slug**:
+*   **Campo `logo`:** Debes especificar el nombre del archivo del logo en el campo `logo` de la base de datos.
+*   **Convención de Nombres (Recomendada):** Aunque ahora se guarda en la base de datos, seguimos recomendando usar el "slug" para mantener orden:
     1.  Convertir a minúsculas.
     2.  Eliminar acentos y caracteres especiales.
     3.  Cambiar espacios por guiones (`-`).
@@ -92,6 +94,7 @@ Genera un script de Python que utilice SQLAlchemy para insertar estos registros,
   "fundingStage": "Private",
   "totalFunding": "$9.8B",
   "stockTicker": null,
+  "logo": "spacex.png",
   "show": true
 }
 ```

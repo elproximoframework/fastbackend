@@ -30,6 +30,9 @@ class CompanyBase(BaseModel):
     fundingStage: Optional[str] = None
     totalFunding: Optional[str] = None
     stockTicker: Optional[str] = None
+    otrassede: Optional[str] = None
+    logo: Optional[str] = None
+    featured_espacio: bool = False
     show: bool = True
 
 class CompanyCreate(CompanyBase):
@@ -203,6 +206,47 @@ class NewsSpaceXResponse(NewsSpaceXBase):
         from_attributes = True
 
 
+# ---- SpaceXInventory Schemas ----
+
+class SpaceXInventoryBase(BaseModel):
+    title: str
+    title_en: Optional[str] = None
+    excerpt: Optional[str] = None
+    excerpt_en: Optional[str] = None
+    category: Optional[str] = None
+    category_en: Optional[str] = None
+    location: Optional[str] = None
+    location_en: Optional[str] = None
+    version: Optional[str] = None
+    datestartfabrication: Optional[str] = None
+    datesfinishfabrication: Optional[str] = None
+    state: Optional[str] = None
+    state_en: Optional[str] = None
+    datelaunch: Optional[str] = None
+    resultlaunch: Optional[str] = None
+    resultlaunch_en: Optional[str] = None
+    covered: bool = False
+    date: str
+    image: Optional[str] = None
+    slug: str
+    tags: Optional[List[str]] = []
+    tags_en: Optional[List[str]] = []
+    featured: bool = False
+    linkyoutube: Optional[str] = None
+    rutainformacion: Optional[str] = None
+    timestart: Optional[int] = None
+    show: bool = True
+
+class SpaceXInventoryCreate(SpaceXInventoryBase):
+    pass
+
+class SpaceXInventoryResponse(SpaceXInventoryBase):
+    id: int
+
+    class Config:
+        from_attributes = True
+
+
 # ---- Setting Schemas ----
 
 class AppSettingBase(BaseModel):
@@ -228,3 +272,4 @@ class StatsResponse(BaseModel):
     rockets_count: int
     launches_count: int
     satellites_count: int
+    spacex_inventory_count: int
