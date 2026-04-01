@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "super-heavy-b5",
+    "title": "Super Heavy Booster 5 (B5)",
+    "title_en": "Super Heavy Booster 5 (B5)",
+    "excerpt": "El último booster de la era Raptor 1. Aunque se completó su ensamblaje estructural, SpaceX decidió cancelarlo para acelerar la transición a los propulsores equipados con Raptor 2 (serie B7+), marcando el fin de la primera generación de prototipos.",
+    "excerpt_en": "The last booster of the Raptor 1 era. Although its structural assembly was completed, SpaceX decided to cancel it to accelerate the transition to boosters equipped with Raptor 2 (B7+ series), marking the end of the first generation of prototypes.",
+    "category": "Super Heavy",
+    "category_en": "Super Heavy",
+    "serial_number": "B5",
+    "block": "Block 1",
+    "version": "V1.1",
+    "state": "desechado",
+    "state_en": "scrapped",
+    "location": "Starbase, Texas",
+    "location_en": "Starbase, Texas",
+    "datestartfabrication": "2021-07-01",
+    "datesfinishfabrication": "2022-06-01",
+    "specs": {
+      "height_m": 71,
+      "diameter_m": 9,
+      "engines": 29,
+      "engine_type": "Raptor 1",
+      "grid_fins": 4,
+      "purpose": "Aritculo de prueba estructural avanzado"
+    },
+    "milestones": [
+      { "date": "2022-06-15", "event": "Desechado para priorizar la producción de la serie B7+", "event_en": "Scrapped to prioritize production of the B7+ series" }
+    ],
+    "date": "2022-06-15",
+    "image": "/inventory_images/super-heavy/super-heavy-b5.png",
+    "rutainformacion": "super-heavy/super-heavy-b5",
+    "covered": false,
+    "featured": false,
+    "tags": ["B5", "Prototype", "Scrapped"],
+    "tags_en": ["B5", "Prototype", "Scrapped"],
+    "show": true
+  }
+]

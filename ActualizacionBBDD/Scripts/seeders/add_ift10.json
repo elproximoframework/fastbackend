@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "ift-10",
+    "title": "IFT-10",
+    "title_en": "IFT-10",
+    "excerpt": "Décimo vuelo de prueba integrado. Booster 16 y Ship 37. Primer despliegue exitoso de carga útil (8 simuladores Starlink) y amerizaje suave de ambas etapas.",
+    "excerpt_en": "Tenth integrated flight test. Booster 16 and Ship 37. First successful payload deployment (8 Starlink simulators) and soft splashdown of both stages.",
+    "category": "Lanzamientos",
+    "category_en": "Launches",
+    "serial_number": "IFT-10",
+    "block": "Block 2",
+    "version": "Block 2",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datelaunch": "2025-08-26",
+    "resultlaunch": "Éxito",
+    "resultlaunch_en": "Success",
+    "flight_data": {
+      "ift_number": 10,
+      "booster": "B16",
+      "ship": "S37",
+      "result_booster": "Amerizaje suave exitoso con experimento de motor deshabilitado",
+      "result_booster_en": "Successful soft splashdown with engine-out experiment",
+      "result_ship": "Amerizaje suave en el Índico tras despliegue de carga",
+      "result_ship_en": "Soft splashdown in Indian Ocean after payload deployment",
+      "overall_result": "Éxito (Primer despliegue de carga útil)",
+      "overall_result_en": "Success (First payload deployment)"
+    },
+    "milestones": [
+      { "date": "2025-08-26", "event": "Despegue exitoso y ascenso nominal sin fallos de motores", "event_en": "Successful liftoff and nominal ascent with no engine failures" },
+      { "date": "2025-08-26", "event": "Booster 16 completa experimento de aterrizaje con un motor deshabilitado", "event_en": "Booster 16 completes engine-out landing experiment" },
+      { "date": "2025-08-26", "event": "Primer despliegue exitoso de 8 simuladores de satélites Starlink", "event_en": "First successful deployment of 8 Starlink satellite simulators" },
+      { "date": "2025-08-26", "event": "Reentrada exitosa de Ship 37 a pesar de daños térmicos menores", "event_en": "Successful Ship 37 reentry despite minor thermal damage" },
+      { "date": "2025-08-26", "event": "Amerizaje controlado y suave de Ship 37 en el Océano Índico", "event_en": "Controlled and soft splashdown of Ship 37 in the Indian Ocean" }
+    ],
+    "specs": {
+      "engines_booster": 33,
+      "engine_type": "Raptor 2/3 transition",
+      "liftoff_thrust_tf": 7700,
+      "max_altitude_km": 150,
+      "flight_duration_s": 4200,
+      "stage_separation": true
+    },
+    "date": "2025-08-26",
+    "image": "/inventory_images/lanzamientos/ift-10.png",
+    "rutainformacion": "lanzamientos/ift-10",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

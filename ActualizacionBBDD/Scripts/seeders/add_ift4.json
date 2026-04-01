@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "ift-4",
+    "title": "IFT-4",
+    "title_en": "IFT-4",
+    "excerpt": "Cuarto vuelo de prueba integrado. Booster 11 y Ship 29. Por primera vez, ambas etapas lograron sus objetivos de amerizaje suave (soft splashdown) tras la reentrada.",
+    "excerpt_en": "Fourth integrated flight test. Booster 11 and Ship 29. For the first time, both stages achieved their soft splashdown objectives after reentry.",
+    "category": "Lanzamientos",
+    "category_en": "Launches",
+    "serial_number": "IFT-4",
+    "block": "Block 1",
+    "version": "Block 1",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datelaunch": "2024-06-06",
+    "resultlaunch": "Éxito",
+    "resultlaunch_en": "Success",
+    "flight_data": {
+      "ift_number": 4,
+      "booster": "B11",
+      "ship": "S29",
+      "result_booster": "Amerizaje suave exitoso en el Golfo de México",
+      "result_booster_en": "Successful soft splashdown in the Gulf of Mexico",
+      "result_ship": "Amerizaje suave exitoso en el Océano Índico tras sobrevivir a la reentrada",
+      "result_ship_en": "Successful soft splashdown in the Indian Ocean after surviving reentry",
+      "overall_result": "Éxito total de los objetivos de recuperación",
+      "overall_result_en": "Total success of recovery objectives"
+    },
+    "milestones": [
+      { "date": "2024-06-06", "event": "Despegue exitoso y encendido nominal de todos los motores", "event_en": "Successful liftoff and nominal firing of all engines" },
+      { "date": "2024-06-06", "event": "Separación Hot Staging y eyección del anillo de hot staging", "event_en": "Hot Staging separation and hot staging ring jettison" },
+      { "date": "2024-06-06", "event": "Primer amerizaje suave de un Super Heavy (B11) en el Golfo de México", "event_en": "First soft splashdown of a Super Heavy (B11) in the Gulf of Mexico" },
+      { "date": "2024-06-06", "event": "Ship 29 sobrevive a la reentrada extrema a pesar de daños en los flaps", "event_en": "Ship 29 survives extreme reentry despite flap damage" },
+      { "date": "2024-06-06", "event": "Primer amerizaje suave de Starship (S29) en el Océano Índico", "event_en": "First soft splashdown of Starship (S29) in the Indian Ocean" }
+    ],
+    "specs": {
+      "engines_booster": 33,
+      "engine_type": "Raptor 2",
+      "liftoff_thrust_tf": 7600,
+      "max_altitude_km": 213,
+      "flight_duration_s": 3960,
+      "stage_separation": true
+    },
+    "date": "2024-06-06",
+    "image": "/inventory_images/lanzamientos/ift-4.png",
+    "rutainformacion": "lanzamientos/ift-4",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

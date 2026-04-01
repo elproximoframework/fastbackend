@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "ift-1",
+    "title": "IFT-1",
+    "title_en": "IFT-1",
+    "excerpt": "Primer vuelo integrado del sistema Starship. Booster 7 y Ship 24 despegaron el 20 de abril de 2023 desde Starbase, pero el vehículo sufrió una desintegración no programada (RUD) aproximadamente 4 minutos después del despegue. A pesar de la pérdida del vehículo, SpaceX recabó datos críticos para el desarrollo del programa.",
+    "excerpt_en": "First integrated flight test of the Starship system. Booster 7 and Ship 24 lifted off on April 20, 2023 from Starbase, but the vehicle suffered a rapid unscheduled disassembly (RUD) approximately 4 minutes after launch. Despite the loss of the vehicle, SpaceX gathered critical data for the program's development.",
+    "category": "Lanzamientos",
+    "category_en": "Launches",
+    "serial_number": "IFT-1",
+    "block": "Block 1",
+    "version": "Block 1",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datelaunch": "2023-04-20",
+    "resultlaunch": "Fallo (RUD)",
+    "resultlaunch_en": "Failure (RUD)",
+    "flight_data": {
+      "ift_number": 1,
+      "booster": "B7",
+      "ship": "S24",
+      "result_booster": "RUD a ~T+3:59 — Pérdida del control de vectorización de empuje (TVC) en motores centrales a T+85s",
+      "result_booster_en": "RUD at ~T+3:59 — Lost thrust vector control (TVC) on central engines at T+85s",
+      "result_ship": "RUD a ~T+3:59 — No se alcanzó la separación de etapas",
+      "result_ship_en": "RUD at ~T+3:59 — Stage separation never achieved",
+      "overall_result": "Fallo (RUD)",
+      "overall_result_en": "Failure (RUD)"
+    },
+    "milestones": [
+      { "date": "2023-04-17", "event": "Primer intento de lanzamiento abortado por válvula de presurización congelada", "event_en": "First launch attempt aborted due to frozen pressurization valve" },
+      { "date": "2023-04-20", "event": "Despegue a las 8:33 CDT — el cohete más potente jamás volado", "event_en": "Liftoff at 8:33 CDT — most powerful rocket ever flown" },
+      { "date": "2023-04-20", "event": "3 motores fallaron en el despegue; más motores fallaron durante el ascenso", "event_en": "3 engines failed at liftoff; additional engine failures during ascent" },
+      { "date": "2023-04-20", "event": "Pérdida del control TVC en motores centrales a T+85s — vehículo comienza a tumbar", "event_en": "Loss of TVC on central engines at T+85s — vehicle begins to tumble" },
+      { "date": "2023-04-20", "event": "AFSS activado; RUD a ~T+3:59 sobre el Golfo de México", "event_en": "AFSS activated; RUD at ~T+3:59 over Gulf of Mexico" },
+      { "date": "2023-04-20", "event": "La plataforma de lanzamiento sufrió daños severos por falta de sistema de supresión de sonido (Deluge)", "event_en": "Launch pad suffered severe damage due to absence of sound suppression system (Deluge)" }
+    ],
+    "specs": {
+      "engines_booster": 33,
+      "engine_type": "Raptor 2",
+      "liftoff_thrust_tf": 7590,
+      "max_altitude_km": 39,
+      "flight_duration_s": 239,
+      "stage_separation": false
+    },
+    "date": "2023-04-20",
+    "image": "/inventory_images/lanzamientos/ift-1.png",
+    "rutainformacion": "lanzamientos/ift-1",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

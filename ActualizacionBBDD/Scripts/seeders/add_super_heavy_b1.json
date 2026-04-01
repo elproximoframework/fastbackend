@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "super-heavy-b1",
+    "title": "Super Heavy BN1",
+    "title_en": "Super Heavy BN1",
+    "excerpt": "Primer prototipo del cohete Super Heavy, concebido como banco de pruebas de fabricación (pathfinder). Nunca fue diseñado para volar: su misión era validar los procesos de ensamblaje de anillos de acero inoxidable y las técnicas de apilado en el High Bay de Starbase. Fue desguazado en marzo de 2021, apenas días después de completar su ensamblaje.",
+    "excerpt_en": "First prototype of the Super Heavy booster, conceived as a manufacturing pathfinder. It was never designed to fly: its mission was to validate stainless steel ring assembly processes and stacking techniques in the Starbase High Bay. It was scrapped in March 2021, just days after its assembly was completed.",
+    "category": "Super Heavy",
+    "category_en": "Super Heavy",
+    "serial_number": "BN1",
+    "block": "Block 1",
+    "version": "Block 1",
+    "state": "desechado",
+    "state_en": "scrapped",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datestartfabrication": "2020-12-01",
+    "datesfinishfabrication": "2021-03-17",
+    "specs": {
+      "height_m": 67,
+      "diameter_m": 9,
+      "rings": 36,
+      "engines": 4,
+      "engine_type": "Raptor 1 (configuración limitada — donut de empuje)",
+      "landing_legs": false,
+      "grid_fins": false,
+      "flight_capable": false,
+      "purpose": "Pathfinder de fabricación y ensamblaje"
+    },
+    "milestones": [
+      { "date": "2020-12-01", "event": "Inicio de fabricación de los primeros anillos de BN1 en Starbase", "event_en": "BN1 first rings manufacturing begins at Starbase" },
+      { "date": "2021-02-01", "event": "Apilado progresivo de secciones en el High Bay de Starbase", "event_en": "Progressive stacking of sections in the Starbase High Bay" },
+      { "date": "2021-03-17", "event": "Apilado completo — BN1 alcanza ~67 m de altura con 36 anillos de acero", "event_en": "Full stack complete — BN1 reaches ~67m height with 36 steel rings" },
+      { "date": "2021-03-30", "event": "Elon Musk confirma que BN1 no volará y será desguazado; comienza el desmantelamiento", "event_en": "Elon Musk confirms BN1 will not fly and will be scrapped; dismantling begins" }
+    ],
+    "date": "2021-03-17",
+    "image": "/inventory_images/super-heavy/super-heavy-b1.png",
+    "rutainformacion": "super-heavy/super-heavy-b1",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

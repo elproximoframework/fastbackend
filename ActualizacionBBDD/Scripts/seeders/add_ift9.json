@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "ift-9",
+    "title": "IFT-9",
+    "title_en": "IFT-9",
+    "excerpt": "Noveno vuelo de prueba integrado. Booster 14-2 y Ship 35. Primera reutilización de un Super Heavy (B14) y primer vuelo en alcanzar velocidad orbital, aunque se perdió el vehículo durante la fase de costa.",
+    "excerpt_en": "Ninth integrated flight test. Booster 14-2 and Ship 35. First-ever Super Heavy reuse (B14) and first flight to reach orbital velocity, though the vehicle was lost during the coast phase.",
+    "category": "Lanzamientos",
+    "category_en": "Launches",
+    "serial_number": "IFT-9",
+    "block": "Block 2",
+    "version": "Block 2",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datelaunch": "2025-05-27",
+    "resultlaunch": "Éxito Parcial",
+    "resultlaunch_en": "Partial Success",
+    "flight_data": {
+      "ift_number": 9,
+      "booster": "B14 (Reutilizado)",
+      "ship": "S35",
+      "result_booster": "RUD durante el encendido de aterrizaje tras descenso experimental",
+      "result_booster_en": "RUD during landing burn after experimental descent",
+      "result_ship": "Pérdida tras alcanzar velocidad orbital por fuga en tanque",
+      "result_ship_en": "Lost after reaching orbital velocity due to tank leak",
+      "overall_result": "Éxito Parcial (Hito de reutilización y velocidad orbital)",
+      "overall_result_en": "Partial Success (Reuse and orbital velocity milestones)"
+    },
+    "milestones": [
+      { "date": "2025-05-27", "event": "Primera reutilización de un Super Heavy Booster (B14)", "event_en": "First-ever reuse of a Super Heavy Booster (B14)" },
+      { "date": "2025-05-27", "event": "Despegue exitoso y separación hot-staging nominal", "event_en": "Successful liftoff and nominal hot-staging separation" },
+      { "date": "2025-05-27", "event": "Ship 35 alcanza la velocidad orbital por primera vez en el programa", "event_en": "Ship 35 reaches orbital velocity for the first time in the program" },
+      { "date": "2025-05-27", "event": "Booster perdido durante un experimento de descenso agresivo", "event_en": "Booster lost during an aggressive descent experiment" },
+      { "date": "2025-05-27", "event": "Pérdida de Ship 35 durante la fase de costa por fuga y pérdida de control", "event_en": "Loss of Ship 35 during coast phase due to leak and loss of control" }
+    ],
+    "specs": {
+      "engines_booster": 33,
+      "engine_type": "Raptor 2",
+      "liftoff_thrust_tf": 7700,
+      "max_altitude_km": 200,
+      "flight_duration_s": 2760,
+      "stage_separation": true
+    },
+    "date": "2025-05-27",
+    "image": "/inventory_images/lanzamientos/ift-9.png",
+    "rutainformacion": "lanzamientos/ift-9",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "super-heavy-bn2",
+    "title": "Super Heavy Booster Prototype 2 (BN2)",
+    "title_en": "Super Heavy Booster Prototype 2 (BN2)",
+    "excerpt": "Prototipo temprano diseñado para pruebas de trayectoria y validación de técnicas de fabricación de domos. No llegó a ensamblarse como un booster completo, sino que sus secciones se utilizaron para el tanque de prueba B2.1.",
+    "excerpt_en": "Early prototype designed for trajectory testing and validation of dome manufacturing techniques. It was not assembled as a full booster, but rather its sections were used for the B2.1 test tank.",
+    "category": "Super Heavy",
+    "category_en": "Super Heavy",
+    "serial_number": "BN2",
+    "block": "Block 1 (Prototype)",
+    "version": "V1",
+    "state": "desechado",
+    "state_en": "scrapped",
+    "location": "Starbase, Texas",
+    "location_en": "Starbase, Texas",
+    "datestartfabrication": "2021-03-01",
+    "datesfinishfabrication": "2021-06-01",
+    "specs": {
+      "height_m": 70,
+      "diameter_m": 9,
+      "engines": 0,
+      "engine_type": "N/A",
+      "purpose": "Validación de fabricación y pruebas estructurales"
+    },
+    "milestones": [
+      { "date": "2021-05-15", "event": "Reutilización de secciones para el tanque de prueba B2.1", "event_en": "Repurposing of sections for the B2.1 test tank" },
+      { "date": "2021-06-10", "event": "Desechado tras completar las pruebas de presión del tanque B2.1", "event_en": "Scrapped after completing B2.1 tank pressure tests" }
+    ],
+    "date": "2021-06-10",
+    "image": "/inventory_images/super-heavy/super-heavy-bn2.png",
+    "rutainformacion": "super-heavy/super-heavy-bn2",
+    "covered": false,
+    "featured": false,
+    "tags": ["BN2", "Prototype", "Test Tank"],
+    "tags_en": ["BN2", "Prototype", "Test Tank"],
+    "show": true
+  }
+]

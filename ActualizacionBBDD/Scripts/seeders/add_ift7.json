@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "ift-7",
+    "title": "IFT-7",
+    "title_en": "IFT-7",
+    "excerpt": "Séptimo vuelo de prueba integrado. Booster 14 y Ship 33. Primer vuelo de la arquitectura Block 2 (V2). Segundo atrapado exitoso del Super Heavy por Mechazilla; Ship 33 perdido tras la separación por incendio en la sección de popa.",
+    "excerpt_en": "Seventh integrated flight test. Booster 14 and Ship 33. First flight of the Block 2 (V2) architecture. Second successful Super Heavy catch by Mechazilla; Ship 33 lost after separation due to an aft section fire.",
+    "category": "Lanzamientos",
+    "category_en": "Launches",
+    "serial_number": "IFT-7",
+    "block": "Block 2",
+    "version": "Block 2",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datelaunch": "2025-01-16",
+    "resultlaunch": "Éxito Parcial",
+    "resultlaunch_en": "Partial Success",
+    "flight_data": {
+      "ift_number": 7,
+      "booster": "B14",
+      "ship": "S33",
+      "result_booster": "Atrapado con éxito por Mechazilla (Tower Catch)",
+      "result_booster_en": "Successfully caught by Mechazilla (Tower Catch)",
+      "result_ship": "RUD poco después de la separación debido a incendio en sección de popa",
+      "result_ship_en": "RUD shortly after separation due to aft section fire",
+      "overall_result": "Éxito Parcial (Atrapado del Booster y debut de Block 2)",
+      "overall_result_en": "Partial Success (Booster catch and Block 2 debut)"
+    },
+    "milestones": [
+      { "date": "2025-01-16", "event": "Primer vuelo de la versión Starship Block 2 (V2)", "event_en": "First flight of the Starship Block 2 (V2) version" },
+      { "date": "2025-01-16", "event": "Despegue nominal y ascenso de Booster 14", "event_en": "Nominal liftoff and ascent of Booster 14" },
+      { "date": "2025-01-16", "event": "Segundo atrapado histórico por los brazos Mechazilla (B14)", "event_en": "Second historic catch by Mechazilla arms (B14)" },
+      { "date": "2025-01-16", "event": "Detección de incendio en la sección de popa de Ship 33 tras separación", "event_en": "Fire detected in Ship 33 aft section after separation" },
+      { "date": "2025-01-16", "event": "Pruebas del nuevo sistema de despliegue de satélites Starlink", "event_en": "Testing of the new Starlink satellite deployment system" }
+    ],
+    "specs": {
+      "engines_booster": 33,
+      "engine_type": "Raptor 2 improved",
+      "liftoff_thrust_tf": 7700,
+      "max_altitude_km": 150,
+      "flight_duration_s": 600,
+      "stage_separation": true
+    },
+    "date": "2025-01-16",
+    "image": "/inventory_images/lanzamientos/ift-7.png",
+    "rutainformacion": "lanzamientos/ift-7",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

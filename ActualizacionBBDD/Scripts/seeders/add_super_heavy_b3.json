@@ -1,0 +1,40 @@
+[
+  {
+    "slug": "super-heavy-b3",
+    "title": "Super Heavy Booster 3 (B3)",
+    "title_en": "Super Heavy Booster 3 (B3)",
+    "excerpt": "Hito fundamental del programa Super Heavy. Fue el primer propulsor en realizar un Static Fire (encendido estático) en la historia de Starship, probando el comportamiento de tres motores Raptor 1 integrados.",
+    "excerpt_en": "Fundamental milestone of the Super Heavy program. It was the first booster to perform a Static Fire in Starship history, testing the behavior of three integrated Raptor 1 engines.",
+    "category": "Super Heavy",
+    "category_en": "Super Heavy",
+    "serial_number": "B3",
+    "block": "Block 1 (Prototype)",
+    "version": "V1",
+    "state": "desechado",
+    "state_en": "scrapped",
+    "location": "Starbase, Texas",
+    "location_en": "Starbase, Texas",
+    "datestartfabrication": "2021-04-01",
+    "datesfinishfabrication": "2021-08-01",
+    "specs": {
+      "height_m": 70,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor 1",
+      "purpose": "Pruebas de propulsión y Static Fire"
+    },
+    "milestones": [
+      { "date": "2021-07-01", "event": "Traslado a la plataforma de lanzamiento Suborbital A", "event_en": "Move to Suborbital Launch Pad A" },
+      { "date": "2021-07-19", "event": "PRIMER STATIC FIRE: Encendido de 3 motores Raptor simultáneos", "event_en": "FIRST STATIC FIRE: Ignition of 3 Raptor engines simultaneously" },
+      { "date": "2021-08-15", "event": "Retirado y desmantelado para dar paso al B4", "event_en": "Retired and dismantled to make way for B4" }
+    ],
+    "date": "2021-08-15",
+    "image": "/inventory_images/super-heavy/super-heavy-b3.png",
+    "rutainformacion": "super-heavy/super-heavy-b3",
+    "covered": false,
+    "featured": true,
+    "tags": ["B3", "Booster 3", "First Static Fire", "Prototype"],
+    "tags_en": ["B3", "Booster 3", "First Static Fire", "Prototype"],
+    "show": true
+  }
+]

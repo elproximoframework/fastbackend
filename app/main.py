@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy.orm import Session
 from typing import List, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 from . import models, schemas
 from .database import engine, get_db
 import os
@@ -179,7 +179,11 @@ def get_launches(
     
     # Status filtering
     if status == 'upcoming':
-        query = query.filter(models.Launch.status.ilike("%upcoming%") | models.Launch.status.ilike("%Go%"))
+        now = datetime.now(timezone.utc)
+        query = query.filter(
+            (models.Launch.status.ilike("%upcoming%") | models.Launch.status.ilike("%Go%")) &
+            (models.Launch.net >= now)
+        )
     elif status == 'past':
         query = query.filter(models.Launch.status.ilike("%past%") | models.Launch.status.ilike("%Success%"))
     elif status:

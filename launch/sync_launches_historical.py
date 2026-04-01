@@ -17,7 +17,7 @@ LOCAL_DB_URL = "postgresql://space_user:space_password@localhost:5433/space_db"
 REMOTE_DB_URL = "postgresql://postgres:zjRYAsATFmvPlnQOZruilNIwwEBZcmyU@crossover.proxy.rlwy.net:29288/railway"
 
 # Rango de fechas: Desde 1 de Enero de 2026 hasta ahora
-START_DATE = "2026-01-01T00:00:00Z"
+START_DATE = "2026-03-01T00:00:00Z"
 # END_DATE = datetime.utcnow().strftime("%Y-%m-%dT23:59:59Z")
 END_DATE = "2026-05-31T23:59:59Z"
 

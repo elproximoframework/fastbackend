@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "ift-6",
+    "title": "IFT-6",
+    "title_en": "IFT-6",
+    "excerpt": "Sexto vuelo de prueba integrado. Booster 13 y Ship 31. Primera reencendida de un motor Raptor en el espacio y amerizaje controlado de Ship 31 a la luz del día.",
+    "excerpt_en": "Sixth integrated flight test. Booster 13 and Ship 31. First-ever in-space Raptor engine reignition and controlled daylight splashdown of Ship 31.",
+    "category": "Lanzamientos",
+    "category_en": "Launches",
+    "serial_number": "IFT-6",
+    "block": "Block 1",
+    "version": "Block 1",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datelaunch": "2024-11-19",
+    "resultlaunch": "Éxito",
+    "resultlaunch_en": "Success",
+    "flight_data": {
+      "ift_number": 6,
+      "booster": "B13",
+      "ship": "S31",
+      "result_booster": "Amerizaje suave en el Golfo de México (Atrapado abortado)",
+      "result_booster_en": "Soft splashdown in the Gulf of Mexico (Catch aborted)",
+      "result_ship": "Amerizaje suave en el Océano Índico a plena luz del día",
+      "result_ship_en": "Soft splashdown in the Indian Ocean in full daylight",
+      "overall_result": "Éxito (Hito de reencendido en el espacio)",
+      "overall_result_en": "Success (In-space reignition milestone)"
+    },
+    "milestones": [
+      { "date": "2024-11-19", "event": "Despegue exitoso y retorno nominal del booster", "event_en": "Successful liftoff and nominal booster return" },
+      { "date": "2024-11-19", "event": "Aborto técnico del atrapado; Booster 13 realiza amerizaje suave", "event_en": "Technical catch abort; Booster 13 performs soft splashdown" },
+      { "date": "2024-11-19", "event": "Primera reencendida de un motor Raptor Vacuum en el espacio", "event_en": "First-ever in-space reignition of a Raptor Vacuum engine" },
+      { "date": "2024-11-19", "event": "Reentrada agresiva probando límites de los flaps", "event_en": "Aggressive reentry testing flap limits" },
+      { "date": "2024-11-19", "event": "Amerizaje controlado de Ship 31 capturado en video a plena luz del día", "event_en": "Controlled Ship 31 splashdown captured in daylight video" }
+    ],
+    "specs": {
+      "engines_booster": 33,
+      "engine_type": "Raptor 2",
+      "liftoff_thrust_tf": 7600,
+      "max_altitude_km": 190,
+      "flight_duration_s": 3900,
+      "stage_separation": true
+    },
+    "date": "2024-11-19",
+    "image": "/inventory_images/lanzamientos/ift-6.png",
+    "rutainformacion": "lanzamientos/ift-6",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

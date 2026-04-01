@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "ift-2",
+    "title": "IFT-2",
+    "title_en": "IFT-2",
+    "excerpt": "Segundo vuelo de prueba integrado de Starship. Booster 9 y Ship 25. Se logró con éxito la separación por 'Hot Staging' y Ship 25 se convirtió en la primera Starship en alcanzar el espacio.",
+    "excerpt_en": "Second integrated flight test of Starship. Booster 9 and Ship 25. Successfully demonstrated 'Hot Staging' separation, and Ship 25 became the first Starship to reach space.",
+    "category": "Lanzamientos",
+    "category_en": "Launches",
+    "serial_number": "IFT-2",
+    "block": "Block 1",
+    "version": "Block 1",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datelaunch": "2023-11-18",
+    "resultlaunch": "Éxito Parcial",
+    "resultlaunch_en": "Partial Success",
+    "flight_data": {
+      "ift_number": 2,
+      "booster": "B9",
+      "ship": "S25",
+      "result_booster": "RUD a ~T+3:29 durante la maniobra de boostback",
+      "result_booster_en": "RUD at ~T+3:29 during boostback maneuver",
+      "result_ship": "RUD a ~T+8:06 tras alcanzar el espacio (~150km)",
+      "result_ship_en": "RUD at ~T+8:06 after reaching space (~150km)",
+      "overall_result": "Éxito Parcial (Hitos clave alcanzados)",
+      "overall_result_en": "Partial Success (Key milestones achieved)"
+    },
+    "milestones": [
+      { "date": "2023-11-18", "event": "Despegue exitoso con los 33 motores Raptor funcionando", "event_en": "Successful liftoff with all 33 Raptor engines firing" },
+      { "date": "2023-11-18", "event": "Primera demostración de Hot Staging (separación en caliente) con éxito", "event_en": "First successful demonstration of Hot Staging separation" },
+      { "date": "2023-11-18", "event": "Booster 9 sufre un RUD tras iniciar el boostback burn", "event_en": "Booster 9 suffers RUD after starting boostback burn" },
+      { "date": "2023-11-18", "event": "Ship 25 alcanza el espacio por primera vez (apogeo ~150km)", "event_en": "Ship 25 reaches space for the first time (apogee ~150km)" },
+      { "date": "2023-11-18", "event": "Activación del AFSS y RUD de Ship 25 a los 8 minutos de vuelo", "event_en": "AFSS activation and Ship 25 RUD at 8 minutes into flight" }
+    ],
+    "specs": {
+      "engines_booster": 33,
+      "engine_type": "Raptor 2",
+      "liftoff_thrust_tf": 7600,
+      "max_altitude_km": 150,
+      "flight_duration_s": 486,
+      "stage_separation": true
+    },
+    "date": "2023-11-18",
+    "image": "/inventory_images/lanzamientos/ift-2.png",
+    "rutainformacion": "lanzamientos/ift-2",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

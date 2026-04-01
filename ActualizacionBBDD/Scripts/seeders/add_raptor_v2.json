@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "raptor-v2",
+    "title": "Raptor 2",
+    "title_en": "Raptor 2",
+    "excerpt": "La segunda iteración principal del motor Raptor de SpaceX, diseñada para la producción en masa y el rendimiento optimizado. El Raptor 2 elimina la complejidad del 'árbol de Navidad' de la V1, reduciendo significativamente la masa y aumentando el empuje a 230 tf mediante una presión de cámara de 300 bar. Es el motor estándar para los vehículos Starship Block 1 (S24 y posteriores) y Super Heavy (B7 y posteriores).",
+    "excerpt_en": "SpaceX's second major iteration of the Raptor engine, designed for mass production and optimized performance. Raptor 2 eliminates the 'Christmas tree' complexity of V1, significantly reducing mass and increasing thrust to 230 tf via a 300 bar chamber pressure. It is the standard engine for Starship Block 1 (S24 and later) and Super Heavy (B7 and later) vehicles.",
+    "category": "Raptor",
+    "category_en": "Raptor",
+    "serial_number": "R2",
+    "block": "Block 2",
+    "version": "Raptor 2",
+    "state": "en_servicio",
+    "state_en": "in_service",
+    "location": "Starbase, Texas / McGregor, Texas",
+    "location_en": "Starbase, Texas / McGregor, Texas",
+    "datestartfabrication": "2021-12-01",
+    "datesfinishfabrication": null,
+    "specs": {
+      "thrust_sea_level_tf": 230,
+      "thrust_sea_level_kN": 2255,
+      "isp_sea_level_s": 327,
+      "isp_vacuum_s": 350,
+      "chamber_pressure_bar": 300,
+      "chamber_pressure_bar_max_test": 330,
+      "mass_engine_kg": 1600,
+      "fuel": "CH₄ (metano líquido)",
+      "oxidizer": "LOX (oxígeno líquido)",
+      "cycle": "Full-flow staged combustion (FFSC)",
+      "throttle_range_pct": "40–100"
+    },
+    "milestones": [
+      { "date": "2022-02-10", "event": "Elon Musk presenta oficialmente el Raptor 2 durante la actualización de Starship en Starbase", "event_en": "Elon Musk officially unveils Raptor 2 during the Starship update at Starbase" },
+      { "date": "2022-03-31", "event": "Se informa que la producción de Raptor 2 alcanza un motor por día", "event_en": "Raptor 2 production reported to reach one engine per day" },
+      { "date": "2023-04-20", "event": "Primer vuelo de prueba integrado (IFT-1) con 33 motores Raptor 2 en el Booster 7", "event_en": "First Integrated Flight Test (IFT-1) with 33 Raptor 2 engines on Booster 7" },
+      { "date": "2023-11-18", "event": "IFT-2 demuestra el rendimiento del Raptor 2 durante el ascenso y la separación de etapas", "event_en": "IFT-2 demonstrates Raptor 2 performance during ascent and stage separation" },
+      { "date": "2024-03-14", "event": "IFT-3 utiliza motores Raptor 2 para el primer reencendido en el espacio de un motor Raptor", "event_en": "IFT-3 uses Raptor 2 engines for the first in-space relight of a Raptor engine" }
+    ],
+    "date": "2022-02-10",
+    "image": "/inventory_images/raptor/raptor-v2.png",
+    "rutainformacion": "raptor/raptor-v2",
+    "covered": false,
+    "featured": false,
+    "tags": ["V2", "Block 2", "Producción"],
+    "tags_en": ["V2", "Block 2", "Production"],
+    "show": true
+  }
+]

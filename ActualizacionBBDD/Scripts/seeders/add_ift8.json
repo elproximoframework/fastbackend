@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "ift-8",
+    "title": "IFT-8",
+    "title_en": "IFT-8",
+    "excerpt": "Octavo vuelo de prueba integrado. Booster 15 y Ship 34. Tercer atrapado exitoso del booster por Mechazilla; pérdida de Ship 34 a los 9:30 min tras fallos en los motores de popa.",
+    "excerpt_en": "Eighth integrated flight test. Booster 15 and Ship 34. Third successful booster catch by Mechazilla; loss of Ship 34 at T+9:30 after aft engine failures.",
+    "category": "Lanzamientos",
+    "category_en": "Launches",
+    "serial_number": "IFT-8",
+    "block": "Block 2",
+    "version": "Block 2",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datelaunch": "2025-03-06",
+    "resultlaunch": "Éxito Parcial",
+    "resultlaunch_en": "Partial Success",
+    "flight_data": {
+      "ift_number": 8,
+      "booster": "B15",
+      "ship": "S34",
+      "result_booster": "Atrapado con éxito por Mechazilla (Tercer atrapado)",
+      "result_booster_en": "Successfully caught by Mechazilla (Third catch)",
+      "result_ship": "Pérdida de control y RUD a ~T+9:30 tras fallos en los motores",
+      "result_ship_en": "Loss of control and RUD at ~T+9:30 following engine failures",
+      "overall_result": "Éxito Parcial (Consistencia en la recuperación del Booster)",
+      "overall_result_en": "Partial Success (Booster recovery consistency)"
+    },
+    "milestones": [
+      { "date": "2025-03-06", "event": "Despegue exitoso y ascenso nominal", "event_en": "Successful liftoff and nominal ascent" },
+      { "date": "2025-03-06", "event": "Tercer atrapado consecutivo del Booster 15 en la torre", "event_en": "Third consecutive catch of Booster 15 at the tower" },
+      { "date": "2025-03-06", "event": "Evento energético en la sección de popa de Ship 34 durante el ascenso", "event_en": "Energetic event in Ship 34 aft section during ascent" },
+      { "date": "2025-03-06", "event": "Pérdida de múltiples motores Raptor y control de actitud", "event_en": "Loss of multiple Raptor engines and attitude control" },
+      { "date": "2025-03-06", "event": "Intento fallido de despliegue de simuladores Starlink por RUD", "event_en": "Failed attempt to deploy Starlink simulators due to RUD" }
+    ],
+    "specs": {
+      "engines_booster": 33,
+      "engine_type": "Raptor 2/3 transition",
+      "liftoff_thrust_tf": 7700,
+      "max_altitude_km": 150,
+      "flight_duration_s": 570,
+      "stage_separation": true
+    },
+    "date": "2025-03-06",
+    "image": "/inventory_images/lanzamientos/ift-8.png",
+    "rutainformacion": "lanzamientos/ift-8",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

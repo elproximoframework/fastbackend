@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "ift-11",
+    "title": "IFT-11",
+    "title_en": "IFT-11",
+    "excerpt": "Undécimo vuelo de prueba integrado. Booster 15 y Ship 38. Vuelo final de la arquitectura Block 2 y de la configuración original de la Pad 1. Despliegue exitoso de 8 simuladores Starlink y prueba de estrés del escudo térmico.",
+    "excerpt_en": "Eleventh integrated flight test. Booster 15 and Ship 38. Final flight of the Block 2 architecture and the original Pad 1 configuration. Successful deployment of 8 Starlink simulators and heatshield stress testing.",
+    "category": "Lanzamientos",
+    "category_en": "Launches",
+    "serial_number": "IFT-11",
+    "block": "Block 2",
+    "version": "Block 2",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datelaunch": "2025-10-13",
+    "resultlaunch": "Éxito",
+    "resultlaunch_en": "Success",
+    "flight_data": {
+      "ift_number": 11,
+      "booster": "B15",
+      "ship": "S38",
+      "result_booster": "Amerizaje suave exitoso en el Golfo de México",
+      "result_booster_en": "Successful soft splashdown in the Gulf of Mexico",
+      "result_ship": "Amerizaje suave en el Índico tras prueba de escudo térmico",
+      "result_ship_en": "Soft splashdown in Indian Ocean after heatshield stress test",
+      "overall_result": "Éxito (Final de la era Block 2)",
+      "overall_result_en": "Success (End of the Block 2 era)"
+    },
+    "milestones": [
+      { "date": "2025-10-13", "event": "Vuelo final de la arquitectura Starship Block 2", "event_en": "Final flight of the Starship Block 2 architecture" },
+      { "date": "2025-10-13", "event": "Décimo quinto lanzamiento desde la Pad 1 (original)", "event_en": "Fifteenth launch from Pad 1 (original configuration)" },
+      { "date": "2025-10-13", "event": "Despliegue exitoso de 8 simuladores de satélites Starlink", "event_en": "Successful deployment of 8 Starlink satellite simulators" },
+      { "date": "2025-10-13", "event": "Prueba de estrés del escudo térmico (eliminación intencionada de losetas)", "event_en": "Heatshield stress test (intentional tile removal)" },
+      { "date": "2025-10-13", "event": "Amerizaje suave y controlado de ambas etapas", "event_en": "Soft and controlled splashdown of both stages" }
+    ],
+    "specs": {
+      "engines_booster": 33,
+      "engine_type": "Raptor 2",
+      "liftoff_thrust_tf": 7700,
+      "max_altitude_km": 150,
+      "flight_duration_s": 4000,
+      "stage_separation": true
+    },
+    "date": "2025-10-13",
+    "image": "/inventory_images/lanzamientos/ift-11.png",
+    "rutainformacion": "lanzamientos/ift-11",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

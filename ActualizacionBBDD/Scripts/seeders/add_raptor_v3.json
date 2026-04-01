@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "raptor-v3",
+    "title": "Raptor 3",
+    "title_en": "Raptor 3",
+    "excerpt": "La evolución definitiva del motor Raptor, caracterizada por una integración extrema y la eliminación de casi toda la fontanería externa. El Raptor 3 alcanza un empuje sin precedentes de 280 tf y una presión de cámara de 350 bar. Su diseño 'limpio' elimina la necesidad de escudos térmicos externos y reduce la complejidad de fabricación, siendo el motor destinado a las versiones maduras de Starship y Super Heavy.",
+    "excerpt_en": "The ultimate evolution of the Raptor engine, characterized by extreme integration and the elimination of almost all external plumbing. Raptor 3 achieves an unprecedented 280 tf of thrust and 350 bar chamber pressure. Its 'clean' design removes the need for external heat shields and reduces manufacturing complexity, being the engine destined for mature versions of Starship and Super Heavy.",
+    "category": "Raptor",
+    "category_en": "Raptor",
+    "serial_number": "R3",
+    "block": "Block 3",
+    "version": "Raptor 3",
+    "state": "en_desarrollo",
+    "state_en": "in_development",
+    "location": "McGregor, Texas",
+    "location_en": "McGregor, Texas",
+    "datestartfabrication": "2024-01-01",
+    "datesfinishfabrication": null,
+    "specs": {
+      "thrust_sea_level_tf": 280,
+      "thrust_sea_level_kN": 2745,
+      "isp_sea_level_s": 330,
+      "isp_vacuum_s": 355,
+      "chamber_pressure_bar": 350,
+      "chamber_pressure_bar_max_test": 360,
+      "mass_engine_kg": 1525,
+      "fuel": "CH₄ (metano líquido)",
+      "oxidizer": "LOX (oxígeno líquido)",
+      "cycle": "Full-flow staged combustion (FFSC)",
+      "throttle_range_pct": "40–100"
+    },
+    "milestones": [
+      { "date": "2024-05-13", "event": "Elon Musk comparte las primeras imágenes del Raptor 3, destacando su diseño extremadamente integrado y 'limpio'", "event_en": "Elon Musk shares first images of Raptor 3, highlighting its extremely integrated and 'clean' design" },
+      { "date": "2024-08-03", "event": "SpaceX publica gráficos oficiales que confirman un empuje de 280 tf y una presión de 350 bar", "event_en": "SpaceX publishes official charts confirming 280 tf thrust and 350 bar pressure" },
+      { "date": "2024-10-01", "event": "Pruebas intensivas de encendido en McGregor confirman la estabilidad del ciclo FFSC a altas presiones", "event_en": "Intensive firing tests at McGregor confirm FFSC cycle stability at high pressures" }
+    ],
+    "date": "2024-05-13",
+    "image": "/inventory_images/raptor/raptor-v3.png",
+    "rutainformacion": "raptor/raptor-v3",
+    "covered": false,
+    "featured": false,
+    "tags": ["V3", "Block 3", "Integración"],
+    "tags_en": ["V3", "Block 3", "Integration"],
+    "show": true
+  }
+]

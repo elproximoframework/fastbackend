@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "raptor-v1",
+    "title": "Raptor 1",
+    "title_en": "Raptor 1",
+    "excerpt": "Primera versión de vuelo del motor Raptor de SpaceX. Con 185 tf de empuje y un ciclo de combustión escalonado de flujo completo, el Raptor 1 fue el motor que llevó los primeros Starship al cielo, desde los saltos de SN5/SN6 hasta el histórico aterrizaje de SN15. Conocido por su compleja fontanería exterior ('árbol de Navidad'), fue la base sobre la que SpaceX construyó las versiones Raptor 2 y Raptor 3.",
+    "excerpt_en": "First flight version of SpaceX's Raptor engine. With 185 tf of thrust and a full-flow staged combustion cycle, Raptor 1 was the engine that took the first Starships to the sky — from the SN5/SN6 hops to the historic SN15 landing. Known for its complex external plumbing ('Christmas tree'), it was the foundation on which SpaceX built Raptor 2 and Raptor 3.",
+    "category": "Raptor",
+    "category_en": "Raptor",
+    "serial_number": "R1",
+    "block": "Block 1",
+    "version": "Raptor 1",
+    "state": "retirado",
+    "state_en": "retired",
+    "location": "McGregor, Texas",
+    "location_en": "McGregor, Texas",
+    "datestartfabrication": "2017-09-01",
+    "datesfinishfabrication": "2022-12-01",
+    "specs": {
+      "thrust_sea_level_tf": 185,
+      "thrust_sea_level_kN": 1813,
+      "isp_sea_level_s": 330,
+      "isp_vacuum_s": 363,
+      "chamber_pressure_bar": 250,
+      "chamber_pressure_bar_max_test": 300,
+      "mass_engine_kg": 2080,
+      "fuel": "CH₄ (metano líquido)",
+      "oxidizer": "LOX (oxígeno líquido)",
+      "cycle": "Full-flow staged combustion (FFSC)",
+      "throttle_range_pct": "40–100"
+    },
+    "milestones": [
+      { "date": "2017-09-26", "event": "Primer encendido de un Raptor (versión de desarrollo) en McGregor, Texas", "event_en": "First ignition of a Raptor engine (development version) at McGregor, Texas" },
+      { "date": "2019-02-03", "event": "Raptor SN1 completa el primer encendido completo con las especificaciones objetivo", "event_en": "Raptor SN1 completes first full-duration ignition at target specifications" },
+      { "date": "2020-08-04", "event": "SN5 realiza el primer salto de 150 m con un motor Raptor 1", "event_en": "SN5 performs the first 150m hop with a single Raptor 1 engine" },
+      { "date": "2020-09-03", "event": "SN6 repite el salto de 150 m con motor Raptor 1", "event_en": "SN6 repeats 150m hop with Raptor 1 engine" },
+      { "date": "2020-12-09", "event": "SN8 lleva a cabo el primer vuelo de altitude (12,5 km) con 3 motores Raptor 1; primer belly flop; aterriza con fuerza", "event_en": "SN8 performs first high-altitude flight (12.5 km) with 3 Raptor 1 engines; first belly flop; hard landing" },
+      { "date": "2021-05-05", "event": "SN15 aterriza con éxito — primer aterrizaje exitoso de Starship con motores Raptor 1", "event_en": "SN15 successfully lands — first successful Starship landing with Raptor 1 engines" },
+      { "date": "2022-02-01", "event": "SpaceX anuncia Raptor 2 como sucesor con mayor empuje y menor masa; Raptor 1 entra en retirada progresiva", "event_en": "SpaceX announces Raptor 2 as successor with higher thrust and lower mass; Raptor 1 enters phased retirement" }
+    ],
+    "date": "2017-09-26",
+    "image": "/inventory_images/raptor/raptor-v1.png",
+    "rutainformacion": "raptor/raptor-v1",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "ift-3",
+    "title": "IFT-3",
+    "title_en": "IFT-3",
+    "excerpt": "Tercer vuelo de prueba integrado. Booster 10 y Ship 28. Se lograron hitos críticos como la apertura de la puerta de carga, transferencia de propelente en órbita y reentrada atmosférica filmada por Starlink.",
+    "excerpt_en": "Third integrated flight test. Booster 10 and Ship 28. Achieved critical milestones including payload door operation, in-orbit propellant transfer, and atmospheric reentry captured via Starlink.",
+    "category": "Lanzamientos",
+    "category_en": "Launches",
+    "serial_number": "IFT-3",
+    "block": "Block 1",
+    "version": "Block 1",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "location": "Starbase",
+    "location_en": "Starbase",
+    "datelaunch": "2024-03-14",
+    "resultlaunch": "Éxito",
+    "resultlaunch_en": "Success",
+    "flight_data": {
+      "ift_number": 3,
+      "booster": "B10",
+      "ship": "S28",
+      "result_booster": "RUD a ~462m sobre el mar tras perder el control en el descenso",
+      "result_booster_en": "RUD at ~462m above sea level after losing control during descent",
+      "result_ship": "RUD durante la reentrada a ~65km de altitud",
+      "result_ship_en": "RUD during reentry at ~65km altitude",
+      "overall_result": "Éxito (Hitos de carga y propelente alcanzados)",
+      "overall_result_en": "Success (Payload and propellant milestones achieved)"
+    },
+    "milestones": [
+      { "date": "2024-03-14", "event": "Despegue nominal con los 33 motores Raptor", "event_en": "Nominal liftoff with all 33 Raptor engines" },
+      { "date": "2024-03-14", "event": "Separación Hot Staging exitosa", "event_en": "Successful Hot Staging separation" },
+      { "date": "2024-03-14", "event": "Primera apertura y cierre de la puerta de carga (Pez) en el espacio", "event_en": "First opening and closing of payload door (Pez) in space" },
+      { "date": "2024-03-14", "event": "Demostración exitosa de transferencia de propelente criogénico", "event_en": "Successful demonstration of cryogenic propellant transfer" },
+      { "date": "2024-03-14", "event": "Reentrada atmosférica visualizada en tiempo real mediante Starlink", "event_en": "Atmospheric reentry visualized in real-time via Starlink" }
+    ],
+    "specs": {
+      "engines_booster": 33,
+      "engine_type": "Raptor 2",
+      "liftoff_thrust_tf": 7600,
+      "max_altitude_km": 234,
+      "flight_duration_s": 2940,
+      "stage_separation": true
+    },
+    "date": "2024-03-14",
+    "image": "/inventory_images/lanzamientos/ift-3.png",
+    "rutainformacion": "lanzamientos/ift-3",
+    "covered": false,
+    "featured": false,
+    "tags": [],
+    "tags_en": [],
+    "show": true
+  }
+]
