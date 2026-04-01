@@ -1,0 +1,21 @@
+{
+  "title": "SpaceX adquiere xAI y un centro de terapia de protones",
+  "title_en": "SpaceX Acquires xAI and a Proton Therapy Center",
+  "excerpt": "Integración total de xAI para navegación autónoma y adquisición de un centro de protones para investigación de radiación profunda. Un paso más hacia Marte.",
+  "excerpt_en": "Full integration of xAI for autonomous navigation and acquisition of a proton center for deep radiation research. One step further towards Mars.",
+  "category": "Starship",
+  "category_en": "Starship",
+  "location": "Otros",
+  "location_en": "Other",
+  "date": "2026-03-05",
+  "slug": "260305-adquisicion-xai-centro-protones",
+  "rutanoticia": "/api/v1/newsspacex_content/260305_xai_proton_acquisition.md",
+  "image": "xai_proton_acquisition.png",
+  "tags": ["SpaceX", "xAI", "IA", "Radiación", "Marte"],
+  "tags_en": ["SpaceX", "xAI", "AI", "Radiation", "Mars"],
+  "featured": true,
+  "covered": true,
+  "linkyoutube": "https://youtu.be/dGWTFVGcxyM",
+  "timestart": 765,
+  "show": true
+}

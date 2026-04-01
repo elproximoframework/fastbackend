@@ -1,0 +1,21 @@
+{
+  "title": "Reciclaje extremo de prototipos: SpaceX abraza la economía circular",
+  "title_en": "Extreme Prototype Recycling: SpaceX Embraces Circular Economy",
+  "excerpt": "SpaceX acelera su estrategia 'Moon First' reutilizando componentes de S29 y S30. El acero inoxidable de los prototipos retirados se transforma en infraestructura para Starbase.",
+  "excerpt_en": "SpaceX accelerates its 'Moon First' strategy by reusing S29 and S30 components. Stainless steel from retired prototypes is transformed into Starbase infrastructure.",
+  "category": "Starship",
+  "category_en": "Starship",
+  "location": "Starbase",
+  "location_en": "Starbase",
+  "date": "2026-02-22",
+  "slug": "260222-reciclaje-extremo-prototipos",
+  "rutanoticia": "/api/v1/newsspacex_content/260222_prototype_recycling.md",
+  "image": "prototype_recycling.png",
+  "tags": ["SpaceX", "Reciclaje", "Sostenibilidad", "Moon First"],
+  "tags_en": ["SpaceX", "Recycling", "Sustainability", "Moon First"],
+  "featured": true,
+  "covered": true,
+  "linkyoutube": "https://youtu.be/dGWTFVGcxyM",
+  "timestart": 435,
+  "show": true
+}

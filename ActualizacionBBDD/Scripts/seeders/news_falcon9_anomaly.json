@@ -1,0 +1,21 @@
+{
+  "title": "Anomalía en la segunda etapa del Falcon 9: Pérdida de la misión Starlink v3.2",
+  "title_en": "Falcon 9 Second Stage Anomaly: Loss of Starlink v3.2 Mission",
+  "excerpt": "SpaceX informa una fuga de oxígeno líquido durante el Vuelo 31. Los 20 satélites Starlink se perdieron tras un reingreso atmosférico prematuro.",
+  "excerpt_en": "SpaceX reports a liquid oxygen leak during Flight 31. All 20 Starlink satellites were lost following a premature atmospheric reentry.",
+  "category": "Otros",
+  "category_en": "Other",
+  "location": "Otros",
+  "location_en": "Other",
+  "date": "2026-02-28",
+  "slug": "260228-anomalia-falcon-9-vuelo-31",
+  "rutanoticia": "/api/v1/newsspacex_content/260228_falcon9_anomaly_v31.md",
+  "image": "falcon9_anomaly_v31.png",
+  "tags": ["SpaceX", "Falcon 9", "Anomalía", "Starlink"],
+  "tags_en": ["SpaceX", "Falcon 9", "Anomaly", "Starlink"],
+  "featured": true,
+  "covered": true,
+  "linkyoutube": "https://youtu.be/dGWTFVGcxyM",
+  "timestart": 670,
+  "show": true
+}

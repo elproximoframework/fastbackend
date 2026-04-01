@@ -1,0 +1,21 @@
+{
+  "title": "Booster 19 supera con éxito las pruebas criogénicas en Massey's",
+  "title_en": "Booster 19 Successfully Completes Cryogenic Testing at Massey's",
+  "excerpt": "SpaceX valida la arquitectura Starship V3 con el éxito del Booster 19 en la campaña de pruebas de Massey's. El vehículo soportó 4 rondas de carga criogénica y simulaciones de empuje estructural.",
+  "excerpt_en": "SpaceX validates the Starship V3 architecture with Booster 19's success in the Massey's testing campaign. The vehicle endured 4 rounds of cryogenic loading and structural thrust simulations.",
+  "category": "Starship",
+  "category_en": "Starship",
+  "location": "Starbase",
+  "location_en": "Starbase",
+  "date": "2026-04-01",
+  "slug": "booster-19-exito-pruebas-criogenicas",
+  "rutanoticia": "/api/v1/newsspacex_content/260401_booster19_success.md",
+  "image": "booster19_cryo.png",
+  "tags": ["Starship", "Booster 19", "SpaceX", "V3"],
+  "tags_en": ["Starship", "Booster 19", "SpaceX", "V3"],
+  "featured": true,
+  "covered": true,
+  "linkyoutube": "https://youtu.be/dGWTFVGcxyM",
+  "timestart": 73,
+  "show": true
+}

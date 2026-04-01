@@ -1,0 +1,21 @@
+{
+  "title": "Prueba masiva del sistema de diluvio en la Plataforma 2",
+  "title_en": "Massive Deluge System Test at Orbital Launch Pad 2",
+  "excerpt": "SpaceX valida la infraestructura del Pad 2 con una prueba de diluvio a escala real, preparando la base para los 33 motores Raptor 3 del Super Heavy.",
+  "excerpt_en": "SpaceX validates Pad 2 infrastructure with a full-scale deluge test, paving the way for the 33 Raptor 3 engines of the Super Heavy booster.",
+  "category": "Starship",
+  "category_en": "Starship",
+  "location": "Starbase",
+  "location_en": "Starbase",
+  "date": "2026-02-21",
+  "slug": "prueba-masiva-sistema-diluvio-pad-2",
+  "rutanoticia": "/api/v1/newsspacex_content/260221_deluge_test_pad2.md",
+  "image": "deluge_test_pad2.png",
+  "tags": ["Starship", "Starbase", "SpaceX", "Deluge System", "Raptor 3"],
+  "tags_en": ["Starship", "Starbase", "SpaceX", "Deluge System", "Raptor 3"],
+  "featured": true,
+  "covered": true,
+  "linkyoutube": "https://youtu.be/BQ_cwZGQcfE",
+  "timestart": 69,
+  "show": true
+}

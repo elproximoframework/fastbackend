@@ -1,0 +1,21 @@
+{
+  "title": "SpaceX adquiere la división aeroespacial de Hexagon Purus",
+  "title_en": "SpaceX Acquires Hexagon Purus Aerospace Division",
+  "excerpt": "SpaceX refuerza su integración vertical con la compra de Hexagon Masterworks por 15 millones de dólares. La adquisición asegura el suministro de tanques COPV críticos para Starship.",
+  "excerpt_en": "SpaceX strengthens vertical integration with the $15 million purchase of Hexagon Masterworks. The acquisition secures the supply of critical COPV tanks for Starship.",
+  "category": "Starship",
+  "category_en": "Starship",
+  "location": "Starbase",
+  "location_en": "Starbase",
+  "date": "2026-02-25",
+  "slug": "260225-compra-hexagon-purus-copv",
+  "rutanoticia": "/api/v1/newsspacex_content/260225_hexagon_purus_acquisition.md",
+  "image": "hexagon_purus_acquisition.png",
+  "tags": ["SpaceX", "Adquisición", "Tecnología", "COPV"],
+  "tags_en": ["SpaceX", "Acquisition", "Technology", "COPV"],
+  "featured": true,
+  "covered": true,
+  "linkyoutube": "https://youtu.be/dGWTFVGcxyM",
+  "timestart": 560,
+  "show": true
+}

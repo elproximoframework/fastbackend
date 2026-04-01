@@ -1,0 +1,21 @@
+{
+  "title": "Nuevos diseños en las naves Ship 40 y 41: Rumbo a la arquitectura V3",
+  "title_en": "New Designs for Ship 40 and 41: Heading to V3 Architecture",
+  "excerpt": "SpaceX revoluciona el diseño de Starship con Ship 40 y 41. Las aletas delanteras se han relocalizado para mejorar la reentrada y la sección de carga útil ha sido optimizada para misiones operacionales.",
+  "excerpt_en": "SpaceX revolutionizes Starship design with Ship 40 and 41. Forward flaps have been relocated for better reentry, and the payload section has been optimized for operational missions.",
+  "category": "Starship",
+  "category_en": "Starship",
+  "location": "Starbase",
+  "location_en": "Starbase",
+  "date": "2026-02-18",
+  "slug": "260218-nuevos-disenos-ship-40-41",
+  "rutanoticia": "/api/v1/newsspacex_content/260218_ship40_41_designs.md",
+  "image": "ship40_41_designs.png",
+  "tags": ["SpaceX", "Starship", "V3", "Aeroespacial"],
+  "tags_en": ["SpaceX", "Starship", "V3", "Aerospace"],
+  "featured": true,
+  "covered": true,
+  "linkyoutube": "https://youtu.be/dGWTFVGcxyM",
+  "timestart": 330,
+  "show": true
+}

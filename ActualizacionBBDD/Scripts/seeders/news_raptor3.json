@@ -1,0 +1,21 @@
+{
+  "title": "Producción masiva del motor Raptor 3 revoluciona la fabricación",
+  "title_en": "Raptor 3 Mass Production Revolutionizes Manufacturing",
+  "excerpt": "SpaceX alcanza la producción industrial del Raptor 3 con unidades SN100+. El nuevo diseño 'pipeless' elimina el 75% de las piezas externas y aumenta el empuje a 280 toneladas.",
+  "excerpt_en": "SpaceX achieves industrial production of Raptor 3 with SN100+ units. The new 'pipeless' design eliminates 75% of external parts and increases thrust to 280 tons.",
+  "category": "Starship",
+  "category_en": "Starship",
+  "location": "Starbase",
+  "location_en": "Starbase",
+  "date": "2026-02-14",
+  "slug": "260214-produccion-masiva-raptor-3",
+  "rutanoticia": "/api/v1/newsspacex_content/260214_raptor3_production.md",
+  "image": "raptor3_production.png",
+  "tags": ["SpaceX", "Raptor 3", "Starship", "Propulsión"],
+  "tags_en": ["SpaceX", "Raptor 3", "Starship", "Propulsion"],
+  "featured": true,
+  "covered": true,
+  "linkyoutube": "https://youtu.be/dGWTFVGcxyM",
+  "timestart": 225,
+  "show": true
+}

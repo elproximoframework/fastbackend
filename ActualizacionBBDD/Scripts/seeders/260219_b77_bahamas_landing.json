@@ -1,0 +1,21 @@
+{
+  "title": "Aterrizaje del propulsor B77 en Bahamas",
+  "title_en": "Falcon 9 B1077 Landing in the Bahamas",
+  "excerpt": "SpaceX completa con éxito la 26ª misión del propulsor B1077 con un aterrizaje vertical en la barcaza 'Just Read the Instructions' en Exuma Sound.",
+  "excerpt_en": "SpaceX successfully completes the 26th mission of booster B1077 with a vertical landing on the 'Just Read the Instructions' droneship in Exuma Sound.",
+  "category": "Falcon 9",
+  "category_en": "Falcon 9",
+  "location": "Otros",
+  "location_en": "Others",
+  "date": "2026-02-19",
+  "slug": "aterrizaje-propulsor-b77-bahamas",
+  "rutanoticia": "/api/v1/newsspacex_content/260219_b77_bahamas_landing.md",
+  "image": "b77_bahamas_landing.png",
+  "tags": ["Falcon 9", "SpaceX", "B1077", "Bahamas", "Starlink"],
+  "tags_en": ["Falcon 9", "SpaceX", "B1077", "Bahamas", "Starlink"],
+  "featured": true,
+  "covered": true,
+  "linkyoutube": "https://youtu.be/BQ_cwZGQcfE",
+  "timestart": 836,
+  "show": true
+}
