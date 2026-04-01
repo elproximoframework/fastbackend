@@ -20,7 +20,10 @@ app = FastAPI(
 # Enable CORS for the frontend to communicate with this backend
 origins = [
     "https://elproximoframework.com",
+    "https://elproximoframework.com/",
     "https://www.elproximoframework.com",
+    "https://www.elproximoframework.com/",
+    "https://web-production-9239b.up.railway.app",
     "http://localhost",
     "http://localhost:5173",
     "http://localhost:5173/",
