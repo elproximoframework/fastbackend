@@ -1,0 +1,246 @@
+[
+  {
+    "slug": "starship-sn31",
+    "title": "Starship Ship 31 (SN31)",
+    "title_en": "Starship Ship 31 (SN31)",
+    "excerpt": "Hito final de la serie Block 1. Durante el vuelo IFT-6, realizó con éxito el primer re-encendido de un motor Raptor en el espacio, validando la capacidad de desorbitación.",
+    "excerpt_en": "The final milestone of the Block 1 series. During flight IFT-6, it successfully performed the first in-space Raptor engine relight, validating deorbit capability.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship IFT-6 (Final Block 1)",
+    "serial_number": "S31",
+    "block": "Block 1",
+    "datestartfabrication": "2023-01",
+    "datesfinishfabrication": "2024-10",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2024-11-19",
+    "resultlaunch": "Éxito (Relight completado)",
+    "resultlaunch_en": "Success (Relight completed)",
+    "covered": false,
+    "featured": true,
+    "date": "2024-11-19",
+    "image": "/inventory_images/starship/starship-sn31.png",
+    "rutainformacion": "starship/starship-sn31",
+    "timestart": "14:00:00",
+    "linkyoutube": "https://www.youtube.com/watch?v=FqSPh9YvC-U",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2 (3 SL + 3 Vac)",
+      "material": "Acero inoxidable 304L con TPS optimizado"
+    },
+    "flight_data": {
+      "booster": "B13",
+      "ift_number": 6,
+      "overall_result": "Éxito: Validación de relight en el espacio y amerizaje en el Índico",
+      "overall_result_en": "Success: Validation of in-space relight and splashdown in the Indian Ocean"
+    },
+    "milestones": [
+      {
+        "date": "2024-11-19",
+        "event": "Primer re-encendido de un motor Raptor en el vacío del espacio",
+        "event_en": "First relight of a Raptor engine in the vacuum of space"
+      },
+      {
+        "date": "2024-11-19",
+        "event": "Amerizaje suave diurno en el océano Índico",
+        "event_en": "Daylight soft splashdown in the Indian Ocean"
+      }
+    ],
+    "tags": ["Ship 31", "IFT-6", "Raptor Relight", "Starbase", "Success", "2024"],
+    "tags_en": ["Ship 31", "IFT-6", "Raptor Relight", "Starbase", "Success", "2024"]
+  },
+  {
+    "slug": "starship-sn32",
+    "title": "Starship Ship 32 (SN32)",
+    "title_en": "Starship Ship 32 (SN32)",
+    "excerpt": "Última unidad fabricada de la arquitectura original V1. Fue desguazada y sus componentes se utilizaron para acelerar la producción de la nueva serie V2 (Block 2).",
+    "excerpt_en": "Final unit manufactured under the original V1 architecture. It was scrapped, and its components were reused to accelerate the production of the new V2 series (Block 2).",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship V1 (Unflown)",
+    "serial_number": "S32",
+    "block": "Block 1",
+    "datestartfabrication": "2023-05",
+    "datesfinishfabrication": null,
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": null,
+    "resultlaunch_en": null,
+    "covered": false,
+    "featured": false,
+    "date": "2025-01-15",
+    "image": "/inventory_images/starship/starship-sn32.png",
+    "rutainformacion": "starship/starship-sn32",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2"
+    },
+    "milestones": [
+      {
+        "date": "2025-01-15",
+        "event": "Desguace oficial para priorizar la serie V2",
+        "event_en": "Official scrapping to prioritize the V2 series"
+      }
+    ],
+    "tags": ["Ship 32", "V1", "Scrapped", "Starbase", "2025"],
+    "tags_en": ["Ship 32", "V1", "Scrapped", "Starbase", "2025"]
+  },
+  {
+    "slug": "starship-sn33",
+    "title": "Starship Ship 33 (SN33)",
+    "title_en": "Starship Ship 33 (SN33)",
+    "excerpt": "Primer prototipo de la arquitectura Starship V2 (Block 2). Introdujo tanques de combustible extendidos y mejoras aerodinámicas significativas. Voló en el histórico IFT-7.",
+    "excerpt_en": "First prototype of the Starship V2 architecture (Block 2). It introduced extended fuel tanks and significant aerodynamic improvements. Flew in the historic IFT-7.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship V2 (Block 2)",
+    "serial_number": "S33",
+    "block": "Block 2",
+    "datestartfabrication": "2024-03",
+    "datesfinishfabrication": "2024-12",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2025-02-12",
+    "resultlaunch": "Éxito parcial (Fallo en propulsión)",
+    "resultlaunch_en": "Partial Success (Propulsion failure)",
+    "covered": false,
+    "featured": true,
+    "date": "2025-02-12",
+    "image": "/inventory_images/starship/starship-sn33.png",
+    "rutainformacion": "starship/starship-sn33",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 52,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2+ / Raptor 3 Ready",
+      "material": "Acero inoxidable con tanques extendidos"
+    },
+    "flight_data": {
+      "booster": "B14",
+      "ift_number": 7,
+      "overall_result": "Fallo durante el ascenso debido a una respuesta armónica en la sección de popa",
+      "overall_result_en": "Failure during ascent due to harmonic response in the aft section"
+    },
+    "milestones": [
+      {
+        "date": "2025-02-12",
+        "event": "Primer lanzamiento de un prototipo V2 (Block 2)",
+        "event_en": "First launch of a V2 (Block 2) prototype"
+      }
+    ],
+    "tags": ["Ship 33", "V2", "Block 2", "IFT-7", "Starbase", "2025"],
+    "tags_en": ["Ship 33", "V2", "Block 2", "IFT-7", "Starbase", "2025"]
+  },
+  {
+    "slug": "starship-sn34",
+    "title": "Starship Ship 34 (SN34)",
+    "title_en": "Starship Ship 34 (SN34)",
+    "excerpt": "Prototipo de la serie V2 que participó en el vuelo IFT-8. Logró una trayectoria exitosa hasta que un incendio en el compartimiento de motores causó la pérdida del vehículo.",
+    "excerpt_en": "V2 series prototype that participated in flight IFT-8. It achieved a successful trajectory until a fire in the engine compartment caused the loss of the vehicle.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship V2 (Block 2)",
+    "serial_number": "S34",
+    "block": "Block 2",
+    "datestartfabrication": "2024-06",
+    "datesfinishfabrication": "2025-01",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2025-03-28",
+    "resultlaunch": "Fallo en motores",
+    "resultlaunch_en": "Engine Failure",
+    "covered": false,
+    "featured": true,
+    "date": "2025-03-28",
+    "image": "/inventory_images/starship/starship-sn34.png",
+    "rutainformacion": "starship/starship-sn34",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 52,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2+"
+    },
+    "flight_data": {
+      "booster": "B15",
+      "ift_number": 8,
+      "overall_result": "Pérdida durante el ascenso por incendio en el compartimento de motores",
+      "overall_result_en": "Loss during ascent due to fire in the engine compartment"
+    },
+    "tags": ["Ship 34", "V2", "Block 2", "IFT-8", "Starbase", "2025"],
+    "tags_en": ["Ship 34", "V2", "Block 2", "IFT-8", "Starbase", "2025"]
+  },
+  {
+    "slug": "starship-sn35",
+    "title": "Starship Ship 35 (SN35)",
+    "title_en": "Starship Ship 35 (SN35)",
+    "excerpt": "Tercera nave de la serie V2 en volar. Alcanzó la fase de costa orbital con éxito total, pero se perdió durante la reentrada debido a un fallo en el difusor de presurización de metano.",
+    "excerpt_en": "Third V2 series ship to fly. It reached the orbital coast phase with total success but was lost during reentry due to a failure in the methane pressurization diffuser.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship V2 (Block 2)",
+    "serial_number": "S35",
+    "block": "Block 2",
+    "datestartfabrication": "2024-09",
+    "datesfinishfabrication": "2025-04",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2025-05-15",
+    "resultlaunch": "Éxito parcial (Pérdida en reentrada)",
+    "resultlaunch_en": "Partial Success (Reentry loss)",
+    "covered": false,
+    "featured": true,
+    "date": "2025-05-15",
+    "image": "/inventory_images/starship/starship-sn35.png",
+    "rutainformacion": "starship/starship-sn35",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 52,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2+"
+    },
+    "flight_data": {
+      "booster": "B16",
+      "ift_number": 9,
+      "overall_result": "Fallo en reentrada debido a fuga en el domo delantero",
+      "overall_result_en": "Reentry failure due to leak in the forward dome"
+    },
+    "milestones": [
+      {
+        "date": "2025-05-15",
+        "event": "Completada con éxito la fase de costa orbital",
+        "event_en": "Successfully completed orbital coast phase"
+      }
+    ],
+    "tags": ["Ship 35", "V2", "Block 2", "IFT-9", "Starbase", "2025"],
+    "tags_en": ["Ship 35", "V2", "Block 2", "IFT-9", "Starbase", "2025"]
+  }
+]

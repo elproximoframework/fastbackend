@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "starship-sn8",
+    "title": "Starship SN8",
+    "title_en": "Starship SN8",
+    "excerpt": "Primer prototipo de Starship con configuración completa (morro y flaps). Realizó el primer vuelo de gran altitud (12.5km) y la icónica maniobra 'belly flop'.",
+    "excerpt_en": "First Starship prototype with full configuration (nosecone and flaps). It performed the first high-altitude flight (12.5km) and the iconic 'belly flop' maneuver.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN8",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-07",
+    "datesfinishfabrication": "2020-12",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2020-12-09",
+    "resultlaunch": "Éxito parcial (RUD en aterrizaje)",
+    "resultlaunch_en": "Partial Success (RUD at landing)",
+    "covered": false,
+    "featured": true,
+    "date": "2020-12-09",
+    "image": "/inventory_images/starship/starship-sn8.png",
+    "rutainformacion": "starship/starship-sn8",
+    "timestart": null,
+    "linkyoutube": "https://www.youtube.com/watch?v=ap-BkkrRg-o",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor SL",
+      "material": "Acero inoxidable 304L",
+      "flaps": "4 (2 superiores, 2 inferiores)"
+    },
+    "flight_data": {
+      "altitude_km": 12.5,
+      "raptor_count": 3,
+      "maneuver": "Belly-flop and landing flip",
+      "landing": "RUD por baja presión en el header tank de combustible"
+    },
+    "milestones": [
+      {
+        "date": "2020-10-20",
+        "event": "Primer encendido estático con 3 motores Raptor",
+        "event_en": "First static fire with 3 Raptor engines"
+      },
+      {
+        "date": "2020-12-09",
+        "event": "Vuelo histórico de 12.5 km y maniobra belly-flop exitosa",
+        "event_en": "Historic 12.5 km flight and successful belly-flop maneuver"
+      },
+      {
+        "date": "2020-12-09",
+        "event": "Impacto a alta velocidad en el aterrizaje (RUD)",
+        "event_en": "High-velocity impact at landing (RUD)"
+      }
+    ],
+    "tags": ["Prototipo", "SN8", "Belly Flop", "Boca Chica", "High Altitude", "2020"],
+    "tags_en": ["Prototype", "SN8", "Belly Flop", "Boca Chica", "High Altitude", "2020"]
+  }
+]

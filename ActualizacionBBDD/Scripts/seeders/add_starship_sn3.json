@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "starship-sn3",
+    "title": "Starship SN3",
+    "title_en": "Starship SN3",
+    "excerpt": "Prototipo de prueba diseñado para validación estática y vuelos de baja altitud. Fue destruido el 3 de abril de 2020 debido a un error de configuración en la prueba criogénica que causó el colapso del tanque inferior.",
+    "excerpt_en": "Test prototype designed for static validation and low-altitude flights. It was destroyed on April 3, 2020 due to a configuration error during cryogenic testing that caused the lower tank to collapse.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN3",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-03",
+    "datesfinishfabrication": "2020-04",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": null,
+    "resultlaunch": "Error de prueba (Colapso)",
+    "resultlaunch_en": "Test Error (Collapse)",
+    "covered": false,
+    "featured": false,
+    "date": "2020-04-03",
+    "image": "/inventory_images/starship/starship-sn3.png",
+    "rutainformacion": "starship/starship-sn3",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor SL (previsto)",
+      "material": "Acero inoxidable 301X"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2020-03-29",
+        "event": "Traslado al banco de pruebas en Boca Chica",
+        "event_en": "Rollout to the test stand at Boca Chica"
+      },
+      {
+        "date": "2020-04-02",
+        "event": "Prueba de presión ambiental con nitrógeno (Éxito)",
+        "event_en": "Ambient pressure test with nitrogen (Success)"
+      },
+      {
+        "date": "2020-04-03",
+        "event": "Colapso estructural durante prueba criogénica por error de válvulas",
+        "event_en": "Structural collapse during cryogenic test due to valve error"
+      }
+    ],
+    "tags": ["Prototipo", "SN3", "Boca Chica", "Error de configuración", "2020"],
+    "tags_en": ["Prototype", "SN3", "Boca Chica", "Configuration Error", "2020"]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "starship-sn6",
+    "title": "Starship SN6",
+    "title_en": "Starship SN6",
+    "excerpt": "Segundo prototipo a escala real en realizar un salto de 150 metros. El 3 de septiembre de 2020 repitió el éxito del SN5, demostrando la repetibilidad del proceso de fabricación y vuelo.",
+    "excerpt_en": "Second full-scale prototype to perform a 150-meter hop. On September 3, 2020, it repeated SN5's success, demonstrating the repeatability of the manufacturing and flight process.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN6",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-05",
+    "datesfinishfabrication": "2020-09",
+    "state": "retirado",
+    "state_en": "retired",
+    "datelaunch": "2020-09-03",
+    "resultlaunch": "Éxito (Salto 150m)",
+    "resultlaunch_en": "Success (150m Hop)",
+    "covered": false,
+    "featured": false,
+    "date": "2020-09-03",
+    "image": "/inventory_images/starship/starship-sn6.png",
+    "rutainformacion": "starship/starship-sn6",
+    "timestart": null,
+    "linkyoutube": "https://www.youtube.com/watch?v=L99i8fT_mD0",
+    "show": true,
+    "specs": {
+      "height_m": 30,
+      "diameter_m": 9,
+      "engines": 1,
+      "engine_type": "Raptor SL",
+      "material": "Acero inoxidable 301X"
+    },
+    "flight_data": {
+      "altitude_m": 150,
+      "duration_s": 45,
+      "raptor_count": 1,
+      "landing": "Efectuado con éxito"
+    },
+    "milestones": [
+      {
+        "date": "2020-09-03",
+        "event": "Vuelo de 150 metros exitoso",
+        "event_en": "Successful 150-meter hop"
+      },
+      {
+        "date": "2021-01",
+        "event": "Vehículo desguazado tras cumplir su misión",
+        "event_en": "Vehicle scrapped after fulfilling its mission"
+      }
+    ],
+    "tags": ["Prototipo", "SN6", "150m Hop", "Boca Chica", "2020"],
+    "tags_en": ["Prototype", "SN6", "150m Hop", "Boca Chica", "2020"]
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "slug": "starship-sn21",
+    "title": "Starship Ship 21 (SN21)",
+    "title_en": "Starship Ship 21 (SN21)",
+    "excerpt": "Prototipo de la serie orbital cuya fabricación fue cancelada antes de completarse para priorizar versiones más avanzadas como el Ship 24. Sus secciones fueron desguazadas en Starbase.",
+    "excerpt_en": "Orbital series prototype whose fabrication was cancelled before completion to prioritize more advanced versions like Ship 24. Its sections were scrapped at Starbase.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship (Orbit-ready)",
+    "serial_number": "S21",
+    "block": "Block 1",
+    "datestartfabrication": "2021-06",
+    "datesfinishfabrication": null,
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": null,
+    "resultlaunch_en": null,
+    "covered": false,
+    "featured": false,
+    "date": "2022-01-01",
+    "image": "/inventory_images/starship/starship-sn21.png",
+    "rutainformacion": "starship/starship-sn21",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor (3 SL + 3 Vac)",
+      "material": "Acero inoxidable 304L"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2022-01-15",
+        "event": "Decisión de cancelar el ensamblaje para centrar recursos en Ship 24",
+        "event_en": "Decision to cancel assembly to focus resources on Ship 24"
+      }
+    ],
+    "tags": ["Ship 21", "Orbital", "Starbase", "2022"],
+    "tags_en": ["Ship 21", "Orbital", "Starbase", "2022"]
+  },
+  {
+    "slug": "starship-sn22",
+    "title": "Starship Ship 22 (SN22)",
+    "title_en": "Starship Ship 22 (SN22)",
+    "excerpt": "Prototipo orbital que llegó a ensamblarse parcialmente pero fue descartado tras la evolución del diseño hacia el Ship 24. Fue finalmente desguazado sin realizar pruebas de vuelo.",
+    "excerpt_en": "Orbital prototype that was partially assembled but discarded following design evolution toward Ship 24. It was eventually scrapped without performing flight tests.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship (Orbit-ready)",
+    "serial_number": "S22",
+    "block": "Block 1",
+    "datestartfabrication": "2021-08",
+    "datesfinishfabrication": null,
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": null,
+    "resultlaunch_en": null,
+    "covered": false,
+    "featured": false,
+    "date": "2022-02-01",
+    "image": "/inventory_images/starship/starship-sn22.png",
+    "rutainformacion": "starship/starship-sn22",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor (3 SL + 3 Vac)",
+      "material": "Acero inoxidable 304L"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2022-02-10",
+        "event": "Comienzo del desguace del prototipo",
+        "event_en": "Start of prototype scrapping"
+      }
+    ],
+    "tags": ["Ship 22", "Orbital", "Starbase", "2022"],
+    "tags_en": ["Ship 22", "Orbital", "Starbase", "2022"]
+  },
+  {
+    "slug": "starship-sn23",
+    "title": "Starship Ship 23 (SN23)",
+    "title_en": "Starship Ship 23 (SN23)",
+    "excerpt": "Iniciado en 2021, este prototipo fue cancelado para acelerar la preparación de la Ship 24 para IFT-1. Representó la última de las naves de transición antes de los primeros vuelos orbitales.",
+    "excerpt_en": "Started in 2021, this prototype was cancelled to accelerate the preparation of Ship 24 for IFT-1. It represented the last of the transition ships before the first orbital flights.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship (Orbit-ready)",
+    "serial_number": "S23",
+    "block": "Block 1",
+    "datestartfabrication": "2021-10",
+    "datesfinishfabrication": null,
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": null,
+    "resultlaunch_en": null,
+    "covered": false,
+    "featured": false,
+    "date": "2022-03-01",
+    "image": "/inventory_images/starship/starship-sn23.png",
+    "rutainformacion": "starship/starship-sn23",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor (3 SL + 3 Vac)",
+      "material": "Acero inoxidable 304L"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2022-03-15",
+        "event": "Suspensión definitiva de los trabajos en S23",
+        "event_en": "Definitive suspension of work on S23"
+      }
+    ],
+    "tags": ["Ship 23", "Orbital", "Starbase", "2022"],
+    "tags_en": ["Ship 23", "Orbital", "Starbase", "2022"]
+  },
+  {
+    "slug": "starship-sn24",
+    "title": "Starship Ship 24 (SN24)",
+    "title_en": "Starship Ship 24 (SN24)",
+    "excerpt": "Protagonista del histórico primer vuelo integral (IFT-1). Tras superar Max-Q, el vehículo perdió el control de actitud y no logró separarse del Booster 7, resultando en un RUD controlado vía AFTS.",
+    "excerpt_en": "Protagonist of the historic first Integrated Flight Test (IFT-1). After clearing Max-Q, the vehicle lost attitude control and failed to separate from Booster 7, resulting in a controlled RUD via AFTS.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship IFT-1",
+    "serial_number": "S24",
+    "block": "Block 1",
+    "datestartfabrication": "2021-11",
+    "datesfinishfabrication": "2022-05",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2023-04-20",
+    "resultlaunch": "Éxito parcial (Fallo en separación)",
+    "resultlaunch_en": "Partial Success (Separation failure)",
+    "covered": false,
+    "featured": true,
+    "date": "2023-04-20",
+    "image": "/inventory_images/starship/starship-sn24.png",
+    "rutainformacion": "starship/starship-sn24",
+    "timestart": "13:33:00",
+    "linkyoutube": "https://www.youtube.com/watch?v=-1wcilQ58hI",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2 (3 SL + 3 Vac)",
+      "material": "Acero inoxidable 304L con TPS completo"
+    },
+    "flight_data": {
+      "booster": "B7",
+      "ift_number": 1,
+      "overall_result": "Éxito parcial: Superó Max-Q, pero falló en la separación",
+      "overall_result_en": "Partial Success: Cleared Max-Q, but failed separation"
+    },
+    "milestones": [
+      {
+        "date": "2023-04-20",
+        "event": "Primer vuelo integral de la historia de Starship",
+        "event_en": "First historic Integrated Flight Test of Starship"
+      },
+      {
+        "date": "2022-09-08",
+        "event": "Primer Static Fire de 6 motores Raptor simultáneamente",
+        "event_en": "First Static Fire of all 6 Raptor engines simultaneously"
+      }
+    ],
+    "tags": ["Ship 24", "IFT-1", "SpaceX", "Starbase", "Orbital Test", "2023"],
+    "tags_en": ["Ship 24", "IFT-1", "SpaceX", "Starbase", "Orbital Test", "2023"]
+  },
+  {
+    "slug": "starship-sn25",
+    "title": "Starship Ship 25 (SN25)",
+    "title_en": "Starship Ship 25 (SN25)",
+    "excerpt": "Participó en el segundo vuelo integral (IFT-2), logrando realizar por primera vez la técnica de 'hot-staging'. Alcanzó el espacio antes de que el FTS se activara tras perder presión de combustible.",
+    "excerpt_en": "Participated in the second Integrated Flight Test (IFT-2), successfully demonstrating the 'hot-staging' technique for the first time. Reached space before FTS activation following fuel pressure loss.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship IFT-2",
+    "serial_number": "S25",
+    "block": "Block 1",
+    "datestartfabrication": "2022-01",
+    "datesfinishfabrication": "2022-10",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2023-11-18",
+    "resultlaunch": "Éxito (Hot-staging completado)",
+    "resultlaunch_en": "Success (Hot-staging completed)",
+    "covered": false,
+    "featured": true,
+    "date": "2023-11-18",
+    "image": "/inventory_images/starship/starship-sn25.png",
+    "rutainformacion": "starship/starship-sn25",
+    "timestart": "13:03:00",
+    "linkyoutube": "https://www.youtube.com/watch?v=6znLidZ9J5A",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2 (3 SL + 3 Vac)",
+      "material": "Acero inoxidable 304L con hot-staging ring"
+    },
+    "flight_data": {
+      "booster": "B9",
+      "ift_number": 2,
+      "overall_result": "Éxito: Hot-staging exitoso y alcanzó el espacio (149km)",
+      "overall_result_en": "Success: Hot-staging completed and reached space (149km)"
+    },
+    "milestones": [
+      {
+        "date": "2023-11-18",
+        "event": "Primer hot-staging exitoso y llegada al espacio (149km de altitud)",
+        "event_en": "First successful hot-staging and reaching space (149km altitude)"
+      },
+      {
+        "date": "2023-06-26",
+        "event": "Static Fire exitoso de 6 motores Raptor",
+        "event_en": "Successful 6-engine Raptor Static Fire"
+      }
+    ],
+    "tags": ["Ship 25", "IFT-2", "Hot-staging", "Starbase", "Success", "2023"],
+    "tags_en": ["Ship 25", "IFT-2", "Hot-staging", "Starbase", "Success", "2023"]
+  }
+]

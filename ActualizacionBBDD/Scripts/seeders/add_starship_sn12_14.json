@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "starship-sn12-14",
+    "title": "Starship SN12 / SN13 / SN14",
+    "title_en": "Starship SN12 / SN13 / SN14",
+    "excerpt": "Prototipos que fueron cancelados o desguazados antes de volar. SpaceX decidió saltar directamente al SN15 para implementar mejoras radicales en el diseño y los motores.",
+    "excerpt_en": "Prototypes that were cancelled or scrapped before flight. SpaceX decided to skip directly to SN15 to implement radical improvements in design and engines.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN (Cancelado)",
+    "serial_number": "SN12-14",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-11",
+    "datesfinishfabrication": "2021-03",
+    "state": "desguazado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": "Nunca voló",
+    "resultlaunch_en": "Never flown",
+    "covered": false,
+    "featured": false,
+    "date": "2021-03-01",
+    "image": "/inventory_images/starship/starship-sn12.png",
+    "rutainformacion": "starship/starship-sn12",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "note": "Diseños obsoletos por la llegada del SN15"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2021-03",
+        "event": "Decisión de cancelar SN12-14 para acelerar el desarrollo del SN15",
+        "event_en": "Decision to cancel SN12-14 to accelerate SN15 development"
+      }
+    ],
+    "tags": ["Prototipo", "Cancelado", "SN12", "SN13", "SN14", "Boca Chica"],
+    "tags_en": ["Prototype", "Cancelled", "SN12", "SN13", "SN14", "Boca Chica"]
+  }
+]

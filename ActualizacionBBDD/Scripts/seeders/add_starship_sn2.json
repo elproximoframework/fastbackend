@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "starship-sn2",
+    "title": "Starship SN2",
+    "title_en": "Starship SN2",
+    "excerpt": "Tanque de prueba a escala reducida diseñado para validar la integridad estructural del disco de empuje (thrust puck). Su éxito confirmó la solución al fallo del SN1 y permitió continuar el programa.",
+    "excerpt_en": "Scale-down test tank designed to validate the structural integrity of the thrust puck. Its success confirmed the solution to the SN1 failure and allowed the program to move forward.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Tanque de Prueba",
+    "serial_number": "SN2",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-03",
+    "datesfinishfabrication": "2020-03",
+    "state": "retirado",
+    "state_en": "retired",
+    "datelaunch": null,
+    "resultlaunch": "Éxito (Prueba de presión)",
+    "resultlaunch_en": "Success (Pressure test)",
+    "covered": false,
+    "featured": false,
+    "date": "2020-03-08",
+    "image": "/inventory_images/starship/starship-sn2.png",
+    "rutainformacion": "starship/starship-sn2",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 10,
+      "diameter_m": 9,
+      "test_pressure_bar": 8.5,
+      "material": "Acero inoxidable 301X"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2020-03-02",
+        "event": "Decisión de construir SN2 como tanque de prueba específico",
+        "event_en": "Decision to build SN2 as a dedicated test tank"
+      },
+      {
+        "date": "2020-03-08",
+        "event": "Prueba criogénica exitosa — el thrust puck soporta presiones de vuelo",
+        "event_en": "Successful cryogenic proof test — thrust puck handles flight pressures"
+      },
+      {
+        "date": "2020-03-10",
+        "event": "Retirado del banco de pruebas tras el éxito",
+        "event_en": "Retired from test stand following success"
+      }
+    ],
+    "tags": ["Prueba", "SN2", "Thrust Puck", "Boca Chica", "2020"],
+    "tags_en": ["Test", "SN2", "Thrust Puck", "Boca Chica", "2020"]
+  }
+]

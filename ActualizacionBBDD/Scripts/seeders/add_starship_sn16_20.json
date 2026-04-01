@@ -1,0 +1,247 @@
+[
+  {
+    "slug": "starship-sn16",
+    "title": "Starship SN16",
+    "title_en": "Starship SN16",
+    "excerpt": "Prototipo completado tras el éxito de la SN15. Sirvió como respaldo y nunca llegó a volar, siendo finalmente retirado al 'Rocket Garden' de Starbase y desguazado en 2022.",
+    "excerpt_en": "A prototype completed following the success of SN15. It served as a backup and never flew, eventually being retired to the Starbase 'Rocket Garden' and scrapped in 2022.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN16",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2021-01",
+    "datesfinishfabrication": "2021-05",
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": "No lanzado",
+    "resultlaunch_en": "Not launched",
+    "covered": false,
+    "featured": false,
+    "date": "2021-05-01",
+    "image": "/inventory_images/starship/starship-sn16.png",
+    "rutainformacion": "starship/starship-sn16",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor SL",
+      "material": "Acero inoxidable 304L"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2021-05-11",
+        "event": "Traslado a la zona de lanzamiento como respaldo de SN15",
+        "event_en": "Moved to the launch pad as a backup for SN15"
+      },
+      {
+        "date": "2021-06-17",
+        "event": "Traslado al Rocket Garden tras la decisión de no volar más prototipos suborbitales",
+        "event_en": "Moved to the Rocket Garden after the decision to stop suborbital prototype flights"
+      }
+    ],
+    "tags": ["Prototipo", "SN16", "Rocket Garden", "Starbase", "2021"],
+    "tags_en": ["Prototype", "SN16", "Rocket Garden", "Starbase", "2021"]
+  },
+  {
+    "slug": "starship-sn17",
+    "title": "Starship SN17",
+    "title_en": "Starship SN17",
+    "excerpt": "Prototipo parcialmente construido y cancelado tras el éxito del programa de pruebas suborbitales con SN15. Sus secciones fueron desguazadas para priorizar el desarrollo orbital.",
+    "excerpt_en": "Partially constructed prototype cancelled after the successful suborbital test program with SN15. Its sections were scrapped to prioritize orbital development.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN17",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2021-02",
+    "datesfinishfabrication": null,
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": null,
+    "resultlaunch_en": null,
+    "covered": false,
+    "featured": false,
+    "date": "2021-06-01",
+    "image": "/inventory_images/starship/starship-sn17.png",
+    "rutainformacion": "starship/starship-sn17",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor SL",
+      "material": "Acero inoxidable 304L"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2021-06-05",
+        "event": "Cancelación oficial y comienzo del desguace de las secciones fabricadas",
+        "event_en": "Official cancellation and start of scrapping of fabricated sections"
+      }
+    ],
+    "tags": ["Prototipo", "SN17", "Cancelado", "Starbase", "2021"],
+    "tags_en": ["Prototype", "SN17", "Cancelled", "Starbase", "2021"]
+  },
+  {
+    "slug": "starship-sn18",
+    "title": "Starship SN18",
+    "title_en": "Starship SN18",
+    "excerpt": "Prototipo cuya fabricación fue iniciada pero nunca completada. Fue descartado en las primeras etapas de ensamblaje para centrar todos los esfuerzos en el Ship 20 y el primer vuelo orbital.",
+    "excerpt_en": "Prototype whose fabrication began but was never completed. It was discarded in the early stages of assembly to focus all efforts on Ship 20 and the first orbital flight.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN18",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2021-03",
+    "datesfinishfabrication": null,
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": null,
+    "resultlaunch_en": null,
+    "covered": false,
+    "featured": false,
+    "date": "2021-06-15",
+    "image": "/inventory_images/starship/starship-sn18.png",
+    "rutainformacion": "starship/starship-sn18",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor SL",
+      "material": "Acero inoxidable 304L"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2021-06-10",
+        "event": "Suspensión de los trabajos de ensamblaje",
+        "event_en": "Suspension of assembly work"
+      }
+    ],
+    "tags": ["Prototipo", "SN18", "Cancelado", "Starbase", "2021"],
+    "tags_en": ["Prototype", "SN18", "Cancelled", "Starbase", "2021"]
+  },
+  {
+    "slug": "starship-sn19",
+    "title": "Starship SN19",
+    "title_en": "Starship SN19",
+    "excerpt": "Último de los prototipos de la serie SN antes del cambio a la denominación 'Ship'. Fue cancelado en una fase muy temprana de construcción.",
+    "excerpt_en": "The last of the SN series prototypes before the change to the 'Ship' designation. It was cancelled at a very early stage of construction.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN19",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2021-04",
+    "datesfinishfabrication": null,
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": null,
+    "resultlaunch_en": null,
+    "covered": false,
+    "featured": false,
+    "date": "2021-07-01",
+    "image": "/inventory_images/starship/starship-sn19.png",
+    "rutainformacion": "starship/starship-sn19",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor SL",
+      "material": "Acero inoxidable 304L"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2021-07-05",
+        "event": "Confirmación del desguace de las secciones de SN19",
+        "event_en": "Confirmation of scrapping of SN19 sections"
+      }
+    ],
+    "tags": ["Prototipo", "SN19", "Cancelado", "Starbase", "2021"],
+    "tags_en": ["Prototype", "SN19", "Cancelled", "Starbase", "2021"]
+  },
+  {
+    "slug": "starship-sn20",
+    "title": "Starship SN20 (Ship 20)",
+    "title_en": "Starship SN20 (Ship 20)",
+    "excerpt": "El primer prototipo diseñado para alcanzar órbita. Introdujo el sistema de protección térmica completo y una configuración de 6 motores Raptor. Fue la primera en combinarse con un Super Heavy (Booster 4).",
+    "excerpt_en": "The first prototype designed to reach orbit. It introduced the full thermal protection system and a 6-Raptor engine configuration. It was the first to be stacked with a Super Heavy (Booster 4).",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship (Orbit-ready)",
+    "serial_number": "S20",
+    "block": "Block 1",
+    "datestartfabrication": "2021-03",
+    "datesfinishfabrication": "2021-08",
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": "No lanzado (Solo pruebas de tierra)",
+    "resultlaunch_en": "Not launched (Ground testing only)",
+    "covered": false,
+    "featured": true,
+    "date": "2021-08-06",
+    "image": "/inventory_images/starship/starship-sn20.png",
+    "rutainformacion": "starship/starship-sn20",
+    "timestart": null,
+    "linkyoutube": "https://www.youtube.com/watch?v=A8vN6V3fR88",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor (3 SL + 3 Vac)",
+      "material": "Acero inoxidable 304L con TPS completo"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2021-08-06",
+        "event": "Primer ensamblaje completo (Full Stack) con el Booster 4 alcanzando 120m de altura",
+        "event_en": "First full stack assembly with Booster 4 reaching 120m height"
+      },
+      {
+        "date": "2021-11-12",
+        "event": "Primer Static Fire exitoso de los 6 motores Raptor simultáneamente",
+        "event_en": "First successful Static Fire of all 6 Raptor engines simultaneously"
+      },
+      {
+        "date": "2022-05-01",
+        "event": "Retirada oficial para dejar paso a la nueva generación (Ship 24)",
+        "event_en": "Official retirement to make way for the new generation (Ship 24)"
+      }
+    ],
+    "tags": ["Ship 20", "Orbital", "TPS", "Starbase", "Full Stack", "2021"],
+    "tags_en": ["Ship 20", "Orbital", "TPS", "Starbase", "Full Stack", "2021"]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "starship-sn10",
+    "title": "Starship SN10",
+    "title_en": "Starship SN10",
+    "excerpt": "El primer prototipo de Starship en lograr aterrizar intacto tras un vuelo de 10km. Sin embargo, una fuga de metano y daños en las patas causaron su explosión 8 minutos después del aterrizaje.",
+    "excerpt_en": "The first Starship prototype to land intact after a 10km flight. However, a methane leak and landing leg damage caused it to explode 8 minutes after touchdown.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN10",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-09",
+    "datesfinishfabrication": "2021-03",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2021-03-03",
+    "resultlaunch": "Éxito (Aterrizaje completado)",
+    "resultlaunch_en": "Success (Landing completed)",
+    "covered": false,
+    "featured": true,
+    "date": "2021-03-03",
+    "image": "/inventory_images/starship/starship-sn10.png",
+    "rutainformacion": "starship/starship-sn10",
+    "timestart": null,
+    "linkyoutube": "https://www.youtube.com/watch?v=gIDT5_kLCH8",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor SL",
+      "material": "Acero inoxidable 304L"
+    },
+    "flight_data": {
+      "altitude_km": 10,
+      "raptor_count": 3,
+      "landing": "Aterrizaje suave (lento), seguido de RUD post-vuelo"
+    },
+    "milestones": [
+      {
+        "date": "2021-03-03",
+        "event": "Primer aterrizaje vertical exitoso tras vuelo de alta altitud",
+        "event_en": "First successful vertical landing after high-altitude flight"
+      },
+      {
+        "date": "2021-03-03",
+        "event": "Explosión (RUD) 8 minutos después del aterrizaje por fuga de metano",
+        "event_en": "Explosion (RUD) 8 minutes post-landing due to methane leak"
+      }
+    ],
+    "tags": ["Prototipo", "SN10", "Aterrizaje", "Boca Chica", "Success", "2021"],
+    "tags_en": ["Prototype", "SN10", "Landing", "Boca Chica", "Success", "2021"]
+  }
+]

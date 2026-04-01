@@ -1,0 +1,261 @@
+[
+  {
+    "slug": "starship-sn26",
+    "title": "Starship Ship 26 (SN26)",
+    "title_en": "Starship Ship 26 (SN26)",
+    "excerpt": "Variante especializada sin aletas (flaps) ni protección térmica (tiles). Diseñada originalmente para pruebas de larga duración o transferencia de combustible en órbita. Fue retirada tras pruebas de tierra.",
+    "excerpt_en": "Specialized variant without flaps or thermal protection tiles. Originally designed for long-duration tests or in-orbit propellant transfer. It was retired after ground testing.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship (Specialized)",
+    "serial_number": "S26",
+    "block": "Block 1",
+    "datestartfabrication": "2023-01",
+    "datesfinishfabrication": "2023-09",
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": "Pruebas de tierra completadas",
+    "resultlaunch_en": "Ground tests completed",
+    "covered": false,
+    "featured": false,
+    "date": "2023-09-01",
+    "image": "/inventory_images/starship/starship-sn26.png",
+    "rutainformacion": "starship/starship-sn26",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2",
+      "material": "Acero inoxidable 304L (Sin TPS)"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2023-10-20",
+        "event": "Prueba de encendido estático (Static Fire) exitosa",
+        "event_en": "Successful Static Fire test"
+      }
+    ],
+    "tags": ["Ship 26", "No-Flaps", "Propellant Transfer", "Starbase", "2023"],
+    "tags_en": ["Ship 26", "No-Flaps", "Propellant Transfer", "Starbase", "2023"]
+  },
+  {
+    "slug": "starship-sn27",
+    "title": "Starship Ship 27 (SN27)",
+    "title_en": "Starship Ship 27 (SN27)",
+    "excerpt": "Prototipo de la serie Ship que no llegó a completarse. Siguiendo la configuración del Ship 26, sus secciones fueron desguazadas para optimizar la producción de las naves de vuelo IFT.",
+    "excerpt_en": "Ship series prototype that was never completed. Following Ship 26's configuration, its sections were scrapped to optimize the production of IFT flight ships.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship (Specialized)",
+    "serial_number": "S27",
+    "block": "Block 1",
+    "datestartfabrication": "2023-03",
+    "datesfinishfabrication": null,
+    "state": "desechado",
+    "state_en": "scrapped",
+    "datelaunch": null,
+    "resultlaunch": null,
+    "resultlaunch_en": null,
+    "covered": false,
+    "featured": false,
+    "date": "2023-11-01",
+    "image": "/inventory_images/starship/starship-sn27.png",
+    "rutainformacion": "starship/starship-sn27",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2023-11-15",
+        "event": "Confirmación del desmantelamiento de las secciones de S27",
+        "event_en": "Confirmation of dismantling S27 sections"
+      }
+    ],
+    "tags": ["Ship 27", "Cancelado", "Starbase", "2023"],
+    "tags_en": ["Ship 27", "Cancelled", "Starbase", "2023"]
+  },
+  {
+    "slug": "starship-sn28",
+    "title": "Starship Ship 28 (SN28)",
+    "title_en": "Starship Ship 28 (SN28)",
+    "excerpt": "Realizó el vuelo IFT-3, logrando alcanzar por primera vez la velocidad orbital. Demostró la apertura de la puerta de carga y la transferencia de combustible antes de perderse en la reentrada.",
+    "excerpt_en": "Performed flight IFT-3, successfully reaching orbital velocity for the first time. Demonstrated payload door opening and propellant transfer before being lost during reentry.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship IFT-3",
+    "serial_number": "S28",
+    "block": "Block 1",
+    "datestartfabrication": "2022-07",
+    "datesfinishfabrication": "2023-12",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2024-03-14",
+    "resultlaunch": "Éxito (Velocidad orbital alcanzada)",
+    "resultlaunch_en": "Success (Orbital velocity reached)",
+    "covered": false,
+    "featured": true,
+    "date": "2024-03-14",
+    "image": "/inventory_images/starship/starship-sn28.png",
+    "rutainformacion": "starship/starship-sn28",
+    "timestart": "13:25:00",
+    "linkyoutube": "https://www.youtube.com/watch?v=F_7O67EWhSk",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2 (3 SL + 3 Vac)",
+      "material": "Acero inoxidable 304L con TPS mejorado"
+    },
+    "flight_data": {
+      "booster": "B10",
+      "ift_number": 3,
+      "overall_result": "Gran avance: Trayectoria orbital y pruebas espaciales completadas",
+      "overall_result_en": "Major breakthrough: Orbital trajectory and space tests completed"
+    },
+    "milestones": [
+      {
+        "date": "2024-03-14",
+        "event": "Primera vez que Starship alcanza velocidad orbital",
+        "event_en": "First time Starship reaches orbital velocity"
+      },
+      {
+        "date": "2024-03-14",
+        "event": "Prueba exitosa de apertura de la puerta de carga (Pez Dispenser)",
+        "event_en": "Successful payload door (Pez Dispenser) opening test"
+      }
+    ],
+    "tags": ["Ship 28", "IFT-3", "Orbital Velocity", "Starbase", "Success", "2024"],
+    "tags_en": ["Ship 28", "IFT-3", "Orbital Velocity", "Starbase", "Success", "2024"]
+  },
+  {
+    "slug": "starship-sn29",
+    "title": "Starship Ship 29 (SN29)",
+    "title_en": "Starship Ship 29 (SN29)",
+    "excerpt": "Hito histórico en el vuelo IFT-4 al lograr el primer amerizaje suave en el océano Índico. A pesar de los daños visibles en los flaps, la nave mantuvo el control hasta el final.",
+    "excerpt_en": "Historic milestone in flight IFT-4 by achieving the first soft splashdown in the Indian Ocean. Despite visible damage to the flaps, the ship maintained control until the end.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship IFT-4",
+    "serial_number": "S29",
+    "block": "Block 1",
+    "datestartfabrication": "2022-09",
+    "datesfinishfabrication": "2024-03",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2024-06-06",
+    "resultlaunch": "Éxito (Primer amerizaje suave)",
+    "resultlaunch_en": "Success (First soft splashdown)",
+    "covered": false,
+    "featured": true,
+    "date": "2024-06-06",
+    "image": "/inventory_images/starship/starship-sn29.png",
+    "rutainformacion": "starship/starship-sn29",
+    "timestart": "12:50:00",
+    "linkyoutube": "https://www.youtube.com/watch?v=F_fG985-0_k",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2 (3 SL + 3 Vac)",
+      "material": "Acero inoxidable 304L con protección térmica reforzada"
+    },
+    "flight_data": {
+      "booster": "B11",
+      "ift_number": 4,
+      "overall_result": "Éxito total: Primer aterrizaje suave en el océano Índico",
+      "overall_result_en": "Total Success: First soft landing in the Indian Ocean"
+    },
+    "milestones": [
+      {
+        "date": "2024-06-06",
+        "event": "Primer amerizaje suave controlado en el océano Índico",
+        "event_en": "First controlled soft splashdown in the Indian Ocean"
+      },
+      {
+        "date": "2024-06-06",
+        "event": "Supervivencia de la reentrada atmosférica a pesar de daños térmicos",
+        "event_en": "Survival of atmospheric reentry despite thermal damage"
+      }
+    ],
+    "tags": ["Ship 29", "IFT-4", "Splashdown", "Starbase", "Success", "2024"],
+    "tags_en": ["Ship 29", "IFT-4", "Splashdown", "Starbase", "Success", "2024"]
+  },
+  {
+    "slug": "starship-sn30",
+    "title": "Starship Ship 30 (SN30)",
+    "title_en": "Starship Ship 30 (SN30)",
+    "excerpt": "Realizó un amerizaje de alta precisión en el vuelo IFT-5. Introdujo una revisión completa del escudo térmico, utilizando nuevas baldosas más resistentes que permitieron un descenso más limpio.",
+    "excerpt_en": "Performed a high-precision splashdown in flight IFT-5. It introduced a complete thermal shield overhaul, using new, more resistant tiles that allowed for a cleaner descent.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Ship IFT-5",
+    "serial_number": "S30",
+    "block": "Block 1",
+    "datestartfabrication": "2022-11",
+    "datesfinishfabrication": "2024-08",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2024-10-13",
+    "resultlaunch": "Éxito (Amerizaje de alta precisión)",
+    "resultlaunch_en": "Success (High-precision splashdown)",
+    "covered": false,
+    "featured": true,
+    "date": "2024-10-13",
+    "image": "/inventory_images/starship/starship-sn30.png",
+    "rutainformacion": "starship/starship-sn30",
+    "timestart": "12:25:00",
+    "linkyoutube": "https://www.youtube.com/watch?v=0_u0K_-jCeg",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 6,
+      "engine_type": "Raptor 2 (3 SL + 3 Vac)",
+      "material": "Acero inoxidable 304L con nuevo diseño de escudo térmico"
+    },
+    "flight_data": {
+      "booster": "B12",
+      "ift_number": 5,
+      "overall_result": "Éxito: Amerizaje preciso e integridad térmica mejorada",
+      "overall_result_en": "Success: Precise splashdown and improved thermal integrity"
+    },
+    "milestones": [
+      {
+        "date": "2024-10-13",
+        "event": "Amerizaje suave y preciso en el punto designado del Índico",
+        "event_en": "Soft and precise splashdown at the designated Indian Ocean point"
+      },
+      {
+        "date": "2024-10-13",
+        "event": "Demostración de la nueva generación de escudo térmico (TPS Next-Gen)",
+        "event_en": "Demonstration of the next-generation thermal shield (TPS Next-Gen)"
+      }
+    ],
+    "tags": ["Ship 30", "IFT-5", "TPS", "Indian Ocean", "Success", "2024"],
+    "tags_en": ["Ship 30", "IFT-5", "TPS", "Indian Ocean", "Success", "2024"]
+  }
+]

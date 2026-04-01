@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "starship-sn15",
+    "title": "Starship SN15",
+    "title_en": "Starship SN15",
+    "excerpt": "Hito histórico del programa Starship. El 5 de mayo de 2021, SN15 se convirtió en el primer prototipo de gran altitud en aterrizar con éxito tras un vuelo de 10km.",
+    "excerpt_en": "Historic milestone for the Starship program. On May 5, 2021, SN15 became the first high-altitude prototype to successfully land after a 10km flight.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN (V1.5)",
+    "serial_number": "SN15",
+    "block": "Block 1 (Prototype)",
+    "datestartfabrication": "2021-01",
+    "datesfinishfabrication": "2021-05",
+    "state": "retirado",
+    "state_en": "retired",
+    "datelaunch": "2021-05-05",
+    "resultlaunch": "Éxito (Aterrizaje perfecto)",
+    "resultlaunch_en": "Success (Perfect Landing)",
+    "covered": false,
+    "featured": true,
+    "date": "2021-05-05",
+    "image": "/inventory_images/starship/starship-sn15.png",
+    "rutainformacion": "starship/starship-sn15",
+    "timestart": null,
+    "linkyoutube": "https://www.youtube.com/watch?v=z9eoa9zkULk",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor v1.5",
+      "material": "Acero inoxidable 304L mejorado",
+      "improvements": [
+        "Nuevas patas de aterrizaje",
+        "Mejoras en aviónica y software",
+        "Sistema de protección térmica mejorado",
+        "Nuevo diseño de conductos de combustible"
+      ]
+    },
+    "flight_data": {
+      "altitude_km": 10,
+      "raptor_count": 3,
+      "landing": "Aterrizaje suave y exitoso sobre la plataforma"
+    },
+    "milestones": [
+      {
+        "date": "2021-04-08",
+        "event": "Traslado al banco de pruebas con importantes mejoras visibles",
+        "event_en": "Rollout to the test stand with significant visible improvements"
+      },
+      {
+        "date": "2021-05-05",
+        "event": "Vuelo de 10 km y primer aterrizaje exitoso de gran altitud",
+        "event_en": "10 km flight and first successful high-altitude landing"
+      },
+      {
+        "date": "2021-07-26",
+        "event": "Vehículo retirado de servicio para su exhibición",
+        "event_en": "Vehicle retired from service for display"
+      }
+    ],
+    "tags": ["Prototipo", "SN15", "Éxito", "Aterrizaje", "Boca Chica", "High Altitude", "2021"],
+    "tags_en": ["Prototype", "SN15", "Success", "Landing", "Boca Chica", "High Altitude", "2021"]
+  }
+]

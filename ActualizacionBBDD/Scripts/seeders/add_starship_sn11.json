@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "starship-sn11",
+    "title": "Starship SN11",
+    "title_en": "Starship SN11",
+    "excerpt": "Cuarto vuelo de gran altitud (10km). El vuelo se realizó bajo una densa niebla y terminó en una explosión en el aire durante la maniobra de aterrizaje debido a un fallo en el motor.",
+    "excerpt_en": "Fourth high-altitude flight (10km). The flight was conducted in thick fog and ended in a mid-air explosion during the landing maneuver due to an engine failure.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN11",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-10",
+    "datesfinishfabrication": "2021-03",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2021-03-30",
+    "resultlaunch": "Explosión en el aire (RUD)",
+    "resultlaunch_en": "Mid-air explosion (RUD)",
+    "covered": false,
+    "featured": false,
+    "date": "2021-03-30",
+    "image": "/inventory_images/starship/starship-sn11.png",
+    "rutainformacion": "starship/starship-sn11",
+    "timestart": null,
+    "linkyoutube": "https://www.youtube.com/watch?v=XWp_O_Z_qWk",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor SL",
+      "material": "Acero inoxidable 304L"
+    },
+    "flight_data": {
+      "altitude_km": 10,
+      "raptor_count": 3,
+      "landing": "RUD durante la rotación de aterrizaje"
+    },
+    "milestones": [
+      {
+        "date": "2021-03-30",
+        "event": "Vuelo de 10 km bajo niebla extrema; pérdida de telemetría a los 5:49",
+        "event_en": "10 km flight in extreme fog; telemetry loss at T+5:49"
+      }
+    ],
+    "tags": ["Prototipo", "SN11", "Niebla", "Boca Chica", "RUD", "2021"],
+    "tags_en": ["Prototype", "SN11", "Fog", "Boca Chica", "RUD", "2021"]
+  }
+]

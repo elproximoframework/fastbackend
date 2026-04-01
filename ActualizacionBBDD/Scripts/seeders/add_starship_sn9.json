@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "starship-sn9",
+    "title": "Starship SN9",
+    "title_en": "Starship SN9",
+    "excerpt": "Segundo vuelo de gran altitud (10km). Repitió con éxito la maniobra de descenso horizontal pero falló en el reencendido de uno de los motores durante la rotación de aterrizaje.",
+    "excerpt_en": "Second high-altitude flight (10km). It successfully repeated the horizontal descent maneuver but failed to relight one of the engines during the landing flip.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN9",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-08",
+    "datesfinishfabrication": "2021-02",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": "2021-02-02",
+    "resultlaunch": "Éxito parcial (RUD en aterrizaje)",
+    "resultlaunch_en": "Partial Success (RUD at landing)",
+    "covered": false,
+    "featured": false,
+    "date": "2021-02-02",
+    "image": "/inventory_images/starship/starship-sn9.png",
+    "rutainformacion": "starship/starship-sn9",
+    "timestart": null,
+    "linkyoutube": "https://www.youtube.com/watch?v=9S_p9m30fH4",
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 3,
+      "engine_type": "Raptor SL",
+      "material": "Acero inoxidable 304L"
+    },
+    "flight_data": {
+      "altitude_km": 10,
+      "raptor_count": 3,
+      "maneuver": "Belly-flop and flip",
+      "landing": "RUD por fallo en el reencendido de un motor"
+    },
+    "milestones": [
+      {
+        "date": "2021-01",
+        "event": "SN9 se inclina en el High Bay tras el fallo de un soporte",
+        "event_en": "SN9 tilts in the High Bay after a stand failure"
+      },
+      {
+        "date": "2021-02-02",
+        "event": "Vuelo de 10 km y maniobra de descenso limpia",
+        "event_en": "10 km flight and clean descent maneuver"
+      }
+    ],
+    "tags": ["Prototipo", "SN9", "Belly Flop", "Boca Chica", "High Altitude", "2021"],
+    "tags_en": ["Prototype", "SN9", "Belly Flop", "Boca Chica", "High Altitude", "2021"]
+  }
+]

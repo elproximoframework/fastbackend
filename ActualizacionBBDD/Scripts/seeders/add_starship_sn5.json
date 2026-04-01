@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "starship-sn5",
+    "title": "Starship SN5",
+    "title_en": "Starship SN5",
+    "excerpt": "Primer prototipo a escala real en realizar un vuelo controlado. El 4 de agosto de 2020 completó un 'salto' de 150 metros, validando el sistema de aterrizaje y control de empuje.",
+    "excerpt_en": "First full-scale prototype to perform a controlled flight. On August 4, 2020, it completed a 150-meter 'hop', validating the landing system and thrust control.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN5",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-05",
+    "datesfinishfabrication": "2020-08",
+    "state": "retirado",
+    "state_en": "retired",
+    "datelaunch": "2020-08-04",
+    "resultlaunch": "Éxito (Salto 150m)",
+    "resultlaunch_en": "Success (150m Hop)",
+    "covered": false,
+    "featured": true,
+    "date": "2020-08-04",
+    "image": "/inventory_images/starship/starship-sn5.png",
+    "rutainformacion": "starship/starship-sn5",
+    "timestart": null,
+    "linkyoutube": "https://www.youtube.com/watch?v=MdAKrzLqotg",
+    "show": true,
+    "specs": {
+      "height_m": 30,
+      "diameter_m": 9,
+      "engines": 1,
+      "engine_type": "Raptor SN27",
+      "material": "Acero inoxidable 301X",
+      "landing_legs": 6
+    },
+    "flight_data": {
+      "altitude_m": 150,
+      "duration_s": 45,
+      "raptor_count": 1,
+      "landing": "Efectuado con éxito"
+    },
+    "milestones": [
+      {
+        "date": "2020-07-30",
+        "event": "Encendido estático exitoso preparando el salto",
+        "event_en": "Successful static fire preparing for the hop"
+      },
+      {
+        "date": "2020-08-04",
+        "event": "Primer salto de 150 metros de un prototipo a escala real",
+        "event_en": "First 150-meter hop of a full-scale prototype"
+      },
+      {
+        "date": "2021-02",
+        "event": "Vehículo retirado y desguazado tras el éxito del programa",
+        "event_en": "Vehicle retired and scrapped after program success"
+      }
+    ],
+    "tags": ["Prototipo", "SN5", "150m Hop", "Boca Chica", "Vuelo", "2020"],
+    "tags_en": ["Prototype", "SN5", "150m Hop", "Boca Chica", "Flight", "2020"]
+  }
+]

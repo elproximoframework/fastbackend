@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "starship-sn7",
+    "title": "Starship SN7/7.1",
+    "title_en": "Starship SN7/7.1",
+    "excerpt": "Tanques de prueba diseñados para validar el cambio de acero 301X a 304L. Fueron llevados deliberadamente al punto de ruptura para medir la resistencia estructural.",
+    "excerpt_en": "Test tanks designed to validate the switch from 301X to 304L stainless steel. They were intentionally pushed to the bursting point to measure structural strength.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Tanque de Prueba",
+    "serial_number": "SN7",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-06",
+    "datesfinishfabrication": "2020-09",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": null,
+    "resultlaunch": "Éxito (Prueba de ruptura)",
+    "resultlaunch_en": "Success (Burst test)",
+    "covered": false,
+    "featured": false,
+    "date": "2020-09-23",
+    "image": "/inventory_images/starship/starship-sn7.png",
+    "rutainformacion": "starship/starship-sn7",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "diameter_m": 9,
+      "material": "Acero inoxidable 304L",
+      "test_type": "Cryogenic burst test"
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2020-06-23",
+        "event": "SN7 estalla deliberadamente tras alcanzar presiones récord",
+        "event_en": "SN7 intentionally bursts after reaching record pressures"
+      },
+      {
+        "date": "2020-09-23",
+        "event": "SN7.1 (nuevo tanque 304L) estalla en prueba final de validación",
+        "event_en": "SN7.1 (new 304L tank) bursts in final validation test"
+      }
+    ],
+    "tags": ["Prueba", "SN7", "304L", "Boca Chica", "Ruptura", "2020"],
+    "tags_en": ["Test", "SN7", "304L", "Boca Chica", "Burst", "2020"]
+  }
+]

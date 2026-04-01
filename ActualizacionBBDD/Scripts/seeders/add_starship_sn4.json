@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "starship-sn4",
+    "title": "Starship SN4",
+    "title_en": "Starship SN4",
+    "excerpt": "El prototipo más probado hasta su momento, completando 5 pruebas de encendido estático. Fue destruido el 29 de mayo de 2020 por un fallo en el sistema de desconexión rápida tras su último test.",
+    "excerpt_en": "The most tested prototype of its time, completing 5 static fire tests. It was destroyed on May 29, 2020 due to a quick-disconnect system failure following its final test.",
+    "category": "Starship",
+    "category_en": "Starship",
+    "location": "Starbase, Boca Chica (Texas)",
+    "location_en": "Starbase, Boca Chica (Texas)",
+    "version": "Prototipo SN",
+    "serial_number": "SN4",
+    "block": "Pre-Block 1",
+    "datestartfabrication": "2020-04",
+    "datesfinishfabrication": "2020-05",
+    "state": "destruido",
+    "state_en": "destroyed",
+    "datelaunch": null,
+    "resultlaunch": "Explosión post-test",
+    "resultlaunch_en": "Post-test explosion",
+    "covered": false,
+    "featured": false,
+    "date": "2020-05-29",
+    "image": "/inventory_images/starship/starship-sn4.png",
+    "rutainformacion": "starship/starship-sn4",
+    "timestart": null,
+    "linkyoutube": null,
+    "show": true,
+    "specs": {
+      "height_m": 50,
+      "diameter_m": 9,
+      "engines": 1,
+      "engine_type": "Raptor SL",
+      "material": "Acero inoxidable 301X",
+      "static_fires": 5
+    },
+    "flight_data": null,
+    "milestones": [
+      {
+        "date": "2020-04-26",
+        "event": "Primera prueba de presión criogénica (Éxito)",
+        "event_en": "First cryogenic proof test (Success)"
+      },
+      {
+        "date": "2020-05-06",
+        "event": "Primer encendido estático (Static Fire) con un Raptor",
+        "event_en": "First static fire with a single Raptor engine"
+      },
+      {
+        "date": "2020-05-29",
+        "event": "Explosión catastrófica tras el 5º encendido estático",
+        "event_en": "Catastrophic explosion following the 5th static fire"
+      }
+    ],
+    "tags": ["Prototipo", "SN4", "Static Fire", "Boca Chica", "Quick Disconnect", "2020"],
+    "tags_en": ["Prototype", "SN4", "Static Fire", "Boca Chica", "Quick Disconnect", "2020"]
+  }
+]

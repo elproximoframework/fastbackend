@@ -160,7 +160,7 @@ class NewsBase(BaseModel):
     featured: bool = False
     linkyoutube: Optional[str] = None
     rutanoticia: Optional[str] = None
-    timestart: Optional[int] = None
+    timestart: Optional[Any] = None
     show: bool = True
 
 class NewsCreate(NewsBase):
@@ -193,7 +193,7 @@ class NewsSpaceXBase(BaseModel):
     featured: bool = False
     linkyoutube: Optional[str] = None
     rutanoticia: Optional[str] = None
-    timestart: Optional[int] = None
+    timestart: Optional[Any] = None
     show: bool = True
 
 class NewsSpaceXCreate(NewsSpaceXBase):
@@ -234,7 +234,7 @@ class SpaceXInventoryBase(BaseModel):
     featured: bool = False
     linkyoutube: Optional[str] = None
     rutainformacion: Optional[str] = None
-    timestart: Optional[int] = None
+    timestart: Optional[Any] = None
     show: bool = True
     # Extended fields for Starship program structured data
     serial_number: Optional[str] = None
