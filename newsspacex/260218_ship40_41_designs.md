@@ -5,6 +5,7 @@ SpaceX continúa acelerando el desarrollo de su sistema de transporte interplane
 ## Rediseño Radical de las Aletas Delanteras
 
 El cambio más visible en las nuevas Ship 40 y 41 es la recolocación y el rediseño de las **aletas delanteras (forward flaps)**. Basándose en los datos de los vuelos de prueba anteriores, SpaceX ha implementado las siguientes mejoras:
+
 - **Posición de Sotavento:** Las aletas se han desplazado significativamente hacia el lado de "sotavento" (lejos del escudo térmico principal) para proteger los actuadores del calor extremo durante la reentrada.
 - **Geometría Optimizada:** Son notablemente más pequeñas, delgadas y tienen una forma más aerodinámica (swept shape), lo que reduce las cargas estáticas a velocidades hipersónicas.
 - **Desplazamiento hacia el Morro:** Se han movido más hacia la punta de la nave para mejorar el control de actitud y la estabilidad.
@@ -18,9 +19,3 @@ Además, el **escudo térmico** de las Ship 40 y 41 cuenta con una nueva generac
 ## Hacia la Operatividad Total
 
 Con la integración de los motores **Raptor 3** y estas optimizaciones aerodinámicas, las Ship 40 y 41 representan un salto cualitativo hacia una nave capaz de realizar misiones complejas de larga duración y despliegues masivos de infraestructura espacial.
-
----
-**Fuentes y Enlaces de Interés:**
-- [Evolución de Starship V2 a V3 - Ringwatchers](https://ringwatchers.com)
-- [Seguimiento de prototipos SpaceX - NASASpaceflight](https://www.nasaspaceflight.com)
-- [Especificaciones Técnicas Starship - SpaceX](https://www.spacex.com/vehicles/starship/)

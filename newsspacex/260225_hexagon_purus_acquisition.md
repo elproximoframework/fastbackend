@@ -5,6 +5,7 @@ En un movimiento estratégico para reforzar su cadena de suministro y profundiza
 ## Blindaje Tecnológico: Los Tanques COPV
 
 Los **COPV (Composite Overwrapped Pressure Vessels)** son componentes vitales en la arquitectura de cohetes modernos como Falcon 9 y Starship. Se utilizan para almacenar helio y nitrógeno a presiones extremadamente altas (hasta 700 bar) con un peso mínimo. Estos gases son esenciales para:
+
 - **Presurización de tanques:** Mantener la integridad estructural de los tanques de combustible a medida que se vacían.
 - **Propulsores de gas frío:** Controlar la orientación de la nave en el vacío del espacio.
 
@@ -19,9 +20,3 @@ Esta compra se produce en un momento en que SpaceX está expandiendo masivamente
 ## Hitos de Starship v3
 
 La integración de la tecnología de Hexagon Masterworks es clave para el desarrollo de la arquitectura **Starship V3 (Block 3)**, que requiere sistemas de presurización más ligeros y resistentes para soportar las mayores cargas de empuje de los motores Raptor 3 y las misiones de larga duración hacia la Luna y Marte.
-
----
-**Fuentes y Enlaces de Interés:**
-- [SpaceX acquires Hexagon Purus Aerospace Unit - Teslarati](https://www.teslarati.com)
-- [Hexagon Purus official announcement on Masterworks sale](https://hexagonpurus.com/investors/stock-exchange-notices)
-- [Tecnología COPV en la industria aeroespacial - Wikipedia](https://en.wikipedia.org/wiki/Composite_overwrapped_pressure_vessel)

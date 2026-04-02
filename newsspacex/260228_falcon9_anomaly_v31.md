@@ -19,9 +19,3 @@ A pesar de los esfuerzos de los equipos de control de SpaceX para elevar la órb
 Siguiendo el protocolo estándar, la **Administración Federal de Aviación (FAA)** ha iniciado una investigación formal sobre el incidente. SpaceX ha detenido temporalmente los lanzamientos de Falcon 9 mientras se auditan todas las líneas de presión de la flota y se implementan medidas correctivas, que podrían incluir el rediseño del soporte de los sensores o la eliminación de líneas redundantes.
 
 Este es el primer fallo importante en vuelo para el Falcon 9 en más de una década, rompiendo una racha histórica de lanzamientos exitosos consecutivos.
-
----
-**Fuentes y Enlaces de Interés:**
-- [SpaceX official update on Falcon 9 Flight 31 anomaly](https://www.spacex.com/updates)
-- [FAA Oversight of Commercial Space Transportation - FAA.gov](https://www.faa.gov)
-- [Seguimiento de reingreso de satélites Starlink - Jonathan's Space Report](https://planet4589.org)

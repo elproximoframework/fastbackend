@@ -17,9 +17,3 @@ The "Moon First" strategy involves a reorientation of Starship resources toward 
 The massive use of 304L stainless steel not only facilitates rapid manufacturing but also allows for an almost infinite recycling cycle. SpaceX has established facilities at Starbase capable of processing steel from retired prototypes to reintroduce it into the supply chain or transform it into useful infrastructure, minimizing the environmental impact of its large-scale testing.
 
 In the future, this recycling philosophy will extend to the Moon, where Starship vessels reaching the surface could be repurposed into permanent habitats, laboratories, or fuel storage, preventing them from becoming space junk.
-
----
-**Sources and Useful Links:**
-- [SpaceX Starship HLS Program - NASA](https://www.nasa.gov/humans-in-space/nextstep-h-human-landing-system-spacex/)
-- [Steel Recycling Analysis at Starbase - Ringwatchers](https://ringwatchers.com)
-- [SpaceX Lunar Strategy](https://www.spacex.com/human-spaceflight/moon/)

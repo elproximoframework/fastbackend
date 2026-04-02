@@ -7,6 +7,7 @@ SpaceX has reached a new industrial milestone with the mass production of the **
 The Raptor 3 is not just an incremental improvement over the Raptor 2; it is a radical redesign. Its most striking feature is the **"pipeless"** design, with almost no external tubing. SpaceX has integrated nearly all fuel, oxidant, and sensor cable flow channels within the engine's main structure using advanced **metal 3D printing** techniques.
 
 This consolidation has enabled:
+
 1. **7% Weight Reduction:** By eliminating unnecessary flanges, bolts, and seals.
 2. **22% Thrust Increase:** Reaching **280 metric tons of force (tf)**.
 3. **Extreme Reliability:** By eliminating 75% of leak-prone joints and connections.
@@ -20,9 +21,3 @@ With a nominal chamber pressure of **330 bar** (with tested peaks of 350 bar) an
 ## Impact on the Starship Program
 
 Mass production of these engines is vital for SpaceX's plans to launch Starship with near-daily frequency. A single Super Heavy Booster requires 33 engines, and with current production rates, SpaceX can equip entire fleets in a matter of months, moving closer to the target cost per engine of under **$1 million**.
-
----
-**Sources and Useful Links:**
-- [SpaceX Raptor Engine - Wikipedia](https://en.wikipedia.org/wiki/SpaceX_Raptor)
-- [Raptor 3 Technical Info - NASASpaceflight](https://www.nasaspaceflight.com)
-- [Starship Updates - SpaceX Official](https://www.spacex.com/vehicles/starship/)

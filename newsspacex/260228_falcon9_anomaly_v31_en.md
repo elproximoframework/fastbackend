@@ -19,9 +19,3 @@ Despite efforts by SpaceX control teams to raise the orbit using the satellites'
 Following standard protocol, the **Federal Aviation Administration (FAA)** has initiated a formal investigation into the incident. SpaceX has temporarily halted Falcon 9 launches while auditing all pressure lines across the fleet and implementing corrective measures, which could include redesigning sensor mounts or removing redundant lines.
 
 This marks the first significant in-flight failure for the Falcon 9 in over a decade, breaking an unprecedented streak of consecutive successful launches.
-
----
-**Sources and Useful Links:**
-- [SpaceX official update on Falcon 9 Flight 31 anomaly](https://www.spacex.com/updates)
-- [FAA Oversight of Commercial Space Transportation - FAA.gov](https://www.faa.gov)
-- [Starlink Satellite Reentry Tracking - Jonathan's Space Report](https://planet4589.org)

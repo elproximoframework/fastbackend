@@ -17,9 +17,3 @@ La estrategia "Moon First" (La Luna Primero) implica una reorientación de los r
 El uso masivo de acero inoxidable 304L no solo facilita la fabricación rápida, sino que permite un ciclo de reciclaje casi infinito. SpaceX ha establecido instalaciones en Starbase capaces de procesar el acero de prototipos retirados para reintroducirlo en la cadena de suministro o transformarlo en infraestructura útil, minimizando el impacto ambiental de sus pruebas a gran escala.
 
 En el futuro, esta filosofía de reciclaje se extenderá a la Luna, donde las naves Starship que lleguen a la superficie podrían ser reconvertidas en hábitats permanentes, laboratorios o almacenes de combustible, evitando que se conviertan en basura espacial.
-
----
-**Fuentes y Enlaces de Interés:**
-- [SpaceX Starship HLS Program - NASA](https://www.nasa.gov/humans-in-space/nextstep-h-human-landing-system-spacex/)
-- [Análisis de reciclaje de acero en Starbase - Ringwatchers](https://ringwatchers.com)
-- [Estrategia de colonización lunar de SpaceX](https://www.spacex.com/human-spaceflight/moon/)
