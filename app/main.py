@@ -373,19 +373,19 @@ def get_spacex_inventory(
     if category:
         query = query.filter(
             (models.SpaceXInventory.category.ilike(f"%{category}%")) | 
-            (models.SpaceXInventory.category_en.ilike(f"%{category_en}%"))
+            (models.SpaceXInventory.category_en.ilike(f"%{category}%"))
         )
     
     if location:
         query = query.filter(
             (models.SpaceXInventory.location.ilike(f"%{location}%")) | 
-            (models.SpaceXInventory.location_en.ilike(f"%{location_en}%"))
+            (models.SpaceXInventory.location_en.ilike(f"%{location}%"))
         )
 
     if state:
         query = query.filter(
             (models.SpaceXInventory.state.ilike(f"%{state}%")) | 
-            (models.SpaceXInventory.state_en.ilike(f"%{state_en}%"))
+            (models.SpaceXInventory.state_en.ilike(f"%{state}%"))
         )
 
     if block:
