@@ -27,23 +27,23 @@ app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # Enable CORS for the frontend to communicate with this backend
-origins = [
-    "https://elproximoframework.com",
-    "https://elproximoframework.com/",
-    "https://www.elproximoframework.com",
-    "https://www.elproximoframework.com/",
-    "https://web-production-9239b.up.railway.app",
-    "http://localhost",
-    "http://localhost:5173",
-    "http://localhost:5173/",
-    "http://localhost:3000",
-    "http://127.0.0.1",
-    "http://127.0.0.1:5173",
-    "http://127.0.0.1:5173/",
-    "http://127.0.0.1:3000",
-    "http://[::1]:5173",
-    "http://[::1]:5173/",
-]
+env = os.getenv("ENVIRONMENT", "development")
+cors_origins_str = os.getenv("CORS_ORIGINS", "")
+
+if env == "development":
+    # Default development origins if none provided
+    origins = cors_origins_str.split(",") if cors_origins_str else [
+        "http://localhost",
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1",
+        "http://127.0.0.1:5173",
+        "http://127.0.0.1:3000",
+        "http://[::1]:5173",
+    ]
+else:
+    # Strict origins in production
+    origins = cors_origins_str.split(",") if cors_origins_str else []
 
 app.add_middleware(
     CORSMiddleware,
