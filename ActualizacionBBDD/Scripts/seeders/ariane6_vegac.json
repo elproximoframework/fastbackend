@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ariane 6",
+    "manufacturer_id": 29,
+    "country": "eu",
+    "height": 62.0,
+    "diameter": 5.4,
+    "stages": 2,
+    "fuel": "LOX/LH2 (Core), Solid (P120C Boosters)",
+    "leoCapacity": 21650.0,
+    "gtoCapacity": 11500.0,
+    "firstFlight": "2024-07-09",
+    "totalLaunches": 1,
+    "successRate": 100.0,
+    "status": "active",
+    "image": "/api/v1/rocket_images/default-rocket.png",
+    "description": "El Ariane 6 es el lanzador pesado de nueva generación de Europa, diseñado por ArianeGroup para la ESA. Utiliza el motor Vulcain 2.1 en la etapa principal y el motor Vinci reencendible en la superior, permitiendo despliegues complejos. Su configuración A64 ofrece una capacidad de más de 21 toneladas a LEO.",
+    "description_en": "Ariane 6 is Europe's next-generation heavy launcher, designed by ArianeGroup for ESA. It uses the Vulcain 2.1 engine in the main stage and the reignitable Vinci engine in the upper stage, enabling complex deployments. Its A64 configuration offers a capacity of over 21 tons to LEO.",
+    "costPerLaunch": 115.0,
+    "reusable": false
+  },
+  {
+    "name": "Vega-C",
+    "manufacturer_id": 29,
+    "country": "eu",
+    "height": 35.0,
+    "diameter": 3.4,
+    "stages": 4,
+    "fuel": "Solid (P120C, Z40, Z9), Liquid (AVUM+)",
+    "leoCapacity": 3300.0,
+    "gtoCapacity": 0.0,
+    "firstFlight": "2022-07-13",
+    "totalLaunches": 3,
+    "successRate": 66.7,
+    "status": "active",
+    "image": "/api/v1/rocket_images/default-rocket.png",
+    "description": "El Vega-C es una evolución del lanzador Vega, optimizado para satélites medianos y misiones científicas. Consta de tres etapas de propulsor sólido (P120C, Zefiro 40 y Zefiro 9) y una cuarta etapa líquida AVUM+ reencendible, lo que le permite alcanzar múltiples órbitas en un solo vuelo.",
+    "description_en": "Vega-C is an evolution of the Vega launcher, optimized for medium satellites and scientific missions. It consists of three solid propellant stages (P120C, Zefiro 40, and Zefiro 9) and a fourth liquid re-ignitable AVUM+ stage, allowing it to reach multiple orbits in a single flight.",
+    "costPerLaunch": 45.0,
+    "reusable": false
+  }
+]

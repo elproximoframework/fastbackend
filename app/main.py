@@ -382,20 +382,6 @@ def get_setting(key: str, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Setting not found")
     return setting
 
-@app.put("/api/v1/settings/{key}", response_model=schemas.AppSettingResponse)
-def update_setting(key: str, setting_update: schemas.AppSettingCreate, db: Session = Depends(get_db)):
-    db_setting = db.query(models.AppSetting).filter(models.AppSetting.key == key).first()
-    if db_setting is None:
-        # Optionally create if not exists
-        db_setting = models.AppSetting(**setting_update.dict())
-        db.add(db_setting)
-    else:
-        for var, value in vars(setting_update).items():
-            setattr(db_setting, var, value) if value is not None else None
-    
-    db.commit()
-    db.refresh(db_setting)
-    return db_setting
 # ---- Stats ----
 
 @app.get("/api/v1/stats", response_model=schemas.StatsResponse)

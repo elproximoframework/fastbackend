@@ -1,0 +1,21 @@
+
+{
+  "name": "Tianlong-3",
+  "manufacturer_id": 25,
+  "country": "cn",
+  "height": 71.0,
+  "diameter": 3.8,
+  "stages": 2,
+  "fuel": "LOX/Kerosene",
+  "leoCapacity": 17000.0,
+  "gtoCapacity": 14000.0,
+  "firstFlight": "2024-07-01",
+  "totalLaunches": 0,
+  "successRate": 0.0,
+  "status": "development",
+  "image": "/api/v1/rocket_images/tianlong-3.png",
+  "description": "El Tianlong-3 es un cohete de gran capacidad desarrollado por Space Pioneer (Beijing Tianbing Technology). Con un diseño de dos etapas basado en combustible líquido (LOX/Queroseno), está optimizado para la reutilización rápida. Sus nueve motores Tianhuo-12 en la primera etapa proporcionan un empuje inicial similar al Falcon 9, permitiéndole transportar hasta 17 toneladas a LEO en configuración reutilizable. Es un componente fundamental de la futura infraestructura espacial privada de China.",
+  "description_en": "Tianlong-3 is a heavy-lift launch vehicle developed by Space Pioneer (Beijing Tianbing Technology). Featuring a two-stage liquid-fueled design (LOX/Kerosene), it is optimized for rapid reusability. Its nine Tianhuo-12 engines in the first stage provide a liftoff thrust comparable to the Falcon 9, enabling it to carry up to 17 tons to LEO in reusable configuration. It is a critical component for the future of China's private space infrastructure.",
+  "costPerLaunch": 40.0,
+  "reusable": true
+}
