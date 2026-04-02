@@ -9,11 +9,23 @@ from .database import engine, get_db
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
+from dotenv import load_dotenv
+import sentry_sdk
+# FastAPIIntegration is auto-detected in recent SDK versions
 import os
 import uvicorn
 
 # Create the database tables
 models.Base.metadata.create_all(bind=engine)
+
+# Initialize Sentry
+load_dotenv()
+sentry_sdk.init(
+    dsn=os.getenv("SENTRY_DSN"),
+    traces_sample_rate=1.0,
+    profiles_sample_rate=1.0,
+    send_default_pii=True
+)
 
 app = FastAPI(
     title="Space API",
@@ -361,19 +373,19 @@ def get_spacex_inventory(
     if category:
         query = query.filter(
             (models.SpaceXInventory.category.ilike(f"%{category}%")) | 
-            (models.SpaceXInventory.category_en.ilike(f"%{category}%"))
+            (models.SpaceXInventory.category_en.ilike(f"%{category_en}%"))
         )
     
     if location:
         query = query.filter(
             (models.SpaceXInventory.location.ilike(f"%{location}%")) | 
-            (models.SpaceXInventory.location_en.ilike(f"%{location}%"))
+            (models.SpaceXInventory.location_en.ilike(f"%{location_en}%"))
         )
 
     if state:
         query = query.filter(
             (models.SpaceXInventory.state.ilike(f"%{state}%")) | 
-            (models.SpaceXInventory.state_en.ilike(f"%{state}%"))
+            (models.SpaceXInventory.state_en.ilike(f"%{state_en}%"))
         )
 
     if block:
@@ -417,22 +429,21 @@ def get_setting(request: Request, key: str, db: Session = Depends(get_db)):
 # ---- Stats ----
 
 @app.get("/api/v1/stats", response_model=schemas.StatsResponse)
-@limiter.limit("30/minute")
+@limiter.limit("60/minute")
 def get_stats(request: Request, db: Session = Depends(get_db)):
-    news_count = db.query(models.News).filter(models.News.show == True).count()
-    newsspacex_count = db.query(models.NewsSpaceX).filter(models.NewsSpaceX.show == True).count()
-    companies_count = db.query(models.Company).filter(models.Company.show == True).count()
-    rockets_count = db.query(models.Rocket).count()
-    launches_count = db.query(models.Launch).filter(models.Launch.show == True).count()
-    satellites_count = db.query(models.Satellite).filter(models.Satellite.show == True).count()
-    spacex_inventory_count = db.query(models.SpaceXInventory).filter(models.SpaceXInventory.show == True).count()
-    
+    """Get general statistics for the portal"""
     return {
-        "news_count": news_count,
-        "newsspacex_count": newsspacex_count,
-        "companies_count": companies_count,
-        "rockets_count": rockets_count,
-        "launches_count": launches_count,
-        "satellites_count": satellites_count,
-        "spacex_inventory_count": spacex_inventory_count
+        "news_count": db.query(models.News).count(),
+        "newsspacex_count": db.query(models.NewsSpaceX).count(),
+        "companies_count": db.query(models.Company).count(),
+        "rockets_count": db.query(models.Rocket).count(),
+        "launches_count": db.query(models.Launch).count(),
+        "satellites_count": db.query(models.Satellite).count(),
+        "spacex_inventory_count": db.query(models.SpaceXInventory).count()
     }
+
+@app.get("/api/v1/sentry-debug")
+def trigger_error():
+    """Endpoint to verify Sentry connection"""
+    division_by_zero = 1 / 0
+    return {"message": "This should not be reached"}
