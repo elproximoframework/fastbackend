@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, HTTPException, Query
+from fastapi import FastAPI, Depends, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy.orm import Session
@@ -6,7 +6,11 @@ from typing import List, Optional
 from datetime import datetime, timezone
 from . import models, schemas
 from .database import engine, get_db
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
 import os
+import uvicorn
 
 # Create the database tables
 models.Base.metadata.create_all(bind=engine)
@@ -16,6 +20,11 @@ app = FastAPI(
     description="API for Space portal with Companies, Rockets, Satellites, and Launches",
     version="1.0.0",
 )
+
+# Initialize Rate Limiter
+limiter = Limiter(key_func=get_remote_address)
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # Enable CORS for the frontend to communicate with this backend
 origins = [
@@ -111,12 +120,14 @@ def health_check():
 # ---- Companies ----
 
 @app.get("/api/v1/companies", response_model=List[schemas.CompanyResponse])
-def get_companies(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+@limiter.limit("30/minute")
+def get_companies(request: Request, skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     companies = db.query(models.Company).filter(models.Company.show == True).offset(skip).limit(limit).all()
     return companies
 
 @app.get("/api/v1/companies/{company_id}", response_model=schemas.CompanyResponse)
-def get_company(company_id: int, db: Session = Depends(get_db)):
+@limiter.limit("60/minute")
+def get_company(request: Request, company_id: int, db: Session = Depends(get_db)):
     company = db.query(models.Company).filter(models.Company.id == company_id).first()
     if company is None:
         raise HTTPException(status_code=404, detail="Company not found")
@@ -125,12 +136,14 @@ def get_company(company_id: int, db: Session = Depends(get_db)):
 # ---- Rockets ----
 
 @app.get("/api/v1/rockets", response_model=List[schemas.RocketResponse])
-def get_rockets(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+@limiter.limit("30/minute")
+def get_rockets(request: Request, skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     rockets = db.query(models.Rocket).offset(skip).limit(limit).all()
     return rockets
 
 @app.get("/api/v1/rockets/{rocket_id}", response_model=schemas.RocketResponse)
-def get_rocket(rocket_id: int, db: Session = Depends(get_db)):
+@limiter.limit("60/minute")
+def get_rocket(request: Request, rocket_id: int, db: Session = Depends(get_db)):
     rocket = db.query(models.Rocket).filter(models.Rocket.id == rocket_id).first()
     if rocket is None:
         raise HTTPException(status_code=404, detail="Rocket not found")
@@ -139,7 +152,9 @@ def get_rocket(rocket_id: int, db: Session = Depends(get_db)):
 # ---- Satellites ----
 
 @app.get("/api/v1/satellites", response_model=List[schemas.SatelliteResponse])
+@limiter.limit("20/minute")
 def get_satellites(
+    request: Request,
     search: Optional[str] = None, 
     skip: int = 0, 
     limit: int = 100, 
@@ -152,7 +167,8 @@ def get_satellites(
     return satellites
 
 @app.get("/api/v1/satellites/{satellite_id}", response_model=schemas.SatelliteResponse)
-def get_satellite(satellite_id: int, db: Session = Depends(get_db)):
+@limiter.limit("60/minute")
+def get_satellite(request: Request, satellite_id: int, db: Session = Depends(get_db)):
     satellite = db.query(models.Satellite).filter(models.Satellite.id == satellite_id).first()
     if satellite is None:
         raise HTTPException(status_code=404, detail="Satellite not found")
@@ -161,7 +177,9 @@ def get_satellite(satellite_id: int, db: Session = Depends(get_db)):
 # ---- Launches ----
 
 @app.get("/api/v1/launches", response_model=List[schemas.LaunchResponse])
+@limiter.limit("30/minute")
 def get_launches(
+    request: Request,
     status: Optional[str] = Query(None, description="Filter by status (e.g. upcoming, past)"),
     start_date: Optional[datetime] = Query(None, description="Filter by start date (ISO format)"),
     end_date: Optional[datetime] = Query(None, description="Filter by end date (ISO format)"),
@@ -194,7 +212,8 @@ def get_launches(
     return launches
 
 @app.get("/api/v1/launches/{launch_id}", response_model=schemas.LaunchResponse)
-def get_launch(launch_id: int, db: Session = Depends(get_db)):
+@limiter.limit("60/minute")
+def get_launch(request: Request, launch_id: int, db: Session = Depends(get_db)):
     launch = db.query(models.Launch).filter(models.Launch.id == launch_id).first()
     if launch is None:
         raise HTTPException(status_code=404, detail="Launch not found")
@@ -204,7 +223,9 @@ def get_launch(launch_id: int, db: Session = Depends(get_db)):
 # ---- News ----
 
 @app.get("/api/v1/news", response_model=List[schemas.NewsResponse])
+@limiter.limit("30/minute")
 def get_news(
+    request: Request,
     category: Optional[str] = None,
     featured: Optional[bool] = None,
     skip: int = 0, 
@@ -228,7 +249,8 @@ def get_news(
     return news_items
 
 @app.get("/api/v1/news/featured", response_model=schemas.NewsResponse)
-def get_featured_news(db: Session = Depends(get_db)):
+@limiter.limit("60/minute")
+def get_featured_news(request: Request, db: Session = Depends(get_db)):
     setting = db.query(models.AppSetting).filter(models.AppSetting.key == "featured_news_id").first()
     if not setting:
         raise HTTPException(status_code=404, detail="Featured news ID not set in settings")
@@ -245,7 +267,8 @@ def get_featured_news(db: Session = Depends(get_db)):
     return news_item
 
 @app.get("/api/v1/news/{slug}", response_model=schemas.NewsResponse)
-def get_news_item(slug: str, db: Session = Depends(get_db)):
+@limiter.limit("60/minute")
+def get_news_item(request: Request, slug: str, db: Session = Depends(get_db)):
     news_item = db.query(models.News).filter(models.News.slug == slug).first()
     if news_item is None:
         # Try to find by ID if slug not found and is numeric
@@ -260,7 +283,9 @@ def get_news_item(slug: str, db: Session = Depends(get_db)):
 # ---- NewsSpaceX ----
 
 @app.get("/api/v1/newsspacex", response_model=List[schemas.NewsSpaceXResponse])
+@limiter.limit("30/minute")
 def get_news_spacex(
+    request: Request,
     category: Optional[str] = None,
     featured: Optional[bool] = None,
     skip: int = 0, 
@@ -282,7 +307,8 @@ def get_news_spacex(
     return news_items
 
 @app.get("/api/v1/newsspacex/featured", response_model=schemas.NewsSpaceXResponse)
-def get_featured_news_spacex(db: Session = Depends(get_db)):
+@limiter.limit("60/minute")
+def get_featured_news_spacex(request: Request, db: Session = Depends(get_db)):
     setting = db.query(models.AppSetting).filter(models.AppSetting.key == "featured_news_spacex_id").first()
     if not setting:
         # Fallback to the latest featured news if setting not found
@@ -303,7 +329,8 @@ def get_featured_news_spacex(db: Session = Depends(get_db)):
     return news_item
 
 @app.get("/api/v1/newsspacex/{slug}", response_model=schemas.NewsSpaceXResponse)
-def get_news_spacex_item(slug: str, db: Session = Depends(get_db)):
+@limiter.limit("60/minute")
+def get_news_spacex_item(request: Request, slug: str, db: Session = Depends(get_db)):
     news_item = db.query(models.NewsSpaceX).filter(models.NewsSpaceX.slug == slug).first()
     if news_item is None:
         if slug.isdigit():
@@ -317,7 +344,9 @@ def get_news_spacex_item(slug: str, db: Session = Depends(get_db)):
 # ---- SpaceXInventory ----
 
 @app.get("/api/v1/spacex-inventory", response_model=List[schemas.SpaceXInventoryResponse])
+@limiter.limit("30/minute")
 def get_spacex_inventory(
+    request: Request,
     category: Optional[str] = None,
     location: Optional[str] = None,
     state: Optional[str] = None,
@@ -357,7 +386,8 @@ def get_spacex_inventory(
     return items
 
 @app.get("/api/v1/spacex-inventory/{slug}", response_model=schemas.SpaceXInventoryResponse)
-def get_spacex_inventory_item(slug: str, db: Session = Depends(get_db)):
+@limiter.limit("60/minute")
+def get_spacex_inventory_item(request: Request, slug: str, db: Session = Depends(get_db)):
     item = db.query(models.SpaceXInventory).filter(models.SpaceXInventory.slug == slug).first()
     if item is None:
         if slug.isdigit():
@@ -371,12 +401,14 @@ def get_spacex_inventory_item(slug: str, db: Session = Depends(get_db)):
 # ---- Settings ----
 
 @app.get("/api/v1/settings", response_model=List[schemas.AppSettingResponse])
-def get_settings(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+@limiter.limit("10/minute")
+def get_settings(request: Request, skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     settings = db.query(models.AppSetting).offset(skip).limit(limit).all()
     return settings
 
 @app.get("/api/v1/settings/{key}", response_model=schemas.AppSettingResponse)
-def get_setting(key: str, db: Session = Depends(get_db)):
+@limiter.limit("10/minute")
+def get_setting(request: Request, key: str, db: Session = Depends(get_db)):
     setting = db.query(models.AppSetting).filter(models.AppSetting.key == key).first()
     if setting is None:
         raise HTTPException(status_code=404, detail="Setting not found")
@@ -385,7 +417,8 @@ def get_setting(key: str, db: Session = Depends(get_db)):
 # ---- Stats ----
 
 @app.get("/api/v1/stats", response_model=schemas.StatsResponse)
-def get_stats(db: Session = Depends(get_db)):
+@limiter.limit("30/minute")
+def get_stats(request: Request, db: Session = Depends(get_db)):
     news_count = db.query(models.News).filter(models.News.show == True).count()
     newsspacex_count = db.query(models.NewsSpaceX).filter(models.NewsSpaceX.show == True).count()
     companies_count = db.query(models.Company).filter(models.Company.show == True).count()
