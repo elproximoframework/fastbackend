@@ -18,7 +18,7 @@ El Vuelo 12 inaugura la arquitectura **Starship V3**, que según las proyeccione
 
 ---
 **Fuentes:**
-- Basenor – Starship Testing Resumes: V3 and IFT-12 Are Coming Fast: https://www.basenor.com/blogs/news/starship-testing-resumes-v3-and-ift-12-are-coming-fast
-- Starship SpaceX Wiki – Starship Flight Test 12: https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12
-- Basenor – Starship Flight 12 Targeting Late April: https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect
+- [Basenor – Starship Testing Resumes: V3 and IFT-12 Are Coming Fast](https://www.basenor.com/blogs/news/starship-testing-resumes-v3-and-ift-12-are-coming-fast)
+- [Starship SpaceX Wiki – Starship Flight Test 12](https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12)
+- [Basenor – Starship Flight 12 Targeting Late April](https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect)
 - Space.com (SpaceX Gigabay Florida article referencing V3 payload capacity)

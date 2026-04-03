@@ -16,7 +16,7 @@ Since August 2024, SpaceX has already accumulated more than **170 long-duration 
 
 ---
 **Sources:**
-- NASASpaceFlight – Florida Starship progress with launch sites at KSC and Cape: https://www.nasaspaceflight.com/2026/01/florida-starship-progress-ksc-cape/
-- AutoEvolution – SpaceX Is Building a Massive Starship Facility in Florida: https://www.autoevolution.com/news/spacex-is-building-a-massive-starship-facility-in-florida-calls-it-gigabay-248046.html
-- SpaceX can launch Starship from Florida pad (Space.com): https://www.space.com/space-exploration/launches-spacecraft/spacex-can-launch-its-starship-megarocket-from-florida-pad-air-force-says
-- NASASpaceFlight – Starbase Pad 2 prepares to receive Booster 19: https://www.nasaspaceflight.com/2026/02/starbase-pad-2-booster-19/
+- [NASASpaceFlight – Florida Starship progress with launch sites at KSC and Cape](https://www.nasaspaceflight.com/2026/01/florida-starship-progress-ksc-cape/)
+- [AutoEvolution – SpaceX Is Building a Massive Starship Facility in Florida](https://www.autoevolution.com/news/spacex-is-building-a-massive-starship-facility-in-florida-calls-it-gigabay-248046.html)
+- [SpaceX can launch Starship from Florida pad (Space.com)](https://www.space.com/space-exploration/launches-spacecraft/spacex-can-launch-its-starship-megarocket-from-florida-pad-air-force-says)
+- [NASASpaceFlight – Starbase Pad 2 prepares to receive Booster 19](https://www.nasaspaceflight.com/2026/02/starbase-pad-2-booster-19/)

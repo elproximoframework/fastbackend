@@ -17,6 +17,6 @@ El quinto y decisivo hito es la **autorización de lanzamiento por parte de la F
 ---
 **Fuentes:**
 - Elon Musk en X (3 de abril 2026) – declaración de 4-6 semanas
-- Basenor – Starship Flight 12 Targeting Late April: https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect
-- Starship SpaceX Wiki – Starship Flight Test 12: https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12
-- NASASpaceFlight – Progress on Starbase Pads ahead of Block 3: https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/
+- [Basenor – Starship Flight 12 Targeting Late April](https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect)
+- [Starship SpaceX Wiki – Starship Flight Test 12](https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12)
+- [NASASpaceFlight – Progress on Starbase Pads ahead of Block 3](https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/)

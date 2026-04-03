@@ -18,8 +18,8 @@ The regulatory clash comes at a time when Amazon Leo has only about 200 satellit
 
 ---
 **Sources:**
-- SpaceNews – SpaceX and Amazon spar over satellite deployments: https://spacenews.com/spacex-and-amazon-spar-over-satellite-deployments/
-- European Spaceflight – SpaceX Files FCC Complaint Over Ariane 64 Amazon LEO Launch: https://europeanspaceflight.com/spacex-files-fcc-complaint-over-ariane-64-amazon-leo-launch/
-- BusinessStory – SpaceX tries to convince the FCC that Amazon placed satellites at the wrong altitude: https://www.businessstory.org/2026/04/02/spacex-tries-to-convince-the-fcc-that-amazon-placed-satellites-at-the-wrong-altitude/
-- Benzinga – SpaceX Files FCC Complaint Against Amazon Over Orbital Debris Violations: https://www.benzinga.com/news/space/26/04/51617921/elon-musks-spacex-files-fcc-complaint-against-amazon-over-orbital-debris-violations
-- Space Intel Report – Amazon Leo response to FCC: https://www.spaceintelreport.com/amazon-leo-to-fcc-spacex-allegations
+- [SpaceNews – SpaceX and Amazon spar over satellite deployments](https://spacenews.com/spacex-and-amazon-spar-over-satellite-deployments/)
+- [European Spaceflight – SpaceX Files FCC Complaint Over Ariane 64 Amazon LEO Launch](https://europeanspaceflight.com/spacex-files-fcc-complaint-over-ariane-64-amazon-leo-launch/)
+- [BusinessStory – SpaceX tries to convince the FCC that Amazon placed satellites at the wrong altitude](https://www.businessstory.org/2026/04/02/spacex-tries-to-convince-the-fcc-that-amazon-placed-satellites-at-the-wrong-altitude/)
+- [Benzinga – SpaceX Files FCC Complaint Against Amazon Over Orbital Debris Violations](https://www.benzinga.com/news/space/26/04/51617921/elon-musks-spacex-files-fcc-complaint-against-amazon-over-orbital-debris-violations)
+- [Space Intel Report – Amazon Leo response to FCC](https://www.spaceintelreport.com/amazon-leo-to-fcc-spacex-allegations)

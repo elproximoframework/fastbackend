@@ -20,8 +20,8 @@ Booster 19 was rolled out to Starbase's **Pad 2** on March 8, 2026, starting a t
 
 ---
 **Sources:**
-- NASASpaceFlight – SpaceX enters a new era with Booster 19 on Pad 2: https://www.nasaspaceflight.com/2026/03/spacexs-booster-19-pad-2/
-- NASASpaceFlight – Starbase Pad 2 prepares to receive Booster 19: https://www.nasaspaceflight.com/2026/02/starbase-pad-2-booster-19/
-- Starship SpaceX Wiki – Booster 19: https://starship-spacex.fandom.com/wiki/Booster_19_(B19)
-- Basenor – SpaceX Fires Up Raptor 3 Era: https://www.basenor.com/blogs/news/spacex-fires-up-raptor-3-era-booster-19-preflight-testing-begins
-- Tesla Oracle – Starship Flight 12: SpaceX to test Raptor 3 engines: https://www.teslaoracle.com/2026/03/09/starship-flight-12-spacex-to-test-raptor-3-engines-on-the-v3-booster-19-for-the-first-time/
+- [NASASpaceFlight – SpaceX enters a new era with Booster 19 on Pad 2](https://www.nasaspaceflight.com/2026/03/spacexs-booster-19-pad-2/)
+- [NASASpaceFlight – Starbase Pad 2 prepares to receive Booster 19](https://www.nasaspaceflight.com/2026/02/starbase-pad-2-booster-19/)
+- [Starship SpaceX Wiki – Booster 19](https://starship-spacex.fandom.com/wiki/Booster_19_(B19))
+- [Basenor – SpaceX Fires Up Raptor 3 Era](https://www.basenor.com/blogs/news/spacex-fires-up-raptor-3-era-booster-19-preflight-testing-begins)
+- [Tesla Oracle – Starship Flight 12: SpaceX to test Raptor 3 engines](https://www.teslaoracle.com/2026/03/09/starship-flight-12-spacex-to-test-raptor-3-engines-on-the-v3-booster-19-for-the-first-time/)

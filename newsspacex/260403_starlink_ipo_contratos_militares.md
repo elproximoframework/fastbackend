@@ -16,8 +16,8 @@ Desde 2008, SpaceX ha acumulado más de **24.400 millones de dólares en contrat
 
 ---
 **Fuentes:**
-- CNBC – SpaceX confidentially files for IPO: https://www.cnbc.com/2026/04/01/spacex-confidentially-files-for-ipo-setting-stage-for-record-offering.html
-- Teslarati – SpaceX files SEC official IPO June: https://www.teslarati.com/spacex-files-sec-official-ipo-june/
-- Basenor – Starship Flight 12 Targeting Late April: https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect
-- US Reporter – SpaceX IPO 2026 overview: https://usreporter.com/spacex-ipo-2026-1-75-trillion-valuation-sec-filing-what-to-know/
-- SatNews – SpaceX Confidential: https://satnews.com/2026/04/01/spacex-confidential-is-there-a-secret-ipo-in-the-works/
+- [CNBC – SpaceX confidentially files for IPO](https://www.cnbc.com/2026/04/01/spacex-confidentially-files-for-ipo-setting-stage-for-record-offering.html)
+- [Teslarati – SpaceX files SEC official IPO June](https://www.teslarati.com/spacex-files-sec-official-ipo-june/)
+- [Basenor – Starship Flight 12 Targeting Late April](https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect)
+- [US Reporter – SpaceX IPO 2026 overview](https://usreporter.com/spacex-ipo-2026-1-75-trillion-valuation-sec-filing-what-to-know/)
+- [SatNews – SpaceX Confidential](https://satnews.com/2026/04/01/spacex-confidential-is-there-a-secret-ipo-in-the-works/)

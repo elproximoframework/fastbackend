@@ -20,7 +20,7 @@ On the night of March 28, the transport of a new cryogenic testing and thrust si
 
 ---
 **Sources:**
-- NASASpaceFlight – Ship 39 moving through preflight test objectives: https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/
-- NASASpaceFlight – Flight 12: Ship 39 rolls out to Masseys: https://www.nasaspaceflight.com/2026/02/ship-39-masseys-testing/
-- Basenor – SpaceX Starship Flight 12: Booster 19 on Pad 2, Ship 39 Ready: https://www.basenor.com/blogs/news/spacex-starship-flight-12-booster-19-on-pad-2-ship-39-ready
-- Space.com – SpaceX's Ship 39 is so cool in Starship V3 test: https://www.space.com/space-exploration/spacexs-ship-39-is-so-cool-in-starship-v3-test-space-photo-of-the-day-for-march-9-2026
+- [NASASpaceFlight – Ship 39 moving through preflight test objectives](https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/)
+- [NASASpaceFlight – Flight 12: Ship 39 rolls out to Masseys](https://www.nasaspaceflight.com/2026/02/ship-39-masseys-testing/)
+- [Basenor – SpaceX Starship Flight 12: Booster 19 on Pad 2, Ship 39 Ready](https://www.basenor.com/blogs/news/spacex-starship-flight-12-booster-19-on-pad-2-ship-39-ready)
+- [Space.com – SpaceX's Ship 39 is so cool in Starship V3 test](https://www.space.com/space-exploration/spacexs-ship-39-is-so-cool-in-starship-v3-test-space-photo-of-the-day-for-march-9-2026)

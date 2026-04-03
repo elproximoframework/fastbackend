@@ -17,6 +17,6 @@ The fifth and decisive milestone is **launch authorization from the FAA**. The r
 ---
 **Sources:**
 - Elon Musk on X (April 3, 2026) – 4-6 week statement
-- Basenor – Starship Flight 12 Targeting Late April: https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect
-- Starship SpaceX Wiki – Starship Flight Test 12: https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12
-- NASASpaceFlight – Progress on Starbase Pads ahead of Block 3: https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/
+- [Basenor – Starship Flight 12 Targeting Late April](https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect)
+- [Starship SpaceX Wiki – Starship Flight Test 12](https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12)
+- [NASASpaceFlight – Progress on Starbase Pads ahead of Block 3](https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/)

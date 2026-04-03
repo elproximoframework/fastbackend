@@ -16,7 +16,7 @@ Esta decisión no es solo ingeniería: es una declaración de intenciones sobre 
 
 ---
 **Fuentes:**
-- NASASpaceFlight – Progress on Starbase Pads ahead of Block 3 Starships: https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/
-- Wikipedia – SpaceX Super Heavy (gimbaling system history): https://en.wikipedia.org/wiki/SpaceX_Super_Heavy
-- NASASpaceFlight – Eye on the future, Pad 2 and Block 3: https://www.nasaspaceflight.com/2025/09/spacex-prepare-pad-2-block-3-starbase/
-- Starship SpaceX Wiki – Chopsticks: https://starship-spacex.fandom.com/wiki/Chopsticks
+- [NASASpaceFlight – Progress on Starbase Pads ahead of Block 3 Starships](https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/)
+- [Wikipedia – SpaceX Super Heavy (gimbaling system history)](https://en.wikipedia.org/wiki/SpaceX_Super_Heavy)
+- [NASASpaceFlight – Eye on the future, Pad 2 and Block 3](https://www.nasaspaceflight.com/2025/09/spacex-prepare-pad-2-block-3-starbase/)
+- [Starship SpaceX Wiki – Chopsticks](https://starship-spacex.fandom.com/wiki/Chopsticks)

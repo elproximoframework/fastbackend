@@ -18,8 +18,8 @@ El camino hasta aquí tardó doce años en completarse desde el primer satélite
 
 ---
 **Fuentes:**
-- Tom's Hardware – Starlink satellite 34343 disappears in 'fragment creation event': https://www.tomshardware.com/service-providers/network-providers/starlink-satellite-34343-disappears-in-fragment-creation-event
-- KeepTrack – Starlink-34343 deep dive: https://keeptrack.space/deep-dive/starlink-34343
-- SpaceNews – Second Starlink satellite suffers anomaly, generating debris: https://spacenews.com/second-starlink-satellite-suffers-anomaly-generating-debris/
-- Gizmodo – SpaceX Starlink Satellite Malfunctions, Breaks Apart in Orbit: https://gizmodo.com/spacex-starlink-satellite-malfunctions-breaks-apart-in-orbit-2000740250
-- Scientific American – SpaceX Starlink Satellite Suffers Mysterious 'Anomaly' in Orbit: https://www.scientificamerican.com/article/spacex-starlink-satellite-suffers-mysterious-anomaly-in-orbit/
+- [Tom's Hardware – Starlink satellite 34343 disappears in 'fragment creation event'](https://www.tomshardware.com/service-providers/network-providers/starlink-satellite-34343-disappears-in-fragment-creation-event)
+- [KeepTrack – Starlink-34343 deep dive](https://keeptrack.space/deep-dive/starlink-34343)
+- [SpaceNews – Second Starlink satellite suffers anomaly, generating debris](https://spacenews.com/second-starlink-satellite-suffers-anomaly-generating-debris/)
+- [Gizmodo – SpaceX Starlink Satellite Malfunctions, Breaks Apart in Orbit](https://gizmodo.com/spacex-starlink-satellite-malfunctions-breaks-apart-in-orbit-2000740250)
+- [Scientific American – SpaceX Starlink Satellite Suffers Mysterious 'Anomaly' in Orbit](https://www.scientificamerican.com/article/spacex-starlink-satellite-suffers-mysterious-anomaly-in-orbit/)

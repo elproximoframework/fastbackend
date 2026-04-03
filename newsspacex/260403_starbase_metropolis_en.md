@@ -16,6 +16,6 @@ The physical connection between the **Star Factory** and the Gigabay is advancin
 
 ---
 **Sources:**
-- NASASpaceFlight – Progress on Starbase Pads ahead of Block 3 Starships: https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/
-- NASASpaceFlight – Ship 39 moving through preflight test objectives: https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/
-- AutoEvolution – SpaceX Is Building a Massive Starship Facility in Florida: https://www.autoevolution.com/news/spacex-is-building-a-massive-starship-facility-in-florida-calls-it-gigabay-248046.html
+- [NASASpaceFlight – Progress on Starbase Pads ahead of Block 3 Starships](https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/)
+- [NASASpaceFlight – Ship 39 moving through preflight test objectives](https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/)
+- [AutoEvolution – SpaceX Is Building a Massive Starship Facility in Florida](https://www.autoevolution.com/news/spacex-is-building-a-massive-starship-facility-in-florida-calls-it-gigabay-248046.html)

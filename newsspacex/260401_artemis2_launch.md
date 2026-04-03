@@ -26,9 +26,9 @@ Artemis II no es una misión de alunizaje —eso llegará con Artemis III, previ
 
 ---
 **Fuentes:**
-- NASA Blog – Artemis II Launch Day Updates: https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/
-- NASA – Artemis II Leaves Earth Orbit: https://www.nasa.gov/news-release/nasas-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon/
-- CNN – Artemis II begins its journey to the moon: https://www.cnn.com/2026/04/01/science/live-news/artemis-2-nasa-launch
-- Space.com – Artemis 2 Live updates: https://www.space.com/news/live/artemis-2-nasa-moon-mission-launch-updates-april-3-2026
-- NPR – Artemis II has left Earth's orbit: https://www.npr.org/2026/04/03/nx-s1-5771567/nasa-artemis-ii-tli-moon
-- Al Jazeera – How long will Artemis II take: https://www.aljazeera.com/news/2026/4/2/how-long-will-artemis-ii-take-to-reach-the-moon-and-what-happens-next
+- [NASA Blog – Artemis II Launch Day Updates](https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/)
+- [NASA – Artemis II Leaves Earth Orbit](https://www.nasa.gov/news-release/nasas-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon/)
+- [CNN – Artemis II begins its journey to the moon](https://www.cnn.com/2026/04/01/science/live-news/artemis-2-nasa-launch)
+- [Space.com – Artemis 2 Live updates](https://www.space.com/news/live/artemis-2-nasa-moon-mission-launch-updates-april-3-2026)
+- [NPR – Artemis II has left Earth's orbit](https://www.npr.org/2026/04/03/nx-s1-5771567/nasa-artemis-ii-tli-moon)
+- [Al Jazeera – How long will Artemis II take](https://www.aljazeera.com/news/2026/4/2/how-long-will-artemis-ii-take-to-reach-the-moon-and-what-happens-next)

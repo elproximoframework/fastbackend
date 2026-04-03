@@ -16,7 +16,7 @@ The full chain of necessary preparations before flight includes the static fire 
 
 ---
 **Sources:**
-- StarshipGazer on X – FTS delivery confirmed: https://x.com/StarshipGazer/status/2036716082946339312
-- Basenor – Starship Flight 12 Targeting Late April: https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect
-- Starship SpaceX Wiki – Starship Flight Test 12: https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12
-- RocketLaunch.Live – Starship Flight 12: https://www.rocketlaunch.live/launch/starship-flight-12
+- [StarshipGazer on X – FTS delivery confirmed](https://x.com/StarshipGazer/status/2036716082946339312)
+- [Basenor – Starship Flight 12 Targeting Late April](https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect)
+- [Starship SpaceX Wiki – Starship Flight Test 12](https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12)
+- [RocketLaunch.Live – Starship Flight 12](https://www.rocketlaunch.live/launch/starship-flight-12)
