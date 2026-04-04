@@ -13,11 +13,3 @@ The driver of the valuation is not the rockets, but **Starlink**: the satellite 
 The other major valuation lever is SpaceX's position in the US military launch market. On April 1, 2026, the **Space Force** awarded SpaceX a **$178.5 million** contract to launch missile-tracking satellites for the Space Development Agency on two Falcon 9 missions starting in the third quarter of 2027. This contract is the latest piece of a dominance that SpaceX has built from scratch: in 2014, the company had to sue the Air Force even to be allowed to compete against the United Launch Alliance (ULA) monopoly. Twelve years later, SpaceX controls approximately **60% of United States military launches** through 2032 under the National Security Space Launch (NSSL) Phase 3 program, having been awarded a $5.9 billion framework contract in April 2025 for 28 national security missions through 2029.
 
 Since 2008, SpaceX has accumulated more than **$24.4 billion in contracts with the federal government** (NASA, Air Force, Space Force), making it practically indispensable for US space policy.
-
----
-**Sources:**
-- [CNBC – SpaceX confidentially files for IPO](https://www.cnbc.com/2026/04/01/spacex-confidentially-files-for-ipo-setting-stage-for-record-offering.html)
-- [Teslarati – SpaceX files SEC official IPO June](https://www.teslarati.com/spacex-files-sec-official-ipo-june/)
-- [Basenor – Starship Flight 12 Targeting Late April](https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect)
-- [US Reporter – SpaceX IPO 2026 overview](https://usreporter.com/spacex-ipo-2026-1-75-trillion-valuation-sec-filing-what-to-know/)
-- [SatNews – SpaceX Confidential](https://satnews.com/2026/04/01/spacex-confidential-is-there-a-secret-ipo-in-the-works/)

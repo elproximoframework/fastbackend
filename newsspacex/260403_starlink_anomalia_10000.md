@@ -17,9 +17,8 @@ Este incidente se produce, con cierta ironía, en el momento en que Starlink aca
 El camino hasta aquí tardó doce años en completarse desde el primer satélite experimental y cuatro años desde el primer lanzamiento operativo en 2020. El futuro es aún más ambicioso: SpaceX tiene aprobación regulatoria para decenas de miles de satélites adicionales y estudia arquitecturas de satélites como nodos de centros de datos en órbita.
 
 ---
+
 **Fuentes:**
-- [Tom's Hardware – Starlink satellite 34343 disappears in 'fragment creation event'](https://www.tomshardware.com/service-providers/network-providers/starlink-satellite-34343-disappears-in-fragment-creation-event)
+
 - [KeepTrack – Starlink-34343 deep dive](https://keeptrack.space/deep-dive/starlink-34343)
 - [SpaceNews – Second Starlink satellite suffers anomaly, generating debris](https://spacenews.com/second-starlink-satellite-suffers-anomaly-generating-debris/)
-- [Gizmodo – SpaceX Starlink Satellite Malfunctions, Breaks Apart in Orbit](https://gizmodo.com/spacex-starlink-satellite-malfunctions-breaks-apart-in-orbit-2000740250)
-- [Scientific American – SpaceX Starlink Satellite Suffers Mysterious 'Anomaly' in Orbit](https://www.scientificamerican.com/article/spacex-starlink-satellite-suffers-mysterious-anomaly-in-orbit/)

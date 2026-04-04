@@ -15,8 +15,9 @@ En el centro de pruebas de motores de **McGregor, Texas**, los ingenieros de Spa
 Desde agosto de 2024, SpaceX ha acumulado ya más de **170 pruebas de larga duración** de motores Raptor 3 en McGregor. Para añadir perspectiva histórica: una cámara de las instalaciones captó recientemente unas toberas de un antiguo Raptor 1 siendo transportadas por allí. Ver un Raptor 1 junto a un Raptor 3 hoy es como comparar un carburador de los años 60 con un sistema de inyección directa moderno: la distancia tecnológica es enorme, y entre ambos no han pasado décadas sino apenas cinco años.
 
 ---
+
 **Fuentes:**
+
 - [NASASpaceFlight – Florida Starship progress with launch sites at KSC and Cape](https://www.nasaspaceflight.com/2026/01/florida-starship-progress-ksc-cape/)
 - [AutoEvolution – SpaceX Is Building a Massive Starship Facility in Florida](https://www.autoevolution.com/news/spacex-is-building-a-massive-starship-facility-in-florida-calls-it-gigabay-248046.html)
 - [SpaceX can launch Starship from Florida pad (Space.com)](https://www.space.com/space-exploration/launches-spacecraft/spacex-can-launch-its-starship-megarocket-from-florida-pad-air-force-says)
-- [NASASpaceFlight – Starbase Pad 2 prepares to receive Booster 19](https://www.nasaspaceflight.com/2026/02/starbase-pad-2-booster-19/)

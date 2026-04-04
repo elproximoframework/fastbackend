@@ -13,11 +13,3 @@ El motor de la valoración no son los cohetes, sino **Starlink**: el servicio de
 La otra gran palanca de valoración es la posición de SpaceX en el mercado de lanzamientos militares de EE.UU. El 1 de abril de 2026, el **Space Force** adjudicó a SpaceX un contrato de **178,5 millones de dólares** para lanzar satélites de seguimiento de misiles de la Space Development Agency en dos misiones Falcon 9 a partir del tercer trimestre de 2027. Este contrato es la última pieza de un dominio que SpaceX ha construido desde cero: en 2014, la empresa tuvo que demandar a la Fuerza Aérea para que le permitiera siquiera competir contra el monopolio de United Launch Alliance (ULA). Doce años después, SpaceX controla aproximadamente el **60% de los lanzamientos militares de Estados Unidos** hasta 2032 bajo el programa National Security Space Launch (NSSL) Phase 3, habiéndose adjudicado en abril de 2025 un contrato marco de 5.900 millones de dólares para 28 misiones de seguridad nacional hasta 2029.
 
 Desde 2008, SpaceX ha acumulado más de **24.400 millones de dólares en contratos con el gobierno federal** (NASA, Air Force, Space Force), haciéndola prácticamente indispensable para la política espacial de EE.UU.
-
----
-**Fuentes:**
-- [CNBC – SpaceX confidentially files for IPO](https://www.cnbc.com/2026/04/01/spacex-confidentially-files-for-ipo-setting-stage-for-record-offering.html)
-- [Teslarati – SpaceX files SEC official IPO June](https://www.teslarati.com/spacex-files-sec-official-ipo-june/)
-- [Basenor – Starship Flight 12 Targeting Late April](https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect)
-- [US Reporter – SpaceX IPO 2026 overview](https://usreporter.com/spacex-ipo-2026-1-75-trillion-valuation-sec-filing-what-to-know/)
-- [SatNews – SpaceX Confidential](https://satnews.com/2026/04/01/spacex-confidential-is-there-a-secret-ipo-in-the-works/)

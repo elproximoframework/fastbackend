@@ -15,8 +15,7 @@ The operational impact of this system is hard to overstate. Currently, each Star
 Alongside the ASU, functional tests of two new liquid methane storage tanks have also been completed, which are already being integrated into the pad's supply system. Step by step, Starbase is thus becoming a self-sufficient propellant facility: the type of infrastructure that must be replicated, in an adapted version, on the surface of Mars.
 
 ---
+
 **Sources:**
+
 - [NASASpaceFlight – Progress on Starbase Pads ahead of Block 3 Starships](https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/)
-- [NextBigFuture – SpaceX Could Launch Block 3 Starship Flight 12](https://www.nextbigfuture.com/2026/01/spacex-could-launch-block-3-starship-flight-12-in-february-or-march-2026.html)
-- [Starship SpaceX Wiki – Starbase Air Separation Plant](https://starship-spacex.fandom.com/wiki/Starbase_Air_Separation_Plant)
-- [NASASpaceFlight – Starbase Pad 2 prepares to receive Booster 19](https://www.nasaspaceflight.com/2026/02/starbase-pad-2-booster-19/)

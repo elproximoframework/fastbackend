@@ -13,10 +13,3 @@ The third milestone is the **stacking of the full assembly** (Ship 39 on Booster
 The fourth milestone is the **decision on Booster 20**: although it won't fly on this mission, the status of the Super Crusher structural tests at Massey's could determine if it requires additional reinforcements before being sealed, which would affect the program's cadence beyond Flight 12.
 
 The fifth and decisive milestone is **launch authorization from the FAA**. The regulatory agency has historically been the most unpredictable variable in Starship schedules. The FCC communications license has already been granted for windows between May 5 and 10, but the FAA launch license is a separate and more complex process. If all static fires occur without incident between April 3 and 21, and the FAA acts with agility, a launch in late April or early May is achievable. If any test generates data requiring additional analysis, the schedule would extend to mid-May or beyond.
-
----
-**Sources:**
-- Elon Musk on X (April 3, 2026) – 4-6 week statement
-- [Basenor – Starship Flight 12 Targeting Late April](https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect)
-- [Starship SpaceX Wiki – Starship Flight Test 12](https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12)
-- [NASASpaceFlight – Progress on Starbase Pads ahead of Block 3](https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/)

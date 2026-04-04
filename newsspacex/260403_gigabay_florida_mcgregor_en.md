@@ -15,8 +15,9 @@ At the **McGregor, Texas** engine test facility, SpaceX engineers have completed
 Since August 2024, SpaceX has already accumulated more than **170 long-duration tests** of Raptor 3 engines at McGregor. To add historical perspective: a camera at the facility recently captured nozzles from an old Raptor 1 being transported through. Seeing a Raptor 1 alongside a Raptor 3 today is like comparing a 1960s carburetor with a modern direct injection system: the technological distance is enormous, and not decades but barely five years have passed between them.
 
 ---
+
 **Sources:**
+
 - [NASASpaceFlight – Florida Starship progress with launch sites at KSC and Cape](https://www.nasaspaceflight.com/2026/01/florida-starship-progress-ksc-cape/)
 - [AutoEvolution – SpaceX Is Building a Massive Starship Facility in Florida](https://www.autoevolution.com/news/spacex-is-building-a-massive-starship-facility-in-florida-calls-it-gigabay-248046.html)
 - [SpaceX can launch Starship from Florida pad (Space.com)](https://www.space.com/space-exploration/launches-spacecraft/spacex-can-launch-its-starship-megarocket-from-florida-pad-air-force-says)
-- [NASASpaceFlight – Starbase Pad 2 prepares to receive Booster 19](https://www.nasaspaceflight.com/2026/02/starbase-pad-2-booster-19/)

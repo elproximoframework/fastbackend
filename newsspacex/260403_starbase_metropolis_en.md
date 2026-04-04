@@ -13,9 +13,3 @@ The **Super Crusher**—the structural actuator system that subjects the rear se
 Starbase's **Gigabay** has reached the fourth of its five planned levels and is already receiving its exterior cladding at the rear, protecting it from the salty and corrosive environment of the Gulf of Mexico. When completed, this structure will be able to simultaneously house up to **24 Starship vehicles** in various stages of integration and refurbishment, transforming interplanetary rocket production into something more akin to a mass-production line than the technological craftsmanship of the early prototypes.
 
 The physical connection between the **Star Factory** and the Gigabay is advancing with the installation of large-format glass panels, a process that the fan community has dubbed "Space Tetris" due to the millimeter precision required. In the nose cone assembly line, nose cones for Ships 41, 42, 43, 45, 46, and 47 can be seen simultaneously in various stages of manufacturing. Ship 40, meanwhile, already has rear flaps, covered vents, almost the entire heat shield installed, and—a Block 3 novelty—forward flaps already mounted at a very early stage of assembly, reducing total integration time.
-
----
-**Sources:**
-- [NASASpaceFlight – Progress on Starbase Pads ahead of Block 3 Starships](https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/)
-- [NASASpaceFlight – Ship 39 moving through preflight test objectives](https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/)
-- [AutoEvolution – SpaceX Is Building a Massive Starship Facility in Florida](https://www.autoevolution.com/news/spacex-is-building-a-massive-starship-facility-in-florida-calls-it-gigabay-248046.html)

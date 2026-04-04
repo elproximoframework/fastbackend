@@ -13,9 +13,3 @@ El **Super Crusher** —el sistema de actuadores estructurales que somete la sec
 La **Gigabay** de Starbase ha alcanzado el cuarto de sus cinco niveles planificados y ya recibe el revestimiento exterior en la parte trasera, protegiéndola del ambiente salino y corrosivo del Golfo de México. Cuando esté terminada, esta estructura podrá albergar simultáneamente hasta **24 vehículos Starship** en distintas fases de integración y reacondicionamiento, transformando la producción de cohetes interplanetarios en algo más parecido a una línea de fabricación en serie que a la artesanía tecnológica de los primeros prototipos.
 
 La conexión física entre la **Star Factory** y la Gigabay avanza con la instalación de paneles de cristal de gran formato, un proceso que la comunidad de seguidores ha bautizado como "Tetris espacial" por la precisión milimétrica requerida. En la cadena de montaje de conos de nariz se pueden observar simultáneamente los de las Ships 41, 42, 43, 45, 46 y 47 en distintas fases de fabricación. La Ship 40, mientras tanto, ya tiene aletas traseras, conductos cubiertos, casi todo el escudo térmico instalado y —novedad del Block 3— las aletas delanteras ya montadas en una fase muy temprana del ensamblaje, reduciendo el tiempo total de integración.
-
----
-**Fuentes:**
-- [NASASpaceFlight – Progress on Starbase Pads ahead of Block 3 Starships](https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/)
-- [NASASpaceFlight – Ship 39 moving through preflight test objectives](https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/)
-- [AutoEvolution – SpaceX Is Building a Massive Starship Facility in Florida](https://www.autoevolution.com/news/spacex-is-building-a-massive-starship-facility-in-florida-calls-it-gigabay-248046.html)

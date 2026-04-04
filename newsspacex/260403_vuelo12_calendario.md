@@ -13,10 +13,3 @@ El tercer hito es el **apilado del conjunto completo** (Ship 39 sobre Booster 19
 El cuarto hito es la **decisión sobre el Booster 20**: aunque no vuele en este misión, el estado de las pruebas estructurales del Super Crusher en Massey's podría determinar si requiere refuerzos adicionales antes de ser sellado, algo que afectaría la cadencia del programa más allá del Vuelo 12.
 
 El quinto y decisivo hito es la **autorización de lanzamiento por parte de la FAA**. La agencia reguladora ha sido históricamente la variable más impredecible de los calendarios Starship. La licencia de comunicaciones de la FCC ya está concedida para ventanas entre el 5 y el 10 de mayo, pero la licencia de lanzamiento de la FAA es un proceso separado y más complejo. Si todos los fuegos estáticos ocurren sin incidencias entre el 3 y el 21 de abril, y la FAA actúa con agilidad, el lanzamiento a finales de abril o principios de mayo es alcanzable. Si algún test genera datos que requieran análisis adicionales, el calendario se extendería a mediados de mayo o más allá.
-
----
-**Fuentes:**
-- Elon Musk en X (3 de abril 2026) – declaración de 4-6 semanas
-- [Basenor – Starship Flight 12 Targeting Late April](https://www.basenor.com/blogs/news/starship-flight-12-targeting-late-april-what-to-expect)
-- [Starship SpaceX Wiki – Starship Flight Test 12](https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_12)
-- [NASASpaceFlight – Progress on Starbase Pads ahead of Block 3](https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/)

@@ -17,10 +17,3 @@ Between February 28 and March 5, 2026, Ship 39 passed **three consecutive cryoge
 Perhaps the most telling clue to the imminence of the static fire is bureaucratic: the **Federal Aviation Administration (FAA)** published a notice establishing a temporary air space restriction over Massey's and Starbase between April 3 and 14, raising the exclusion ceiling to **10,000 feet of altitude** (about 3,050 meters). In all previous static fire tests of ships at Massey's, the ceiling was 5,000 feet. That the FAA is doubling that margin indicates its analysts have calculated the energy released by the six Raptor 3 engines in Block 3 configuration and decided to act with extra caution. Everything points to a static fire with all engines ignited simultaneously.
 
 On the night of March 28, the transport of a new cryogenic testing and thrust simulation stand from the Sanchez site to Massey's was observed: a massive four-legged structure designed to withstand the loads of the ship's static fire.
-
----
-**Sources:**
-- [NASASpaceFlight – Ship 39 moving through preflight test objectives](https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/)
-- [NASASpaceFlight – Flight 12: Ship 39 rolls out to Masseys](https://www.nasaspaceflight.com/2026/02/ship-39-masseys-testing/)
-- [Basenor – SpaceX Starship Flight 12: Booster 19 on Pad 2, Ship 39 Ready](https://www.basenor.com/blogs/news/spacex-starship-flight-12-booster-19-on-pad-2-ship-39-ready)
-- [Space.com – SpaceX's Ship 39 is so cool in Starship V3 test](https://www.space.com/space-exploration/spacexs-ship-39-is-so-cool-in-starship-v3-test-space-photo-of-the-day-for-march-9-2026)

@@ -17,10 +17,3 @@ Entre el 28 de febrero y el 5 de marzo de 2026, la Ship 39 superó **tres prueba
 Quizá la pista más elocuente de la inminencia del fuego estático es burocrática: la **Administración Federal de Aviación (FAA)** publicó un aviso estableciendo una restricción temporal del espacio aéreo sobre Massey's y Starbase entre el 3 y el 14 de abril, elevando el techo de exclusión hasta los **10.000 pies de altitud** (unos 3.050 metros). En todas las pruebas de fuego estático anteriores de naves en Massey's, el techo era de 5.000 pies. Que la FAA doble ese margen indica que sus analistas han calculado la energía liberada por los seis motores Raptor 3 en configuración Block 3 y han decidido actuar con prudencia adicional. Todo apunta a un fuego estático con todos los motores encendidos simultáneamente.
 
 La noche del 28 de marzo, además, se observó el traslado de un nuevo soporte de pruebas criogénicas y de simulación de empuje desde el sitio de Sánchez hasta Massey's: una estructura masiva de cuatro patas diseñada para soportar las cargas del fuego estático de la nave.
-
----
-**Fuentes:**
-- [NASASpaceFlight – Ship 39 moving through preflight test objectives](https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/)
-- [NASASpaceFlight – Flight 12: Ship 39 rolls out to Masseys](https://www.nasaspaceflight.com/2026/02/ship-39-masseys-testing/)
-- [Basenor – SpaceX Starship Flight 12: Booster 19 on Pad 2, Ship 39 Ready](https://www.basenor.com/blogs/news/spacex-starship-flight-12-booster-19-on-pad-2-ship-39-ready)
-- [Space.com – SpaceX's Ship 39 is so cool in Starship V3 test](https://www.space.com/space-exploration/spacexs-ship-39-is-so-cool-in-starship-v3-test-space-photo-of-the-day-for-march-9-2026)
