@@ -10,7 +10,7 @@
     "location_en": "Starbase, Texas",
     "date": "2026-04-03",
     "slug": "booster-19-raptor3-propulsor-mas-potente",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_booster19_raptor3.md",
+    "rutanoticia": "260403_booster19_raptor3.md",
     "image": "booster19_raptor3.png",
     "tags": [
       "Starship",
@@ -43,7 +43,7 @@
     "location_en": "Starbase, Texas",
     "date": "2026-04-03",
     "slug": "ship-39-escudo-termico-faa-vuelo-12",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_ship39_tps_faa.md",
+    "rutanoticia": "260403_ship39_tps_faa.md",
     "image": "ship39_tps.png",
     "tags": [
       "Starship",
@@ -76,7 +76,7 @@
     "location_en": "Starbase, Texas",
     "date": "2026-04-03",
     "slug": "fts-explosivos-vuelo-12-inminente",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_flight12_fts_inminente.md",
+    "rutanoticia": "260403_flight12_fts_inminente.md",
     "image": "flight12_fts.png",
     "tags": [
       "Starship",
@@ -109,7 +109,7 @@
     "location_en": "Starbase, Texas",
     "date": "2026-04-03",
     "slug": "vuelo-12-perfil-hot-staging-carga-activa",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_flight12_perfil_mision.md",
+    "rutanoticia": "260403_flight12_perfil_mision.md",
     "image": "flight12_perfil.png",
     "tags": [
       "Starship",
@@ -142,7 +142,7 @@
     "location_en": "Starbase, Texas",
     "date": "2026-04-03",
     "slug": "vuelo-12-calendario-cinco-hitos",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_vuelo12_calendario.md",
+    "rutanoticia": "260403_vuelo12_calendario.md",
     "image": "flight12_calendar.png",
     "tags": [
       "Starship",
@@ -175,7 +175,7 @@
     "location_en": "Starbase, Texas",
     "date": "2026-04-03",
     "slug": "starbase-metropolis-gigabay-masseys-produccion",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_starbase_metropolis.md",
+    "rutanoticia": "260403_starbase_metropolis.md",
     "image": "starbase_gigabay.png",
     "tags": [
       "Starbase",
@@ -208,7 +208,7 @@
     "location_en": "Starbase, Texas",
     "date": "2026-04-03",
     "slug": "mechazilla-hidraulica-actuadores-electricos-torre-2",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_mechazilla_actuadores_electricos.md",
+    "rutanoticia": "260403_mechazilla_actuadores_electricos.md",
     "image": "mechazilla_electric.png",
     "tags": [
       "Mechazilla",
@@ -241,7 +241,7 @@
     "location_en": "Starbase, Texas",
     "date": "2026-04-03",
     "slug": "gateway-mars-asu-independencia-operativa-starbase",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_gateway_mars_asu.md",
+    "rutanoticia": "260403_gateway_mars_asu.md",
     "image": "gateway_mars_asu.png",
     "tags": [
       "Starbase",
@@ -274,7 +274,7 @@
     "location_en": "Kennedy Space Center, Florida / McGregor, Texas",
     "date": "2026-04-03",
     "slug": "gigabay-florida-90-metros-mcgregor-raptor-records",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_gigabay_florida_mcgregor.md",
+    "rutanoticia": "260403_gigabay_florida_mcgregor.md",
     "image": "gigabay_florida.png",
     "tags": [
       "Gigabay",
@@ -307,7 +307,7 @@
     "location_en": "Vandenberg SFB / Cape Canaveral",
     "date": "2026-03-30",
     "slug": "falcon9-b1076-record-34-transporter16-iceye-k2space",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_falcon9_transporter16_iceye.md",
+    "rutanoticia": "260403_falcon9_transporter16_iceye.md",
     "image": "transporter16_iceye.png",
     "tags": [
       "Falcon 9",
@@ -342,7 +342,7 @@
     "location_en": "Low Earth Orbit",
     "date": "2026-03-30",
     "slug": "starlink-anomalia-34343-10000-satelites-activos",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_starlink_anomalia_10000.md",
+    "rutanoticia": "260403_starlink_anomalia_10000.md",
     "image": "starlink_anomaly.png",
     "tags": [
       "Starlink",
@@ -375,7 +375,7 @@
     "location_en": "Washington D.C. / Low Earth Orbit",
     "date": "2026-04-01",
     "slug": "spacex-denuncia-amazon-kuiper-fcc-guerra-orbitas",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_spacex_denuncia_amazon_kuiper.md",
+    "rutanoticia": "260403_spacex_denuncia_amazon_kuiper.md",
     "image": "spacex_amazon_fcc.png",
     "tags": [
       "Starlink",
@@ -408,7 +408,7 @@
     "location_en": "Washington D.C.",
     "date": "2026-04-01",
     "slug": "spacex-ipo-75000-millones-contratos-militares",
-    "rutanoticia": "/api/v1/newsspacex_content/260403_starlink_ipo_contratos_militares.md",
+    "rutanoticia": "260403_starlink_ipo_contratos_militares.md",
     "image": "spacex_ipo.png",
     "tags": [
       "SpaceX",

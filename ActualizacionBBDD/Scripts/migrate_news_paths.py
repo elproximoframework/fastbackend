@@ -11,22 +11,26 @@ def migrate_database(url, label):
         conn = psycopg2.connect(url)
         cur = conn.cursor()
         
-        # Select all news items that have the old prefixes
+        # 1. Migrate regular news
         cur.execute("SELECT id, rutanoticia FROM news WHERE rutanoticia LIKE '/api/v1/news/%' OR rutanoticia LIKE '/api/v1/news_content/%'")
         rows = cur.fetchall()
-        
-        print(f"Found {len(rows)} items to migrate in {label}.")
-        
-        updated_count = 0
+        print(f"Found {len(rows)} regular news items to migrate in {label}.")
         for news_id, old_path in rows:
             filename = old_path.split('/')[-1]
             cur.execute("UPDATE news SET rutanoticia = %s WHERE id = %s", (filename, news_id))
-            updated_count += 1
+            
+        # 2. Migrate SpaceX news
+        cur.execute("SELECT id, rutanoticia FROM newsspacex WHERE rutanoticia LIKE '/api/v1/newsspacex_content/%'")
+        rows_sx = cur.fetchall()
+        print(f"Found {len(rows_sx)} SpaceX news items to migrate in {label}.")
+        for news_id, old_path in rows_sx:
+            filename = old_path.split('/')[-1]
+            cur.execute("UPDATE newsspacex SET rutanoticia = %s WHERE id = %s", (filename, news_id))
             
         conn.commit()
         cur.close()
         conn.close()
-        print(f"[OK] {label}: Updated {updated_count} records.")
+        print(f"[OK] {label}: Migration completed.")
     except Exception as e:
         print(f"[!] ERROR in {label}: {e}")
 

@@ -8,13 +8,14 @@ def verify(url, label):
     try:
         conn = psycopg2.connect(url)
         cur = conn.cursor()
-        cur.execute("SELECT count(*) FROM news WHERE rutanoticia LIKE '/api/v1/news/%'")
+        # Regular News
+        cur.execute("SELECT count(*) FROM news WHERE rutanoticia LIKE '/api/v1/%'")
         count = cur.fetchone()[0]
-        cur.execute("SELECT count(*) FROM news")
-        total = cur.fetchone()[0]
-        cur.execute("SELECT rutanoticia FROM news LIMIT 1")
-        sample = cur.fetchone()[0]
-        print(f"{label}: {count} with prefix, {total} total. Sample: {sample}")
+        # SpaceX News
+        cur.execute("SELECT count(*) FROM newsspacex WHERE rutanoticia LIKE '/api/v1/%'")
+        count_sx = cur.fetchone()[0]
+        
+        print(f"{label}: Regular={count} with prefix, SpaceX={count_sx} with prefix.")
         conn.close()
     except Exception as e:
         print(f"Error {label}: {e}")
