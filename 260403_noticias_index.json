@@ -442,7 +442,7 @@
     "location_en": "Deep Space",
     "date": "2026-04-05",
     "slug": "artemis-2-orion-viaje-lejano-luna",
-    "rutanoticia": "/api/v1/news/260405_artemis_2_orion_luna.md",
+    "rutanoticia": "260405_artemis_2_orion_luna.md",
     "image": "artemis2_orion_luna.png",
     "tags": [
       "Artemis 2",
@@ -475,7 +475,7 @@
     "location_en": "USA / Mexico",
     "date": "2026-04-05",
     "slug": "ciencia-menu-artemis-2-tortillas-espacio",
-    "rutanoticia": "/api/v1/news/260405_artemis_2_menu_tortillas.md",
+    "rutanoticia": "260405_artemis_2_menu_tortillas.md",
     "image": "artemis2_menu_tortillas.png",
     "tags": [
       "NASA",
@@ -508,7 +508,7 @@
     "location_en": "Argentina",
     "date": "2026-04-05",
     "slug": "atenea-microsatelite-argentino-artemis-2",
-    "rutanoticia": "/api/v1/news/260405_atenea_satelite_argentina_artemis.md",
+    "rutanoticia": "260405_atenea_satelite_argentina_artemis.md",
     "image": "atenea_satelite_argentina.png",
     "tags": [
       "CONAE",
@@ -541,7 +541,7 @@
     "location_en": "Spain",
     "date": "2026-04-05",
     "slug": "telescopio-ttt3-teide-observa-orion-luna",
-    "rutanoticia": "/api/v1/news/260405_telescopio_teide_orion_artemis.md",
+    "rutanoticia": "260405_telescopio_teide_orion_artemis.md",
     "image": "telescopio_teide_orion.png",
     "tags": [
       "Observatorio del Teide",
@@ -574,7 +574,7 @@
     "location_en": "Spain / Europe",
     "date": "2026-03-31",
     "slug": "espana-inversion-625-millones-esa-agencia-espacial",
-    "rutanoticia": "/api/v1/news/260331_inversion_espana_esa_aee.md",
+    "rutanoticia": "260331_inversion_espana_esa_aee.md",
     "image": "inversion_espana_esa.png",
     "tags": [
       "AEE",
@@ -607,7 +607,7 @@
     "location_en": "Chile",
     "date": "2026-04-05",
     "slug": "observatorio-vera-rubin-revolucion-astronomia",
-    "rutanoticia": "/api/v1/news/260405_observatorio_rubin_revolución.md",
+    "rutanoticia": "260405_observatorio_rubin_revolución.md",
     "image": "observatorio_rubin_andes.png",
     "tags": [
       "Observatorio Rubin",
@@ -640,7 +640,7 @@
     "location_en": "Solar System",
     "date": "2026-03-31",
     "slug": "cometa-41p-invierte-rotacion-desafio-fisica",
-    "rutanoticia": "/api/v1/news/260331_cometa_41p_rotacion_invertida.md",
+    "rutanoticia": "260331_cometa_41p_rotacion_invertida.md",
     "image": "cometa_41p_hubble.png",
     "tags": [
       "Cometa 41P",
@@ -673,7 +673,7 @@
     "location_en": "Interstellar / Solar System",
     "date": "2026-03-31",
     "slug": "cometa-3i-atlas-antiguo-interestelar-galactico",
-    "rutanoticia": "/api/v1/news/260331_cometa_3i_atlas_antiguedad.md",
+    "rutanoticia": "260331_cometa_3i_atlas_antiguedad.md",
     "image": "cometa_3i_atlas_espacio.png",
     "tags": [
       "3I/ATLAS",
@@ -706,7 +706,7 @@
     "location_en": "NASA Goddard / Maryland",
     "date": "2026-03-27",
     "slug": "telescopio-nancy-grace-roman-integracion-final",
-    "rutanoticia": "/api/v1/news/260327_telescopio_nancy_grace_roman_integracion.md",
+    "rutanoticia": "260327_telescopio_nancy_grace_roman_integracion.md",
     "image": "telescopio_nancy_grace_roman.png",
     "tags": [
       "Nancy Grace Roman",
@@ -739,7 +739,7 @@
     "location_en": "Teruel / Kourou",
     "date": "2026-04-03",
     "slug": "pld-space-miura-5-strongback-teruel-guayana",
-    "rutanoticia": "/api/v1/news/260403_pld_space_miura_5_strongback.md",
+    "rutanoticia": "260403_pld_space_miura_5_strongback.md",
     "image": "miura_5_strongback_teruel.png",
     "tags": [
       "PLD Space",
@@ -772,7 +772,7 @@
     "location_en": "China / Earth Orbit",
     "date": "2026-04-02",
     "slug": "sustain-space-brazo-robotico-flexible-nvidia-ver-rubin-centros-datos",
-    "rutanoticia": "/api/v1/news/260402_sustain_space_brazo_robotico_flexible.md",
+    "rutanoticia": "260402_sustain_space_brazo_robotico_flexible.md",
     "image": "sustain_space_robot_brazo.png",
     "tags": [
       "Sustain Space",
@@ -805,7 +805,7 @@
     "location_en": "Munich / United States",
     "date": "2026-03-31",
     "slug": "rocket-lab-adquisicion-mynaric-comunicacion-laser",
-    "rutanoticia": "/api/v1/news/260331_rocket_lab_adquiere_mynaric.md",
+    "rutanoticia": "260331_rocket_lab_adquiere_mynaric.md",
     "image": "rocket_lab_mynaric_acquisition.png",
     "tags": [
       "Rocket Lab",
