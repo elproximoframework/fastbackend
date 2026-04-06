@@ -137,10 +137,14 @@ def get_companies(request: Request, skip: int = 0, limit: int = 100, db: Session
     companies = db.query(models.Company).filter(models.Company.show == True).offset(skip).limit(limit).all()
     return companies
 
-@app.get("/api/v1/companies/{company_id}", response_model=schemas.CompanyResponse)
+@app.get("/api/v1/companies/{slug}", response_model=schemas.CompanyResponse)
 @limiter.limit("60/minute")
-def get_company(request: Request, company_id: int, db: Session = Depends(get_db)):
-    company = db.query(models.Company).filter(models.Company.id == company_id).first()
+def get_company(request: Request, slug: str, db: Session = Depends(get_db)):
+    company = db.query(models.Company).filter(models.Company.slug == slug).first()
+    if company is None:
+        if slug.isdigit():
+            company = db.query(models.Company).filter(models.Company.id == int(slug)).first()
+            
     if company is None:
         raise HTTPException(status_code=404, detail="Company not found")
     return company

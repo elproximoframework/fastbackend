@@ -27,6 +27,8 @@ class Company(Base):
     stockTicker = Column(String)
     otrassede = Column(String)
     logo = Column(String)
+    slug = Column(String, index=True, unique=True)
+    rutainformacion = Column(String, nullable=True)
     featured_espacio = Column(Boolean, default=False)
     show = Column(Boolean, default=True)
 

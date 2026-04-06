@@ -32,6 +32,8 @@ class CompanyBase(BaseModel):
     stockTicker: Optional[str] = None
     otrassede: Optional[str] = None
     logo: Optional[str] = None
+    slug: Optional[str] = None
+    rutainformacion: Optional[str] = None
     featured_espacio: bool = False
     show: bool = True
 
