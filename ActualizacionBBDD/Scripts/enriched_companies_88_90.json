@@ -1,0 +1,131 @@
+[
+  {
+    "id": 88,
+    "name": "MT Aerospace",
+    "slug": "mt-aerospace",
+    "type": "corporate",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Augsburgo",
+    "coordinates": {
+      "lat": 48.3711,
+      "lng": 10.8983
+    },
+    "employees": 600,
+    "website": "https://www.mt-aerospace.de/",
+    "description": "MT Aerospace AG es una empresa aeroespacial alemana líder que desempeña un papel fundamental en el programa europeo de lanzadores Ariane. Con sede en Augsburgo, la empresa se especializa en el desarrollo y fabricación de componentes estructurales de alta precisión, incluidos tanques de propulsor y aeroestructuras metálicas y de fibra de carbono. Su experiencia técnica es vital para el diseño y producción de las etapas principales y superiores del Ariane 6.",
+    "description_en": "MT Aerospace AG is a leading German aerospace company playing a pivotal role in the European Ariane launcher program. Based in Augsburg, the company specializes in the development and manufacturing of high-precision structural components, including propellant tanks and metallic and carbon-fiber aerostructures. Its technical expertise is vital for the design and production of the Ariane 6 core and upper stages.",
+    "founded": 2005,
+    "ceo": "Ulrich Scheib",
+    "sector": "manufacturing",
+    "tags": [
+      "Ariane 6",
+      "Manufacturing",
+      "Propellant Tanks",
+      "Lightweight Structures",
+      "Aerospace"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/MTAerospace",
+      "linkedin": "https://www.linkedin.com/company/mt-aerospace-ag/"
+    },
+    "keyPrograms": [
+      "Ariane 6",
+      "NASA SLS Components",
+      "Booster Casings"
+    ],
+    "fundingStage": "OHB Group",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Augsburgo (Alemania), Cagliari (Italia), Kourou (Guayana Francesa).",
+    "logo": "mt_aerospace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 89,
+    "name": "Nammo",
+    "slug": "nammo",
+    "type": "corporate",
+    "country": "no",
+    "countryName": "Noruega",
+    "city": "Raufoss",
+    "coordinates": {
+      "lat": 60.7258,
+      "lng": 10.6125
+    },
+    "employees": 4100,
+    "website": "https://www.nammo.com/",
+    "description": "Nammo es una empresa internacional de tecnología de defensa y aeroespacial con sede en Noruega, reconocida por su especialización en sistemas de propulsión de cohetes y motores híbridos. La empresa lidera el desarrollo de tecnología de propulsión híbrida ecológica y versátil, destacando su motor Nucleus. Además, Nammo es un proveedor clave de propulsores de apogeo y sistemas de control orbital para una amplia variedad de satélites.",
+    "description_en": "Nammo is an international defense and aerospace technology company based in Norway, recognized for its specialization in rocket propulsion systems and hybrid motors. The company leads the development of eco-friendly and versatile hybrid propulsion technology, highlighted by its Nucleus engine. Additionally, Nammo is a key provider of apogee thrusters and orbital control systems for a wide variety of satellites.",
+    "founded": 1998,
+    "ceo": "Morten Brandtzæg",
+    "sector": "propulsion",
+    "tags": [
+      "Rocket Propulsion",
+      "Hybrid Engines",
+      "Sounding Rockets",
+      "Space Defense",
+      "Satellite Components"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/nammo",
+      "linkedin": "https://www.linkedin.com/company/nammo/"
+    },
+    "keyPrograms": [
+      "Nucleus Rocket",
+      "NorthStar",
+      "LEROS Thrusters"
+    ],
+    "fundingStage": "Government/Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Raufoss (Noruega), oficinas en varios países europeos y EE. UU.",
+    "logo": "nammo.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 90,
+    "name": "Needronix",
+    "slug": "needronix",
+    "type": "startup",
+    "country": "sk",
+    "countryName": "Eslovaquia",
+    "city": "Bratislava",
+    "coordinates": {
+      "lat": 48.1486,
+      "lng": 17.1077
+    },
+    "employees": 10,
+    "website": "https://needronix.eu/",
+    "description": "Needronix es una innovadora empresa eslovaca que se especializa en el diseño y fabricación de componentes miniaturizados para CubeSats y SmallSats. Conocida por su papel como integrador clave del primer satélite eslovaco, skCUBE, la empresa ofrece una gama de sensores de sol de alta precisión, transceptores de comunicaciones de bajo consumo y sistemas de determinación de actitud, facilitando misiones espaciales compactas y eficientes.",
+    "description_en": "Needronix is an innovative Slovakian company specializing in the design and manufacturing of miniaturized components for CubeSats and SmallSats. Known for its role as the key integrator of the first Slovak satellite, skCUBE, the company offers a range of high-precision fine sun sensors, low-power communication transceivers, and attitude determination systems, facilitating compact and efficient space missions.",
+    "founded": 2015,
+    "ceo": "Jakub Kapuš",
+    "sector": "satellite_components",
+    "tags": [
+      "CubeSat",
+      "Nanosatellites",
+      "Sun Sensors",
+      "Satellite Communications",
+      "skCUBE"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/needronix",
+      "linkedin": "https://www.linkedin.com/company/needronix/"
+    },
+    "keyPrograms": [
+      "Eagle Sun Sensors",
+      "skCUBE",
+      "Cormorant Transceiver"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Bratislava, Eslovaquia.",
+    "logo": "needronix.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

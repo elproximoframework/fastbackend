@@ -1,0 +1,255 @@
+[
+  {
+    "id": 95,
+    "name": "OPUS Aerospace",
+    "slug": "opus-aerospace",
+    "type": "startup",
+    "country": "fr",
+    "countryName": "Francia",
+    "city": "Brétigny-sur-Orge",
+    "coordinates": {
+      "lat": 48.6117,
+      "lng": 2.3060
+    },
+    "employees": 21,
+    "website": "https://www.opus-aerospace.com/",
+    "description": "OPUS Aerospace es una startup francesa de \"NewSpace\" dedicada a democratizar el acceso al espacio mediante el desarrollo de micro-lanzadores rentables y ecológicos. Especializada en propulsión líquida y fabricación aditiva (3D) de motores, la empresa desarrolla el demonstrador suborbital Mésange y el micro-lanzador orbital Sterne para el despliegue flexible de nanosatélites desde bases europeas.",
+    "description_en": "OPUS Aerospace is a French \"NewSpace\" startup dedicated to democratizing access to space by developing cost-effective and eco-friendly micro-launchers. Specializing in liquid propulsion and additive manufacturing (3D) of engines, the company is developing the Mésange suborbital demonstrator and the Sterne orbital micro-launcher for flexible nanosatellite deployment from European bases.",
+    "founded": 2019,
+    "ceo": "Safouane Benamer",
+    "sector": "launchers",
+    "tags": [
+      "Launcher",
+      "Micro-launcher",
+      "Propulsion",
+      "3D Printing",
+      "SmallSat"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/opusaerospace",
+      "linkedin": "https://www.linkedin.com/company/opus-aerospace/"
+    },
+    "keyPrograms": [
+      "Mésange",
+      "Sterne"
+    ],
+    "fundingStage": "Startup",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Brétigny-sur-Orge, Francia.",
+    "logo": "opus_aerospace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 96,
+    "name": "Orbex",
+    "slug": "orbex",
+    "type": "startup",
+    "country": "gb",
+    "countryName": "Reino Unido",
+    "city": "Forres",
+    "coordinates": {
+      "lat": 57.6114,
+      "lng": -3.6125
+    },
+    "employees": 160,
+    "website": "https://orbex.space/",
+    "description": "Orbex fue una empresa aeroespacial británica conocida por desarrollar el cohete Prime, un lanzador de satélites pequeños diseñado para la sostenibilidad. El Prime utilizaba bio-propano renovable y destacaba por su estructura de fibra de carbono y motores impresos en 3D. A pesar de su enfoque innovador y apoyo institucional, la empresa cesó sus operaciones en febrero de 2026 debido a dificultades de financiación.",
+    "description_en": "Orbex was a British aerospace company known for developing the Prime rocket, a small satellite launcher designed for sustainability. Prime used renewable bio-propane and featured carbon-fiber structures and 3D-printed engines. Despite its innovative focus and institutional support, the company ceased operations in February 2026 due to funding difficulties.",
+    "founded": 2015,
+    "ceo": "Phillip Chambers",
+    "sector": "launchers",
+    "tags": [
+      "Launcher",
+      "Prime Rocket",
+      "Sustainability",
+      "Bio-propane",
+      "SmallSat"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/orbex",
+      "linkedin": "https://www.linkedin.com/company/orbex-space/"
+    },
+    "keyPrograms": [
+      "Prime Rocket",
+      "Sutherland Spaceport"
+    ],
+    "fundingStage": "Defunct",
+    "totalFunding": "$150M",
+    "stockTicker": null,
+    "otrassede": "Forres, Escocia.",
+    "logo": "orbex.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 97,
+    "name": "Pangea Aerospace",
+    "slug": "pangea-aerospace",
+    "type": "startup",
+    "country": "es",
+    "countryName": "España",
+    "city": "Barcelona",
+    "coordinates": {
+      "lat": 41.3851,
+      "lng": 2.1734
+    },
+    "employees": 40,
+    "website": "https://pangeaaerospace.com/",
+    "description": "Pangea Aerospace es una empresa española que revoluciona el transporte espacial mediante motores de cohete altamente eficientes y reutilizables. Destaca por el desarrollo de motores tipo \"aerospike\" de metano y oxígeno líquidos, con su demostrador DemoP siendo uno de los primeros de su clase en el mundo. Su objetivo es reducir drásticamente los costes de lanzamiento mediante la reutilización total de las etapas de los cohetes.",
+    "description_en": "Pangea Aerospace is a Spanish company revolutionizing space transportation through highly efficient and reusable rocket engines. It stands out for developing methalox \"aerospike\" engines, with its DemoP demonstrator being one of the first of its kind in the world. Its goal is to drastically reduce launch costs through the full reuse of rocket stages.",
+    "founded": 2018,
+    "ceo": "Adrià Argemí",
+    "sector": "propulsion",
+    "tags": [
+      "Propulsion",
+      "Aerospike",
+      "Reusability",
+      "MethaLox",
+      "Barcelona"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/PangeaAerospace",
+      "linkedin": "https://www.linkedin.com/company/pangea-aerospace/"
+    },
+    "keyPrograms": [
+      "DemoP Engine",
+      "MESO Rocket"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$12M",
+    "stockTicker": null,
+    "otrassede": "Barcelona, España.",
+    "logo": "pangea_aerospace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 98,
+    "name": "PIAP Space",
+    "slug": "piap-space",
+    "type": "corporate",
+    "country": "pl",
+    "countryName": "Polonia",
+    "city": "Varsovia",
+    "coordinates": {
+      "lat": 52.2297,
+      "lng": 21.0122
+    },
+    "employees": 30,
+    "website": "https://piap.space/",
+    "description": "PIAP Space es una empresa polaca líder en robótica espacial y mecanismos de alta precisión. Especializada en el diseño de brazos robóticos para el mantenimiento de satélites en órbita y exploración planetaria, la empresa es un socio clave de la ESA. Sus tecnologías incluyen sistemas de acoplamiento, ganchos robóticos y componentes para roveres, impulsando la autonomía en misiones espaciales complejas.",
+    "description_en": "PIAP Space is a leading Polish company in space robotics and high-precision mechanisms. Specializing in the design of robotic arms for in-orbit satellite servicing and planetary exploration, the company is a key partner of ESA. Its technologies include docking systems, robotic grippers, and rover components, boosting autonomy in complex space missions.",
+    "founded": 2017,
+    "ceo": "Mateusz Wolski",
+    "sector": "space_equipment",
+    "tags": [
+      "Robotics",
+      "In-orbit Servicing",
+      "Mechanisms",
+      "ESA Partner",
+      "Planetary Exploration"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/PIAP_Space",
+      "linkedin": "https://www.linkedin.com/company/piap-space/"
+    },
+    "keyPrograms": [
+      "TITAN Robotic Arm",
+      "PROBA-3 Mechanisms"
+    ],
+    "fundingStage": "Lukasiewicz Network",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Varsovia, Polonia.",
+    "logo": "piap_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 99,
+    "name": "POLARIS Raumflugzeuge",
+    "slug": "polaris-raumflugzeuge",
+    "type": "startup",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Bremen",
+    "coordinates": {
+      "lat": 53.0793,
+      "lng": 8.8017
+    },
+    "employees": 25,
+    "website": "https://www.polaris-raumflugzeuge.de/",
+    "description": "POLARIS Raumflugzeuge es una empresa alemana pionera en el desarrollo de aviones espaciales reutilizables y sistemas de transporte hipersónico. Su plataforma estrella, AURORA, está diseñada para operar como un vehículo multipropósito capaz de despegar desde pistas convencionales para misiones orbitales y suborbitales. Sus demostradores de vuelo, como MIRA, validan tecnologías críticas de propulsión y aerodinámica hipersónica.",
+    "description_en": "POLARIS Raumflugzeuge is a pioneering German company developing reusable spaceplanes and hypersonic transportation systems. Its flagship platform, AURORA, is designed to operate as a multipurpose vehicle capable of taking off from conventional runways for orbital and suborbital missions. Its flight demonstrators, like MIRA, validate critical propulsion and hypersonic aerodynamic technologies.",
+    "founded": 2019,
+    "ceo": "Alexander Kopp",
+    "sector": "launchers",
+    "tags": [
+      "Spaceplane",
+      "Hypersonic",
+      "Reusability",
+      "AURORA",
+      "Bremen"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/polaris_space",
+      "linkedin": "https://www.linkedin.com/company/polaris-raumflugzeuge-gmbh/"
+    },
+    "keyPrograms": [
+      "AURORA Spaceplane",
+      "MIRA Demonstrator",
+      "ATHENA"
+    ],
+    "fundingStage": "Startup",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Bremen, Alemania.",
+    "logo": "polaris_raumflugzeuge.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 100,
+    "name": "ReOrbit",
+    "slug": "reorbit",
+    "type": "startup",
+    "country": "fi",
+    "countryName": "Finlandia",
+    "city": "Helsinki",
+    "coordinates": {
+      "lat": 60.1699,
+      "lng": 24.9384
+    },
+    "employees": 25,
+    "website": "https://www.reorbit.space/",
+    "description": "ReOrbit es una empresa finlandesa que desarrolla plataformas de satélites flexibles y definidas por software para mejorar la conectividad y la soberanía de datos en el espacio. Su arquitectura \"software-first\" permite una alta autonomía y capacidad de procesamiento a bordo, facilitando comunicaciones seguras entre satélites (space-to-space). Su plataforma Muon ofrece una solución escalable y eficiente para misiones en órbita baja y más allá.",
+    "description_en": "ReOrbit is a Finnish company developing flexible, software-defined satellite platforms to enhance connectivity and data sovereignty in space. Its \"software-first\" architecture enables high autonomy and on-board processing power, facilitating secure space-to-space communications. Its Muon platform offers a scalable and efficient solution for missions in LEO and beyond.",
+    "founded": 2019,
+    "ceo": "Sethu Saveda Suvanam",
+    "sector": "satellites",
+    "tags": [
+      "Satellites",
+      "Software-Defined",
+      "Communications",
+      "Data Sovereignty",
+      "NewSpace"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/ReOrbitSpace",
+      "linkedin": "https://www.linkedin.com/company/reorbit/"
+    },
+    "keyPrograms": [
+      "Glue Space Stack",
+      "Muon Platform"
+    ],
+    "fundingStage": "Seed",
+    "totalFunding": "$8M",
+    "stockTicker": null,
+    "otrassede": "Helsinki, Finlandia.",
+    "logo": "reorbit.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

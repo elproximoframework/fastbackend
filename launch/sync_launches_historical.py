@@ -9,17 +9,17 @@ import requests
 import psycopg2
 import json
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Configuración
 API_BASE = "https://ll.thespacedevs.com/2.3.0"
 LOCAL_DB_URL = "postgresql://space_user:space_password@localhost:5433/space_db"
 REMOTE_DB_URL = "postgresql://postgres:zjRYAsATFmvPlnQOZruilNIwwEBZcmyU@crossover.proxy.rlwy.net:29288/railway"
 
-# Rango de fechas: Desde 1 de Enero de 2026 hasta ahora
-START_DATE = "2026-03-01T00:00:00Z"
-# END_DATE = datetime.utcnow().strftime("%Y-%m-%dT23:59:59Z")
-END_DATE = "2026-05-31T23:59:59Z"
+# Rango de fechas: Desde hace 2 dias hasta dentro de 60 dias
+now = datetime.utcnow()
+START_DATE = (now - timedelta(days=2)).strftime("%Y-%m-%dT00:00:00Z")
+END_DATE = (now + timedelta(days=60)).strftime("%Y-%m-%dT23:59:59Z")
 
 def fetch_historical_launches(start_date, end_date):
     """Obtiene todos los lanzamientos en un rango de fechas usando paginación."""
@@ -36,7 +36,7 @@ def fetch_historical_launches(start_date, end_date):
     
     while True:
         print(f"Fetching offset {params['offset']}...")
-        r = requests.get(url, params=params, timeout=30)
+        r = requests.get(url, params=params, timeout=60)
         
         if r.status_code == 429:
             print("Rate limit reached. Waiting 30 seconds...")

@@ -1,0 +1,208 @@
+[
+  {
+    "id": 81,
+    "name": "Leaf Space",
+    "slug": "leaf-space",
+    "type": "startup",
+    "country": "it",
+    "countryName": "Italia",
+    "city": "Lomazzo",
+    "coordinates": {
+      "lat": 45.7032,
+      "lng": 9.0325
+    },
+    "employees": 100,
+    "website": "https://leaf.space/",
+    "description": "Leaf Space es un proveedor líder de servicios de segmento terrestre (GSaaS) para operadores de satélites pequeños. Fundada en 2016, la empresa ha desarrollado una red global de estaciones terrestres propietarias, permitiendo comunicaciones satelitales eficientes, escalables y de baja latencia. Su plataforma automatizada Leaf Line facilita el acceso rápido a la telemetría y el seguimiento de datos de misión.",
+    "description_en": "Leaf Space is a leading provider of ground segment as a service (GSaaS) solutions for small satellite operators. Founded in 2016, the company has developed a proprietary global network of ground stations, enabling efficient, scalable, and low-latency satellite communications. Its automated Leaf Line platform facilitates rapid access to telemetry and mission data tracking.",
+    "founded": 2016,
+    "ceo": "Jonata Puglia",
+    "sector": "ground_segment",
+    "tags": [
+      "GSaaS",
+      "Ground Stations",
+      "SmallSat",
+      "Satellite Communications"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/leaf_space",
+      "linkedin": "https://www.linkedin.com/company/leaf-space-s.r.l./"
+    },
+    "keyPrograms": [
+      "Leaf Line",
+      "Leaf Key"
+    ],
+    "fundingStage": "Series B",
+    "totalFunding": "€33M",
+    "stockTicker": null,
+    "otrassede": "Sede en Lomazzo, Italia; oficinas en Estados Unidos.",
+    "logo": "leaf_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 82,
+    "name": "Liftero",
+    "slug": "liftero",
+    "type": "startup",
+    "country": "pl",
+    "countryName": "Polonia",
+    "city": "Cracovia",
+    "coordinates": {
+      "lat": 50.0647,
+      "lng": 19.9450
+    },
+    "employees": 13,
+    "website": "https://liftero.com/",
+    "description": "Liftero es una empresa tecnológica polaca especializada en sistemas de propulsión química y logística de transporte orbital para satélites pequeños. Su producto estrella, BOOSTER, es un sistema de propulsión de \"química verde\" diseñado para ser seguro, eficiente y escalable. La empresa también desarrolla vehículos de transferencia orbital (OTV) como Motus para proporcionar servicios de logística de \"última milla\" en el espacio.",
+    "description_en": "Liftero is a Polish technology company specializing in chemical propulsion systems and orbital transportation logistics for small satellites. Its flagship product, BOOSTER, is a \"green chemistry\" propulsion system designed to be safe, efficient, and scalable. The company also develops orbital transfer vehicles (OTVs) like Motus to provide \"last-mile\" logistics services in space.",
+    "founded": 2019,
+    "ceo": "Tomasz Palacz",
+    "sector": "propulsion",
+    "tags": [
+      "Propulsion",
+      "OTV",
+      "Green Propulsion",
+      "SmallSat Logistics"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/lifterospace",
+      "linkedin": "https://www.linkedin.com/company/liftero/"
+    },
+    "keyPrograms": [
+      "BOOSTER",
+      "Motus"
+    ],
+    "fundingStage": "Pre-seed",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Cracovia, Polonia.",
+    "logo": "liftero.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 83,
+    "name": "LiveEO",
+    "slug": "liveeo",
+    "type": "corporate",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Berlín",
+    "coordinates": {
+      "lat": 52.5200,
+      "lng": 13.4050
+    },
+    "employees": 160,
+    "website": "https://live-eo.com/",
+    "description": "LiveEO es una plataforma de análisis de datos de observación de la Tierra basada en inteligencia artificial, diseñada para monitorizar infraestructuras críticas a gran escala. Sus algoritmos procesan imágenes satelitales para detectar riesgos como la invasión de vegetación en vías ferroviarias o redes eléctricas, permitiendo a los operadores optimizar el mantenimiento y prevenir interrupciones.",
+    "description_en": "LiveEO is an AI-powered Earth observation data analytics platform designed to monitor critical infrastructure at scale. Its algorithms process satellite imagery to detect risks such as vegetation encroachment on railways or power grids, enabling operators to optimize maintenance and prevent disruptions.",
+    "founded": 2018,
+    "ceo": "Daniel Seidel & Sven Przywarra",
+    "sector": "earth_observation",
+    "tags": [
+      "Earth Observation",
+      "AI",
+      "Infrastructure Monitoring",
+      "SAR"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/live_eo",
+      "linkedin": "https://www.linkedin.com/company/live-eo/"
+    },
+    "keyPrograms": [
+      "Twinspector",
+      "TradeAware"
+    ],
+    "fundingStage": "Series B",
+    "totalFunding": "$60M",
+    "stockTicker": null,
+    "otrassede": "Berlín, Alemania.",
+    "logo": "liveeo.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 84,
+    "name": "Look Up Space",
+    "slug": "look-up-space",
+    "type": "startup",
+    "country": "fr",
+    "countryName": "Francia",
+    "city": "Toulouse",
+    "coordinates": {
+      "lat": 43.6045,
+      "lng": 1.4442
+    },
+    "employees": 60,
+    "website": "https://www.lookupspace.com/",
+    "description": "Look Up Space es una empresa francesa de tecnología espacial líder en Conciencia de la Situación Espacial (SSA) y seguridad orbital. Fundada por veteranos del sector espacial y militar, desarrolla una red de radares terrestres SORASYS y una plataforma digital SYNAPSE para rastrear escombros espaciales y mitigar riesgos de colisión, promoviendo la sostenibilidad del entorno orbital.",
+    "description_en": "Look Up Space is a French space tech company leading in Space Situational Awareness (SSA) and orbital safety. Founded by space and military veterans, it develops the SORASYS ground-based radar network and the SYNAPSE digital platform to track space debris and mitigate collision risks, promoting the sustainability of the orbital environment.",
+    "founded": 2022,
+    "ceo": "Michel Friedling",
+    "sector": "ssa",
+    "tags": [
+      "SSA",
+      "Space Debris",
+      "Orbital Safety",
+      "Radar"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/Lookup_Space",
+      "linkedin": "https://www.linkedin.com/company/look-up-space/"
+    },
+    "keyPrograms": [
+      "SORASYS",
+      "SYNAPSE"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "€50M",
+    "stockTicker": null,
+    "otrassede": "Toulouse y París, Francia.",
+    "logo": "look_up_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 85,
+    "name": "Luxembourg Space Agency",
+    "slug": "luxembourg-space-agency",
+    "type": "agency",
+    "country": "lu",
+    "countryName": "Luxemburgo",
+    "city": "Luxemburgo",
+    "coordinates": {
+      "lat": 49.6117,
+      "lng": 6.1319
+    },
+    "employees": 30,
+    "website": "https://space-agency.public.lu/",
+    "description": "La Agencia Espacial de Luxemburgo (LSA) es el organismo oficial responsable de implementar la estrategia espacial nacional del Gran Ducado. A diferencia de las agencias tradicionales, la LSA adopta un enfoque orientado a los negocios, fomentando un ecosistema comercial dinámico y promoviendo la iniciativa SpaceResources.lu para la utilización sostenible de recursos en el espacio exterior.",
+    "description_en": "The Luxembourg Space Agency (LSA) is the official body responsible for implementing the Grand Duchy's national space strategy. Unlike traditional agencies, LSA takes a business-oriented approach, fostering a dynamic commercial ecosystem and promoting the SpaceResources.lu initiative for the sustainable utilization of resources in outer space.",
+    "founded": 2018,
+    "ceo": "Marc Serres",
+    "sector": "regulatory_body",
+    "tags": [
+      "National Agency",
+      "Space Resources",
+      "Luxembourg",
+      "Innovation Hub"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/luxspaceagency",
+      "linkedin": "https://www.linkedin.com/company/luxembourg-space-agency/"
+    },
+    "keyPrograms": [
+      "SpaceResources.lu",
+      "LuxIMPULSE",
+      "ESRIC"
+    ],
+    "fundingStage": "Government",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Ciudad de Luxemburgo, Luxemburgo.",
+    "logo": "luxembourg_space_agency.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

@@ -1,0 +1,421 @@
+[
+  {
+    "id": 111,
+    "name": "SpaceTech (STI)",
+    "slug": "spacetech-sti",
+    "type": "corporate",
+    "sector": "satellites",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Immenstaad",
+    "coordinates": {
+      "lat": 47.669,
+      "lng": 9.364
+    },
+    "employees": 100,
+    "website": "https://www.spacetech-i.com/",
+    "description": "SpaceTech (STI) es una empresa alemana especializada en el desarrollo de componentes, subsistemas y misiones completas de satélites pequeños. Con sede cerca del Lago de Constanza, la empresa actúa como contratista principal para diversas misiones de la ESA, destacando su experiencia en sistemas láser de alta precisión, estructuras satelitales y aviónica avanzada para la observación de la Tierra y misiones científicas.",
+    "description_en": "SpaceTech (STI) is a German company specializing in the development of components, subsystems, and complete small satellite missions. Based near Lake Constance, the company acts as a prime contractor for various ESA missions, highlighting its expertise in high-precision laser systems, satellite structures, and advanced avionics for Earth observation and scientific missions.",
+    "founded": 2004,
+    "ceo": "Wolfgang Pitz",
+    "tags": [
+      "SmallSats",
+      "Prime Contractor",
+      "Laser Systems",
+      "ESA",
+      "Earth Observation"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/spacetech-gmbh/"
+    },
+    "keyPrograms": [
+      "DEOS",
+      "GOCE instruments",
+      "Satellite structures"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Immenstaad am Bodensee, Alemania.",
+    "logo": "spacetech.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 112,
+    "name": "SSTL (Surrey Satellite Technology Ltd.)",
+    "slug": "sstl",
+    "type": "corporate",
+    "sector": "satellites",
+    "country": "gb",
+    "countryName": "Reino Unido",
+    "city": "Guildford",
+    "coordinates": {
+      "lat": 51.242,
+      "lng": -0.598
+    },
+    "employees": 400,
+    "website": "https://www.sstl.co.uk/",
+    "description": "Surrey Satellite Technology Ltd. (SSTL) es pionera mundial en la construcción de satélites pequeños y una subsidiaria de Airbus Defence and Space. Desde 1985, la empresa ha liderado la democratización del acceso al espacio mediante el diseño y fabricación de satélites de bajo coste pero alto rendimiento para aplicaciones en órbita terrestre baja, satélites de navegación (como Galileo) y, más recientemente, misiones lunares.",
+    "description_en": "Surrey Satellite Technology Ltd. (SSTL) is a global pioneer in small satellite construction and a subsidiary of Airbus Defence and Space. Since 1985, the company has led the democratization of access to space through the design and manufacturing of low-cost, high-performance satellites for LEO applications, navigation satellites (such as Galileo), and more recently, lunar missions.",
+    "founded": 1985,
+    "ceo": "Phil Brownnett",
+    "sector": "satellites",
+    "tags": [
+      "SmallSats",
+      "Airbus",
+      "Galileo",
+      "Lunar Pathfinder",
+      "LEO"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/surreysat",
+      "linkedin": "https://www.linkedin.com/company/surrey-satellite-technology-ltd/"
+    },
+    "keyPrograms": [
+      "Galileo FOC",
+      "Lunar Pathfinder",
+      "NovaSAR-1"
+    ],
+    "fundingStage": "Subsidiary (Airbus)",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Guildford, Surrey (Reino Unido).",
+    "logo": "sstl.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 113,
+    "name": "SSC (Swedish Space Corporation)",
+    "slug": "ssc",
+    "type": "agency",
+    "sector": "ground_segment",
+    "country": "se",
+    "countryName": "Suecia",
+    "city": "Kiruna",
+    "coordinates": {
+      "lat": 67.889,
+      "lng": 21.107
+    },
+    "employees": 600,
+    "website": "https://sscspace.com/",
+    "description": "Swedish Space Corporation (SSC) es un proveedor líder mundial de servicios espaciales avanzados y opera el Centro Espacial Esrange en el norte de Suecia. Como empresa estatal sueca, SSC facilita el acceso a la órbita terrestre mediante servicios de lanzamiento de cohetes sonda, operaciones satelitales a través de una de las mayores redes de estaciones terrestres del mundo y consultoría técnica especializada.",
+    "description_en": "Swedish Space Corporation (SSC) is a leading global provider of advanced space services and operates the Esrange Space Center in northern Sweden. As a Swedish state-owned company, SSC facilitates access to Earth orbit through sounding rocket launch services, satellite operations via one of the world's largest ground station networks, and specialized technical consultancy.",
+    "founded": 1972,
+    "ceo": "Charlotta Sund",
+    "tags": [
+      "Launch Site",
+      "Esrange",
+      "Ground Station",
+      "State-Owned",
+      "Sweden"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/SSCspace",
+      "linkedin": "https://www.linkedin.com/company/swedish-space-corporation/"
+    },
+    "keyPrograms": [
+      "Esrange orbital launches",
+      "PrioraNet"
+    ],
+    "fundingStage": "State Owned",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Kiruna y Solna (Suecia), sedes mundiales en EE. UU., Tailandia y Australia.",
+    "logo": "ssc.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 114,
+    "name": "SWISSto12",
+    "slug": "swissto12",
+    "type": "startup",
+    "sector": "manufacturing",
+    "country": "ch",
+    "countryName": "Suiza",
+    "city": "Renens",
+    "coordinates": {
+      "lat": 46.536,
+      "lng": 6.586
+    },
+    "employees": 100,
+    "website": "https://swissto12.com/",
+    "description": "SWISSto12 es un fabricante líder en el desarrollo de cargas útiles y sistemas satelitales avanzados que utiliza la fabricación aditiva (impresión 3D) de vanguardia. Su producto estrella, HummingSat, representa una nueva generación de satélites geostacionarios pequeños. La empresa es pionera en el uso de estructuras de radiofrecuencia impresas en 3D para optimizar el peso y el rendimiento en misiones de telecomunicaciones.",
+    "description_en": "SWISSto12 is a leading manufacturer in the development of advanced satellite payloads and systems utilizing cutting-edge additive manufacturing (3D printing). Its flagship product, HummingSat, represents a new generation of small geostationary satellites. The company pioneers the use of 3D-printed RF structures to optimize weight and performance in telecommunications missions.",
+    "founded": 2011,
+    "ceo": "Emile de Rijk",
+    "tags": [
+      "3D Printing",
+      "RF Components",
+      "HummingSat",
+      "SatCom",
+      "Switzerland"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/swissto12-sa/"
+    },
+    "keyPrograms": [
+      "HummingSat",
+      "3D printed RF components"
+    ],
+    "fundingStage": "Series B",
+    "totalFunding": "$50M+",
+    "stockTicker": null,
+    "otrassede": "Renens (Suiza).",
+    "logo": "swissto12.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 115,
+    "name": "T-Minus",
+    "slug": "t-minus",
+    "type": "startup",
+    "sector": "launchers",
+    "country": "nl",
+    "countryName": "Países Bajos",
+    "city": "Delft",
+    "coordinates": {
+      "lat": 51.989,
+      "lng": 4.376
+    },
+    "employees": 15,
+    "website": "https://t-minus.pro/",
+    "description": "T-Minus es una empresa holandesa especializada en el desarrollo y operación de cohetes sonda y micro-lanzadores para la investigación atmosférica y experimentos en microgravedad. Fundada por ingenieros de la Universidad de Delft, la empresa ofrece sistemas de lanzamiento rentables y plataformas de prueba suborbitales para universidades, agencias espaciales y misiones científicas.",
+    "description_en": "T-Minus is a Dutch company specializing in the development and operation of sounding rockets and micro-launchers for atmospheric research and microgravity experiments. Founded by engineers from Delft University of Technology, the company provides cost-effective launch systems and suborbital test platforms for universities, space agencies, and scientific missions.",
+    "founded": 2011,
+    "ceo": "Roel Eerlants",
+    "tags": [
+      "Sounding Rocket",
+      "Micro-launcher",
+      "Suborbital",
+      "Microgravity",
+      "Netherlands"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/t-minus-engineering/"
+    },
+    "keyPrograms": [
+      "T-Minus DART",
+      "T-Minus KINGFISHER"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Delft, Países Bajos.",
+    "logo": "t_minus.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 116,
+    "name": "The Exploration Company",
+    "slug": "the-exploration-company",
+    "type": "startup",
+    "sector": "launchers",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Múnich",
+    "coordinates": {
+      "lat": 48.135,
+      "lng": 11.582
+    },
+    "employees": 100,
+    "website": "https://www.exploration.space/",
+    "description": "The Exploration Company es una startup europea pionera que desarrolla vehículos orbitales reutilizables y abiertos para democratizar el acceso al espacio. Su vehículo insignia, Nyx, es una cápsula diseñada para transportar carga (y eventualmente tripulación) a estaciones espaciales en órbita terrestre baja y la superficie lunar, centrándose en la asequibilidad y la interoperabilidad.",
+    "description_en": "The Exploration Company is a pioneering European startup developing reusable and open orbital vehicles to democratize space access. Its flagship vehicle, Nyx, is a capsule designed to transport cargo (and eventually crew) to LEO space stations and the lunar surface, focusing on affordability and interoperability.",
+    "founded": 2021,
+    "ceo": "Hélène Huby",
+    "tags": [
+      "Orbital Vehicle",
+      "Nyx",
+      "Reusability",
+      "Cargo",
+      "Lunar Mission"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/the-exploration-company/",
+      "twitter": "https://twitter.com/ExplorationCo"
+    },
+    "keyPrograms": [
+      "Nyx Earth",
+      "Nyx Moon"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$40M+",
+    "stockTicker": null,
+    "otrassede": "Múnich (Alemania) y Burdeos (Francia).",
+    "logo": "the_exploration_company.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 117,
+    "name": "UK Space Agency",
+    "slug": "uk-space-agency",
+    "type": "agency",
+    "sector": "regulatory_body",
+    "country": "gb",
+    "countryName": "Reino Unido",
+    "city": "Swindon",
+    "coordinates": {
+      "lat": 51.558,
+      "lng": -1.781
+    },
+    "employees": 250,
+    "website": "https://www.gov.uk/government/organisations/uk-space-agency",
+    "description": "La Agencia Espacial del Reino Unido (UKSA) es el organismo gubernamental responsable del programa espacial civil del país. Su misión es impulsar el crecimiento del sector espacial británico, gestionar las contribuciones del Reino Unido a la Agencia Espacial Europea (ESA) y supervisar el desarrollo de infraestructuras críticas, como los nuevos puertos espaciales nacionales para lanzamientos verticales y horizontales.",
+    "description_en": "The UK Space Agency (UKSA) is the government body responsible for the country's civil space program. Its mission is to drive growth in the British space sector, manage the UK's contributions to the European Space Agency (ESA), and oversee the development of critical infrastructure, such as the new national spaceports for vertical and horizontal launches.",
+    "founded": 2010,
+    "ceo": "Dr. Paul Bate",
+    "tags": [
+      "Public Agency",
+      "National Policy",
+      "ESA",
+      "Spaceport",
+      "UK"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/spacegovuk",
+      "linkedin": "https://www.linkedin.com/company/uk-space-agency/"
+    },
+    "keyPrograms": [
+      "UK Launch Support",
+      "SaxaVord Spaceport",
+      "BepiColombo"
+    ],
+    "fundingStage": "Public Organization",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Swindon (Reino Unido).",
+    "logo": "uksa.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 118,
+    "name": "Vision Space",
+    "slug": "vision-space",
+    "type": "corporate",
+    "sector": "ground_segment",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Darmstadt",
+    "coordinates": {
+      "lat": 49.872,
+      "lng": 8.651
+    },
+    "employees": 50,
+    "website": "https://visionspace.com/",
+    "description": "Vision Space es una empresa de ingeniería de software y servicios de operaciones espaciales especializada en el segmento terrestre. Con sede cerca de los centros de operaciones de la ESA en Darmstadt, la empresa desarrolla sistemas avanzados de control de misiones, herramientas de monitorización y servicios de consultoría técnica para agencias espaciales internacionales y operadores satelitales comerciales.",
+    "description_en": "Vision Space is a software engineering and space operations services company specialized in the ground segment. Based near ESA's operations centers in Darmstadt, the company develops advanced mission control systems, monitoring tools, and technical consultancy services for international space agencies and commercial satellite operators.",
+    "founded": 2009,
+    "ceo": "Tiago Rodrigues",
+    "tags": [
+      "Software",
+      "Ground Operations",
+      "Mission Control",
+      "ESA",
+      "EUMETSAT"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/visionspace-technologies/"
+    },
+    "keyPrograms": [
+      "Mission Control Support",
+      "Ground Station SW"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Darmstadt (Alemania).",
+    "logo": "vision_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 119,
+    "name": "Vyoma",
+    "slug": "vyoma",
+    "type": "startup",
+    "sector": "ssa",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Darmstadt",
+    "coordinates": {
+      "lat": 49.872,
+      "lng": 8.65
+    },
+    "employees": 30,
+    "website": "https://vyoma.space/",
+    "description": "Vyoma es una innovadora empresa de Vigilancia y Seguimiento Espacial (SSA) con sede en Alemania que desarrolla una constelación de satélites ópticos para mapear la basura espacial. Su objetivo es proporcionar datos de alta precisión y alertas de colisión en tiempo real para proteger los activos espaciales, facilitando así la sostenibilidad a largo plazo de las actividades en órbita terrestre.",
+    "description_en": "Vyoma is an innovative German Space Situational Awareness (SSA) company developing a constellation of optical satellites to map space debris. Its goal is to provide high-precision data and real-time collision warnings to protect space assets, thus facilitating the long-term sustainability of Earth-orbit activities.",
+    "founded": 2020,
+    "ceo": "Stefan Frey",
+    "tags": [
+      "SSA",
+      "Space Debris",
+      "Collision Warning",
+      "Optical Satellites",
+      "Germany"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/vyoma-space/",
+      "twitter": "https://twitter.com/Vyoma_Space"
+    },
+    "keyPrograms": [
+      "SSA Constellation",
+      "Debris Monitoring"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$9M+",
+    "stockTicker": null,
+    "otrassede": "Darmstadt, Alemania.",
+    "logo": "vyoma.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 120,
+    "name": "ZARM",
+    "slug": "zarm",
+    "type": "other",
+    "sector": "space_equipment",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Bremen",
+    "coordinates": {
+      "lat": 53.11,
+      "lng": 8.85
+    },
+    "employees": 100,
+    "website": "https://www.zarm.uni-bremen.de/",
+    "description": "ZARM (Centro de Tecnología Espacial Aplicada y Microgravedad) es un instituto de investigación científica asociado a la Universidad de Bremen. Es mundialmente famoso por operar la Fallturm Bremen (Torre de Caída de Bremen), un laboratorio único que permite realizar experimentos en condiciones de microgravedad terrestre de alta calidad para el avance de la física espacial y la tecnología aeroespacial.",
+    "description_en": "ZARM (Center of Applied Space Technology and Microgravity) is a scientific research institute associated with the University of Bremen. It is world-famous for operating the Fallturm Bremen (Bremen Drop Tower), a unique laboratory that allows high-quality microgravity experiments on Earth to advance space physics and aerospace technology.",
+    "founded": 1985,
+    "ceo": "Prof. Dr. Marc Avila",
+    "tags": [
+      "Research",
+      "Microgravity",
+      "Drop Tower",
+      "Space Physics",
+      "Bremen"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/zarm-center-of-applied-space-technology-and-microgravity-/"
+    },
+    "keyPrograms": [
+      "Bremen Drop Tower",
+      "Gravity Research"
+    ],
+    "fundingStage": "Research Institute",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Bremen, Alemania.",
+    "logo": "zarm.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

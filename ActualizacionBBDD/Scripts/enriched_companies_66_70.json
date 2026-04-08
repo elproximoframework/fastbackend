@@ -1,0 +1,165 @@
+[
+  {
+    "id": 66,
+    "name": "Goonhilly Earth Station",
+    "slug": "goonhilly-earth-station",
+    "type": "corporate",
+    "country": "gb",
+    "countryName": "Reino Unido",
+    "city": "Helston, Cornualles",
+    "coordinates": {
+      "lat": 50.048,
+      "lng": -5.182
+    },
+    "employees": 100,
+    "website": "https://www.goonhilly.org",
+    "description": "Goonhilly Earth Station es una empresa líder en tecnología espacial y operadora de una estación terrestre de satélites de renombre mundial en Cornualles, Reino Unido. La compañía opera la primera red comercial de comunicaciones para el espacio profundo del mundo, proporcionando servicios críticos de seguimiento y telemetría para misiones lunares y de exploración planetaria, incluyendo misiones para la NASA, la ESA y operadores comerciales.",
+    "description_en": "Goonhilly Earth Station is a leading space technology company and operator of a world-renowned satellite ground station in Cornwall, UK. The company operates the world's first commercial deep-space communications network, providing critical tracking and telemetry services for lunar and planetary exploration missions, including those for NASA, ESA, and commercial operators.",
+    "founded": 2009,
+    "ceo": "Kenn Herskind (Executive Chairman)",
+    "sector": "ground_segment",
+    "tags": ["Deep Space", "Ground Segment", "Satellite Communications", "Artemis"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/goonhilly-earth-station-ltd/",
+      "twitter": "https://twitter.com/goonhillyad"
+    },
+    "keyPrograms": ["Deep Space Communications Network", "GHY-6 Deep Space Antenna", "Artemis 1 support"],
+    "fundingStage": "Private",
+    "totalFunding": "£24M+",
+    "stockTicker": null,
+    "otrassede": "Southbury & Santa Paula (USA)",
+    "logo": "goonhilly_earth_station.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 67,
+    "name": "GTD",
+    "slug": "gtd",
+    "type": "corporate",
+    "country": "es",
+    "countryName": "España",
+    "city": "Barcelona",
+    "coordinates": {
+      "lat": 41.4036,
+      "lng": 2.1744
+    },
+    "employees": 300,
+    "website": "https://gtd.eu",
+    "description": "GTD es una empresa tecnológica global con sede en Barcelona especializada en el diseño e integración de sistemas y software de misión crítica. Con una sólida trayectoria en el sector espacial europeo, GTD desarrolla centros de control, software de aplicación para módulos de la Estación Espacial Internacional y el Lunar Gateway, y proporciona servicios de mantenimiento y operaciones en el Centro Espacial de Guayana en Kurú.",
+    "description_en": "GTD is a global technology company based in Barcelona specializing in the design and integration of mission-critical systems and software. With a strong track record in the European space sector, GTD develops control centers, application software for International Space Station and Lunar Gateway modules, and provides maintenance and operations services at the Guiana Space Centre in Kourou.",
+    "founded": 1987,
+    "ceo": "Ángel Ramírez",
+    "sector": "software",
+    "tags": ["Mission Critical", "Control Centers", "European Space Industry", "Launcher Systems"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/gtd-sistemas-de-información/"
+    },
+    "keyPrograms": ["Lunar Gateway i-HAB", "CSG Operations", "Ariane launchers support"],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Kourou (French Guiana), Madrid, France, Germany",
+    "logo": "gtd.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 68,
+    "name": "HyImpulse",
+    "slug": "hyimpulse",
+    "type": "startup",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Neuenstadt am Kocher",
+    "coordinates": {
+      "lat": 49.24,
+      "lng": 9.35
+    },
+    "employees": 80,
+    "website": "https://www.hyimpulse.de",
+    "description": "HyImpulse es una empresa aeroespacial alemana, surgida del DLR, que se especializa en el desarrollo de vehículos de lanzamiento propulsados por motores híbridos únicos basados en parafina (cera). Su tecnología busca ofrecer un acceso al espacio más seguro, económico y sostenible, destacando su cohete suborbital SR75 y su futuro micro-lanzador orbital SL1 para el despliegue eficiente de pequeños satélites.",
+    "description_en": "HyImpulse is a German aerospace company, a spin-off from DLR, specializing in the development of launch vehicles powered by unique paraffin-based (wax) hybrid engines. Their technology aims to provide safer, more affordable, and sustainable access to space, highlighting their SR75 suborbital rocket and their future SL1 orbital micro-launcher for the efficient deployment of small satellites.",
+    "founded": 2018,
+    "ceo": "Christian Schmierer",
+    "sector": "launchers",
+    "tags": ["Hybrid Propulsion", "Paraffin fuel", "Micro-launchers", "SR75"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/hyimpulse-technologies-gmbh/",
+      "twitter": "https://twitter.com/HyImpulseTech"
+    },
+    "keyPrograms": ["SR75 Sounding Rocket", "SL1 Orbital Launcher"],
+    "fundingStage": "Series A",
+    "totalFunding": "$17M+",
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "hyimpulse.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 69,
+    "name": "HyPrSpace",
+    "slug": "hyprspace",
+    "type": "startup",
+    "country": "fr",
+    "countryName": "Francia",
+    "city": "Le Haillan",
+    "coordinates": {
+      "lat": 44.85,
+      "lng": -0.66
+    },
+    "employees": 100,
+    "website": "https://hypr-space.com/",
+    "description": "HyPrSpace es una startup francesa que desarrolla una tecnología patentada de propulsión de cohetes híbridos diseñada para simplificar y reducir drásticamente los costes del acceso al espacio. Mediante el uso de una arquitectura de alimentación por presión que elimina la necesidad de turbobombas complejas, su micro-lanzador 'Orbital Baguette' (OB-1) promete una solución ágil y competitiva para colocar satélites en órbita terrestre baja.",
+    "description_en": "HyPrSpace is a French startup developing a patented hybrid rocket propulsion technology designed to simplify and drastically reduce the costs of access to space. By using a pressure-fed architecture that eliminates the need for complex turbopumps, their 'Orbital Baguette' (OB-1) micro-launcher promises an agile and competitive solution for placing satellites into low Earth orbit.",
+    "founded": 2019,
+    "ceo": "Alexandre Mangeot",
+    "sector": "launchers",
+    "tags": ["Hybrid Propulsion", "Micro-launchers", "France 2030", "Pressure-fed"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/hyprspace/",
+      "twitter": "https://twitter.com/hyprspace"
+    },
+    "keyPrograms": ["Baguette-1", "OB-1 Orbital Launcher"],
+    "fundingStage": "Series A",
+    "totalFunding": "€21M",
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "hyprspace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 70,
+    "name": "Iceland Space Agency",
+    "slug": "iceland-space-agency",
+    "type": "agency",
+    "country": "is",
+    "countryName": "Islandia",
+    "city": "Reykjavík",
+    "coordinates": {
+      "lat": 64.13,
+      "lng": -21.9
+    },
+    "employees": 10,
+    "website": "https://icelandspaceagency.is/",
+    "description": "La Agencia Espacial de Islandia (ISA) es una organización privada que actúa como centro de innovación y logística para la investigación científica en entornos extremos. Aprovechando la geología única de Islandia como análogo terrestre de la Luna y Marte, la ISA facilita pruebas tecnológicas, expediciones de investigación y colaboraciones internacionales para misiones de exploración espacial profunda y observación de la Tierra.",
+    "description_en": "The Iceland Space Agency (ISA) is a private organization that acts as an innovation and logistics hub for scientific research in extreme environments. Leveraging Iceland's unique geology as a terrestrial analogue for the Moon and Mars, ISA facilitates technology testing, research expeditions, and international collaborations for deep space exploration and Earth observation missions.",
+    "founded": 2018,
+    "ceo": "Daniel Leeb",
+    "sector": "research",
+    "tags": ["Lunar Analogue", "Space Exploration", "Research Logistics", "Extreme Environments"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/iceland-space-agency/"
+    },
+    "keyPrograms": ["Iceland Moon Mars Working Group", "IRISS Institute"],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "iceland_space_agency.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

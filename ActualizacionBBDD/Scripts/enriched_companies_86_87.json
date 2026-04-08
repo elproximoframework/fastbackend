@@ -1,0 +1,86 @@
+[
+  {
+    "id": 86,
+    "name": "MaiaSpace",
+    "slug": "maiaspace",
+    "type": "startup",
+    "country": "fr",
+    "countryName": "Francia",
+    "city": "Vernon",
+    "coordinates": {
+      "lat": 49.0911,
+      "lng": 1.4886
+    },
+    "employees": 50,
+    "website": "https://www.maia-space.com/",
+    "description": "MaiaSpace es una empresa de servicios de lanzamiento espacial con sede en Francia, operando como una subsidiaria independiente de ArianeGroup. Su misión es desarrollar \"Maia\", un lanzador pequeño, parcialmente reutilizable y eco-responsable, diseñado para ser competitivo en el mercado global de satélites. El cohete utiliza propulsión de metano y oxígeno líquidos (MethaLox) y está optimizado para misiones flexibles y sostenibles desde el Centro Espacial de Guayana.",
+    "description_en": "MaiaSpace is a French-based space launch service provider operating as an independent subsidiary of ArianeGroup. Its mission is to develop \"Maia\", a competitive, partially reusable, and eco-responsible small launcher for the global satellite market. The rocket utilizes liquid methane and oxygen (MethaLox) propulsion and is optimized for flexible and sustainable missions from the Guiana Space Centre.",
+    "founded": 2022,
+    "ceo": "Yohann Leroy",
+    "sector": "launchers",
+    "tags": [
+      "Launcher",
+      "Reusability",
+      "ArianeGroup",
+      "MethaLox",
+      "SmallSat"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/maia_space",
+      "linkedin": "https://www.linkedin.com/company/maia-space/"
+    },
+    "keyPrograms": [
+      "Maia Rocket",
+      "Colibri Kick-stage"
+    ],
+    "fundingStage": "Corporate Startup",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Vernon, Francia.",
+    "logo": "maiaspace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 87,
+    "name": "Morpheus Space",
+    "slug": "morpheus-space",
+    "type": "startup",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Dresde",
+    "coordinates": {
+      "lat": 51.0504,
+      "lng": 13.7373
+    },
+    "employees": 70,
+    "website": "https://morpheus.space/",
+    "description": "Morpheus Space es una destacada empresa alemana de tecnología espacial que revoluciona la movilidad orbital con sus sistemas de propulsión altamente eficientes y software de orquestación inteligente. Su tecnología \"Multi-ISA\" utiliza propulsión FEEP (Field Emission Electric Propulsion) basada en metal, ofreciendo una escalabilidad sin precedentes para constelaciones de satélites. Además, su plataforma \"Sphere Flow\" permite una gestión dinámica de las misiones espaciales.",
+    "description_en": "Morpheus Space is a prominent German space technology company revolutionizing orbital mobility with its highly efficient propulsion systems and intelligent orchestration software. Its \"Multi-ISA\" technology utilizes metal-based FEEP (Field Emission Electric Propulsion), offering unprecedented scalability for satellite constellations. Additionally, its \"Sphere Flow\" platform enables dynamic management of space missions.",
+    "founded": 2018,
+    "ceo": "Daniel Bock",
+    "sector": "propulsion",
+    "tags": [
+      "Propulsion",
+      "FEEP",
+      "Orbital Mobility",
+      "Satellite Constellations",
+      "Sphere Flow"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/morpheus_space",
+      "linkedin": "https://www.linkedin.com/company/morpheus-space/"
+    },
+    "keyPrograms": [
+      "Multi-ISA",
+      "Sphere Flow"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$35M",
+    "stockTicker": null,
+    "otrassede": "Dresde, Alemania y Los Ángeles, EE. UU.",
+    "logo": "morpheus_space.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

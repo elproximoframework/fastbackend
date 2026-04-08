@@ -1,0 +1,214 @@
+[
+  {
+    "id": 106,
+    "name": "Sirius Space Services",
+    "slug": "sirius-space",
+    "type": "startup",
+    "country": "fr",
+    "countryName": "Francia",
+    "city": "Courbevoie",
+    "coordinates": {
+      "lat": 48.8978,
+      "lng": 2.2531
+    },
+    "employees": 100,
+    "website": "https://sirius-space.com/",
+    "description": "Sirius Space Services es una empresa aeroespacial francesa que desarrolla una familia de micro-lanzadores reutilizables y sostenibles (Sirius 1, 13 y 15). Sus vehículos utilizan el motor STAR-1 de metano líquido y oxígeno (LOX), fabricado mediante impresión 3D metálica para reducir costes y tiempos de producción. Sirius busca ofrecer soluciones de lanzamiento flexibles y asequibles para el mercado de satélites pequeños y medianos.",
+    "description_en": "Sirius Space Services is a French aerospace company developing a family of reusable and sustainable micro-launchers (Sirius 1, 13, and 15). Its vehicles utilize the STAR-1 liquid methane and oxygen (LOX) engine, manufactured using metal 3D printing to reduce costs and production times. Sirius aims to provide flexible and affordable launch solutions for the small and medium satellite market.",
+    "founded": 2020,
+    "ceo": "Antoine Fourcade",
+    "sector": "launchers",
+    "tags": [
+      "Launcher",
+      "Sirius 1",
+      "STAR-1 Engine",
+      "Reusability",
+      "Methane Propulsion"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/sirius-space-services/",
+      "twitter": "https://twitter.com/SiriusSpace_"
+    },
+    "keyPrograms": [
+      "Sirius 1",
+      "STAR-1 Engine"
+    ],
+    "fundingStage": "Venture Backed",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Courbevoie (Sede), centros de pruebas en Francia.",
+    "logo": "sirius_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 107,
+    "name": "SITAEL",
+    "slug": "sitael",
+    "type": "corporate",
+    "country": "it",
+    "countryName": "Italia",
+    "city": "Mola di Bari",
+    "coordinates": {
+      "lat": 41.0581,
+      "lng": 17.0864
+    },
+    "employees": 400,
+    "website": "https://www.sitael.com/",
+    "description": "SITAEL es la mayor empresa aeroespacial de capital privado de Italia, líder en el desarrollo de plataformas de satélites pequeños (como PLATiNO) y sistemas de propulsión eléctrica avanzada (motores Hall). La empresa cubre todo el ciclo de vida de las misiones espaciales, desde el diseño y fabricación de aviónica hasta la integración y operaciones en órbita para aplicaciones comerciales y científicas.",
+    "description_en": "SITAEL is Italy's largest privately-owned aerospace company, a leader in the development of small satellite platforms (such as PLATiNO) and advanced electric propulsion systems (Hall thrusters). The company covers the entire lifecycle of space missions, from design and manufacturing of avionics to integration and in-orbit operations for commercial and scientific applications.",
+    "founded": 1994,
+    "ceo": "Marco Casucci",
+    "sector": "satellites",
+    "tags": [
+      "Satellites",
+      "Electric Propulsion",
+      "PLATiNO",
+      "Hall Thrusters",
+      "Italy"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/SITAEL_SpA",
+      "linkedin": "https://www.linkedin.com/company/sitael/"
+    },
+    "keyPrograms": [
+      "PLATiNO Platform",
+      "Hall Effect Thrusters (HT 100, 5K)",
+      "PLATiNO-1"
+    ],
+    "fundingStage": "Angel Group",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Mola di Bari, centros en Toscana y Lombardía.",
+    "logo": "sitael.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 108,
+    "name": "Space Norway",
+    "slug": "space-norway",
+    "type": "agency",
+    "country": "no",
+    "countryName": "Noruega",
+    "city": "Oslo",
+    "coordinates": {
+      "lat": 59.9139,
+      "lng": 10.7522
+    },
+    "employees": 70,
+    "website": "https://spacenorway.com/",
+    "description": "Space Norway es una empresa estatal noruega encargada del desarrollo y operación de infraestructura espacial estratégica para los intereses nacionales. Es el principal operador de satélites del norte de Europa, gestionando misiones críticas como la Misión de Banda Ancha Satelital del Ártico (ASBM) y redes de fibra óptica submarina para asegurar la conectividad y vigilancia en regiones polares.",
+    "description_en": "Space Norway is a Norwegian state-owned enterprise responsible for the development and operation of strategic space infrastructure for national interests. It is Northern Europe's leading satellite operator, managing critical missions such as the Arctic Satellite Broadband Mission (ASBM) and subsea fiber optic networks to ensure connectivity and surveillance in polar regions.",
+    "founded": 1995,
+    "ceo": "Morten Tengs",
+    "sector": "ground_segment",
+    "tags": [
+      "Infrastructure",
+      "Arctic Communications",
+      "ASBM",
+      "Satellite Operator",
+      "Norway"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/space-norway/"
+    },
+    "keyPrograms": [
+      "ASBM Mission",
+      "HEOSat",
+      "Arctic Connectivity"
+    ],
+    "fundingStage": "State Owned",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Oslo, Tromsø, Svalbard.",
+    "logo": "space_norway.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 109,
+    "name": "SpaceForest",
+    "slug": "spaceforest",
+    "type": "startup",
+    "country": "pl",
+    "countryName": "Polonia",
+    "city": "Gdynia",
+    "coordinates": {
+      "lat": 54.5189,
+      "lng": 18.5305
+    },
+    "employees": 50,
+    "website": "https://spaceforest.pl/",
+    "description": "SpaceForest es una innovadora empresa tecnológica polaca especializada en el sector aeroespacial y de defensa. Desarrollan el cohete suborbital comercial PERUN, una plataforma reutilizable de etapa única impulsada por un motor híbrido eco-frívolo. La empresa también destaca por su experiencia en sensores inalámbricos, sistemas electrónicos avanzados y técnicas de microondas para aplicaciones espaciales.",
+    "description_en": "SpaceForest is an innovative Polish technology company specializing in the aerospace and defense sector. They develop the commercial suborbital rocket PERUN, a reusable single-stage platform powered by an eco-friendly hybrid engine. The company also stands out for its expertise in wireless sensors, advanced electronic systems, and microwave techniques for space applications.",
+    "founded": 2004,
+    "ceo": "Robert Magiera",
+    "sector": "launchers",
+    "tags": [
+      "Launcher",
+      "Suborbital",
+      "PERUN",
+      "Hybrid Engine",
+      "Poland"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/spaceforest/",
+      "twitter": "https://twitter.com/SpaceForest_PL"
+    },
+    "keyPrograms": [
+      "PERUN Rocket",
+      "SF-1000 Engine",
+      "DEWI Sensors"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Gdynia, Polonia.",
+    "logo": "spaceforest.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 110,
+    "name": "Spacemanic",
+    "slug": "spacemanic",
+    "type": "startup",
+    "country": "cz",
+    "countryName": "República Checa",
+    "city": "Brno",
+    "coordinates": {
+      "lat": 49.1951,
+      "lng": 16.6068
+    },
+    "employees": 20,
+    "website": "https://spacemanic.com/",
+    "description": "Spacemanic es un integrador de misiones de nanosatélites de servicio completo y fabricante de componentes CubeSat de alta calidad. Con una filosofía de \"enchufar y usar\" (plug-and-play), la empresa agiliza el proceso desde el concepto hasta la órbita, ofreciendo ordenadores de a bordo, sistemas de energía y servicios de gestión de misiones para universidades, centros de investigación y empresas comerciales de todo el mundo.",
+    "description_en": "Spacemanic is a full-service nanosatellite mission integrator and manufacturer of high-quality CubeSat components. With a \"plug-and-play\" philosophy, the company streamlines the process from concept to orbit, offering on-board computers, power systems, and mission management services for universities, research centers, and commercial companies worldwide.",
+    "founded": 2014,
+    "ceo": "Jakub Kapuš",
+    "sector": "satellite_components",
+    "tags": [
+      "CubeSat",
+      "Nanosatellite",
+      "Components",
+      "Mission Integration",
+      "Brno"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/spacemanic",
+      "linkedin": "https://www.linkedin.com/company/spacemanic/"
+    },
+    "keyPrograms": [
+      "CubeSat Components",
+      "Mission Integration Service"
+    ],
+    "fundingStage": "Startup",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Brno (República Checa), Bratislava (Eslovaquia).",
+    "logo": "spacemanic.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

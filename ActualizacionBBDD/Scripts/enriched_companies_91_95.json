@@ -1,0 +1,215 @@
+[
+  {
+    "id": 91,
+    "name": "Neuraspace",
+    "slug": "neuraspace",
+    "type": "startup",
+    "country": "pt",
+    "countryName": "Portugal",
+    "city": "Coímbra",
+    "coordinates": {
+      "lat": 40.2033,
+      "lng": -8.4103
+    },
+    "employees": 37,
+    "website": "https://www.neuraspace.com/",
+    "description": "Neuraspace es una empresa tecnológica portuguesa líder en la gestión del tráfico espacial (STM) y la conciencia de la situación espacial (SSA). Su plataforma SaaS utiliza inteligencia artificial de vanguardia para automatizar el análisis de conjunciones y optimizar las maniobras de evitación de colisiones. Su tecnología permite a los operadores de satélites reducir drásticamente los falsos positivos y mejorar la seguridad orbital en un entorno cada vez más congestionado.",
+    "description_en": "Neuraspace is a leading Portuguese technology company specializing in space traffic management (STM) and space situational awareness (SSA). Its SaaS platform utilizes cutting-edge artificial intelligence to automate conjunction analysis and optimize collision avoidance maneuvers. Its technology enables satellite operators to drastically reduce false positives and improve orbital safety in an increasingly congested environment.",
+    "founded": 2020,
+    "ceo": "Chiara Manfletti",
+    "sector": "ssa",
+    "tags": [
+      "SSA",
+      "STM",
+      "AI",
+      "Collision Avoidance",
+      "Space Safety"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/neuraspace",
+      "linkedin": "https://www.linkedin.com/company/neuraspace/"
+    },
+    "keyPrograms": [
+      "AI Collision Avoidance",
+      "Maneuver Optimization"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$27M",
+    "stockTicker": null,
+    "otrassede": "Coímbra, Portugal.",
+    "logo": "neuraspace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 92,
+    "name": "Norwegian Space Agency",
+    "slug": "norwegian-space-agency",
+    "type": "agency",
+    "country": "no",
+    "countryName": "Noruega",
+    "city": "Oslo",
+    "coordinates": {
+      "lat": 59.9139,
+      "lng": 10.7522
+    },
+    "employees": 60,
+    "website": "https://www.romsenter.no/",
+    "description": "La Agencia Espacial Noruega (NOSA), conocida nacionalmente como Norsk Romsenter, es el organismo gubernamental responsable de coordinar las actividades espaciales de Noruega. Actúa como asesor estratégico del estado, gestionando la participación nacional en programas internacionales como los de la ESA y la UE. Sus prioridades incluyen la vigilancia marítima en el Ártico y el apoyo al desarrollo de infraestructuras críticas como el Andøya Spaceport.",
+    "description_en": "The Norwegian Space Agency (NOSA), known nationally as Norsk Romsenter, is the government body responsible for coordinating Norway's space activities. It acts as a strategic advisor to the state, managing national participation in international programs such as those of ESA and the EU. Its priorities include maritime surveillance in the Arctic and supporting the development of critical infrastructure like the Andøya Spaceport.",
+    "founded": 1987,
+    "ceo": "Christian Hauglie-Hanssen",
+    "sector": "regulatory_body",
+    "tags": [
+      "National Agency",
+      "Arctic Surveillance",
+      "Norway",
+      "Maritime Policy"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/romsenteret",
+      "linkedin": "https://www.linkedin.com/company/norwegian-space-centre/"
+    },
+    "keyPrograms": [
+      "Andøya Spaceport",
+      "Arctic Surveillance Program",
+      "AIS Satellites"
+    ],
+    "fundingStage": "Government",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Oslo, Noruega.",
+    "logo": "norwegian_space_agency.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 93,
+    "name": "OHB",
+    "slug": "ohb",
+    "type": "corporate",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Bremen",
+    "coordinates": {
+      "lat": 53.0793,
+      "lng": 8.8017
+    },
+    "employees": 3000,
+    "website": "https://www.ohb.de/",
+    "description": "OHB SE es uno de los grupos tecnológicos y aeroespaciales más importantes de Europa, con sede en Bremen. La empresa es especialista en el desarrollo de sistemas satelitales para navegación, observación de la Tierra y telecomunicaciones. Como contratista principal del sistema de navegación Galileo y de los satélites meteorológicos MTG, OHB desempeña un papel central en la soberanía espacial europea y en misiones de exploración científica.",
+    "description_en": "OHB SE is one of Europe's most important space and technology groups, headquartered in Bremen. The company specializes in the development of satellite systems for navigation, Earth observation, and telecommunications. As the prime contractor for the Galileo navigation system and the MTG weather satellites, OHB plays a central role in European space sovereignty and scientific exploration missions.",
+    "founded": 1981,
+    "ceo": "Marco R. Fuchs",
+    "sector": "satellites",
+    "tags": [
+      "Satellites",
+      "Galileo",
+      "Bremen",
+      "ESA Partner",
+      "Space Systems"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/OHB_SE",
+      "linkedin": "https://www.linkedin.com/company/ohb-se/"
+    },
+    "keyPrograms": [
+      "Galileo",
+      "MTG",
+      "SAR-Lupe",
+      "Argonaut Lander"
+    ],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "OHB.DE",
+    "otrassede": "Bremen, Augsburgo (MT Aerospace), Múnich y otras 15 sedes europeas.",
+    "logo": "ohb.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 94,
+    "name": "OKAPI:Orbits",
+    "slug": "okapi-orbits",
+    "type": "startup",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Braunschweig",
+    "coordinates": {
+      "lat": 52.2689,
+      "lng": 10.5268
+    },
+    "employees": 40,
+    "website": "https://www.okapiorbits.space/",
+    "description": "OKAPI:Orbits es una empresa alemana de software que proporciona soluciones inteligentes para la gestión del tráfico espacial (STM). Su plataforma SaaS utiliza algoritmos de IA para predecir riesgos orbitales y facilitar la coordinación automatizada de maniobras de evitación entre operadores de satélites. Con un enfoque en la sostenibilidad, OKAPI ayuda a proteger los activos espaciales y a cumplir con las normativas de mitigación de escombros.",
+    "description_en": "OKAPI:Orbits is a German software company providing intelligent solutions for space traffic management (STM). Its SaaS platform utilizes AI algorithms to predict orbital risks and facilitate automated avoidance maneuver coordination between satellite operators. With a focus on sustainability, OKAPI helps protect space assets and comply with debris mitigation regulations.",
+    "founded": 2018,
+    "ceo": "Kristina Nikolaus",
+    "sector": "ssa",
+    "tags": [
+      "SSA",
+      "STM",
+      "Collision Avoidance",
+      "AI",
+      "SaaS"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/okapiorbits",
+      "linkedin": "https://www.linkedin.com/company/okapi-orbits/"
+    },
+    "keyPrograms": [
+      "OKAPI:Aether",
+      "OKAPI:Astrolabe",
+      "OKAPI:Soteria"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$20M",
+    "stockTicker": null,
+    "otrassede": "Braunschweig, Alemania.",
+    "logo": "okapi_orbits.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 95,
+    "name": "OPUS Aerospace",
+    "slug": "opus-aerospace",
+    "type": "startup",
+    "country": "fr",
+    "countryName": "Francia",
+    "city": "Brétigny-sur-Orge",
+    "coordinates": {
+      "lat": 48.6117,
+      "lng": 2.3060
+    },
+    "employees": 21,
+    "website": "https://www.opus-aerospace.com/",
+    "description": "OPUS Aerospace es una startup francesa de \"NewSpace\" dedicada a democratizar el acceso al espacio mediante el desarrollo de micro-lanzadores rentables y ecológicos. Especializada en propulsión líquida y fabricación aditiva (3D) de motores, la empresa desarrolla el demonstrador suborbital Mésange y el micro-lanzador orbital Sterne para el despliegue flexible de nanosatélites desde bases europeas.",
+    "description_en": "OPUS Aerospace is a French \"NewSpace\" startup dedicated to democratizing access to space by developing cost-effective and eco-friendly micro-launchers. Specializing in liquid propulsion and additive manufacturing (3D) of engines, the company is developing the Mésange suborbital demonstrator and the Sterne orbital micro-launcher for flexible nanosatellite deployment from European bases.",
+    "founded": 2019,
+    "ceo": "Safouane Benamer",
+    "sector": "launchers",
+    "tags": [
+      "Launcher",
+      "Micro-launcher",
+      "Propulsion",
+      "3D Printing",
+      "SmallSat"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/opusaerospace",
+      "linkedin": "https://www.linkedin.com/company/opus-aerospace/"
+    },
+    "keyPrograms": [
+      "Mésange",
+      "Sterne"
+    ],
+    "fundingStage": "Startup",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Brétigny-sur-Orge, Francia.",
+    "logo": "opus_aerospace.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

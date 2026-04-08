@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Beyond Gravity",
+    "slug": "beyond-gravity",
+    "type": "corporate",
+    "country": "ch",
+    "countryName": "Suiza",
+    "city": "Zurich",
+    "coordinates": {
+      "lat": 47.3769,
+      "lng": 8.5417
+    },
+    "employees": 1600,
+    "website": "https://www.beyondgravity.com",
+    "description": "Beyond Gravity es un proveedor líder mundial de componentes y sistemas para la industria espacial. Con sede en Zúrich, Suiza, la empresa (anteriormente conocida como RUAG Space) proporciona tecnología crítica tanto para satélites como para vehículos de lanzamiento.\n\nSe especializa en el diseño y fabricación de computadoras de a bordo, antenas, protección térmica y sistemas mecánicos para satélites. Para lanzadores, es un proveedor preferente de estructuras compuestas y cofias (payload fairings) utilizadas en misiones globales como Ariane y Vega.",
+    "description_en": "Beyond Gravity is a leading global supplier of components and systems for the space industry. Headquartered in Zurich, Switzerland, the company (formerly known as RUAG Space) provides critical technology for both satellites and launch vehicles.\n\nThey specialize in the design and manufacturing of onboard computers, antennas, thermal protection, and mechanical systems for satellites. For launchers, they are a preferred supplier of composite structures and payload fairings used in global missions such as Ariane and Vega.",
+    "founded": 1965,
+    "ceo": "André Wall",
+    "sector": "manufacturing",
+    "tags": ["Launchers", "Satellites", "Payload Fairings", "Structures", "Swiss Space"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/beyondgravity-space/",
+      "twitter": "https://twitter.com/BeyondGravity_"
+    },
+    "keyPrograms": ["Ariane 5", "Ariane 6", "Vega", "Small Satellites", "Constellations"],
+    "fundingStage": "Corporate",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Austria, Sweden, Finland, Germany, USA",
+    "logo": "beyond_gravity.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

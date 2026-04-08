@@ -1,0 +1,166 @@
+[
+  {
+    "id": 76,
+    "name": "Kongsberg NanoAvionics",
+    "slug": "kongsberg-nanoavionics",
+    "type": "corporate",
+    "country": "lt",
+    "countryName": "Lituania",
+    "city": "Vilna",
+    "coordinates": {
+      "lat": 54.75,
+      "lng": 25.26
+    },
+    "employees": 250,
+    "website": "https://www.nanoavionics.com",
+    "description": "Kongsberg NanoAvionics es un integrador de misiones y fabricante de satélites líder, especializado en el desarrollo de plataformas modulares para cubesats y microsatélites. Con una amplia herencia de misiones y presencia global, la empresa ofrece desde el diseño de buses satelitales hasta servicios de integración de carga útil y operaciones de misión, siendo un socio clave en el ecosistema NewSpace para aplicaciones de observación terrestre, comunicaciones y defensa.",
+    "description_en": "Kongsberg NanoAvionics is a leading satellite mission integrator and manufacturer specializing in the development of modular CubeSat and microsatellite platforms. With an extensive mission heritage and global presence, the company provides everything from satellite bus design to payload integration and mission operations, serving as a key partner in the NewSpace ecosystem for Earth observation, communications, and defense applications.",
+    "founded": 2014,
+    "ceo": "Atle Wøllo",
+    "sector": "satellite_manufacturing",
+    "tags": ["SmallSats", "CubeSats", "Mission Integration", "Microsatellites"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/nanoavionics/",
+      "twitter": "https://twitter.com/nanoavionics"
+    },
+    "keyPrograms": ["M6P & M12P platforms", "MP42 microsatellite bus", "OQ Technology constellation"],
+    "fundingStage": "Acquired",
+    "totalFunding": "€65M EV",
+    "stockTicker": null,
+    "otrassede": "USA (Maryland), UK (Oxfordshire)",
+    "logo": "kongsberg_nanoavionics.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 77,
+    "name": "KP Labs",
+    "slug": "kp-labs",
+    "type": "startup",
+    "country": "pl",
+    "countryName": "Polonia",
+    "city": "Gliwice",
+    "coordinates": {
+      "lat": 50.293,
+      "lng": 18.665
+    },
+    "employees": 80,
+    "website": "https://kplabs.space",
+    "description": "KP Labs es una empresa polaca de tecnología profunda especializada en el procesamiento avanzado de datos a bordo y la computación en el borde (edge computing) para misiones espaciales. Su ecosistema de misiones inteligentes integra hardware, software y algoritmos de inteligencia artificial que permiten a los satélites procesar información directamente en órbita, optimizando la descarga de datos y permitiendo operaciones autónomas en tiempo real.",
+    "description_en": "KP Labs is a Polish deep-tech company specializing in advanced on-board data processing and edge computing for space missions. Their smart mission ecosystem integrates hardware, software, and AI algorithms that allow satellites to process information directly in orbit, optimizing data downlink and enabling autonomous, real-time operations.",
+    "founded": 2016,
+    "ceo": "Michał Zachara",
+    "sector": "software",
+    "tags": ["AI", "Edge Computing", "On-board Processing", "Deep Tech"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/kp-labs/",
+      "github": "https://github.com/kp-labs"
+    },
+    "keyPrograms": ["Intuition-1 satellite", "Leopard DPU", "Antelope OBC"],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "kp_labs.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 78,
+    "name": "Kurs Orbital",
+    "slug": "kurs-orbital",
+    "type": "startup",
+    "country": "it",
+    "countryName": "Italia",
+    "city": "Turín",
+    "coordinates": {
+      "lat": 45.06,
+      "lng": 7.66
+    },
+    "employees": 20,
+    "website": "https://kursorbital.com/",
+    "description": "Kurs Orbital es una empresa aeroespacial con sede en Italia centrada en el mantenimiento en órbita y la logística espacial. La compañía desarrolla el módulo ARCap, un sistema estandarizado de encuentro y acoplamiento autónomo que permite a las naves espaciales interactuar con satélites cooperativos y no cooperativos, facilitando misiones de extensión de vida útil, eliminación de desechos espaciales e inspección orbital.",
+    "description_en": "Kurs Orbital is an Italian-based aerospace company focused on in-orbit servicing and space logistics. The company develops the ARCap module, a standardized autonomous rendezvous and docking system that enables spacecraft to interact with both cooperative and non-cooperative satellites, facilitating mission life extension, space debris removal, and orbital inspection missions.",
+    "founded": 2022,
+    "ceo": "Volodymyr Usov",
+    "sector": "in_space_logistics",
+    "tags": ["In-orbit Servicing", "Space Logistics", "Rendezvous and Docking", "Space Debris"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/kurs-orbital/"
+    },
+    "keyPrograms": ["ARCap Module", "Satellite Life Extension", "Debris Removal"],
+    "fundingStage": "Seed",
+    "totalFunding": "€3.7M",
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "kurs_orbital.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 79,
+    "name": "Kuva Space",
+    "slug": "kuva-space",
+    "type": "startup",
+    "country": "fi",
+    "countryName": "Finlandia",
+    "city": "Espoo",
+    "coordinates": {
+      "lat": 60.2054,
+      "lng": 24.6559
+    },
+    "employees": 40,
+    "website": "https://www.kuvaspace.com",
+    "description": "Kuva Space es una empresa finlandesa de tecnología espacial que se especializa en la observación hiperespectral de la Tierra y la inteligencia planetaria. Mediante su constelación de microsatélites Hyperfield, la empresa captura cientos de bandas espectrales para analizar la composición molecular de la superficie terrestre, proporcionando datos críticos para la agricultura de precisión, el monitoreo ambiental y la seguridad global.",
+    "description_en": "Kuva Space is a Finnish space technology company specializing in hyperspectral Earth observation and planetary intelligence. Through its Hyperfield microsatellite constellation, the company captures hundreds of spectral bands to analyze the molecular composition of the Earth's surface, providing critical data for precision agriculture, environmental monitoring, and global security.",
+    "founded": 2016,
+    "ceo": "Jarkko Antila",
+    "sector": "earth_observation",
+    "tags": ["Hyperspectral", "Earth Observation", "Planetary Intelligence", "Remote Sensing"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/kuva-space/",
+      "twitter": "https://twitter.com/kuvaspace"
+    },
+    "keyPrograms": ["Hyperfield constellation", "Kuva Sense platform", "Sunstorm (ESA)"],
+    "fundingStage": "Series A",
+    "totalFunding": "€22M",
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "kuva_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 80,
+    "name": "Latitude",
+    "slug": "latitude",
+    "type": "startup",
+    "country": "fr",
+    "countryName": "Francia",
+    "city": "Reims",
+    "coordinates": {
+      "lat": 49.2583,
+      "lng": 4.0317
+    },
+    "employees": 160,
+    "website": "https://www.latitude.eu/",
+    "description": "Latitude es una empresa francesa de servicios de lanzamiento orbital que desarrolla el micro-lanzador Zephyr, diseñado para el despliegue flexible de satélites pequeños. Destacando por su motor Navier fabricado mediante impresión 3D y su enfoque en la agilidad operativa, la compañía busca proporcionar una solución competitiva y sostenible para colocar cargas útiles ligeras en órbita terrestre baja, operando desde puertos espaciales en la Guayana Francesa y Escocia.",
+    "description_en": "Latitude is a French orbital launch services company developing the Zephyr micro-launcher, designed for the flexible deployment of small satellites. Highlighting its 3D-printed Navier engine and focus on operational agility, the company aims to provide a competitive and sustainable solution for placing lightweight payloads into low Earth orbit, operating from spaceports in French Guiana and Scotland.",
+    "founded": 2019,
+    "ceo": "Aurélie Bressollette",
+    "sector": "launchers",
+    "tags": ["Zephyr", "Microlauncher", "3D Printing", "Navier engine"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/latitude-space/",
+      "twitter": "https://twitter.com/latitude_space"
+    },
+    "keyPrograms": ["Zephyr micro-launcher", "Navier engine family", "France 2030 project"],
+    "fundingStage": "Series B",
+    "totalFunding": "$55M+",
+    "stockTicker": null,
+    "otrassede": "French Guiana (Operations)",
+    "logo": "latitude.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

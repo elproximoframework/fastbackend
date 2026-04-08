@@ -1,0 +1,163 @@
+[
+  {
+    "id": 71,
+    "name": "ICEYE",
+    "slug": "iceye",
+    "type": "corporate",
+    "country": "fi",
+    "countryName": "Finlandia",
+    "city": "Espoo",
+    "coordinates": {
+      "lat": 60.2055,
+      "lng": 24.6559
+    },
+    "employees": 1000,
+    "website": "https://www.iceye.com",
+    "description": "ICEYE es una empresa finlandesa líder en el sector de la defensa y la observación de la Tierra, pionera en el desarrollo de la mayor constelación comercial de satélites de radar de apertura sintética (SAR). Su tecnología permite obtener imágenes de alta resolución de la superficie terrestre en cualquier condición meteorológica, de día o de noche, proporcionando datos críticos para la gestión de catástrofes naturales, vigilancia marítima y seguridad nacional.",
+    "description_en": "ICEYE is a leading Finnish aerospace and defense company, pioneering the development of the world's largest commercial constellation of synthetic-aperture radar (SAR) satellites. Their technology enables high-resolution imaging of the Earth's surface under any weather conditions, day or night, providing critical data for natural disaster management, maritime surveillance, and national security.",
+    "founded": 2014,
+    "ceo": "Rafał Modrzewski",
+    "sector": "earth_observation",
+    "tags": ["SAR", "Earth Observation", "Radar Imaging", "Microsatellites"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/iceye/",
+      "twitter": "https://twitter.com/iceyefi"
+    },
+    "keyPrograms": ["SAR Satellite Constellation", "Flood Monitoring", "Defence Intelligence"],
+    "fundingStage": "Series E",
+    "totalFunding": "$700M+",
+    "stockTicker": null,
+    "otrassede": "Poland, USA, UK, Spain",
+    "logo": "iceye.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 72,
+    "name": "IENAI SPACE",
+    "slug": "ienai-space",
+    "type": "startup",
+    "country": "es",
+    "countryName": "España",
+    "city": "Leganés, Madrid",
+    "coordinates": {
+      "lat": 40.33,
+      "lng": -3.76
+    },
+    "employees": 35,
+    "website": "https://ienai.space",
+    "description": "IENAI SPACE es una startup española con sede en Madrid especializada en soluciones de movilidad para el sector NewSpace. Su producto principal, ATHENA™, es un sistema de propulsión eléctrica modular y altamente adaptable basado en la tecnología de electrospray impulsada por nanotecnología. Además, desarrollan software avanzado de análisis de misiones para optimizar las operaciones propulsivas y las maniobras de satélites en órbita.",
+    "description_en": "IENAI SPACE is a Spanish startup based in Madrid specializing in mobility solutions for the NewSpace sector. Their flagship product, ATHENA™, is a modular and highly adaptable electric propulsion system based on electrospray technology powered by nanotechnology. Additionally, they develop advanced mission analysis software to optimize propulsive operations and satellite maneuvers in orbit.",
+    "founded": 2019,
+    "ceo": "Daniel Pérez Grande",
+    "sector": "propulsion",
+    "tags": ["Electric Propulsion", "Electrospray", "Athena", "Mission Analysis"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/ienai-space/"
+    },
+    "keyPrograms": ["ATHENA™ Propulsion", "360™ Software Suite", "IRIS Program"],
+    "fundingStage": "Seed",
+    "totalFunding": "€7M",
+    "stockTicker": null,
+    "otrassede": "Barcelona, Uppsala (Sweden)",
+    "logo": "ienai_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 73,
+    "name": "Isar Aerospace",
+    "slug": "isar-aerospace",
+    "type": "startup",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Ottobrunn",
+    "coordinates": {
+      "lat": 48.06,
+      "lng": 11.66
+    },
+    "employees": 470,
+    "website": "https://isaraerospace.com",
+    "description": "Isar Aerospace es una de las empresas de lanzamiento con mayor financiación de Europa, dedicada al desarrollo del cohete Spectrum para proporcionar un acceso flexible y económico al espacio. Con sede en Alemania, la compañía se centra en la fabricación verticalmente integrada de vehículos de lanzamiento de dos etapas diseñados para desplegar constelaciones de satélites pequeños y medianos, operando desde instalaciones en Noruega y la Guayana Francesa.",
+    "description_en": "Isar Aerospace is one of Europe's best-funded launch providers, dedicated to developing the Spectrum rocket to provide flexible and cost-effective access to space. Based in Germany, the company focuses on vertically integrated manufacturing of two-stage launch vehicles designed to deploy small and medium-sized satellite constellations, operating from facilities in Norway and French Guiana.",
+    "founded": 2018,
+    "ceo": "Daniel Metzler",
+    "sector": "launchers",
+    "tags": ["Spectrum", "Launch Vehicle", "Microlauncher", "Constellation Deployment"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/isaraerospace/"
+    },
+    "keyPrograms": ["Spectrum", "Andøya Space Pad", "CSG Agreement"],
+    "fundingStage": "Series C",
+    "totalFunding": "$600M+",
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "isar_aerospace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 74,
+    "name": "ISISpace",
+    "slug": "isispace",
+    "type": "corporate",
+    "country": "nl",
+    "countryName": "Países Bajos",
+    "city": "Delft",
+    "coordinates": {
+      "lat": 52.01,
+      "lng": 4.35
+    },
+    "employees": 130,
+    "website": "https://www.isispace.nl",
+    "description": "ISISpace (Innovative Solutions In Space) es una destacada empresa neerlandesa que ofrece soluciones integrales para misiones de satélites pequeños. Con casi dos décadas de experiencia, la compañía abarca desde el diseño y fabricación de plataformas CubeSat y microsatélites hasta servicios de lanzamiento y operaciones de misión, habiendo desplegado cientos de satélites para clientes académicos, gubernamentales y comerciales en todo el mundo.",
+    "description_en": "ISISpace (Innovative Solutions In Space) is a prominent Dutch company providing end-to-end solutions for small satellite missions. With nearly two decades of experience, the company covers everything from the design and manufacture of CubeSat platforms and microsatellites to launch services and mission operations, having deployed hundreds of satellites for academic, government, and commercial clients worldwide.",
+    "founded": 2006,
+    "ceo": "Jeroen Rotteveel",
+    "sector": "satellite_manufacturing",
+    "tags": ["CubeSat", "Microsatellites", "Deployers", "Mission Operations"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/isis—innovative-solutions-in-space-bv"
+    },
+    "keyPrograms": ["QuadPack Deployer", "Brik-II mission", "Hera mission support"],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "isispace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 75,
+    "name": "ISPTech",
+    "slug": "isptech",
+    "type": "startup",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Hardthausen",
+    "coordinates": {
+      "lat": 49.24,
+      "lng": 9.36
+    },
+    "employees": 30,
+    "website": "https://isptech.space",
+    "description": "InSpacePropulsion Technologies (ISPTech) es una empresa alemana surgida del DLR que se especializa en sistemas de propulsión química no tóxicos y sostenibles para naves espaciales. Sus tecnologías patentadas HyNOx e HIP_11 ofrecen alternativas seguras y de alto rendimiento a la hidrazina convencional, permitiendo una movilidad ágil para una amplia gama de naves, desde CubeSats hasta grandes satélites y módulos de aterrizaje planetario.",
+    "description_en": "InSpacePropulsion Technologies (ISPTech) is a German company, a spin-off from DLR, specializing in non-toxic and sustainable chemical propulsion systems for spacecraft. Their patented HyNOx and HIP_11 technologies offer safe, high-performance alternatives to conventional hydrazine, enabling agile mobility for a wide range of vessels, from CubeSats to large satellites and planetary landers.",
+    "founded": 2021,
+    "ceo": "Lukas Werling",
+    "sector": "propulsion",
+    "tags": ["Green Propulsion", "Sustainability", "HyNOx", "HIP_11"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/isp-technologies-gmbh/"
+    },
+    "keyPrograms": ["HyNOx Propulsion", "HIP_11 Propulsion", "In-orbit Mobility"],
+    "fundingStage": "Seed",
+    "totalFunding": "€7.5M",
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "isptech.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

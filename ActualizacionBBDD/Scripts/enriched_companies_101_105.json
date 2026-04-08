@@ -1,0 +1,212 @@
+[
+  {
+    "id": 101,
+    "name": "Rocket Factory Augsburg (RFA)",
+    "slug": "rfa",
+    "type": "startup",
+    "country": "de",
+    "countryName": "Alemania",
+    "city": "Augsburgo",
+    "coordinates": {
+      "lat": 48.3711,
+      "lng": 10.8983
+    },
+    "employees": 300,
+    "website": "https://www.rfa.space/",
+    "description": "Rocket Factory Augsburg (RFA) es una empresa alemana de \"NewSpace\" dedicada a proporcionar servicios de lanzamiento orbital de bajo coste y alta frecuencia. Su filosofía se basa en aplicar principios de fabricación de la industria automotriz para producir cohetes a escala. Su vehículo principal, RFA One, es un lanzador de tres etapas que utiliza el motor Helix de combustión escalonada y la etapa superior Redshift para el despliegue preciso de satélites.",
+    "description_en": "Rocket Factory Augsburg (RFA) is a German \"NewSpace\" company dedicated to providing low-cost, high-frequency orbital launch services. Its philosophy is based on applying automotive industry manufacturing principles to produce rockets at scale. Its primary vehicle, RFA One, is a three-stage launcher utilizing the staged-combustion Helix engine and the Redshift upper stage for precise satellite deployment.",
+    "founded": 2018,
+    "ceo": "Indulis Kalnins",
+    "sector": "launchers",
+    "tags": [
+      "Launcher",
+      "RFA One",
+      "Helix Engine",
+      "Low Cost",
+      "Staged Combustion"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/rfa_space",
+      "linkedin": "https://www.linkedin.com/company/rocket-factory-augsburg/"
+    },
+    "keyPrograms": [
+      "RFA One",
+      "Helix Engine",
+      "Redshift OTV"
+    ],
+    "fundingStage": "Venture Backed",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Augsburgo (Alemania).",
+    "logo": "rfa.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 102,
+    "name": "S.A.B. Aerospace",
+    "slug": "sab-aerospace",
+    "type": "corporate",
+    "country": "it",
+    "countryName": "Italia",
+    "city": "Benevento",
+    "coordinates": {
+      "lat": 41.1294,
+      "lng": 14.7733
+    },
+    "employees": 100,
+    "website": "http://www.sabaerospace.com/",
+    "description": "S.A.B. Aerospace es una empresa italiana independiente especializada en el diseño y fabricación de subsistemas mecánicos y térmicos para la industria espacial. Es reconocida internacionalmente por ser la autoridad de diseño del dispensador SSMS (Small Spacecraft Mission Service) para los cohetes Vega y Vega-C, permitiendo misiones de viajes compartidos (rideshare) para múltiples satélites pequeños.",
+    "description_en": "S.A.B. Aerospace is an independent Italian company specializing in the design and manufacturing of mechanical and thermal subsystems for the space industry. It is internationally recognized as the design authority for the SSMS (Small Spacecraft Mission Service) dispenser for Vega and Vega-C rockets, enabling rideshare missions for multiple small satellites.",
+    "founded": 2004,
+    "ceo": "David Zucconi",
+    "sector": "manufacturing",
+    "tags": [
+      "Vega",
+      "SSMS",
+      "Structures",
+      "Rideshare",
+      "MGSE"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/s-a-b-aerospace-srl/"
+    },
+    "keyPrograms": [
+      "SSMS Dispenser",
+      "Vega-C",
+      "PLATO Structures"
+    ],
+    "fundingStage": "Private SME",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Benevento y Prato (Italia), sucursales en República Checa, Polonia y Rumanía.",
+    "logo": "sab_aerospace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 103,
+    "name": "SAGA Space Architects",
+    "slug": "saga-space-architects",
+    "type": "startup",
+    "country": "dk",
+    "countryName": "Dinamarca",
+    "city": "Copenhague",
+    "coordinates": {
+      "lat": 55.6761,
+      "lng": 12.5683
+    },
+    "employees": 20,
+    "website": "https://saga.dk/",
+    "description": "SAGA Space Architects es un estudio de diseño multidisciplinar con sede en Copenhague que se dedica a hacer el espacio habitable para los futuros exploradores. Su enfoque combina el bienestar psicológico con soluciones arquitectónicas de alta tecnología, como su hábitat lunar desplegable LUNARK, inspirado en el origami. SAGA realiza misiones análogas en entornos extremos para validar sus conceptos de habitabilidad espacial.",
+    "description_en": "SAGA Space Architects is a multidisciplinary design studio based in Copenhagen dedicated to making space livable for future explorers. Its approach combines psychological well-being with high-tech architectural solutions, such as its LUNARK deployable lunar habitat inspired by origami. SAGA conducts analog missions in extreme environments to validate its space habitability concepts.",
+    "founded": 2018,
+    "ceo": "Sebastian Aristotelis",
+    "sector": "space_equipment",
+    "tags": [
+      "Habitats",
+      "Space Architecture",
+      "LUNARK",
+      "Origami",
+      "Analogs"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/SAGA_Space_Arch",
+      "linkedin": "https://www.linkedin.com/company/saga-space-architects/"
+    },
+    "keyPrograms": [
+      "LUNARK",
+      "Circadian Lighting",
+      "Terrestrial Analogs"
+    ],
+    "fundingStage": "Startup",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Copenhague, Dinamarca.",
+    "logo": "saga.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 104,
+    "name": "Satlab",
+    "slug": "satlab",
+    "type": "startup",
+    "country": "dk",
+    "countryName": "Dinamarca",
+    "city": "Aalborg",
+    "coordinates": {
+      "lat": 57.0488,
+      "lng": 9.9217
+    },
+    "employees": 10,
+    "website": "https://satlab.space/",
+    "description": "Satlab A/S es una empresa danesa de tecnología espacial especializada en el diseño y desarrollo de sistemas de radio avanzados para aplicaciones altamente integradas. Su enfoque principal es la creación de cargas útiles basadas en Software Defined Radio (SDR) para nano y microsatélites, así como sistemas TT&C (telemetría, seguimiento y comando) robustos para misiones en órbita terrestre baja.",
+    "description_en": "Satlab A/S is a Danish space technology company specializing in the design and development of advanced radio systems for highly embedded applications. Its primary focus is the creation of Software Defined Radio (SDR) based payloads for nano- and micro-satellites, as well as robust TT&C (telemetry, tracking, and command) systems for LEO missions.",
+    "founded": 2003,
+    "ceo": "Jeppe Jørgensen",
+    "sector": "satellite_components",
+    "tags": [
+      "SDR",
+      "Radio",
+      "TT&C",
+      "CubeSat",
+      "Electronics"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/satlab-a-s/"
+    },
+    "keyPrograms": [
+      "SDR Payloads",
+      "S-band TT&C",
+      "Satellite Radio"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Aalborg, Dinamarca.",
+    "logo": "satlab.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 105,
+    "name": "Sidereus Space Dynamics",
+    "slug": "sidereus",
+    "type": "startup",
+    "country": "it",
+    "countryName": "Italia",
+    "city": "Nápoles",
+    "coordinates": {
+      "lat": 40.8522,
+      "lng": 14.2681
+    },
+    "employees": 20,
+    "website": "https://www.sidereus.space/",
+    "description": "Sidereus Space Dynamics es una startup italiana de tecnología espacial que desarrolla soluciones revolucionarias para el acceso al espacio y la movilidad orbital. Su vehículo insignia, EOS, es un sistema orbital reutilizable diseñado para lanzamientos de satélites pequeños y la entrega de carga mediante un concepto de despegue y aterrizaje vertical (VTVL). Su objetivo es hacer el acceso al espacio tan sencillo y frecuente como la logística terrestre.",
+    "description_en": "Sidereus Space Dynamics is an Italian space technology startup developing revolutionary solutions for space access and orbital mobility. Its flagship vehicle, EOS, is a reusable orbital system designed for small satellite launches and cargo delivery using a vertical takeoff and landing (VTVL) concept. Its goal is to make space access as simple and frequent as terrestrial logistics.",
+    "founded": 2019,
+    "ceo": "Mattia Barbarossa",
+    "sector": "launchers",
+    "tags": [
+      "Launcher",
+      "EOS",
+      "VTVL",
+      "Reusability",
+      "SmallSat"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/sidereus-space-dynamics/"
+    },
+    "keyPrograms": [
+      "EOS Space Vehicle"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$5.5M",
+    "stockTicker": null,
+    "otrassede": "Nápoles, Italia.",
+    "logo": "sidereus.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

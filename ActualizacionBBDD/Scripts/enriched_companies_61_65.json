@@ -1,0 +1,165 @@
+[
+  {
+    "id": 61,
+    "name": "Finnish Meteorological Institute",
+    "slug": "finnish-meteorological-institute",
+    "type": "agency",
+    "country": "fi",
+    "countryName": "Finlandia",
+    "city": "Helsinki",
+    "coordinates": {
+      "lat": 60.2041,
+      "lng": 24.9538
+    },
+    "employees": 750,
+    "website": "https://en.ilmatieteenlaitos.fi/",
+    "description": "El Instituto Meteorológico de Finlandia (FMI) es una agencia gubernamental responsable de los servicios meteorológicos, de calidad del aire y climáticos en Finlandia. En el sector espacial, el FMI es un líder mundial en investigación planetaria y observación de la Tierra, destacando por su participación en misiones de la NASA y la ESA mediante el desarrollo de instrumentos de alta precisión para medir la presión y la humedad en Marte (misiones Curiosity y Perseverance).",
+    "description_en": "The Finnish Meteorological Institute (FMI) is a government agency responsible for weather, air quality, and climate services in Finland. In the space sector, FMI is a global leader in planetary research and Earth Observation, notably participating in NASA and ESA missions by developing high-precision instruments to measure pressure and humidity on Mars (Curiosity and Perseverance missions).",
+    "founded": 1838,
+    "ceo": "Petteri Taalas",
+    "sector": "research",
+    "tags": ["Earth Observation", "Planetary Research", "Space Weather", "Mars Exploration"],
+    "socialLinks": {
+      "twitter": "https://twitter.com/Ilmatieteenlait",
+      "linkedin": "https://www.linkedin.com/company/finnish-meteorological-institute/"
+    },
+    "keyPrograms": ["Mars Science Laboratory (Curiosity)", "Mars 2020 (Perseverance)", "Sodankylä Arctic Space Centre"],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Sodankylä Arctic Space Centre (Lappi)",
+    "logo": "finnish_meteorological_institute.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 62,
+    "name": "GATE Space",
+    "slug": "gate-space",
+    "type": "startup",
+    "country": "at",
+    "countryName": "Austria",
+    "city": "Viena",
+    "coordinates": {
+      "lat": 48.2082,
+      "lng": 16.3738
+    },
+    "employees": 35,
+    "website": "https://gate.space/",
+    "description": "GATE Space es una startup de tecnología profunda con sede en Austria que se especializa en sistemas de propulsión química para satélites y naves espaciales. Su producto estrella, el 'GATE Jetpack', es una solución de propulsión adaptable diseñada para proporcionar movilidad de 'última milla' a satélites que se despliegan desde lanzadores agregadores, permitiendo maniobras rápidas y un control preciso de la órbita.",
+    "description_en": "GATE Space is an Austrian deep-tech startup specializing in chemical propulsion systems for satellites and spacecraft. Their flagship product, the 'GATE Jetpack,' is an adaptable propulsion solution designed to provide 'last-mile' mobility for satellites deploying from rideshare launchers, enabling rapid maneuvers and precise orbital control.",
+    "founded": 2022,
+    "ceo": "Moritz Novak",
+    "sector": "propulsion",
+    "tags": ["Propulsion", "Deep Tech", "Satellite Maneuvering", "In-orbit Mobility"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/gate-space/"
+    },
+    "keyPrograms": ["GATE Jetpack", "In-orbit Demonstration (SpaceX Transporter)"],
+    "fundingStage": "Seed",
+    "totalFunding": "€10M",
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "gate_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 63,
+    "name": "Genesis Space Flight Lab",
+    "slug": "genesis-space-flight-lab",
+    "type": "startup",
+    "country": "hr",
+    "countryName": "Croacia",
+    "city": "Čakovec",
+    "coordinates": {
+      "lat": 46.3844,
+      "lng": 16.4339
+    },
+    "employees": 15,
+    "website": "https://gencapsule.space/",
+    "description": "Genesis Space Flight Laboratories es una empresa croata dedicada a la logística espacial que desarrolla cápsulas de reentrada reutilizables para misiones frecuentes de investigación en microgravedad. Su objetivo es proporcionar un acceso fiable y autónomo al espacio para experimentos biológicos, farmacéuticos y de ciencia de materiales, ofreciendo una alternativa eficiente a las estaciones espaciales para el retorno seguro de cargas útiles a la Tierra.",
+    "description_en": "Genesis Space Flight Laboratories is a Croatian space logistics company developing reusable reentry capsules for frequent microgravity research missions. Their goal is to provide reliable and autonomous access to space for biological, pharmaceutical, and materials science experiments, offering an efficient alternative to space stations for the safe return of payloads to Earth.",
+    "founded": 2020,
+    "ceo": "Bence Mátyás",
+    "sector": "in_space_logistics",
+    "tags": ["Microgravity", "Reentry Capsules", "Space Logistics", "Biotech"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/genesis-sfl/"
+    },
+    "keyPrograms": ["GEN Reentry Capsule", "MayaSat-1"],
+    "fundingStage": "Pre-seed",
+    "totalFunding": "€300k",
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "genesis_space_flight_lab.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 64,
+    "name": "GKN Aerospace Sweden",
+    "slug": "gkn-aerospace-sweden",
+    "type": "corporate",
+    "country": "se",
+    "countryName": "Suecia",
+    "city": "Trollhättan",
+    "coordinates": {
+      "lat": 58.2833,
+      "lng": 12.2833
+    },
+    "employees": 2100,
+    "website": "https://www.gknaerospace.com/",
+    "description": "GKN Aerospace Sweden, con sede en Trollhättan, es un centro de excelencia global para sistemas de motores aeroespaciales. La compañía es un socio clave en el programa europeo de lanzadores Ariane, donde diseña y fabrica componentes críticos como turbinas para el motor de etapa superior Vinci y extensiones de tobera refrigeradas para el motor Vulcain 2.1 del Ariane 6, utilizando tecnologías avanzadas de fabricación aditiva.",
+    "description_en": "GKN Aerospace Sweden, based in Trollhättan, is a global center of excellence for aerospace engine systems. The company is a key partner in the European Ariane launcher program, designing and manufacturing critical components such as turbines for the Vinci upper-stage engine and cooled nozzle extensions for the Ariane 6 Vulcain 2.1 engine, utilizing advanced additive manufacturing technologies.",
+    "founded": 1930,
+    "ceo": "Martin Wänblom",
+    "sector": "manufacturing",
+    "tags": ["Aeroengines", "Ariane 6", "Additive Manufacturing", "Propulsion Components"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/gkn-aerospace/",
+      "twitter": "https://twitter.com/GKNAero"
+    },
+    "keyPrograms": ["Ariane 6", "Prometheus Engine", "RM12/RM16 Engines"],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "GKN",
+    "otrassede": "Gothenburg",
+    "logo": "gkn_aerospace_sweden.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 65,
+    "name": "GomSpace",
+    "slug": "gomspace",
+    "type": "corporate",
+    "country": "dk",
+    "countryName": "Dinamarca",
+    "city": "Aalborg",
+    "coordinates": {
+      "lat": 57.0488,
+      "lng": 9.9217
+    },
+    "employees": 240,
+    "website": "https://gomspace.com/",
+    "description": "GomSpace es una empresa líder mundial en tecnología espacial especializada en el diseño, fabricación y operación de nanosatélites y CubeSats. Con sede en Dinamarca y cotizada en bolsa, la compañía ofrece soluciones llave en mano que van desde plataformas satelitales individuales hasta la gestión de constelaciones completas, colaborando estrechamente con la ESA y clientes comerciales en misiones de observación climática, defensa y exploración del espacio profundo.",
+    "description_en": "GomSpace is a world-leading space technology company specializing in the design, manufacture, and operation of nanosatellites and CubeSats. Based in Denmark and publicly traded, the company provides turnkey solutions ranging from individual satellite platforms to complete constellation management, collaborating closely with ESA and commercial clients on climate observation, defense, and deep space exploration missions.",
+    "founded": 2007,
+    "ceo": "Carsten Drachmann",
+    "sector": "satellite_manufacturing",
+    "tags": ["Nanosatellites", "CubeSats", "ESA", "Constellations"],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/gomspace/",
+      "twitter": "https://twitter.com/GomSpaceGroup"
+    },
+    "keyPrograms": ["GOMX missions", "SCOUT-1 CubeMAP", "Juventas"],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "GOMX",
+    "otrassede": "Luxembourg, USA",
+    "logo": "gomspace.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]
