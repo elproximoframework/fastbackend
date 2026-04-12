@@ -1,0 +1,421 @@
+[
+  {
+    "id": 351,
+    "name": "UP Aerospace",
+    "slug": "up-aerospace",
+    "type": "corporate",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Highlands Ranch",
+    "coordinates": {
+      "lat": 39.548,
+      "lng": -104.973
+    },
+    "employees": 50,
+    "website": "https://www.upaerospace.us.com/",
+    "description": "UP Aerospace es una empresa estadounidense de servicios de lanzamiento espacial que se especializa en misiones suborbitales de bajo costo. Fundada en 2004, la compañía opera principalmente desde Spaceport America en Nuevo México, proporcionando acceso rápido al espacio para investigación académica, militar y comercial.\n\nSu vehículo principal, el cohete SpaceLoft, ha realizado numerosos lanzamientos exitosos para la NASA y otros clientes, permitiendo pruebas tecnológicas en condiciones de microgravedad. Actualmente, la empresa desarrolla el sistema Spyder, un vehículo de lanzamiento orbital diseñado para satélites pequeños y misiones hipersónicas.",
+    "description_en": "UP Aerospace is an American space launch services company specializing in low-cost suborbital missions. Founded in 2004, the company primarily operates from Spaceport America in New Mexico, providing rapid access to space for academic, military, and commercial research.\n\nIts flagship vehicle, the SpaceLoft rocket, has conducted numerous successful launches for NASA and other clients, enabling technology testing in microgravity conditions. Currently, the company is developing the Spyder system, an orbital launch vehicle designed for small satellites and hypersonic missions.",
+    "founded": 2004,
+    "ceo": "Jerry Larson",
+    "sector": "launchers",
+    "tags": [
+      "Suborbital",
+      "Sounding Rockets",
+      "NASA Flight Opportunities",
+      "Hypersonic"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/UPAerospace",
+      "linkedin": "https://www.linkedin.com/company/up-aerospace-inc-"
+    },
+    "keyPrograms": [
+      "SpaceLoft",
+      "Spyder",
+      "S.T.A.R. Program"
+    ],
+    "fundingStage": null,
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Spaceport America, New Mexico",
+    "logo": "up_aerospace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 352,
+    "name": "Ursa Major",
+    "slug": "ursa-major",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Berthoud",
+    "coordinates": {
+      "lat": 40.3083,
+      "lng": -105.0811
+    },
+    "employees": 450,
+    "website": "https://www.ursamajor.com/",
+    "description": "Ursa Major es la principal empresa independiente de propulsión de cohetes en Estados Unidos, dedicada a suministrar motores confiables y de alto rendimiento para el mercado de defensa y comercial. A diferencia de otras empresas espaciales, se centran exclusivamente en la propulsión, permitiendo a sus clientes enfocarse en el diseño de vehículos.\n\nLa compañía ha desarrollado una familia de motores de ciclo cerrado, incluyendo el Hadley (oxígeno líquido/queroseno) y el Ripley de mayor empuje. Su enfoque en la fabricación aditiva y el diseño modular les permite producir motores con una rapidez y eficiencia sin precedentes, apoyando tanto misiones orbitales como programas de defensa hipersónica.",
+    "description_en": "Ursa Major is America's leading independent rocket propulsion company, dedicated to supplying reliable, high-performance engines for the defense and commercial markets. Unlike other space companies, they focus exclusively on propulsion, allowing their customers to focus on vehicle design.\n\nThe company has developed a family of staged-combustion engines, including the Hadley (liquid oxygen/kerosene) and the higher-thrust Ripley. Their focus on additive manufacturing and modular design allows them to produce engines with unprecedented speed and efficiency, supporting both orbital missions and hypersonic defense programs.",
+    "founded": 2015,
+    "ceo": "Chris Spagnoletti",
+    "sector": "propulsion",
+    "tags": [
+      "Rocket Engines",
+      "Additive Manufacturing",
+      "Liquid Propulsion",
+      "Defense"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/ursamajortech",
+      "linkedin": "https://www.linkedin.com/company/ursa-major-technologies/"
+    },
+    "keyPrograms": [
+      "Hadley Engine",
+      "Ripley Engine",
+      "Arroway Engine",
+      "Draper"
+    ],
+    "fundingStage": "Series E",
+    "totalFunding": "$350M",
+    "stockTicker": null,
+    "otrassede": "Youngstown, Ohio",
+    "logo": "ursa_major.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 353,
+    "name": "Vacco Industries",
+    "slug": "vacco-industries",
+    "type": "corporate",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "South El Monte",
+    "coordinates": {
+      "lat": 34.0536,
+      "lng": -118.0467
+    },
+    "employees": 400,
+    "website": "https://www.vacco.com/",
+    "description": "Vacco Industries, ahora parte de RBC Bearings, es un diseñador y fabricante líder de válvulas especializadas, filtros y productos de control de fluidos para el sector espacial y de defensa. Con una trayectoria que se remonta a 1954, sus componentes son fundamentales para la fiabilidad de satélites y vehículos de lanzamiento.\n\nLa empresa es conocida por sus avanzados sistemas de micropropulsión (MiPS) para SmallSats y CubeSats, que utilizan propulsores de gas frío y tecnologías verdes. Sus productos han volado en misiones históricas, incluyendo el Mars Curiosity Rover y el Space Launch System (SLS) de la NASA, destacando por su capacidad de operar en los entornos más extremos del espacio.",
+    "description_en": "Vacco Industries, now part of RBC Bearings, is a leading designer and manufacturer of specialty valves, filters, and fluid control products for the space and defense sectors. With a history dating back to 1954, its components are essential for the reliability of satellites and launch vehicles.\n\nThe company is renowned for its advanced micro propulsion systems (MiPS) for SmallSats and CubeSats, utilizing cold gas and green propulsion technologies. Its products have flown on historic missions, including the Mars Curiosity Rover and NASA's Space Launch System (SLS), standing out for their ability to operate in the most extreme environments of space.",
+    "founded": 1954,
+    "ceo": "Michael J. Hartnett",
+    "sector": "space_equipment",
+    "tags": [
+      "Fluid Control",
+      "Micro Propulsion",
+      "CubeSats",
+      "Valves"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/vacco-industries/"
+    },
+    "keyPrograms": [
+      "MiPS Micro Propulsion",
+      "Mars Rover Components",
+      "SLS Valves"
+    ],
+    "fundingStage": "Acquisition",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "vacco_industries.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 354,
+    "name": "Valcor Engineering Space",
+    "slug": "valcor-engineering",
+    "type": "corporate",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Springfield",
+    "coordinates": {
+      "lat": 40.7107,
+      "lng": -74.3168
+    },
+    "employees": 350,
+    "website": "https://www.valcor.com/",
+    "description": "Valcor Engineering Corporation es un fabricante especializado en sistemas de control de movimiento y fluidos de alta precisión. Fundada en 1951, la empresa ha suministrado hardware crítico para casi todos los programas espaciales importantes de Estados Unidos, desde la era Apollo hasta el actual programa Artemis.\n\nSu división espacial se centra en válvulas solenoides, reguladores de presión y acumuladores diseñados para soportar vibraciones extremas y temperaturas criogénicas. Los componentes de Valcor son piezas clave en los sistemas de propulsión de cohetes como el Atlas V y el Delta IV, así como en sistemas de soporte vital y control térmico de naves espaciales tripuladas.",
+    "description_en": "Valcor Engineering Corporation is a specialized manufacturer of high-precision fluid and motion control systems. Founded in 1951, the company has supplied critical hardware for nearly every major US space program, from the Apollo era to the current Artemis program.\n\nIts space division focuses on solenoid valves, pressure regulators, and accumulators designed to withstand extreme vibration and cryogenic temperatures. Valcor components are key parts of propulsion systems for rockets like the Atlas V and Delta IV, as well as life support and thermal control systems for crewed spacecraft.",
+    "founded": 1951,
+    "ceo": "John Trezza",
+    "sector": "space_equipment",
+    "tags": [
+      "Fluid Control",
+      "Solenoid Valves",
+      "Cryogenic",
+      "Artemis"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/valcor-engineering-corporation/"
+    },
+    "keyPrograms": [
+      "Artemis Program Hardware",
+      "Launch Vehicle Valves",
+      "Precision Regulators"
+    ],
+    "fundingStage": null,
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "valcor_engineering.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 355,
+    "name": "Varda Space Industries",
+    "slug": "varda-space",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "El Segundo",
+    "coordinates": {
+      "lat": 33.9192,
+      "lng": -118.4165
+    },
+    "employees": 100,
+    "website": "https://www.varda.com/",
+    "description": "Varda Space Industries es una startup pionera dedicada a la fabricación comercial de materiales en el espacio. Fundada por veteranos de SpaceX y Founders Fund, la empresa busca aprovechar las condiciones únicas de microgravedad para producir fármacos y materiales de alta tecnología que no pueden fabricarse con la misma calidad en la Tierra.\n\nSu modelo operativo utiliza cápsulas de retorno automatizadas que actúan como fábricas orbitales autónomas. En 2024, Varda logró un hito histórico al recuperar con éxito su primera cápsula Winnebago, que contenía cristales de Ritonavir cristales procesados en órbita, abriendo el camino para una nueva era de logística y fabricación industrial en el espacio.",
+    "description_en": "Varda Space Industries is a pioneering startup dedicated to the commercial manufacturing of materials in space. Founded by veterans of SpaceX and Founders Fund, the company seeks to leverage the unique conditions of microgravity to produce pharmaceuticals and high-tech materials that cannot be made with the same quality on Earth.\n\nIts operating model uses automated return capsules that act as autonomous orbital factories. In 2024, Varda achieved a historic milestone by successfully recovering its first Winnebago capsule, which contained Ritonavir crystals processed in orbit, paving the way for a new era of industrial logistics and manufacturing in space.",
+    "founded": 2020,
+    "ceo": "Will Bruey",
+    "sector": "manufacturing",
+    "tags": [
+      "In-Space Manufacturing",
+      "Re-entry Capsules",
+      "Pharmaceuticals",
+      "Microgravity"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/VardaSpace",
+      "linkedin": "https://www.linkedin.com/company/varda-space-industries/"
+    },
+    "keyPrograms": [
+      "W-1 Capsule",
+      "Winnebago-1 Mission",
+      "Microgravity Pharma"
+    ],
+    "fundingStage": "Series B",
+    "totalFunding": "$145M",
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "varda_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 356,
+    "name": "Vast Space",
+    "slug": "vast-space",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Long Beach",
+    "coordinates": {
+      "lat": 33.7701,
+      "lng": -118.1937
+    },
+    "employees": 300,
+    "website": "https://www.vastspace.com/",
+    "description": "Vast Space es una empresa aeroespacial con la ambiciosa misión de desarrollar las primeras estaciones espaciales comerciales con gravedad artificial del mundo. Fundada por el empresario Jed McCaleb, la compañía busca expandir la presencia humana en el sistema solar proporcionando entornos habitables sostenibles para el trabajo y la investigación.\n\nSu primer proyecto, Haven-1, está diseñado para ser lanzado por un Falcon 9 de SpaceX y servir como la primera estación espacial privada de la historia. Vast también ha adquirido empresas estratégicas como Launcher para integrar tecnologías de propulsión y logística orbital, consolidándose como un actor clave en la infraestructura espacial del futuro post-ISS.",
+    "description_en": "Vast Space is an aerospace company with the ambitious mission to develop the world's first commercial artificial gravity space stations. Founded by entrepreneur Jed McCaleb, the company seeks to expand human presence in the solar system by providing sustainable habitable environments for work and research.\n\nIts first project, Haven-1, is designed to be launched by a SpaceX Falcon 9 and serve as the world's first-ever private space station. Vast has also acquired strategic companies like Launcher to integrate propulsion and orbital logistics technologies, consolidating itself as a key player in the future space infrastructure post-ISS.",
+    "founded": 2021,
+    "ceo": "Max Haot",
+    "sector": "space_infrastructure",
+    "tags": [
+      "Space Stations",
+      "Artificial Gravity",
+      "Commercial Space",
+      "Habitation"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/vast",
+      "linkedin": "https://www.linkedin.com/company/vast-space/"
+    },
+    "keyPrograms": [
+      "Haven-1",
+      "Haven-2",
+      "Orbiter Payload Host"
+    ],
+    "fundingStage": "Self-funded",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "vast_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 357,
+    "name": "Vaya Space",
+    "slug": "vaya-space",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Cocoa",
+    "coordinates": {
+      "lat": 28.3561,
+      "lng": -80.7412
+    },
+    "employees": 80,
+    "website": "https://www.vayaspace.com/",
+    "description": "Vaya Space es una empresa de servicios de lanzamiento que está revolucionando la industria mediante el uso de tecnología de propulsión híbrida ecológica. Su enfoque se basa en la utilización de materiales reciclados como combustible, ofreciendo una alternativa más segura, barata y sostenible a los cohetes tradicionales de combustible sólido o líquido.\n\nSu motor patentado de ciclo Vortex permite un control de empuje preciso y evita los riesgos de explosión asociados con los propulsores convencionales. La empresa desarrolla el cohete Dauntless, un vehículo diseñado para el lanzamiento eficiente de satélites pequeños, posicionándose como un líder en la democratización del acceso al espacio para operadores comerciales y gubernamentales.",
+    "description_en": "Vaya Space is a launch services company revolutionizing the industry through the use of eco-friendly hybrid propulsion technology. Their approach is based on using recycled materials as fuel, offering a safer, cheaper, and more sustainable alternative to traditional solid or liquid fuel rockets.\n\nTheir patented Vortex cycle engine allows for precise thrust control and avoids the explosion risks associated with conventional thrusters. The company is developing the Dauntless rocket, a vehicle designed for the efficient launch of small satellites, positioning itself as a leader in democratizing access to space for commercial and government operators.",
+    "founded": 2017,
+    "ceo": "Kevin Lowdermilk",
+    "sector": "launchers",
+    "tags": [
+      "Hybrid Propulsion",
+      "Eco-friendly",
+      "SmallSat Launch",
+      "Vortex Engine"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/VayaSpace",
+      "linkedin": "https://www.linkedin.com/company/vayaspace/"
+    },
+    "keyPrograms": [
+      "Dauntless Rocket",
+      "Vortex Engine",
+      "Hybrid Propulsion Systems"
+    ],
+    "fundingStage": "Venture Round",
+    "totalFunding": "$20M",
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "vaya_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 358,
+    "name": "Venturi Astrolab",
+    "slug": "venturi-astrolab",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Hawthorne",
+    "coordinates": {
+      "lat": 33.9172,
+      "lng": -118.3526
+    },
+    "employees": 50,
+    "website": "https://www.astrolab.space/",
+    "description": "Venturi Astrolab es una empresa dedicada al diseño y operación de flotas de vehículos móviles para la exploración planetaria. Con sede en Hawthorne, California, la compañía busca estandarizar la movilidad lunar y marciana para permitir misiones de investigación y explotación de recursos a largo plazo.\n\nSu vehículo principal, el rover FLEX (Flexible Logistics and Exploration), es una plataforma polivalente capaz de transportar cargas pesadas, desplegar infraestructuras y realizar tareas robóticas complejas. Astrolab ha asegurado contratos con la NASA para el programa Artemis, donde su tecnología de movilidad será fundamental para establecer una presencia humana sostenible en la Luna mediante servicios de transporte de carga y tripulación.",
+    "description_en": "Venturi Astrolab is a company dedicated to the design and operation of planetary exploration mobile vehicle fleets. Based in Hawthorne, California, the company seeks to standardize lunar and Martian mobility to enable long-term research and resource exploration missions.\n\nIts flagship vehicle, the FLEX rover (Flexible Logistics and Exploration), is a multipurpose platform capable of carrying heavy payloads, deploying infrastructure, and performing complex robotic tasks. Astrolab has secured contracts with NASA for the Artemis program, where its mobility technology will be fundamental to establishing a sustainable human presence on the Moon through cargo and crew transport services.",
+    "founded": 2020,
+    "ceo": "Jaret Matthews",
+    "sector": "space_tech",
+    "tags": [
+      "Lunar Mobility",
+      "Rovers",
+      "Artemis",
+      "Robotics"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/Astrolab_Space",
+      "linkedin": "https://www.linkedin.com/company/astrolab-space/"
+    },
+    "keyPrograms": [
+      "FLEX Rover",
+      "NASA LTVS Contract",
+      "FLIP Rover"
+    ],
+    "fundingStage": null,
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": null,
+    "logo": "venturi_astrolab.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 359,
+    "name": "Venus Aerospace",
+    "slug": "venus-aerospace",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Houston",
+    "coordinates": {
+      "lat": 29.593,
+      "lng": -95.1631
+    },
+    "employees": 80,
+    "website": "https://www.venusaero.com/",
+    "description": "Venus Aerospace es una compañía de tecnología hipersónica con sede en Houston que busca habilitar viajes globales en menos de una hora. Fundada por ex empleados de Virgin Orbit, la empresa desarrolla naves espaciales hipersónicas y motores de alta eficiencia para redefinir el transporte de punto a punto en la Tierra y el acceso al espacio.\n\nLa empresa es pionera en el desarrollo del motor de cohete de detonación rotativa (RDRE), una tecnología que promete ser significativamente más eficiente que los motores de cohete convencionales. Su aeronave Stargazer está diseñada para despegar de aeropuertos convencionales y acelerar a Mach 9 en la alta atmósfera, reduciendo drásticamente los tiempos de viaje intercontinentales y proporcionando una plataforma reutilizable para misiones gubernamentales y comerciales.",
+    "description_en": "Venus Aerospace is a Houston-based hypersonic technology company seeking to enable global travel in less than one hour. Founded by former Virgin Orbit employees, the company develops hypersonic spacecraft and high-efficiency engines to redefine point-to-point transportation on Earth and space access.\n\nThe company is a pioneer in the development of the Rotating Detonation Rocket Engine (RDRE), a technology that promises to be significantly more efficient than conventional rocket engines. Its Stargazer aircraft is designed to take off from conventional airports and accelerate to Mach 9 in the high atmosphere, drastically reducing intercontinental travel times and providing a reusable platform for government and commercial missions.",
+    "founded": 2020,
+    "ceo": "Sassie Duggleby",
+    "sector": "propulsion",
+    "tags": [
+      "Hypersonic",
+      "RDRE",
+      "Spaceplane",
+      "High-speed Travel"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/VenusAerospace",
+      "linkedin": "https://www.linkedin.com/company/venusaerospace/"
+    },
+    "keyPrograms": [
+      "Stargazer",
+      "RDRE Engine",
+      "High-Mach Research"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$50M",
+    "stockTicker": null,
+    "otrassede": "Houston Spaceport",
+    "logo": "venus_aerospace.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 360,
+    "name": "Viasat",
+    "slug": "viasat",
+    "type": "corporate",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Carlsbad",
+    "coordinates": {
+      "lat": 33.1235,
+      "lng": -117.2795
+    },
+    "employees": 7000,
+    "website": "https://www.viasat.com/",
+    "description": "Viasat Inc. es un líder global en comunicaciones satelitales que proporciona conectividad de banda ancha de alta velocidad a comunidades, aerolíneas, gobiernos y el sector militar en todo el mundo. Fundada en 1986, la compañía ha evolucionado de ser un fabricante de hardware a uno de los proveedores de servicios satelitales más grandes del planeta.\n\nLa empresa opera una de las constelaciones de satélites geoestacionarios (GEO) más potentes del mundo, incluyendo la revolucionaria serie ViaSat-3, diseñada para ofrecer capacidades de terabits por segundo. Tras la adquisición de Inmarsat en 2023, Viasat ha consolidado su posición en el mercado global, impulsando la innovación en redes híbridas que combinan tecnologías satelitales y terrestres para eliminar la brecha digital y asegurar comunicaciones críticas en cualquier lugar del globo.",
+    "description_en": "Viasat Inc. is a global leader in satellite communications providing high-speed broadband connectivity to communities, airlines, governments, and the military worldwide. Founded in 1986, the company has evolved from a hardware manufacturer to one of the largest satellite service providers on the planet.\n\nThe company operates one of the world's most powerful geostationary (GEO) satellite constellations, including the revolutionary ViaSat-3 series, designed to deliver terabit-per-second capacities. Following the acquisition of Inmarsat in 2023, Viasat has consolidated its position in the global market, driving innovation in hybrid networks that combine satellite and terrestrial technologies to close the digital divide and secure critical communications anywhere on the globe.",
+    "founded": 1986,
+    "ceo": "Mark Dankberg",
+    "sector": "satcom",
+    "tags": [
+      "Satellite Broadband",
+      "GEO Constellation",
+      "Connectivity",
+      "Inmarsat Acquisition"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/ViasatInc",
+      "linkedin": "https://www.linkedin.com/company/viasat/"
+    },
+    "keyPrograms": [
+      "ViaSat-3 Constellation",
+      "In-flight Connectivity",
+      "Government Satcom"
+    ],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "VSAT",
+    "otrassede": "London (Inmarsat HQ), Worldwide offices",
+    "logo": "viasat.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

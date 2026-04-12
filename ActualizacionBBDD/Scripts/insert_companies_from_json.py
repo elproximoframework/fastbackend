@@ -47,7 +47,10 @@ def upsert_company(cur, company):
                 sql.SQL(', ').join(set_clauses)
             )
             cur.execute(query, vals + [name])
-            print(f"[✓] Updated: {name}")
+            try:
+                print(f"[OK] Updated: {name}")
+            except UnicodeEncodeError:
+                print(f"[OK] Updated: {name.encode('ascii', 'replace').decode()}")
         else:
             # INSERT: Use sql.Identifier for column names.
             query = sql.SQL("INSERT INTO companies ({}, name) VALUES ({}, %s)").format(
@@ -55,10 +58,16 @@ def upsert_company(cur, company):
                 sql.SQL(', ').join([sql.Placeholder()] * len(vals))
             )
             cur.execute(query, vals + [name])
-            print(f"[✓] Inserted: {name}")
+            try:
+                print(f"[OK] Inserted: {name}")
+            except UnicodeEncodeError:
+                print(f"[OK] Inserted: {name.encode('ascii', 'replace').decode()}")
             
     except Exception as e:
-        print(f"[!] Error processing {name}: {e}")
+        try:
+            print(f"[!] Error processing {name}: {e}")
+        except UnicodeEncodeError:
+            print(f"[!] Error processing {name.encode('ascii', 'replace').decode()}: {str(e).encode('ascii', 'replace').decode()}")
         raise e
 
 def process_file(file_path):

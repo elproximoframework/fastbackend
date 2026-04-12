@@ -1,0 +1,418 @@
+[
+  {
+    "id": 321,
+    "name": "Space Perspective",
+    "slug": "space-perspective",
+    "type": "startup",
+    "country": "US",
+    "countryName": "Estados Unidos",
+    "city": "Titusville",
+    "coordinates": {
+      "lat": 28.5912,
+      "lng": -80.82
+    },
+    "employees": 140,
+    "website": "https://spaceperspective.com/",
+    "description": "Space Perspective es una empresa pionera en el turismo espacial de lujo que utiliza globos de alta altitud para llevar pasajeros a la estratosfera. Su nave insignia, Spaceship Neptune, ofrece una experiencia de seis horas sin necesidad de entrenamiento intensivo o fuerzas G elevadas, proporcionando vistas de 360 grados de la curvatura terrestre. Recientemente adquirida por Eos X Space, la compañía continúa desarrollando sus puertos espaciales marinos (MS Voyager) para lanzamientos globales flexibles y sostenibles, manteniendo un enfoque neutro en carbono.",
+    "description_en": "Space Perspective is a luxury space tourism pioneer that utilizes high-altitude balloons to carry passengers into the stratosphere. Its flagship vessel, Spaceship Neptune, offers a six-hour experience without the need for intensive training or high G-forces, providing 360-degree views of Earth's curvature. Recently acquired by Eos X Space, the company continues to develop its marine spaceports (MS Voyager) for flexible and sustainable global launches, maintaining a carbon-neutral focus.",
+    "founded": 2019,
+    "ceo": "Taber MacCallum",
+    "sector": "space_tourism",
+    "tags": [
+      "Space Tourism",
+      "Stratosphere",
+      "Sustainability",
+      "Near Space"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/SpacePerspectiv",
+      "linkedin": "https://www.linkedin.com/company/space-perspective/"
+    },
+    "keyPrograms": [
+      "Spaceship Neptune",
+      "MS Voyager",
+      "SpaceBalloon"
+    ],
+    "fundingStage": "Acquired",
+    "totalFunding": "$100M+",
+    "stockTicker": null,
+    "otrassede": "Exploration Park, FL",
+    "logo": "space_perspective.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 322,
+    "name": "Space Systems Command",
+    "slug": "space-systems-command",
+    "type": "agency",
+    "country": "US",
+    "countryName": "Estados Unidos",
+    "city": "El Segundo",
+    "coordinates": {
+      "lat": 33.9213,
+      "lng": -118.3742
+    },
+    "employees": 10000,
+    "website": "https://www.ssc.spaceforce.mil/",
+    "description": "Space Systems Command (SSC) es el mando de campo de la Fuerza Espacial de los Estados Unidos responsable del desarrollo, adquisición, lanzamiento y mantenimiento de capacidades espaciales para el Departamento de Defensa. Con sede en la Base de la Fuerza Aérea de Los Ángeles, gestiona un presupuesto multimillonario para asegurar la superioridad espacial estadounidense, supervisando programas críticos como GPS, sistemas de comunicaciones militares y lanzamientos de seguridad nacional. SSC se enfoca en acelerar los ciclos de adquisición para responder a las amenazas emergentes en un dominio espacial cada vez más disputado.",
+    "description_en": "Space Systems Command (SSC) is the U.S. Space Force field command responsible for the development, acquisition, launch, and sustainment of space capabilities for the Department of Defense. Headquartered at Los Angeles Air Force Base, it manages a multi-billion dollar budget to ensure U.S. space superiority, overseeing critical programs such as GPS, military communications systems, and national security space launches. SSC focuses on accelerating acquisition cycles to respond to emerging threats in an increasingly contested space domain.",
+    "founded": 2021,
+    "ceo": "Lt. Gen. Philip Garrant",
+    "sector": "defense",
+    "tags": [
+      "National Security",
+      "Acquisition",
+      "USSF",
+      "Military Space"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/USSF_SSC",
+      "linkedin": "https://www.linkedin.com/company/space-systems-command/"
+    },
+    "keyPrograms": [
+      "GPS III",
+      "NSSL",
+      "Space Access",
+      "MILSATCOM"
+    ],
+    "fundingStage": "Government",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Patrick Space Force Base, FL; Vandenberg Space Force Base, CA",
+    "logo": "space_systems_command.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 323,
+    "name": "Spaceflight Inc",
+    "slug": "spaceflight-inc",
+    "type": "corporate",
+    "country": "US",
+    "countryName": "Estados Unidos",
+    "city": "Bellevue",
+    "coordinates": {
+      "lat": 47.6101,
+      "lng": -122.2015
+    },
+    "employees": 150,
+    "website": "https://spaceflight.com/",
+    "description": "Spaceflight Inc es una empresa líder en servicios globales de lanzamiento y logística espacial, especializada en facilitar el acceso comercial al espacio mediante misiones de carga compartida (rideshare). Han lanzado cientos de satélites para diversas organizaciones utilizando su familia de vehículos de transferencia orbital (OTV) Sherpa. En 2023, la empresa fue adquirida por Firefly Aerospace, integrando su experiencia en integración de carga útil y logística in-space para ofrecer soluciones de transporte de extremo a extremo en la industria aeroespacial.",
+    "description_en": "Spaceflight Inc is a leading provider of global launch services and space logistics, specializing in facilitating commercial access to space through rideshare missions. They have launched hundreds of satellites for various organizations using their Sherpa family of Orbital Transfer Vehicles (OTVs). In 2023, the company was acquired by Firefly Aerospace, merging its expertise in payload integration and in-space logistics to provide end-to-end transportation solutions in the aerospace industry.",
+    "founded": 2011,
+    "ceo": "Bill Weber",
+    "sector": "in_space_logistics",
+    "tags": [
+      "Rideshare",
+      "Logistics",
+      "OTV",
+      "Satellite Integration"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/SpaceflightInc",
+      "linkedin": "https://www.linkedin.com/company/spaceflight/"
+    },
+    "keyPrograms": [
+      "Sherpa OTV",
+      "Rideshare Services"
+    ],
+    "fundingStage": "Acquired",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Seattle, WA",
+    "logo": "spaceflight_inc.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 324,
+    "name": "United States Space Force (USSF)",
+    "slug": "united-states-space-force-ussf",
+    "type": "agency",
+    "country": "US",
+    "countryName": "Estados Unidos",
+    "city": "Arlington",
+    "coordinates": {
+      "lat": 38.8719,
+      "lng": -77.0563
+    },
+    "employees": 14000,
+    "website": "https://www.spaceforce.mil/",
+    "description": "La Fuerza Espacial de los Estados Unidos (USSF) es la rama más reciente de las Fuerzas Armadas de EE. UU., establecida en 2019 para organizar, entrenar y equipar fuerzas espaciales que protejan los intereses de EE. UU. y sus aliados en el espacio. Su misión incluye la protección de activos satelitales, la provisión de capacidades espaciales a las fuerzas conjuntas y la garantía de la libertad de operación en el dominio espacial. Opera bajo el Departamento de la Fuerza Aérea y gestiona sistemas vitales como satélites de navegación y redes de alerta temprana.",
+    "description_en": "The United States Space Force (USSF) is the newest branch of the U.S. Armed Forces, established in 2019 to organize, train, and equip space forces to protect the interests of the U.S. and its allies in space. Its mission includes protecting satellite assets, providing space capabilities to joint forces, and ensuring freedom of operation in the space domain. It operates under the Department of the Air Force and manages vital systems such as navigation satellites and early warning networks.",
+    "founded": 2019,
+    "ceo": "Gen. B. Chance Saltzman",
+    "sector": "defense",
+    "tags": [
+      "Defense",
+      "Military",
+      "National Security",
+      "Guardians"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/SpaceForceDoD",
+      "linkedin": "https://www.linkedin.com/company/united-states-space-force/"
+    },
+    "keyPrograms": [
+      "Global Positioning System",
+      "Space Fence",
+      "WGS"
+    ],
+    "fundingStage": "Government",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Colorado Springs, CO; Los Angeles, CA",
+    "logo": "united_states_space_force_ussf.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 325,
+    "name": "SpaceForge US",
+    "slug": "spaceforge-us",
+    "type": "startup",
+    "country": "US",
+    "countryName": "Estados Unidos",
+    "city": "Washington",
+    "coordinates": {
+      "lat": 38.9072,
+      "lng": -77.0369
+    },
+    "employees": 50,
+    "website": "https://spaceforge.co.uk/",
+    "description": "SpaceForge US es la filial estadounidense de la empresa británica Space Forge, centrada en revolucionar la fabricación de materiales avanzados mediante el aprovechamiento del entorno de microgravity y vacío del espacio. La compañía desarrolla satélites reutilizables diseñados para fabricar semiconductores, aleaciones y otros materiales de alto valor en órbita y regresarlos a la Tierra de forma segura. Su enfoque promete reducir drásticamente el impacto ambiental y mejorar el rendimiento de componentes tecnológicos críticos para industrias globales.",
+    "description_en": "SpaceForge US is the American subsidiary of the British company Space Forge, focused on revolutionizing advanced materials manufacturing by leveraging the microgravity and vacuum environment of space. The company develops returnable satellites designed to manufacture semiconductors, alloys, and other high-value materials in orbit and return them safely to Earth. Its approach promises to drastically reduce environmental impact and improve the performance of critical technological components for global industries.",
+    "founded": 2018,
+    "ceo": "Joshua Western",
+    "sector": "manufacturing",
+    "tags": [
+      "In-space Manufacturing",
+      "Semiconductors",
+      "Microgravity",
+      "Reusable"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/space_forge",
+      "linkedin": "https://www.linkedin.com/company/space-forge/"
+    },
+    "keyPrograms": [
+      "ForgeStar",
+      "Returnable Satellites"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$10M",
+    "stockTicker": null,
+    "otrassede": "Cardiff, UK (HQ)",
+    "logo": "spaceforge_us.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 326,
+    "name": "SpaceFund",
+    "slug": "spacefund",
+    "type": "investor",
+    "country": "US",
+    "countryName": "Estados Unidos",
+    "city": "Austin",
+    "coordinates": {
+      "lat": 30.2672,
+      "lng": -97.7431
+    },
+    "employees": 15,
+    "website": "https://spacefund.com/",
+    "description": "SpaceFund es una firma de capital de riesgo líder dedicada exclusivamente al sector de la economía espacial comercial. Cofundada por pioneros de la industria, la firma invierte en startups en etapas iniciales que construyen la infraestructura necesaria para la expansión humana permanente en el espacio, incluyendo transporte orbital, logística e infraestructura en órbita. Su filosofía se centra en identificar \"nodos\" estratégicos en la cadena de suministro espacial que ofrezcan retornos financieros sólidos mientras aceleran el desarrollo de la frontera espacial.",
+    "description_en": "SpaceFund is a leading venture capital firm dedicated exclusively to the commercial space economy sector. Co-founded by industry pioneers, the firm invests in early-stage startups building the infrastructure necessary for permanent human expansion into space, including orbital transport, logistics, and in-orbit infrastructure. Its philosophy focuses on identifying strategic \"nodes\" in the space supply chain that offer strong financial returns while aircraft the development of the space frontier.",
+    "founded": 2018,
+    "ceo": "Meagan Crawford",
+    "sector": "incubator",
+    "tags": [
+      "Venture Capital",
+      "Investment",
+      "Space Economy",
+      "Infrastructure"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/SpaceFundInc",
+      "linkedin": "https://www.linkedin.com/company/spacefund/"
+    },
+    "keyPrograms": [
+      "SpaceFund Venture Portfolio",
+      "Space Frontier Foundation Support"
+    ],
+    "fundingStage": "Venture",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Remote",
+    "logo": "spacefund.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 327,
+    "name": "SpaceLogistics",
+    "slug": "spacelogistics",
+    "type": "corporate",
+    "country": "US",
+    "countryName": "Estados Unidos",
+    "city": "Dulles",
+    "coordinates": {
+      "lat": 38.9554,
+      "lng": -77.4471
+    },
+    "employees": 200,
+    "website": "https://www.northropgrumman.com/space/spacelogistics/",
+    "description": "SpaceLogistics LLC, una subsidiaria de Northrop Grumman, es el líder mundial en logística y servicios satelitales en órbita. La compañía hizo historia con su Vehículo de Extensión de Misión (MEV), el primer sistema comercial en acoplarse a un satélite cliente para extender su vida útil mediante la provisión de propulsión y control de actitud. Sus planes futuros incluyen sistemas de robótica avanzada (MRV) y cápsulas de combustible (MEP) para reparar, reabastecer y reposicionar satélites, transformando la economía estacionaria de activos orbitales.",
+    "description_en": "SpaceLogistics LLC, a subsidiary of Northrop Grumman, is the world leader in in-orbit satellite logistics and servicing. The company made history with its Mission Extension Vehicle (MEV), the first commercial system to dock with a client satellite to extend its operational life by providing propulsion and attitude control. Future plans include advanced robotics systems (MRV) and fuel pods (MEPs) to repair, refuel, and reposition satellites, transforming the stationary economy of orbital assets.",
+    "founded": 2016,
+    "ceo": "Tom Wilson",
+    "sector": "in_space_logistics",
+    "tags": [
+      "Satellite Servicing",
+      "Life Extension",
+      "Robotics",
+      "Orbital Logistics"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/northropgrumman",
+      "linkedin": "https://www.linkedin.com/company/spacelogistics-llc/"
+    },
+    "keyPrograms": [
+      "MEV-1",
+      "MEV-2",
+      "MRV",
+      "MEP"
+    ],
+    "fundingStage": "Subsidiary",
+    "totalFunding": null,
+    "stockTicker": "NOC",
+    "otrassede": "Redondo Beach, CA",
+    "logo": "spacelogistics.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 328,
+    "name": "SpiderOak Space",
+    "slug": "spideroak-space",
+    "type": "corporate",
+    "country": "US",
+    "countryName": "Estados Unidos",
+    "city": "Reston",
+    "coordinates": {
+      "lat": 38.9586,
+      "lng": -77.3418
+    },
+    "employees": 100,
+    "website": "https://spideroak.com/",
+    "description": "SpiderOak Space (una división de SpiderOak Mission Systems) desarrolla soluciones de ciberseguridad avanzada basadas en principios de \"Zero Trust\" para el sector aeroespacial y de defensa. Su producto estrella, OrbitSecure, utiliza criptografía descentralizada y libros contables distribuidos para proteger las comunicaciones y el control de activos espaciales frente a ciberamenazas. La empresa se enfoca en asegurar sistemas de satélites críticos y estaciones terrestres, garantizando la integridad de los datos en misiones gubernamentales y comerciales de alta fidelidad.",
+    "description_en": "SpiderOak Space (a division of SpiderOak Mission Systems) develops advanced \"Zero Trust\" cybersecurity solutions for the aerospace and defense sector. Its flagship product, OrbitSecure, utilizes decentralized cryptography and distributed ledgers to protect space asset communications and control against cyberthreats. The company focuses on securing critical satellite systems and ground stations, ensuring data integrity for high-fidelity government and commercial missions.",
+    "founded": 2007,
+    "ceo": "Dave Pearah",
+    "sector": "software",
+    "tags": [
+      "Cybersecurity",
+      "Zero Trust",
+      "Encryption",
+      "Space Security"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/SpiderOak",
+      "linkedin": "https://www.linkedin.com/company/spideroak/"
+    },
+    "keyPrograms": [
+      "OrbitSecure",
+      "CrossClave"
+    ],
+    "fundingStage": "Growth",
+    "totalFunding": "$20M",
+    "stockTicker": null,
+    "otrassede": "Kansas City, MO",
+    "logo": "spideroak_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 329,
+    "name": "SpinLaunch",
+    "slug": "spinlaunch",
+    "type": "startup",
+    "country": "US",
+    "countryName": "Estados Unidos",
+    "city": "Long Beach",
+    "coordinates": {
+      "lat": 33.8245,
+      "lng": -118.1402
+    },
+    "employees": 200,
+    "website": "https://www.spinlaunch.com/",
+    "description": "SpinLaunch es una empresa innovadora de tecnología espacial dedicada al desarrollo de sistemas de lanzamiento cinético que reducen drásticamente el costo y el impacto ambiental del acceso al espacio. Utilizando una centrífuga gigante de vacío, la empresa acelera vehículos de lanzamiento a velocidades hipersónicas antes de liberarlos hacia la órbita, eliminando la necesidad de grandes cantidades de combustible en las primeras etapas. Este enfoque disruptivo busca permitir lanzamientos frecuentes y sostenibles de constelaciones de satélites pequeños.",
+    "description_en": "SpinLaunch is an innovative space technology company dedicated to developing kinetic launch systems that drastically reduce the cost and environmental impact of space access. Using a giant vacuum centrifuge, the company accelerates launch vehicles to hypersonic speeds before releasing them towards orbit, eliminating the need for vast amounts of fuel in the initial stages. This disruptive approach seeks to enable frequent and sustainable launches of small satellite constellations.",
+    "founded": 2014,
+    "ceo": "Jonathan Yaney",
+    "sector": "launchers",
+    "tags": [
+      "Kinetic Launch",
+      "Sustainability",
+      "Hypersonics",
+      "Cost Reduction"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/spinlaunch",
+      "linkedin": "https://www.linkedin.com/company/spinlaunch/"
+    },
+    "keyPrograms": [
+      "Suborbital Accelerator",
+      "Orbital Launch System"
+    ],
+    "fundingStage": "Series C",
+    "totalFunding": "$150M+",
+    "stockTicker": null,
+    "otrassede": "Spaceport America, NM",
+    "logo": "spinlaunch.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 330,
+    "name": "Spire Global",
+    "slug": "spire-global",
+    "type": "corporate",
+    "country": "US",
+    "countryName": "Estados Unidos",
+    "city": "Vienna",
+    "coordinates": {
+      "lat": 38.9103,
+      "lng": -77.2246
+    },
+    "employees": 450,
+    "website": "https://spire.com/",
+    "description": "Spire Global es una empresa líder de datos y análisis espaciales que opera una de las constelaciones de satélites más grandes del mundo para rastrear la actividad marítima, aérea y meteorológica. Especializada en la recopilación de datos de radiofrecuencia, Spire proporciona información en tiempo real para aplicaciones de navegación comercial, inteligencia terrestre y pronóstico del tiempo. La compañía ofrece \"Espacio como Servicio\" (SaaS), permitiendo a terceros desplegar sus propias aplicaciones en la plataforma satelital flexible y escalable de Spire.",
+    "description_en": "Spire Global is a leading space data and analytics company operating one of the world's largest satellite constellations to track maritime, aviation, and weather activity. Specializing in radio frequency data collection, Spire provides real-time insights for commercial navigation, terrestrial intelligence, and weather forecasting applications. The company offers \"Space as a Service\" (SaaS), allowing third parties to deploy their own applications on Spire's flexible and scalable satellite platform.",
+    "founded": 2012,
+    "ceo": "Peter Platzer",
+    "sector": "earth_observation",
+    "tags": [
+      "Data Analytics",
+      "Nanosatellites",
+      "SaaS",
+      "Maritime Tracking"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/SpireGlobal",
+      "linkedin": "https://www.linkedin.com/company/spire-global-inc-/"
+    },
+    "keyPrograms": [
+      "LEMUR Constellation",
+      "Spire Space Services"
+    ],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "SPIR",
+    "otrassede": "San Francisco, CA; Glasgow, Scotland; Luxembourg",
+    "logo": "spire_global.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

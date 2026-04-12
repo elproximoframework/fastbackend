@@ -1,0 +1,242 @@
+[
+  {
+    "id": 421,
+    "name": "LandSpace",
+    "slug": "landspace",
+    "type": "corporate",
+    "country": "cn",
+    "city": "Beijing",
+    "descriptionES": "Empresa aeroespacial privada china líder en el desarrollo de cohetes de propulsión líquida (metano/LOX). Su cohete Zhuque-2 fue el primero del mundo impulsado por metano en alcanzar la órbita de forma exitosa.",
+    "descriptionEN": "A leading private Chinese aerospace company specializing in liquid-propellant rockets (methalox). Its Zhuque-2 rocket became the world's first methane-powered launch vehicle to successfully reach orbit.",
+    "founder": "Zhang Changwu",
+    "yearFounded": 2015,
+    "website": "http://www.landspace.com/",
+    "socialLinks": {
+      "twitter": "https://twitter.com/land_space666"
+    },
+    "sector": "Launch Services",
+    "tags": ["Rocket", "Methalox", "Commercial Launch", "Medium Lift"],
+    "coordinates": {
+      "lat": 39.9042,
+      "lng": 116.4074
+    },
+    "keyPrograms": ["Zhuque-2", "Zhuque-3 (Reusable)"],
+    "fundingStage": "Late Stage (Series D/E)",
+    "lastFundingAmount": "N/A"
+  },
+  {
+    "id": 422,
+    "name": "Galactic Energy",
+    "slug": "galactic-energy",
+    "type": "corporate",
+    "country": "cn",
+    "city": "Beijing",
+    "descriptionES": "Empresa privada china que opera el cohete de combustible sólido Ceres-1, especializado en misiones comerciales rápidas y despliegue de micro-satélites. Actualmente desarrolla el cohete reutilizable Pallas-1.",
+    "descriptionEN": "A private Chinese company that operates the Ceres-1 solid-fuel rocket, specializing in rapid commercial missions and micro-satellite deployment. It is currently developing the Pallas-1 reusable liquid rocket.",
+    "founder": "Liu Baiqi",
+    "yearFounded": 2018,
+    "website": "http://www.galactic-energy.cn/",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/galactic-energy/"
+    },
+    "sector": "Launch Services",
+    "tags": ["Solid Rocket", "Commercial Launch", "Micro-satellite", "Reusable Rocket"],
+    "coordinates": {
+      "lat": 39.9167,
+      "lng": 116.4000
+    },
+    "keyPrograms": ["Ceres-1", "Pallas-1"],
+    "fundingStage": "Late Stage (Series D)",
+    "lastFundingAmount": "$337M (2025)"
+  },
+  {
+    "id": 423,
+    "name": "Deep Blue Aerospace",
+    "slug": "deep-blue-aerospace",
+    "type": "corporate",
+    "country": "cn",
+    "city": "Beijing",
+    "descriptionES": "Pionera china en el desarrollo de cohetes reutilizables de propulsión líquida (queroseno/LOX). Su serie Nebula está diseñada para el despegue y aterrizaje vertical (VTVL) con múltiples usos.",
+    "descriptionEN": "A Chinese pioneer in developing reusable liquid-propellant rockets (kerolox). Its Nebula series is designed for Vertical Take-off Vertical Landing (VTVL) with multiple reuses in mind.",
+    "founder": "Huo Liang",
+    "yearFounded": 2016,
+    "website": "http://www.dbaspace.com/en/",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/deep-blue-aerospace/"
+    },
+    "sector": "Launch Services",
+    "tags": ["Reusable Rocket", "VTVL", "Kerolox", "Nebula-1"],
+    "coordinates": {
+      "lat": 39.9042,
+      "lng": 116.4074
+    },
+    "keyPrograms": ["Nebula-1", "Nebula-2", "Thunder Engine Series"],
+    "fundingStage": "Late Stage (Series B/C)",
+    "lastFundingAmount": "$70M (2025)"
+  },
+  {
+    "id": 424,
+    "name": "Origin Space",
+    "slug": "origin-space",
+    "type": "corporate",
+    "country": "cn",
+    "city": "Shenzhen",
+    "descriptionES": "La primera empresa de China dedicada a la minería de asteroides y la utilización de recursos espaciales. Utiliza telescopios espaciales y misiones robóticas para prospección e investigación.",
+    "descriptionEN": "China's first company dedicated to asteroid mining and space resource utilization. It uses space telescopes and robotic missions for prospecting and research purposes.",
+    "founder": "Su Meng",
+    "yearFounded": 2017,
+    "website": "http://www.origin-space.com/",
+    "socialLinks": {},
+    "sector": "Exploration & Science",
+    "tags": ["Asteroid Mining", "Space Resources", "Space Telescope", "Prospecting"],
+    "coordinates": {
+      "lat": 22.5431,
+      "lng": 114.0579
+    },
+    "keyPrograms": ["NEO-1", "Yangwang-1 Telescope", "M² Lunar Rover"],
+    "fundingStage": "Early Stage (Series A)",
+    "lastFundingAmount": "N/A"
+  },
+  {
+    "id": 425,
+    "name": "Spacety",
+    "slug": "spacety",
+    "type": "corporate",
+    "country": "cn",
+    "city": "Changsha",
+    "descriptionES": "Proveedor global de plataformas de satélites pequeños y servicios de datos por radar de apertura sintética (SAR). Se especializa en el despliegue rápido de tecnología experimental en órbita.",
+    "descriptionEN": "A global provider of small satellite platforms and Synthetic Aperture Radar (SAR) data services. It specializes in the rapid deployment of experimental technology in orbit.",
+    "founder": "Yang Feng",
+    "yearFounded": 2016,
+    "website": "http://www.spacety.com/",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/spacety/"
+    },
+    "sector": "Satellite Services",
+    "tags": ["SmallSat", "SAR", "CubeSat", "Data Analysis"],
+    "coordinates": {
+      "lat": 28.2282,
+      "lng": 112.9388
+    },
+    "keyPrograms": ["Hisea-1 SAR", "Tianxian SAR Constellation", "Ty-Series Cubesats"],
+    "fundingStage": "Mid Stage (Series B)",
+    "lastFundingAmount": "N/A"
+  },
+  {
+    "id": 426,
+    "name": "MinoSpace",
+    "slug": "minospace",
+    "type": "corporate",
+    "country": "cn",
+    "city": "Beijing",
+    "descriptionES": "Empresa especializada en la fabricación de plataformas de microsatélites y satélites pequeños (10 kg a 1,000 kg). Ofrece soluciones completas desde el diseño hasta las operaciones en tierra.",
+    "descriptionEN": "A company specializing in the manufacturing of micro and small satellite platforms (10 kg to 1,000 kg). It offers end-to-end solutions from design to ground operations.",
+    "founder": "Liu Guocai",
+    "yearFounded": 2017,
+    "website": "http://www.minospace.cn/",
+    "socialLinks": {},
+    "sector": "Satellite Services",
+    "tags": ["Satellite Platforms", "Oem", "SAR", "Optical Sensing"],
+    "coordinates": {
+      "lat": 39.9042,
+      "lng": 116.4074
+    },
+    "keyPrograms": ["MN-Series Platforms", "Commercial SAR Satellites"],
+    "fundingStage": "Late Stage (Series C)",
+    "lastFundingAmount": "N/A"
+  },
+  {
+    "id": 427,
+    "name": "GalaxySpace",
+    "slug": "galaxyspace",
+    "type": "corporate",
+    "country": "cn",
+    "city": "Beijing",
+    "descriptionES": "Compañía dedicada al desarrollo y producción en masa de satélites de banda ancha en órbita baja (LEO). Es pionera en el uso de tecnología 5G para conectividad satelital global.",
+    "descriptionEN": "A company dedicated to the development and mass production of Low Earth Orbit (LEO) broadband satellites. It is a pioneer in using 5G technology for global satellite connectivity.",
+    "founder": "Xu Ming",
+    "yearFounded": 2018,
+    "website": "https://www.galaxyspace.com.cn/",
+    "socialLinks": {},
+    "sector": "Satellite Services",
+    "tags": ["LEO Broadband", "Satellite Internet", "5G Space", "High Throughput"],
+    "coordinates": {
+      "lat": 40.0000,
+      "lng": 116.3000
+    },
+    "keyPrograms": ["Yinhe-1", "Stackable Broadband Satellites"],
+    "fundingStage": "Late Stage (Series D)",
+    "lastFundingAmount": "N/A"
+  },
+  {
+    "id": 428,
+    "name": "Commsat",
+    "slug": "commsat",
+    "type": "corporate",
+    "country": "cn",
+    "city": "Beijing",
+    "descriptionES": "Proveedor de soluciones de satélites LEO, incluyendo diseño de constelaciones y servicios de Internet de las Cosas (IoT). También desarrolla sistemas de educación basados en ciencia espacial.",
+    "descriptionEN": "A provider of LEO satellite solutions, including constellation design and Internet of Things (IoT) services. It also develops space science-based education systems.",
+    "founder": "Xie Tao",
+    "yearFounded": 2015,
+    "website": "http://www.commsat.cn/",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/commsat/"
+    },
+    "sector": "Satellite Services",
+    "tags": ["Satellite IoT", "Constellation Service", "Sataas", "Education"],
+    "coordinates": {
+      "lat": 39.9042,
+      "lng": 116.4074
+    },
+    "keyPrograms": ["IoT Satellites", "Leapsat Series"],
+    "fundingStage": "Late Stage (Series C)",
+    "lastFundingAmount": "N/A"
+  },
+  {
+    "id": 429,
+    "name": "ADA Space",
+    "slug": "ada-space",
+    "type": "corporate",
+    "country": "cn",
+    "city": "Chengdu",
+    "descriptionES": "Empresa especializada en la integración de Inteligencia Artificial en satélites de banda ancha. Su tecnología 'Space AI' optimiza el procesamiento de datos directamente en órbita.",
+    "descriptionEN": "A company specializing in integrating Artificial Intelligence into broadband satellites. Its 'Space AI' technology optimizes data processing directly in orbit.",
+    "founder": "Zhao Hongjie",
+    "yearFounded": 2018,
+    "website": "http://www.adaspace.com/",
+    "socialLinks": {},
+    "sector": "Satellite Services",
+    "tags": ["Space AI", "Satellite Internet", "Edge Computing", "Smart Space"],
+    "coordinates": {
+      "lat": 30.5728,
+      "lng": 104.0668
+    },
+    "keyPrograms": ["Xingshidai Series", "AI-Powered Constellation"],
+    "fundingStage": "Late Stage (Series B/C)",
+    "lastFundingAmount": "N/A"
+  },
+  {
+    "id": 430,
+    "name": "Chang Guang Satellite Technology (CGSTL)",
+    "slug": "cgstl",
+    "type": "corporate",
+    "country": "cn",
+    "city": "Changchun",
+    "descriptionES": "Empresa detrás de la constelación Jilin-1, la red de satélites comerciales de detección remota más grande de China. Ofrece imágenes de alta resolución y video desde el espacio.",
+    "descriptionEN": "The company behind the Jilin-1 constellation, China's largest commercial remote sensing satellite network. It provides high-resolution imagery and video from space.",
+    "founder": "Xuan Ming",
+    "yearFounded": 2014,
+    "website": "http://www.chinasatellite.com.cn/",
+    "socialLinks": {},
+    "sector": "Satellite Services",
+    "tags": ["Remote Sensing", "High Resolution", "Optics", "Jilin-1"],
+    "coordinates": {
+      "lat": 43.8171,
+      "lng": 125.3235
+    },
+    "keyPrograms": ["Jilin-1 Constellation", "Optical/Video Imaging"],
+    "fundingStage": "Late Stage (Series C/D)",
+    "lastFundingAmount": "N/A"
+  }
+]

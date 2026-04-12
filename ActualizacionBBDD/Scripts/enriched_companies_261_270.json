@@ -1,0 +1,446 @@
+[
+  {
+    "id": 261,
+    "name": "NASA Goddard Space Flight Center",
+    "slug": "nasa-goddard",
+    "type": "agency",
+    "sector": "research",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Greenbelt",
+    "coordinates": {
+      "lat": 38.995,
+      "lng": -76.853
+    },
+    "employees": 10000,
+    "website": "https://www.nasa.gov/goddard/",
+    "description": "El Centro de Vuelo Espacial Goddard de la NASA es un complejo de investigación líder dedicado a aumentar el conocimiento de la Tierra, el Sol, el sistema solar y el universo. Es el hogar de la mayor organización de científicos e ingenieros en los EE. UU. dedicada a la ciencia espacial y terrestre.\n\nGoddard es un laboratorio fundamental donde se diseñan, fabrican y operan naves espaciales científicas, instrumentos y nuevas tecnologías. Gestiona misiones icónicas como el Telescopio Espacial James Webb y el Hubble, además de supervisar la red de comunicaciones espaciales de la NASA.",
+    "description_en": "NASA's Goddard Space Flight Center is a premier research complex dedicated to increasing knowledge of Earth, the Sun, the solar system, and the universe. It is home to the nation's largest organization of scientists and engineers dedicated to space and Earth science.\n\nGoddard is a vital laboratory where scientific spacecraft, instruments, and new technologies are designed, built, and operated. It manages iconic missions such as the James Webb Space Telescope and Hubble, while also overseeing NASA's space communications network.",
+    "founded": 1959,
+    "ceo": "Cynthia Simmons",
+    "tags": [
+      "NASA",
+      "Space Science",
+      "Earth Observation",
+      "Space Telescopes",
+      "JWST",
+      "Hubble"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/NASAGoddard",
+      "linkedin": "https://www.linkedin.com/company/nasa-goddard-space-flight-center/"
+    },
+    "keyPrograms": [
+      "James Webb Space Telescope",
+      "Hubble Space Telescope",
+      "LCRD",
+      "OSIRIS-REx"
+    ],
+    "fundingStage": "Federal Agency",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Wallops Flight Facility (VA), GISS (NY), IV&V (WV).",
+    "logo": "nasa_goddard.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 262,
+    "name": "NASA Jet Propulsion Laboratory (JPL)",
+    "slug": "nasa-jpl",
+    "type": "agency",
+    "sector": "research",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Pasadena",
+    "coordinates": {
+      "lat": 34.201,
+      "lng": -118.171
+    },
+    "employees": 6000,
+    "website": "https://www.jpl.nasa.gov",
+    "description": "El Laboratorio de Propulsión a Chorro (JPL) es el principal centro de la NASA para la exploración robótica del sistema solar. Gestionado por Caltech, el JPL ha liderado misiones históricas, incluyendo el aterrizaje de todos los rovers estadounidenses en Marte y el envío de naves espaciales a todos los planetas de nuestro sistema solar.\n\nAdemás de su enfoque en la exploración planetaria, el JPL opera la Red del Espacio Profundo (DSN) y realiza investigaciones críticas en ciencias de la Tierra y astronomía espacial, utilizando tecnologías de vanguardia para mapear los océanos, el clima y los límites del cosmos habitable.",
+    "description_en": "The Jet Propulsion Laboratory (JPL) is NASA's leading center for robotic exploration of the solar system. Managed by Caltech, JPL has spearheaded historic missions, including the landing of every U.S. Mars rover and sending spacecraft to every planet in our solar system.\n\nBeyond its focus on planetary exploration, JPL operates the Deep Space Network (DSN) and conducts critical research in Earth science and space astronomy, utilizing cutting-edge technologies to map oceans, climate, and the edges of the habitable cosmos.",
+    "founded": 1936,
+    "ceo": "Dave Gallagher",
+    "tags": [
+      "NASA",
+      "Robotics",
+      "Mars Exploration",
+      "Deep Space Network",
+      "Caltech",
+      "Planetary Science"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/NASAJPL",
+      "linkedin": "https://www.linkedin.com/showcase/nasa-jpl/"
+    },
+    "keyPrograms": [
+      "Mars Perseverance Rover",
+      "Voyager Mission",
+      "Deep Space Network",
+      "Europa Clipper"
+    ],
+    "fundingStage": "Federal Agency",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "La Cañada Flintridge, California.",
+    "logo": "nasa_jpl.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 263,
+    "name": "NASA Johnson Space Center",
+    "slug": "nasa-johnson",
+    "type": "agency",
+    "sector": "space_infrastructure",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Houston",
+    "coordinates": {
+      "lat": 29.559,
+      "lng": -95.089
+    },
+    "employees": 11000,
+    "website": "https://www.nasa.gov/johnson",
+    "description": "El Centro Espacial Lyndon B. Johnson (JSC) es el corazón de los vuelos espaciales tripulados de la NASA. Como sede del cuerpo de astronautas y del Centro de Control de Misiones Christopher C. Kraft Jr., el JSC supervisa las operaciones de la Estación Espacial Internacional (ISS) y coordina misiones humanas al espacio profundo.\n\nEl centro es fundamental para el programa Artemis, liderando el desarrollo de la nave espacial Orion y los sistemas de aterrizaje lunar. Sus instalaciones incluyen laboratorios de investigación biomédica, simuladores de entrenamiento avanzados y el repositorio más grande del mundo de muestras lunares y materiales extraterrestres.",
+    "description_en": "The Lyndon B. Johnson Space Center (JSC) is the heart of NASA's human spaceflight operations. As home to the U.S. astronaut corps and the Christopher C. Kraft Jr. Mission Control Center, JSC oversees the operations of the International Space Station (ISS) and coordinates human missions to deep space.\n\nThe center is pivotal to the Artemis program, leading the development of the Orion spacecraft and lunar landing systems. Its facilities include biomedical research labs, advanced training simulators, and the world's largest repository of lunar samples and extraterrestrial materials.",
+    "founded": 1961,
+    "ceo": "Vanessa E. Wyche",
+    "tags": [
+      "NASA",
+      "Human Spaceflight",
+      "Mission Control",
+      "Astronaut Training",
+      "ISS",
+      "Artemis"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/NASA_Johnson",
+      "linkedin": "https://www.linkedin.com/company/nasa-johnson-space-center/"
+    },
+    "keyPrograms": [
+      "International Space Station",
+      "Orion Spacecraft",
+      "Artemis Program",
+      "Apollo Missions"
+    ],
+    "fundingStage": "Federal Agency",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Houston, Texas.",
+    "logo": "nasa_johnson.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 264,
+    "name": "NASA Kennedy Space Center",
+    "slug": "nasa-kennedy",
+    "type": "agency",
+    "sector": "launch_site",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Merritt Island",
+    "coordinates": {
+      "lat": 28.572,
+      "lng": -80.648
+    },
+    "employees": 10000,
+    "website": "https://www.nasa.gov/kennedy",
+    "description": "El Centro Espacial Kennedy (KSC) de la NASA es el puerto espacial principal de Estados Unidos para los lanzamientos espaciales más importantes de la historia, incluyendo las misiones Apolo a la Luna y el Programa del Transbordador Espacial. Ubicado en Florida, hoy funciona como un puerto espacial multiusuario de vanguardia.\n\nEl KSC apoya tanto misiones gubernamentales como comerciales, albergando complejos de lanzamiento para el Space Launch System (SLS) y socios privados como SpaceX. Sus instalaciones incluyen el icónico Edificio de Ensamblaje de Vehículos (VAB) y centros de procesamiento de carga avanzada para la ISS y futuros destinos en el espacio profundo.",
+    "description_en": "NASA's Kennedy Space Center (KSC) is America's premier spaceport for the most significant space launches in history, including the Apollo Moon missions and the Space Shuttle Program. Located in Florida, it now serves as a state-of-the-art multi-user spaceport.\n\nKSC supports both government and commercial missions, hosting launch complexes for the Space Launch System (SLS) and private partners like SpaceX. Its facilities include the iconic Vehicle Assembly Building (VAB) and advanced cargo processing centers for the ISS and future deep space destinations.",
+    "founded": 1962,
+    "ceo": "Janet Petro",
+    "tags": [
+      "NASA",
+      "Spaceport",
+      "Launch Operations",
+      "VAB",
+      "Florida",
+      "Commercial Space"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/NASAKennedy",
+      "linkedin": "https://www.linkedin.com/company/nasa-kennedy-space-center/"
+    },
+    "keyPrograms": [
+      "Artemis Launch Operations",
+      "Commercial Crew Program",
+      "Launch Services Program"
+    ],
+    "fundingStage": "Federal Agency",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Merritt Island, Florida.",
+    "logo": "nasa_kennedy.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 265,
+    "name": "NASA Marshall Space Flight Center",
+    "slug": "nasa-marshall",
+    "type": "agency",
+    "sector": "propulsion",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Huntsville",
+    "coordinates": {
+      "lat": 34.648,
+      "lng": -86.671
+    },
+    "employees": 6500,
+    "website": "https://www.nasa.gov/marshall/",
+    "description": "El Centro de Vuelo Espacial Marshall (MSFC) es la sede de la NASA para la ingeniería de naves espaciales y sistemas de propulsión. Fue aquí donde se desarrollaron los potentes motores Saturno V que llevaron al hombre a la Luna, estableciendo la reputación de Huntsville como la 'Ciudad de los Cohetes'.\n\nHoy en día, Marshall lidera el desarrollo del Space Launch System (SLS), el cohete más potente de la NASA hasta la fecha, esencial para el regreso a la Luna con Artemis. El centro también gestiona las operaciones científicas de la carga útil en la ISS y desarrolla tecnologías avanzadas para hábitats lunares y propulsión nuclear térmica.",
+    "description_en": "The Marshall Space Flight Center (MSFC) is NASA's headquarters for spacecraft engineering and propulsion systems. It was here that the powerful Saturn V engines that took man to the Moon were developed, establishing Huntsville's reputation as 'Rocket City'.\n\nToday, Marshall leads the development of the Space Launch System (SLS), NASA's most powerful rocket to date, essential for the return to the Moon with Artemis. The center also manages scientific payload operations on the ISS and develops advanced technologies for lunar habitats and nuclear thermal propulsion.",
+    "founded": 1960,
+    "ceo": "Rae Ann Meyer",
+    "tags": [
+      "NASA",
+      "Propulsion",
+      "Rocketry",
+      "SLS",
+      "Huntsville",
+      "Space Engineering"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/NASA_Marshall",
+      "linkedin": "https://www.linkedin.com/company/nasa-marshall-space-flight-center/"
+    },
+    "keyPrograms": [
+      "Space Launch System (SLS)",
+      "ISS Payload Operations",
+      "Nuclear Thermal Propulsion",
+      "Chandra X-ray Observatory"
+    ],
+    "fundingStage": "Federal Agency",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Redstone Arsenal, Alabama.",
+    "logo": "nasa_marshall.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 266,
+    "name": "Near Earth Autonomy",
+    "slug": "near-earth-autonomy",
+    "type": "startup",
+    "sector": "space_tech",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Pittsburgh",
+    "coordinates": {
+      "lat": 40.45,
+      "lng": -79.91
+    },
+    "employees": 100,
+    "website": "https://www.nearearth.aero/",
+    "description": "Near Earth Autonomy es una empresa líder en robótica aplicada al sector aeroespacial que desarrolla sistemas de navegación autónoma para aeronaves de todos los tamaños. Su tecnología permite que drones y helicópteros despeguen, vuelen y aterricen de forma segura sin intervención humana, incluso en entornos donde el GPS no está disponible.\n\nLa empresa se especializa en la percepción del entorno mediante sensores láser y visión artificial, permitiendo el transporte aéreo autónomo de carga y pasajeros. Sus soluciones están siendo adoptadas tanto por agencias de defensa para logística táctica como por compañías comerciales que buscan revolucionar la movilidad aérea urbana y rural.",
+    "description_en": "Near Earth Autonomy is a leading aerospace robotics company developing autonomous navigation systems for aircraft of all sizes. Its technology enables drones and helicopters to safely take off, fly, and land without human intervention, even in GPS-denied environments.\n\nThe company specializes in environmental perception through laser sensors and computer vision, enabling autonomous air transport of cargo and passengers. Its solutions are being adopted by defense agencies for tactical logistics and commercial companies looking to revolutionize urban and rural air mobility.",
+    "founded": 2012,
+    "ceo": "Sanjiv Singh",
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "Robotics",
+      "GPS-denied Navigation",
+      "UAM",
+      "Defense Tech"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/NEAutonomy",
+      "linkedin": "https://www.linkedin.com/company/near-earth-autonomy/"
+    },
+    "keyPrograms": [
+      "Autonomous Landing Systems",
+      "GPS-denied flight tech",
+      "Cargo drone autonomy"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Pittsburgh, Pennsylvania.",
+    "logo": "near_earth_autonomy.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 267,
+    "name": "NOAA NESDIS",
+    "slug": "noaa-nesdis",
+    "type": "agency",
+    "sector": "earth_observation",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Silver Spring",
+    "coordinates": {
+      "lat": 38.99,
+      "lng": -77.03
+    },
+    "employees": 1000,
+    "website": "https://www.nesdis.noaa.gov/",
+    "description": "El Servicio Nacional de Información, Datos y Satélites Ambientales (NESDIS) de la NOAA es la entidad responsable de operar los satélites civiles de observación ambiental de EE. UU. Su misión es proporcionar datos críticos sobre el clima, los océanos y la atmósfera para proteger la vida y la infraestructura nacional.\n\nNESDIS gestiona constelaciones clave como los satélites geoestacionarios GOES y el Sistema Satelital Polar Conjunto (JPSS). Además de la adquisición de datos en tiempo real, actúa como uno de los centros de almacenamiento de datos climáticos más grandes del mundo, facilitando la investigación científica y la predicción meteorológica precisa necesaria para la seguridad pública.",
+    "description_en": "NOAA's National Environmental Satellite, Data, and Information Service (NESDIS) is the agency responsible for operating U.S. civil environmental observation satellites. Its mission is to provide critical data on climate, oceans, and the atmosphere to protect life and national infrastructure.\n\nNESDIS manages key constellations such as the GOES geostationary satellites and the Joint Polar Satellite System (JPSS). In addition to real-time data acquisition, it serves as one of the world's largest climate data storage centers, facilitating scientific research and precise weather forecasting necessary for public safety.",
+    "founded": 1982,
+    "ceo": "Stephen Volz",
+    "tags": [
+      "MeteoSats",
+      "GOES",
+      "Climate Data",
+      "Weather Forecasting",
+      "Remote Sensing",
+      "NOAA"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/NOAASatellites",
+      "linkedin": "https://www.linkedin.com/company/noaa-nesdis/"
+    },
+    "keyPrograms": [
+      "GOES-R Series",
+      "JPSS",
+      "SWFO-L1",
+      "NCEI"
+    ],
+    "fundingStage": "Federal Agency",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Suitland, Maryland; Asheville, North Carolina.",
+    "logo": "noaa_nesdis.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 268,
+    "name": "Odyssey Space Research",
+    "slug": "odyssey-space-research",
+    "type": "corporate",
+    "sector": "software",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Houston",
+    "coordinates": {
+      "lat": 29.56,
+      "lng": -95.10
+    },
+    "employees": 100,
+    "website": "https://www.odysseysr.com",
+    "description": "Odyssey Space Research es una empresa de ingeniería especializada en soluciones avanzadas de software y análisis para el sector aeroespacial. Con sede cerca del Centro Espacial Johnson en Houston, la compañía se ha consolidado como un socio clave para la NASA y empresas comerciales en el ámbito del control de vuelo.\n\nSu experiencia técnica abarca el guiado, navegación y control (GN&C), la integración de aviónica y la simulación de misiones espaciales complejas. Han desempeñado un papel fundamental en el desarrollo de software crítico para misiones tripuladas y robóticas, asegurando la precisión necesaria para el acoplamiento en órbita y las trayectorias de reentrada atmosférica.",
+    "description_en": "Odyssey Space Research is an engineering firm specializing in advanced software solutions and analysis for the aerospace sector. Headquartered near the Johnson Space Center in Houston, the company has established itself as a key partner for NASA and commercial firms in the field of flight control.\n\nIts technical expertise encompasses guidance, navigation, and control (GN&C), avionics integration, and complex space mission simulation. They have played a fundamental role in developing critical software for manned and robotic missions, ensuring the precision necessary for orbital docking and atmospheric reentry trajectories.",
+    "founded": 2003,
+    "ceo": "Brian Rishikof",
+    "tags": [
+      "Software Engineering",
+      "GN&C",
+      "Simulation",
+      "Flight Control",
+      "NASA Partner",
+      "Houston"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/odyssey-space-research-llc/"
+    },
+    "keyPrograms": [
+      "Advanced Spaceflight Simulation",
+      "GN&C Flight Software",
+      "Avionics Testing"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Boulder, Colorado.",
+    "logo": "odyssey_space_research.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 269,
+    "name": "OffWorld",
+    "slug": "offworld",
+    "type": "startup",
+    "sector": "manufacturing",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Pasadena",
+    "coordinates": {
+      "lat": 34.14,
+      "lng": -118.14
+    },
+    "employees": 60,
+    "website": "https://www.offworld.ai/",
+    "description": "OffWorld es una innovadora compañía de tecnología que desarrolla plataformas robóticas inteligentes diseñadas para trabajar en los entornos más extremos, tanto en la Tierra como en el espacio. Su visión es habilitar la expansión de la civilización humana mediante el despliegue de enjambres de robots autónomos para la minería y la construcción.\n\nLos robots de OffWorld utilizan inteligencia artificial para colaborar en tareas de extracción de recursos, preparando el terreno para futuras colonias en la Luna y Marte. Mientras tanto, la empresa aplica esta tecnología en el sector minero terrestre para aumentar la seguridad y reducir el impacto ambiental, reemplazando métodos convencionales de excavación con precisión robótica.",
+    "description_en": "OffWorld is an innovative technology company developing intelligent robotic platforms designed to work in the most extreme environments, both on Earth and in space. Its vision is to enable the expansion of human civilization through the deployment of autonomous robotic swarms for mining and construction.\n\nOffWorld's robots utilize artificial intelligence to collaborate on resource extraction tasks, preparing the ground for future colonies on the Moon and Mars. Meanwhile, the company applies this technology in the terrestrial mining sector to increase safety and reduce environmental impact, replacing conventional excavation methods with robotic precision.",
+    "founded": 2016,
+    "ceo": "Jim Keravala",
+    "tags": [
+      "Robotics",
+      "Space Mining",
+      "AI",
+      "Infrastructure",
+      "Industrial Automation",
+      "Lunar Construction"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/OffWorldAI",
+      "linkedin": "https://www.linkedin.com/company/offworld/"
+    },
+    "keyPrograms": [
+      "Swarm Robotic Systems",
+      "Precision Mining Robots",
+      "Lunar Sourcing Platform"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Luxembourg; South Africa.",
+    "logo": "offworld.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 270,
+    "name": "Omnispace",
+    "slug": "omnispace",
+    "type": "startup",
+    "sector": "satcom",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Tysons",
+    "coordinates": {
+      "lat": 38.92,
+      "lng": -77.23
+    },
+    "employees": 50,
+    "website": "https://www.omnispace.com",
+    "description": "Omnispace es una empresa de telecomunicaciones global que está redefiniendo la conectividad móvil a través de una red híbrida única que combina satélites con redes terrestres 5G. Su objetivo es proporcionar una cobertura global sin fisuras directamente a dispositivos móviles y sensores de IoT en cualquier lugar del planeta.\n\nUtilizando una constelación de satélites en órbita no geoestacionaria, Omnispace permite que los usuarios se conecten a una red 'universal' sin necesidad de equipos especializados. Esta tecnología es vital para cerrar la brecha digital en regiones remotas y para aplicaciones industriales globales, desde el seguimiento de activos en logística hasta la comunicación en infraestructuras críticas.",
+    "description_en": "Omnispace is a global telecommunications company redefining mobile connectivity through a unique hybrid network combining satellites with terrestrial 5G networks. Its goal is to provide seamless global coverage directly to mobile devices and IoT sensors anywhere on the planet.\n\nUsing a non-geostationary satellite constellation, Omnispace enables users to connect to a 'universal' network without the need for specialized equipment. This technology is vital for closing the digital divide in remote regions and for global industrial applications, from asset tracking in logistics to communication in critical infrastructure.",
+    "founded": 2012,
+    "ceo": "Ram Viswanathan",
+    "tags": [
+      "5G",
+      "Satellite Connectivity",
+      "IoT",
+      "Direct-to-Device",
+      "SatCom",
+      "Universal Network"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/omnispace",
+      "linkedin": "https://www.linkedin.com/company/omnispace-llc/"
+    },
+    "keyPrograms": [
+      "Omnispace 5G NTN",
+      "Hybrid Network Operations",
+      "Spark Program"
+    ],
+    "fundingStage": "Series B",
+    "totalFunding": "$107M",
+    "stockTicker": null,
+    "otrassede": "Tysons Corner, Virginia.",
+    "logo": "omnispace.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

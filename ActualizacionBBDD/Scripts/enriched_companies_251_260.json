@@ -1,0 +1,418 @@
+[
+  {
+    "id": 251,
+    "name": "Momentus",
+    "slug": "momentus",
+    "type": "corporate",
+    "sector": "in_space_logistics",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "San Jose",
+    "coordinates": {
+      "lat": 37.3382,
+      "lng": -121.8863
+    },
+    "employees": 120,
+    "website": "https://momentus.space/",
+    "description": "Momentus es una empresa de infraestructura espacial que se especializa en servicios de transporte orbital, alojamiento de cargas útiles y mantenimiento en órbita. Su vehículo insignia, Vigoride, actúa como un \"remolcador espacial\" que utiliza un innovador sistema de propulsión electrotérmica por microondas (MET) basado en agua para trasladar satélites desde los puntos de despliegue de los cohetes hasta sus órbitas operativas finales de forma eficiente y económica.",
+    "description_en": "Momentus is a space infrastructure company specializing in orbital transport services, payload hosting, and in-orbit maintenance. Its flagship vehicle, Vigoride, acts as a \"space tug\" utilizing an innovative water-based Microwave Electrothermal Thruster (MET) system to move satellites from rocket deployment points to their final operational orbits efficiently and economically.",
+    "founded": 2017,
+    "ceo": "John C. Rood",
+    "tags": [
+      "Space Tug",
+      "Vigoride",
+      "Orbital Transfer",
+      "In-space Logistics",
+      "Water Propulsion"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/momentusspace",
+      "linkedin": "https://www.linkedin.com/company/momentus/"
+    },
+    "keyPrograms": [
+      "Vigoride OSV",
+      "MET Propulsion System"
+    ],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "MNTS",
+    "otrassede": "San Jose, California (EE. UU.).",
+    "logo": "momentus.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 252,
+    "name": "Moog Space",
+    "slug": "moog-space",
+    "type": "corporate",
+    "sector": "propulsion",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "East Aurora",
+    "coordinates": {
+      "lat": 42.7667,
+      "lng": -78.6167
+    },
+    "employees": 14000,
+    "website": "https://www.moog.com/markets/space.html",
+    "description": "Moog Inc. es un líder mundial en el diseño y fabricación de sistemas de control de movimiento y componentes críticos para la industria aeroespacial y de defensa. Su división espacial provee una amplia gama de productos que incluyen actuadores, motores, válvulas y sistemas de propulsión integrados que han sido fundamentales en misiones históricas, desde el programa Apolo hasta el moderno sistema de lanzamiento SLS de la NASA y diversos rovers marcianos.",
+    "description_en": "Moog Inc. is a global leader in the design and manufacture of motion control systems and critical components for the aerospace and defense industry. Its space division provides a wide range of products including actuators, motors, valves, and integrated propulsion systems that have been fundamental in historical missions, from the Apollo program to NASA's modern SLS launch system and various Martian rovers.",
+    "founded": 1951,
+    "ceo": "Pat Roche",
+    "tags": [
+      "Motion Control",
+      "Actuators",
+      "Propulsion",
+      "Space Mechanisms",
+      "SLS"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/moog-inc/"
+    },
+    "keyPrograms": [
+      "NASA Space Launch System (SLS)",
+      "Mars Curiosity/Perseverance components"
+    ],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "MOG.A",
+    "otrassede": "Sedes en todo el mundo, centro espacial principal en East Aurora, New York.",
+    "logo": "moog_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 253,
+    "name": "Morpheus Space US",
+    "slug": "morpheus-space-us",
+    "type": "startup",
+    "sector": "propulsion",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "El Segundo",
+    "coordinates": {
+      "lat": 33.9192,
+      "lng": -118.4165
+    },
+    "employees": 100,
+    "website": "https://morpheus.space/",
+    "description": "Morpheus Space es una empresa de tecnología profunda pionera en soluciones de movilidad espacial miniaturizadas mediante sistemas de propulsión eléctrica. Sus propulsores basados en tecnología FEEP (Field Emission Electric Propulsion) utilizan propelentes metálicos sólidos para ofrecer una maniobrabilidad precisa y segura para pequeños satélites, permitiendo evitar colisiones y realizar misiones de mantenimiento de órbita con una eficiencia energética sin precedentes.",
+    "description_en": "Morpheus Space is a deep-tech company pioneering miniaturized space mobility solutions through electric propulsion systems. Its thrusters, based on FEEP (Field Emission Electric Propulsion) technology, use solid metallic propellants to offer precise and safe maneuverability for small satellites, enabling collision avoidance and station-keeping missions with unprecedented power efficiency.",
+    "founded": 2018,
+    "ceo": "Daniel Bock",
+    "tags": [
+      "Electric Propulsion",
+      "SmallSats",
+      "FEEP",
+      "Space Mobility",
+      "Thrusters"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/morpheusspace",
+      "linkedin": "https://www.linkedin.com/company/morpheus-space/"
+    },
+    "keyPrograms": [
+      "GO-2 Thruster",
+      "JOURNEY Analytics"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$28M",
+    "stockTicker": null,
+    "otrassede": "El Segundo, California (EE. UU.) y Dresden (Alemania).",
+    "logo": "morpheus_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 254,
+    "name": "Motiv Space Systems",
+    "slug": "motiv-space-systems",
+    "type": "corporate",
+    "sector": "space_equipment",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Pasadena",
+    "coordinates": {
+      "lat": 34.1478,
+      "lng": -118.1445
+    },
+    "employees": 120,
+    "website": "https://motivss.com/",
+    "description": "Motiv Space Systems es una empresa de ingeniería especializada en sistemas robóticos avanzados y mecanismos para entornos extremos. Son reconocidos por diseñar y fabricar el brazo robótico principal del rover Perseverance de la misión Mars 2020 de la NASA. Su plataforma modular xLink ofrece soluciones de robótica espacial escalables y asequibles para misiones de servicio en órbita, ensamblaje y exploración planetaria.",
+    "description_en": "Motiv Space Systems is an engineering firm specialized in advanced robotic systems and mechanisms for extreme environments. They are renowned for designing and manufacturing the primary robotic arm for NASA's Mars 2020 Perseverance rover. Their xLink modular platform provides scalable and affordable space robotics solutions for on-orbit servicing, assembly, and planetary exploration missions.",
+    "founded": 2014,
+    "ceo": "Chris Thayer",
+    "tags": [
+      "Robotics",
+      "Mars Perseverance",
+      "Robotic Arms",
+      "Space Mechanisms",
+      "xLink"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/motiv-space-systems/"
+    },
+    "keyPrograms": [
+      "Mars 2020 Robotic Arm",
+      "xLink Robotic System"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Pasadena, California (EE. UU.).",
+    "logo": "motiv_space_systems.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 255,
+    "name": "mPower Technology",
+    "slug": "mpower-technology",
+    "type": "startup",
+    "sector": "space_tech",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Albuquerque",
+    "coordinates": {
+      "lat": 35.0844,
+      "lng": -106.6504
+    },
+    "employees": 50,
+    "website": "https://mpowertech.com/",
+    "description": "mPower Technology está reinventando la energía solar para aplicaciones espaciales con su innovadora tecnología DragonSCALES. Esta solución consiste en una red flexible de células solares de silicio altamente eficientes que pueden plegarse y adaptarse a casi cualquier forma o superficie. Al ser significativamente más ligeras y económicas que los paneles tradicionales, las DragonSCALES son ideales para alimentar grandes constelaciones de satélites LEO y futuros hábitats lunares.",
+    "description_en": "mPower Technology is reinventing solar power for space applications with its innovative DragonSCALES technology. This solution consists of a flexible mesh of highly efficient silicon solar cells that can be folded and adapted to almost any shape or surface. Being significantly lighter and more cost-effective than traditional panels, DragonSCALES are ideal for powering large LEO satellite constellations and future lunar habitats.",
+    "founded": 2015,
+    "ceo": "Kevin Hell",
+    "tags": [
+      "Solar Power",
+      "DragonSCALES",
+      "Photovoltaics",
+      "Energy Efficiency",
+      "LEO Constellations"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/mpower-technology-inc/"
+    },
+    "keyPrograms": [
+      "DragonSCALES Solar Modules"
+    ],
+    "fundingStage": "Series B",
+    "totalFunding": "$20M+",
+    "stockTicker": null,
+    "otrassede": "Albuquerque, New Mexico (EE. UU.).",
+    "logo": "mpower_technology.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 256,
+    "name": "Muon Space",
+    "slug": "muon-space",
+    "type": "startup",
+    "sector": "earth_observation",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Mountain View",
+    "coordinates": {
+      "lat": 37.3861,
+      "lng": -122.0839
+    },
+    "employees": 200,
+    "website": "https://www.muonspace.com/",
+    "description": "Muon Space es una empresa de inteligencia climática y seguridad nacional que opera una constelación de satélites en órbita terrestre baja diseñada para monitorizar los signos vitale de la Tierra. Su plataforma de teledetección integrada verticalmente permite recopilar datos de alta fidelidad sobre incendios forestales, humedad del suelo y vientos oceánicos, proporcionando información crítica para la toma de decisiones medioambientales y la sostenibilidad global.",
+    "description_en": "Muon Space is a climate intelligence and national security company operating a low-Earth orbit satellite constellation designed to monitor Earth's vital signs. Its vertically integrated remote sensing platform enables the collection of high-fidelity data on wildfires, soil moisture, and ocean winds, providing critical information for environmental decision-making and global sustainability.",
+    "founded": 2021,
+    "ceo": "Jonny Dyer",
+    "tags": [
+      "Climate Monitoring",
+      "Earth Observation",
+      "Satellite Constellation",
+      "Remote Sensing",
+      "Environment"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/muonspace",
+      "linkedin": "https://www.linkedin.com/company/muon-space/"
+    },
+    "keyPrograms": [
+      "MuSat Series",
+      "FireSat Project"
+    ],
+    "fundingStage": "Series B",
+    "totalFunding": "$50M+",
+    "stockTicker": null,
+    "otrassede": "Mountain View, California (EE. UU.).",
+    "logo": "muon_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 257,
+    "name": "Mynaric US",
+    "slug": "mynaric-us",
+    "type": "corporate",
+    "sector": "satcom",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Los Angeles",
+    "coordinates": {
+      "lat": 34.0522,
+      "lng": -118.2437
+    },
+    "employees": 330,
+    "website": "https://mynaric.com/",
+    "description": "Mynaric es un fabricante líder en la industrialización de terminales de comunicación láser para aplicaciones aéreas y espaciales. Su objetivo es democratizar el acceso a la conectividad de alta velocidad mediante el uso de rayos de luz infrarroja para transmitir datos de forma segura a velocidades de gigabits. Su familia de terminales CONDOR permite enlaces ópticos entre satélites, creando una infraestructura de red global en el espacio similar a la fibra óptica terrestre.",
+    "description_en": "Mynaric is a leading manufacturer in the industrialization of laser communication terminals for airborne and space applications. Its goal is to democratize access to high-speed connectivity by using infrared light beams to transmit data securely at gigabit speeds. Its CONDOR family of terminals enables optical inter-satellite links, creating a global network infrastructure in space similar to terrestrial fiber optics.",
+    "founded": 2009,
+    "ceo": "Andreas Haslehasen (Current Management)",
+    "tags": [
+      "Laser Communication",
+      "Optical Terminals",
+      "CONDOR",
+      "SatCom",
+      "Connectivity"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/mynaric",
+      "linkedin": "https://www.linkedin.com/company/mynaric/"
+    },
+    "keyPrograms": [
+      "CONDOR OCT",
+      "HAWK Airborne Terminals"
+    ],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "MYNA",
+    "otrassede": "Múnich (Alemania), Los Ángeles y Washington D.C. (EE. UU.).",
+    "logo": "mynaric.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 258,
+    "name": "Myriota US",
+    "slug": "myriota-us",
+    "type": "startup",
+    "sector": "satcom",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "El Segundo",
+    "coordinates": {
+      "lat": 33.9192,
+      "lng": -118.4165
+    },
+    "employees": 70,
+    "website": "https://myriota.com/",
+    "description": "Myriota es una empresa pionera en servicios de comunicación IoT (Internet de las Cosas) de bajo coste y bajo consumo de energía a través de una red global de nanosatélites. Su tecnología permite recopilar datos de sensores remotos en cualquier parte del planeta, ofreciendo soluciones para sectores como la agricultura, el transporte de mercancías y la monitorización de recursos hídricos, todo ello sin necesidad de infraestructura terrestre costosa.",
+    "description_en": "Myriota is a pioneering company in low-cost, low-power IoT (Internet of Things) communication services through a global nanosatellite network. Its technology enables the collection of data from remote sensors anywhere on the planet, offering solutions for sectors such as agriculture, logistics, and water resource monitoring, all without the need for expensive terrestrial infrastructure.",
+    "founded": 2015,
+    "ceo": "Ben Cade",
+    "tags": [
+      "Satellite IoT",
+      "Connectivity",
+      "Nanosatellites",
+      "Remote Sensing",
+      "Low Power"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/myriota",
+      "linkedin": "https://www.linkedin.com/company/myriota/"
+    },
+    "keyPrograms": [
+      "Myriota Module",
+      "UltraLite Connectivity"
+    ],
+    "fundingStage": "Series B",
+    "totalFunding": "$50M+",
+    "stockTicker": null,
+    "otrassede": "Adelaida (Australia) y Sedes en EE. UU.",
+    "logo": "myriota.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 259,
+    "name": "Nanoracks",
+    "slug": "nanoracks",
+    "type": "corporate",
+    "sector": "space_infrastructure",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Houston",
+    "coordinates": {
+      "lat": 29.7604,
+      "lng": -95.3698
+    },
+    "employees": 150,
+    "website": "https://nanoracks.com/",
+    "description": "Nanoracks es una empresa líder en servicios comerciales de investigación y aplicaciones espaciales, operando principalmente desde la Estación Espacial Internacional (ISS). Propiedad de Voyager Space, la empresa ha desplegado cientos de satélites miniatura y opera el Bishop Airlock, el primer módulo comercial permanente en la ISS. Nanoracks está a la vanguardia del desarrollo de estaciones espaciales comerciales privadas como parte del proyecto Starlab.",
+    "description_en": "Nanoracks is a leading provider of commercial research and space application services, primarily operating from the International Space Station (ISS). Owned by Voyager Space, the company has deployed hundreds of miniature satellites and operates the Bishop Airlock, the first permanent commercial module on the ISS. Nanoracks is at the forefront of developing private commercial space stations as part of the Starlab project.",
+    "founded": 2009,
+    "ceo": "Tim Kopra",
+    "tags": [
+      "ISS",
+      "Commercial Space",
+      "Bishop Airlock",
+      "CubeSats",
+      "Starlab"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/nanoracks",
+      "linkedin": "https://www.linkedin.com/company/nanoracks-llc/"
+    },
+    "keyPrograms": [
+      "Bishop Airlock",
+      "Starlab Space Station"
+    ],
+    "fundingStage": "Subsidiary",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Houston, Texas (EE. UU.).",
+    "logo": "nanoracks.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 260,
+    "name": "NASA Ames Research Center",
+    "slug": "nasa-ames",
+    "type": "agency",
+    "sector": "research",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Mountain View",
+    "coordinates": {
+      "lat": 37.4089,
+      "lng": -122.0644
+    },
+    "employees": 3200,
+    "website": "https://www.nasa.gov/ames",
+    "description": "El Centro de Investigación Ames de la NASA, situado en el corazón de Silicon Valley, es un nexo vital para la investigación aeronáutica y el desarrollo de tecnologías espaciales avanzadas. Ames lidera misiones de astrobiología, supercomputación de alto rendimiento y exploración planetaria. Ha sido fundamental en misiones como Kepler, encargada de buscar planetas habitables, y continúa innovando en sistemas inteligentes y aeronáutica de próxima generación.",
+    "description_en": "NASA Ames Research Center, located in the heart of Silicon Valley, is a vital hub for aeronautics research and the development of advanced space technologies. Ames leads missions in astrobiology, high-performance supercomputing, and planetary exploration. It has been instrumental in missions like Kepler, tasked with searching for habitable planets, and continues to innovate in intelligent systems and next-generation aeronautics.",
+    "founded": 1939,
+    "ceo": "Dr. Eugene Tu",
+    "tags": [
+      "NASA",
+      "Supercomputing",
+      "Astrobiology",
+      "Wind Tunnels",
+      "Planetary Science"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/nasaames"
+    },
+    "keyPrograms": [
+      "Kepler Mission",
+      "NAS Supercomputing",
+      "Lunar Exploration"
+    ],
+    "fundingStage": "Public Agency",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Moffett Federal Airfield, California (EE. UU.).",
+    "logo": "nasa_ames.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

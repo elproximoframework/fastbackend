@@ -1,0 +1,10 @@
+221|Jacobs Space Exploration Group|US
+222|Johns Hopkins University APL|US
+223|Kayhan Space|US
+224|KBR Space|US
+225|Kepler Communications US|US
+226|Kongsberg Satellite Services (KSAT) US|US
+227|Kratos Space|US
+228|Kuiper Systems (Amazon)|US
+229|Kymeta|US
+230|L3Harris Space|US

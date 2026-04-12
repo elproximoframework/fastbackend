@@ -136,7 +136,7 @@ def health_check():
 
 @app.get("/api/v1/companies", response_model=List[schemas.CompanyResponse])
 @limiter.limit("30/minute")
-def get_companies(request: Request, skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+def get_companies(request: Request, skip: int = 0, limit: int = 1000, db: Session = Depends(get_db)):
     companies = db.query(models.Company).filter(models.Company.show == True).offset(skip).limit(limit).all()
     return companies
 
@@ -156,7 +156,7 @@ def get_company(request: Request, slug: str, db: Session = Depends(get_db)):
 
 @app.get("/api/v1/rockets", response_model=List[schemas.RocketResponse])
 @limiter.limit("30/minute")
-def get_rockets(request: Request, skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+def get_rockets(request: Request, skip: int = 0, limit: int = 1000, db: Session = Depends(get_db)):
     rockets = db.query(models.Rocket).offset(skip).limit(limit).all()
     return rockets
 
@@ -176,7 +176,7 @@ def get_satellites(
     request: Request,
     search: Optional[str] = None, 
     skip: int = 0, 
-    limit: int = 100, 
+    limit: int = 1000, 
     db: Session = Depends(get_db)
 ):
     query = db.query(models.Satellite).filter(models.Satellite.show == True)
@@ -203,7 +203,7 @@ def get_launches(
     start_date: Optional[datetime] = Query(None, description="Filter by start date (ISO format)"),
     end_date: Optional[datetime] = Query(None, description="Filter by end date (ISO format)"),
     skip: int = 0, 
-    limit: int = 100, 
+    limit: int = 1000, 
     db: Session = Depends(get_db)
 ):
     query = db.query(models.Launch).filter(models.Launch.show == True)
@@ -248,7 +248,7 @@ def get_news(
     category: Optional[str] = None,
     featured: Optional[bool] = None,
     skip: int = 0, 
-    limit: int = 100, 
+    limit: int = 1000, 
     db: Session = Depends(get_db)
 ):
     query = db.query(models.News).filter(models.News.show == True)
@@ -308,7 +308,7 @@ def get_news_spacex(
     category: Optional[str] = None,
     featured: Optional[bool] = None,
     skip: int = 0, 
-    limit: int = 100, 
+    limit: int = 1000, 
     db: Session = Depends(get_db)
 ):
     query = db.query(models.NewsSpaceX).filter(models.NewsSpaceX.show == True)
@@ -372,7 +372,7 @@ def get_spacex_inventory(
     block: Optional[str] = None,
     featured: Optional[bool] = None,
     skip: int = 0, 
-    limit: int = 100, 
+    limit: int = 1000, 
     db: Session = Depends(get_db)
 ):
     query = db.query(models.SpaceXInventory).filter(models.SpaceXInventory.show == True)
@@ -421,7 +421,7 @@ def get_spacex_inventory_item(request: Request, slug: str, db: Session = Depends
 
 @app.get("/api/v1/settings", response_model=List[schemas.AppSettingResponse])
 @limiter.limit("10/minute")
-def get_settings(request: Request, skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+def get_settings(request: Request, skip: int = 0, limit: int = 1000, db: Session = Depends(get_db)):
     settings = db.query(models.AppSetting).offset(skip).limit(limit).all()
     return settings
 

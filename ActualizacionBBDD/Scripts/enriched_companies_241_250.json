@@ -1,0 +1,423 @@
+[
+  {
+    "id": 241,
+    "name": "Mangata Networks",
+    "slug": "mangata-networks",
+    "type": "startup",
+    "sector": "space_services",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Gold Canyon",
+    "coordinates": {
+      "lat": 33.359,
+      "lng": -111.451
+    },
+    "employees": 100,
+    "website": "https://www.mangatanetworks.com",
+    "description": "Mangata Networks es una innovadora empresa de telecomunicaciones espaciales que está desarrollando una red global de conectividad híbrida. Su arquitectura única combina constelaciones de satélites en órbitas elípticas (HEO) y medias (MEO) con una red terrestre de microcentros de datos denominados MangataEdge. Este enfoque permite ofrecer servicios de nube y conectividad de alta capacidad y baja latencia en cualquier punto del planeta, eliminando las barreras tradicionales de la infraestructura de fibra.",
+    "description_en": "Mangata Networks is an innovative space telecommunications company developing a global hybrid connectivity network. Its unique architecture combines satellite constellations in Highly Elliptical Orbit (HEO) and Medium Earth Orbit (MEO) with a terrestrial network of micro-data centers called MangataEdge. This approach enables high-capacity, low-latency cloud and connectivity services anywhere on the planet, eliminating the traditional barriers of fiber infrastructure.",
+    "founded": 2020,
+    "ceo": "Brian Holz",
+    "tags": [
+      "HEO",
+      "MEO",
+      "Cloud Connectivity",
+      "Satellite Internet",
+      "Hybrid Network"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/mangata-networks/",
+      "twitter": "https://twitter.com/MangataNetworks"
+    },
+    "keyPrograms": [
+      "MangataEdge",
+      "HEO/MEO Constellation"
+    ],
+    "fundingStage": "Series A",
+    "totalFunding": "$130M+",
+    "stockTicker": null,
+    "otrassede": "Arizona (EE. UU.), Reino Unido, Singapur y Corea del Sur.",
+    "logo": "mangata_networks.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 242,
+    "name": "Marotta Controls",
+    "slug": "marotta-controls",
+    "type": "corporate",
+    "sector": "space_equipment",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Montville",
+    "coordinates": {
+      "lat": 40.892,
+      "lng": -74.367
+    },
+    "employees": 500,
+    "website": "https://www.marotta.com",
+    "description": "Marotta Controls es un proveedor líder de sistemas de control de fluidos, potencia y electrónicos para los mercados aeroespacial y de defensa. Con más de 80 años de historia, la empresa diseña y fabrica componentes críticos para una amplia gama de aplicaciones, incluyendo vehículos de lanzamiento, satélites, sistemas de armas y plataformas submarinas. Sus tecnologías de válvulas de alta presión y sistemas de control de propulsión han sido fundamentales en misiones históricas y modernas de exploración espacial.",
+    "description_en": "Marotta Controls is a leading provider of fluid, power, and electronic control systems for the aerospace and defense markets. With over 80 years of history, the company designs and manufactures critical components for a wide range of applications, including launch vehicles, satellites, weapons systems, and subsea platforms. Its high-pressure valve technologies and propulsion control systems have been instrumental in both historical and modern space exploration missions.",
+    "founded": 1943,
+    "ceo": "Patrick Marotta",
+    "tags": [
+      "Precision Controls",
+      "Fluid Management",
+      "Propulsion Systems",
+      "Defense",
+      "Aerospace"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/marotta-controls-inc/",
+      "twitter": "https://twitter.com/MarottaControls"
+    },
+    "keyPrograms": [
+      "Space Launch System (SLS) components",
+      "Commercial Crew Program valves"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Montville, Nueva Jersey (EE. UU.).",
+    "logo": "marotta_controls.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 243,
+    "name": "Masten Space Systems",
+    "slug": "masten-space-systems",
+    "type": "startup",
+    "sector": "launchers",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Mojave",
+    "coordinates": {
+      "lat": 35.059,
+      "lng": -118.174
+    },
+    "employees": 50,
+    "website": "https://masten.aero",
+    "description": "Masten Space Systems fue una empresa pionera en el desarrollo de cohetes de despegue y aterrizaje vertical (VTVL) y sistemas de aterrizaje lunar. Conocida por su enfoque iterativo y de bajo coste, la empresa desarrolló vehículos como Xoie y Xodiac para probar tecnologías de aterrizaje de precisión. En 2022, tras declararse en bancarrota, sus activos e infraestructura de pruebas fueron adquiridos por Astrobotic Technology, integrando su experiencia en movilidad lunar y propulsión en los programas de exploración de la nueva matriz.",
+    "description_en": "Masten Space Systems was a pioneering company in the development of Vertical Takeoff and Vertical Landing (VTVL) rockets and lunar landing systems. Known for its iterative and low-cost approach, the company developed vehicles like Xoie and Xodiac to test precision landing technologies. In 2022, after filing for bankruptcy, its assets and testing infrastructure were acquired by Astrobotic Technology, integrating its expertise in lunar mobility and propulsion into the new parent company's exploration programs.",
+    "founded": 2004,
+    "ceo": "Dave Masten (Founder)",
+    "tags": [
+      "VTVL",
+      "Lunar Lander",
+      "Rocket Testing",
+      "Astrobotic",
+      "Mojave"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/masten-space-systems/",
+      "twitter": "https://twitter.com/mastenspace"
+    },
+    "keyPrograms": [
+      "Xodiac",
+      "Masten Mission One (M1)",
+      "XL-1 Lander"
+    ],
+    "fundingStage": "Acquired by Astrobotic",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Mojave Air and Space Port, California (EE. UU.).",
+    "logo": "masten_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 244,
+    "name": "Maxar Technologies",
+    "slug": "maxar-technologies",
+    "type": "corporate",
+    "sector": "earth_observation",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Westminster",
+    "coordinates": {
+      "lat": 39.882,
+      "lng": -105.067
+    },
+    "employees": 4000,
+    "website": "https://www.maxar.com",
+    "description": "Maxar Technologies es un líder mundial en inteligencia geoespacial y tecnología espacial, proporcionando imágenes satelitales de alta resolución y soluciones de análisis de datos para gobiernos y empresas. La empresa opera una de las constelaciones de observación de la Tierra más avanzadas del mundo, incluyendo los satélites WorldView y la nueva serie Legion. Además de sus servicios de inteligencia, Maxar es un fabricante clave de infraestructuras espaciales y sistemas robóticos para misiones en órbita y exploración planetaria.",
+    "description_en": "Maxar Technologies is a global leader in geospatial intelligence and space technology, providing high-resolution satellite imagery and data analytics solutions for governments and businesses. The company operates one of the world's most advanced Earth observation constellations, including WorldView satellites and the new Legion series. In addition to its intelligence services, Maxar is a key manufacturer of space infrastructure and robotic systems for in-orbit missions and planetary exploration.",
+    "founded": 2017,
+    "ceo": "Dan Smoot",
+    "tags": [
+      "Geospatial Intelligence",
+      "Earth Observation",
+      "Satellite Manufacturing",
+      "WorldView",
+      "Maxar Legion"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/maxar-technologies/",
+      "twitter": "https://twitter.com/Maxar"
+    },
+    "keyPrograms": [
+      "WorldView Legion",
+      "PPE (Power and Propulsion Element) for Gateway"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Westminster (Colorado) y Palo Alto (California), EE. UU.",
+    "logo": "maxar.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 245,
+    "name": "MDA US Systems",
+    "slug": "mda-us-systems",
+    "type": "corporate",
+    "sector": "space_infrastructure",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Houston",
+    "coordinates": {
+      "lat": 29.56,
+      "lng": -95.094
+    },
+    "employees": 4000,
+    "website": "https://mda.space",
+    "description": "MDA US Systems es la división estadounidense de MDA Space, una potencia tecnológica global especializada en robótica espacial, sistemas satelitales y geointeligencia. La empresa es mundialmente reconocida por el desarrollo de la serie Canadarm, tecnología de robótica crítica utilizada en el Transbordador Espacial y la Estación Espacial Internacional. En Estados Unidos, MDA se centra en proporcionar soluciones de infraestructura para futuras estaciones espaciales comerciales y misiones lunares, aprovechando su herencia en operaciones espaciales complejas.",
+    "description_en": "MDA US Systems is the U.S. division of MDA Space, a global technology powerhouse specializing in space robotics, satellite systems, and geointelligence. The company is world-renowned for developing the Canadarm series, critical robotics technology used on the Space Shuttle and the International Space Station. In the United States, MDA focuses on providing infrastructure solutions for future commercial space stations and lunar missions, leveraging its heritage in complex space operations.",
+    "founded": 1969,
+    "ceo": "Mike Greenley",
+    "tags": [
+      "Space Robotics",
+      "Canadarm",
+      "Infrastructure",
+      "Satellite Systems",
+      "Lunar Operations"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/mdaspace/",
+      "twitter": "https://twitter.com/MDA_space"
+    },
+    "keyPrograms": [
+      "Canadarm3",
+      "CHORUS",
+      "Commercial Space Station Robotics"
+    ],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "MDA",
+    "otrassede": "Houston (Texas, EE. UU.) y sedes principales en Canadá.",
+    "logo": "mda_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 246,
+    "name": "Microchip Technology Space",
+    "slug": "microchip-technology-space",
+    "type": "corporate",
+    "sector": "space_tech",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Chandler",
+    "coordinates": {
+      "lat": 33.306,
+      "lng": -111.841
+    },
+    "employees": 20000,
+    "website": "https://www.microchip.com",
+    "description": "Microchip Technology es un proveedor líder de soluciones de control embebido inteligente, conectado y seguro, con una fuerte presencia en la industria aeroespacial a través de su División de Aeroespacial y Defensa. La empresa ofrece una vasta cartera de semiconductores endurecidos y tolerantes a la radiación (rad-hard/rad-tolerant), incluyendo microcontroladores, FPGAs y soluciones de gestión de energía. Sus componentes son esenciales para garantizar la fiabilidad electrónica en los entornos extremos del espacio, desde satélites en LEO hasta sondas de exploración profunda.",
+    "description_en": "Microchip Technology is a leading provider of smart, connected, and secure embedded control solutions, with a strong presence in the aerospace industry through its Aerospace and Defense Division. The company offers a vast portfolio of radiation-hardened and radiation-tolerant (rad-hard/rad-tolerant) semiconductors, including microcontrollers, FPGAs, and power management solutions. Its components are essential for ensuring electronic reliability in the extreme environments of space, from LEO satellites to deep-space exploration probes.",
+    "founded": 1989,
+    "ceo": "Ganesh Moorthy",
+    "tags": [
+      "Semiconductors",
+      "Radiation Hardened",
+      "FPGA",
+      "Microcontrollers",
+      "Mission Assurance"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/microchip-technology/",
+      "twitter": "https://twitter.com/MicrochipTech"
+    },
+    "keyPrograms": [
+      "High-Performance Spaceflight Computing (HPSC)",
+      "RT PolarFire FPGAs"
+    ],
+    "fundingStage": "Public",
+    "totalFunding": null,
+    "stockTicker": "MCHP",
+    "otrassede": "Chandler, Arizona (EE. UU.).",
+    "logo": "microchip_technology.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 247,
+    "name": "Microcosm",
+    "slug": "microcosm",
+    "type": "corporate",
+    "sector": "research",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Torrance",
+    "coordinates": {
+      "lat": 33.84,
+      "lng": -118.34
+    },
+    "employees": 30,
+    "website": "https://www.smad.com",
+    "description": "Microcosm es una empresa de ingeniería espacial reconocida por su enfoque en reducir drásticamente el coste de las misiones espaciales mediante la innovación tecnológica. Especializada en la ingeniería de misiones espaciales y sistemas de lanzamiento de bajo coste, la empresa ha desarrollado el concepto de 'Space Mission Analysis and Design' (SMAD), convertido en un estándar de la industria. Microcosm también se dedica a la fabricación de estructuras compuestas avanzadas y al entrenamiento profesional de ingenieros espaciales a nivel mundial.",
+    "description_en": "Microcosm is a space engineering company recognized for its focus on drastically reducing the cost of space missions through technological innovation. Specialized in space mission engineering and low-cost launch systems, the company developed the 'Space Mission Analysis and Design' (SMAD) concept, which has become an industry standard. Microcosm also manufactures advanced composite structures and provides professional training for space engineers worldwide.",
+    "founded": 1984,
+    "ceo": "Alice Wertz",
+    "tags": [
+      "SMAD",
+      "Mission Engineering",
+      "Low Cost Launch",
+      "Composite Structures",
+      "Education"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/microcosm-inc-/"
+    },
+    "keyPrograms": [
+      "Scorpius Launch Vehicles",
+      "SMAD Training Services"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Torrance, California (EE. UU.).",
+    "logo": "microcosm.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 248,
+    "name": "Millennium Space Systems",
+    "slug": "millennium-space-systems",
+    "type": "corporate",
+    "sector": "satellites",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "El Segundo",
+    "coordinates": {
+      "lat": 33.919,
+      "lng": -118.387
+    },
+    "employees": 800,
+    "website": "https://www.millennium-space.com",
+    "description": "Millennium Space Systems, una subsidiaria de Boeing, se especializa en el diseño, fabricación y operación de satélites pequeños de alto rendimiento para aplicaciones militares, civiles y comerciales. La empresa destaca por su capacidad de prototipado rápido y su enfoque en misiones de seguridad nacional, proporcionando constelaciones ágiles y soluciones de conocimiento del dominio espacial. Al combinar la agilidad de una startup con los recursos de Boeing, Millennium se ha consolidado como un contratista clave para la Fuerza Espacial de los EE. UU.",
+    "description_en": "Millennium Space Systems, a Boeing subsidiary, specializes in the design, manufacturing, and operation of high-performance small satellites for military, civil, and commercial applications. The company stands out for its rapid prototyping capability and its focus on national security missions, providing agile constellations and space domain awareness solutions. By combining startup agility with Boeing's resources, Millennium has established itself as a key contractor for the U.S. Space Force.",
+    "founded": 2001,
+    "ceo": "Tony Gingiss",
+    "tags": [
+      "SmallSats",
+      "National Security",
+      "Rapid Prototyping",
+      "Boeing",
+      "Space Domain Awareness"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/millennium-space-systems/",
+      "twitter": "https://twitter.com/MillenniumSpace"
+    },
+    "keyPrograms": [
+      "ALTAIR",
+      "Missile Warning Satellites",
+      "SDA Tranche 1"
+    ],
+    "fundingStage": "Subsidiary",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "El Segundo, California (EE. UU.).",
+    "logo": "millennium_space.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 249,
+    "name": "MIT Lincoln Laboratory",
+    "slug": "mit-lincoln-laboratory",
+    "type": "academia",
+    "sector": "research",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Lexington",
+    "coordinates": {
+      "lat": 42.447,
+      "lng": -71.229
+    },
+    "employees": 4500,
+    "website": "https://www.ll.mit.edu",
+    "description": "El MIT Lincoln Laboratory es un Centro de Investigación y Desarrollo Financiado Federalmente (FFRDC) operado por el Instituto Tecnológico de Massachusetts para el Departamento de Defensa de los EE. UU. Su sector de Sistemas Espaciales y Tecnología desarrolla soluciones avanzadas para la vigilancia espacial, comunicaciones por satélite y sensores de nueva generación. El laboratorio es pionero en tecnologías de comunicación láser y en el desarrollo de instrumentos satelitales críticos para la NASA y la NOAA, aplicando la ciencia de vanguardia a los retos de la seguridad nacional.",
+    "description_en": "MIT Lincoln Laboratory is a Federally Funded Research and Development Center (FFRDC) operated by the Massachusetts Institute of Technology for the U.S. Department of Defense. Its Space Systems and Technology sector develops advanced solutions for space surveillance, satellite communications, and next-generation sensors. The laboratory pioneers laser communication technologies and develops critical satellite instruments for NASA and NOAA, applying cutting-edge science to national security challenges.",
+    "founded": 1951,
+    "ceo": "Melissa G. Choi (Director)",
+    "tags": [
+      "Space Surveillance",
+      "Laser Communications",
+      "FFRDC",
+      "National Security",
+      "MIT"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/mit-lincoln-laboratory/",
+      "twitter": "https://twitter.com/MITLL"
+    },
+    "keyPrograms": [
+      "TBIRD (TeraByte InfraRed Delivery)",
+      "Space Based Space Surveillance (SBSS)"
+    ],
+    "fundingStage": "Public Organization",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Lexington, Massachusetts (EE. UU.).",
+    "logo": "mit_lincoln_lab.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "id": 250,
+    "name": "MMA Design LLC",
+    "slug": "mma-design-llc",
+    "type": "startup",
+    "sector": "space_equipment",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Broomfield",
+    "coordinates": {
+      "lat": 39.92,
+      "lng": -105.089
+    },
+    "employees": 40,
+    "website": "https://mmadesignllc.com",
+    "description": "MMA Design LLC (ahora operando como MMA Space) es una empresa de ingeniería aeroespacial especializada en el diseño y fabricación de sistemas espaciales desplegables de alta eficiencia. Sus productos estrella incluyen conjuntos solares desplegables, antenas de gran apertura y módulos de desorbitación, todos diseñados para maximizar el rendimiento en el volumen limitado de los satélites pequeños. MMA es reconocida por su capacidad de innovación en mecanismos espaciales complejos y su colaboración con agencias gubernamentales y operadores comerciales para mejorar la capacidad orbital.",
+    "description_en": "MMA Design LLC (now operating as MMA Space) is an aerospace engineering company specializing in the design and manufacturing of high-efficiency deployable space systems. Its flagship products include deployable solar arrays, large-aperture antennas, and de-orbit modules, all designed to maximize performance within the limited volume of small satellites. MMA is recognized for its innovation in complex space mechanisms and its collaboration with government agencies and commercial operators to enhance orbital capability.",
+    "founded": 2007,
+    "ceo": "Mitch Wiens",
+    "tags": [
+      "Deployable Systems",
+      "Solar Arrays",
+      "Space Mechanisms",
+      "SmallSats",
+      "De-orbit Modules"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/mma-design-llc/"
+    },
+    "keyPrograms": [
+      "HaWK Solar Arrays",
+      "P-POD Deployers"
+    ],
+    "fundingStage": "Private",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Broomfield, Colorado (EE. UU.).",
+    "logo": "mma_design.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]

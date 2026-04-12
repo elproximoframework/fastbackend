@@ -1,0 +1,386 @@
+[
+  {
+    "name": "Pioneer Astronautics",
+    "slug": "pioneer-astronautics",
+    "type": "corporate",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Lakewood, Colorado",
+    "coordinates": {
+      "lat": 39.7392,
+      "lng": -105.1432
+    },
+    "employees": 20,
+    "website": "https://www.pioneerastro.com",
+    "description": "Pioneer Astronautics es una empresa de investigación y desarrollo aeroespacial centrada en tecnologías innovadoras para la exploración espacial y la utilización de recursos in situ (ISRU). Fundada por el Dr. Robert Zubrin, la empresa ha desarrollado sistemas críticos para la NASA, incluyendo generadores de oxígeno en Marte y sistemas de propulsión de bajo costo. Su enfoque se centra en reducir drásticamente el costo de la exploración humana de Marte mediante el uso de recursos locales y arquitecturas de misión simplificadas como el concepto 'Mars Direct'.",
+    "description_en": "Pioneer Astronautics is an aerospace research and development company focused on innovative technologies for space exploration and In-Situ Resource Utilization (ISRU). Founded by Dr. Robert Zubrin, the company has developed critical systems for NASA, including Martian oxygen generators and low-cost propulsion systems. Their approach focuses on drastically reducing the cost of human exploration of Mars through the use of local resources and simplified mission architectures like the 'Mars Direct' concept.",
+    "founded": 1996,
+    "ceo": "Robert Zubrin",
+    "sector": "research",
+    "tags": [
+      "ISRU",
+      "Mars",
+      "Exploration",
+      "R&D"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/pioneer-astronautics/"
+    },
+    "keyPrograms": [
+      "Mars Direct",
+      "Oxygen Generation",
+      "Inflatable Habitats"
+    ],
+    "fundingStage": null,
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Colaboraciones con centros de la NASA en todo EE. UU.",
+    "logo": "pioneer_astronautics.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "name": "Pixxel US",
+    "slug": "pixxel",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "El Segundo, California",
+    "coordinates": {
+      "lat": 33.9192,
+      "lng": -118.4165
+    },
+    "employees": 150,
+    "website": "https://www.pixxel.space",
+    "description": "Pixxel es una startup de tecnología espacial que está construyendo una constelación de satélites de imágenes hiperespectrales para proporcionar un monitoreo de la Tierra con una profundidad sin precedentes. Su tecnología permite detectar firmas químicas y biológicas invisibles para los satélites ópticos convencionales, lo que resulta fundamental para la agricultura de precisión, la minería y la respuesta al cambio climático. Con sedes en India y EE. UU., la empresa ha lanzado con éxito sus primeros satélites de demostración tecnológica.",
+    "description_en": "Pixxel is a space technology startup building a constellation of hyperspectral imaging satellites to provide Earth monitoring with unprecedented depth. Their technology enables the detection of chemical and biological signatures invisible to conventional optical satellites, which is fundamental for precision agriculture, mining, and climate change response. With headquarters in India and the US, the company has successfully launched its first technology demonstration satellites.",
+    "founded": 2019,
+    "ceo": "Awais Ahmed",
+    "sector": "earth_observation",
+    "tags": [
+      "Hyperspectral",
+      "Satellite Imagery",
+      "Precision Agriculture"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/pixxelspace",
+      "linkedin": "https://www.linkedin.com/company/pixxelspace/"
+    },
+    "keyPrograms": [
+      "Shakun",
+      "Anand",
+      "Aurora Platform"
+    ],
+    "fundingStage": "Series B",
+    "totalFunding": "$95M",
+    "stockTicker": null,
+    "otrassede": "Sede principal en Bengaluru, India.",
+    "logo": "pixxel.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "name": "Planet Labs",
+    "slug": "planet-labs",
+    "type": "corporate",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "San Francisco, California",
+    "coordinates": {
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    "employees": 1000,
+    "website": "https://www.planet.com",
+    "description": "Planet Labs es un gigante de la observación terrestre que opera la flota más numerosa del mundo de satélites de imágenes. A través de sus constelaciones 'Dove' y 'SkySat', la empresa captura imágenes de toda la masa terrestre del planeta cada 24 horas. Esta capacidad de monitoreo diario permite a gobiernos y empresas privadas rastrear cambios globales en tiempo real, desde la deforestación y el crecimiento urbano hasta la seguridad agrícola y la inteligencia de defensa.",
+    "description_en": "Planet Labs is an Earth observation giant operating the world's largest fleet of imaging satellites. Through its 'Dove' and 'SkySat' constellations, the company captures imagery of the entire landmass of the planet every 24 hours. This daily monitoring capability allows governments and private companies to track global changes in real-time, from deforestation and urban growth to agricultural security and defense intelligence.",
+    "founded": 2010,
+    "ceo": "Will Marshall",
+    "sector": "earth_observation",
+    "tags": [
+      "Satellite Imagery",
+      "Daily Monitoring",
+      "Big Data"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/planet",
+      "linkedin": "https://www.linkedin.com/company/planet-labs/"
+    },
+    "keyPrograms": [
+      "Pelican",
+      "Tanager",
+      "Starless Planet"
+    ],
+    "fundingStage": "Public",
+    "totalFunding": "$500M+",
+    "stockTicker": "PL",
+    "otrassede": "Berlín, Washington D.C., Londres.",
+    "logo": "planet_labs.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "name": "PlanetIQ",
+    "slug": "planetiq",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Golden, Colorado",
+    "coordinates": {
+      "lat": 39.7555,
+      "lng": -105.2211
+    },
+    "employees": 50,
+    "website": "https://planetiq.com",
+    "description": "PlanetIQ es una empresa pionera en el suministro de datos meteorológicos comerciales de alta resolución mediante el uso de ocultación de radio GNSS. Su constelación de satélites mide cómo las señales de navegación se curvan al atravesar la atmósfera terrestre para derivar perfiles precisos de temperatura, humedad y presión. Estos datos son cruciales para mejorar los modelos de predicción meteorológica global y el seguimiento de eventos climáticos extremos.",
+    "description_en": "PlanetIQ is a pioneer in providing high-resolution commercial weather data using GNSS radio occultation. Its satellite constellation measures how navigation signals bend as they pass through Earth's atmosphere to derive precise profiles of temperature, humidity, and pressure. This data is crucial for improving global weather prediction models and tracking extreme weather events.",
+    "founded": 2015,
+    "ceo": "Ira Scharf",
+    "sector": "earth_observation",
+    "tags": [
+      "Weather Data",
+      "GNSS",
+      "Meteorology"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/planetiq/"
+    },
+    "keyPrograms": [
+      "GNSS-RO Constellation"
+    ],
+    "fundingStage": "Series B",
+    "totalFunding": "$50M+",
+    "stockTicker": null,
+    "otrassede": "Oficinas en Boulder, Colorado.",
+    "logo": "planetiq.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "name": "Positron Dynamics",
+    "slug": "positron-dynamics",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Livermore, California",
+    "coordinates": {
+      "lat": 37.6819,
+      "lng": -121.768
+    },
+    "employees": 10,
+    "website": "http://positrondynamics.com",
+    "description": "Positron Dynamics es una empresa de ingeniería aeroespacial que desarrolla sistemas de propulsión de vanguardia basados en la física de positrones y antimateria. Su objetivo es crear motores capaces de alcanzar velocidades de tránsito mucho más rápidas para misiones al espacio profundo, reduciendo los tiempos de viaje a Marte a solo semanas. La empresa ha recibido múltiples subvenciones NIAC de la NASA para avanzar en su investigación sobre propulsión catalizada por positrones.",
+    "description_en": "Positron Dynamics is an aerospace engineering company developing cutting-edge propulsion systems based on positron and antimatter physics. Their goal is to create engines capable of achieving much faster transit speeds for deep space missions, reducing travel times to Mars to just weeks. The company has received multiple NASA NIAC grants to advance its research on positron-catalyzed propulsion.",
+    "founded": 2012,
+    "ceo": "Ryan Weed",
+    "sector": "propulsion",
+    "tags": [
+      "Antimatter",
+      "Advanced Propulsion",
+      "Deep Space"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/positron-dynamics/"
+    },
+    "keyPrograms": [
+      "Positron Catalyzed Fusion Engine"
+    ],
+    "fundingStage": "Seed",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Laboratorios en el Área de la Bahía.",
+    "logo": "positron_dynamics.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "name": "PredaSAR",
+    "slug": "predasar",
+    "type": "corporate",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Boca Raton, Florida",
+    "coordinates": {
+      "lat": 26.3683,
+      "lng": -80.1289
+    },
+    "employees": 50,
+    "website": "https://terranorbital.com",
+    "description": "PredaSAR es una empresa de observación de la Tierra, ahora una subsidiaria de Terran Orbital, que se especializa en el desarrollo y operación de satélites de radar de apertura sintética (SAR). A diferencia de los satélites ópticos, el radar de PredaSAR puede ver a través de las nubes, el humo y la oscuridad total, proporcionando inteligencia persistente y de alta resolución para aplicaciones gubernamentales y comerciales de defensa y seguridad.",
+    "description_en": "PredaSAR is an Earth observation company, now a subsidiary of Terran Orbital, specializing in the development and operation of Synthetic Aperture Radar (SAR) satellites. Unlike optical satellites, PredaSAR's radar can see through clouds, smoke, and total darkness, providing persistent, high-resolution intelligence for government and commercial defense and security applications.",
+    "founded": 2019,
+    "ceo": "Roger W. Teague",
+    "sector": "earth_observation",
+    "tags": [
+      "SAR",
+      "Radar Imagery",
+      "Intelligence"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/predasar",
+      "linkedin": "https://www.linkedin.com/company/predasar/"
+    },
+    "keyPrograms": [
+      "SAR Constellation"
+    ],
+    "fundingStage": "Acquired",
+    "totalFunding": "$25M",
+    "stockTicker": null,
+    "otrassede": "Instalaciones de fabricación en Irvine, California.",
+    "logo": "predasar.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "name": "Prewitt Ridge",
+    "slug": "prewitt-ridge",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Los Angeles, California",
+    "coordinates": {
+      "lat": 34.0522,
+      "lng": -118.2437
+    },
+    "employees": 20,
+    "website": "https://sysgit.io",
+    "description": "Prewitt Ridge (rebrandeada como SysGit) es una empresa de software fundada por ex-ingenieros de SpaceX para resolver la desconexión entre el software y la ingeniería de hardware. Su plataforma crea un 'hilo digital' que integra datos de diseño, requisitos y pruebas, permitiendo una colaboración ágil en el desarrollo de sistemas complejos como cohetes y satélites. SysGit ayuda a los equipos a gestionar el ciclo de vida del producto con flujos de trabajo inspirados en Git.",
+    "description_en": "Prewitt Ridge (rebranded as SysGit) is a software company founded by former SpaceX engineers to solve the disconnect between software and hardware engineering. Its platform creates a 'digital thread' that integrates design data, requirements, and testing, allowing for agile collaboration in the development of complex systems like rockets and satellites. SysGit helps teams manage the product lifecycle with Git-inspired workflows.",
+    "founded": 2019,
+    "ceo": "Steven Massey",
+    "sector": "software",
+    "tags": [
+      "Digital Thread",
+      "Engineering Software",
+      "Systems Engineering"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/prewitt-ridge/"
+    },
+    "keyPrograms": [
+      "SysGit Platform"
+    ],
+    "fundingStage": "Seed",
+    "totalFunding": "$4.1M",
+    "stockTicker": null,
+    "otrassede": "Trabajo remoto con base en California.",
+    "logo": "prewitt_ridge.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "name": "Prime Movers Lab Space",
+    "slug": "prime-movers-lab",
+    "type": "investor",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Jackson, Wyoming",
+    "coordinates": {
+      "lat": 43.4799,
+      "lng": -110.7624
+    },
+    "employees": 30,
+    "website": "https://www.primemoverslab.com",
+    "description": "Prime Movers Lab es una firma de capital de riesgo líder que se asocia con inventores para transformar industrias a través de avances científicos. Con un fuerte enfoque en la nueva economía espacial, han invertido en empresas de infraestructura orbital, turismo espacial y transporte cislunar. La firma se destaca por su equipo de socios asesores técnicos y científicos que realizan una diligencia profunda para apoyar startups de 'deep tech' con potencial de impacto global masivo.",
+    "description_en": "Prime Movers Lab is a leading venture capital firm that partners with inventors to transform industries through scientific breakthroughs. With a strong focus on the new space economy, they have invested in orbital infrastructure, space tourism, and cislunar transport companies. The firm stands out for its team of technical and scientific advisor partners who perform deep diligence to support deep tech startups with massive global impact potential.",
+    "founded": 2018,
+    "ceo": "Dakin Sloss",
+    "sector": "investor",
+    "tags": [
+      "Venture Capital",
+      "Deep Tech",
+      "Space Infrastructure"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/primemoverslab",
+      "linkedin": "https://www.linkedin.com/company/prime-movers-lab/"
+    },
+    "keyPrograms": [
+      "Axiom Space Investment",
+      "Quantum Space Investment"
+    ],
+    "fundingStage": "VC Firm",
+    "totalFunding": "$1.2B AUM",
+    "stockTicker": null,
+    "otrassede": "San Francisco, Palo Alto.",
+    "logo": "prime_movers_lab.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "name": "Promus Ventures",
+    "slug": "promus-ventures",
+    "type": "investor",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Chicago, Illinois",
+    "coordinates": {
+      "lat": 41.8781,
+      "lng": -87.6298
+    },
+    "employees": 20,
+    "website": "https://promusventures.com",
+    "description": "Promus Ventures es una firma de capital de riesgo especializada en inversiones en etapas tempranas en empresas de tecnología profunda y aeroespaciales en todo el mundo. Han sido inversores fundamentales en startups que ahora son líderes de la industria como Rocket Lab y Spire. A través de su fondo Orbital Ventures, la firma apoya activamente el crecimiento de la economía espacial global, facilitando el acceso a capital para empresas que desarrollan hardware y software crítico para el espacio.",
+    "description_en": "Promus Ventures is a venture capital firm specializing in early-stage investments in deep tech and aerospace companies worldwide. They have been fundamental investors in startups that are now industry leaders such as Rocket Lab and Spire. Through its Orbital Ventures fund, the firm actively supports the growth of the global space economy, facilitating access to capital for companies developing critical space hardware and software.",
+    "founded": 2012,
+    "ceo": "Mike Collett",
+    "sector": "investor",
+    "tags": [
+      "Venture Capital",
+      "SpaceTech",
+      "Early Stage"
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/promusventures",
+      "linkedin": "https://www.linkedin.com/company/promus-ventures/"
+    },
+    "keyPrograms": [
+      "Orbital Ventures Fund"
+    ],
+    "fundingStage": "VC Firm",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Luxemburgo, San Francisco.",
+    "logo": "promus_ventures.png",
+    "featured_espacio": false,
+    "show": true
+  },
+  {
+    "name": "Pulsar Fusion US",
+    "slug": "pulsar-fusion",
+    "type": "startup",
+    "country": "us",
+    "countryName": "Estados Unidos",
+    "city": "Austin, Texas",
+    "coordinates": {
+      "lat": 30.2672,
+      "lng": -97.7431
+    },
+    "employees": 50,
+    "website": "https://pulsarfusion.com",
+    "description": "Pulsar Fusion es una empresa de propulsión limpia que está construyendo el mayor propulsor de fusión nuclear de Europa y expandiendo sus operaciones de I+D a los Estados Unidos. Su visión es utilizar la energía de fusión para permitir viajes espaciales de alta velocidad que podrían abrir el sistema solar a la exploración humana a corto plazo. Además de sus motores de fusión, la empresa fabrica propulsores de efecto Hall y sistemas eléctricos para satélites en órbita terrestre.",
+    "description_en": "Pulsar Fusion is a clean propulsion company building Europe's largest nuclear fusion thruster and expanding its R&D operations to the United States. Its vision is to use fusion energy to enable high-speed space travel that could open the solar system to human exploration in the near term. In addition to its fusion engines, the company manufactures Hall-effect thrusters and electric systems for Earth-orbiting satellites.",
+    "founded": 2013,
+    "ceo": "Richard Dinan",
+    "sector": "propulsion",
+    "tags": [
+      "Nuclear Fusion",
+      "Deep Space",
+      "Interplanetary travel"
+    ],
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/pulsarfusion/"
+    },
+    "keyPrograms": [
+      "Nuclear Fusion Rocket Drive",
+      "Hall-Effect Thrusters"
+    ],
+    "fundingStage": "Seed",
+    "totalFunding": null,
+    "stockTicker": null,
+    "otrassede": "Sede principal y fabricación en Bletchley, Reino Unido.",
+    "logo": "pulsar_fusion.png",
+    "featured_espacio": false,
+    "show": true
+  }
+]
