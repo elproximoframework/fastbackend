@@ -16,7 +16,7 @@ class CompanyBase(BaseModel):
     country: Optional[str] = None
     countryName: Optional[str] = None
     city: Optional[str] = None
-    coordinates: Optional[Dict[str, float]] = None
+    coordinates: Optional[Dict[str, Optional[float]]] = None
     employees: Optional[int] = None
     website: Optional[str] = None
     description: Optional[str] = None
@@ -24,9 +24,9 @@ class CompanyBase(BaseModel):
     founded: Optional[int] = None
     ceo: Optional[str] = None
     sector: Optional[str] = None
-    tags: Optional[List[str]] = []
-    socialLinks: Optional[Dict[str, str]] = {}
-    keyPrograms: Optional[List[str]] = []
+    tags: Optional[List[Optional[str]]] = []
+    socialLinks: Optional[Dict[str, Optional[str]]] = {}
+    keyPrograms: Optional[List[Optional[str]]] = []
     fundingStage: Optional[str] = None
     totalFunding: Optional[str] = None
     stockTicker: Optional[str] = None
@@ -157,8 +157,8 @@ class NewsBase(BaseModel):
     date: str
     image: Optional[str] = None
     slug: str
-    tags: Optional[List[str]] = []
-    tags_en: Optional[List[str]] = []
+    tags: Optional[List[Optional[str]]] = []
+    tags_en: Optional[List[Optional[str]]] = []
     featured: bool = False
     linkyoutube: Optional[str] = None
     rutanoticia: Optional[str] = None
@@ -190,8 +190,8 @@ class NewsSpaceXBase(BaseModel):
     date: str
     image: Optional[str] = None
     slug: str
-    tags: Optional[List[str]] = []
-    tags_en: Optional[List[str]] = []
+    tags: Optional[List[Optional[str]]] = []
+    tags_en: Optional[List[Optional[str]]] = []
     featured: bool = False
     linkyoutube: Optional[str] = None
     rutanoticia: Optional[str] = None
@@ -231,8 +231,8 @@ class SpaceXInventoryBase(BaseModel):
     date: str
     image: Optional[str] = None
     slug: str
-    tags: Optional[List[str]] = []
-    tags_en: Optional[List[str]] = []
+    tags: Optional[List[Optional[str]]] = []
+    tags_en: Optional[List[Optional[str]]] = []
     featured: bool = False
     linkyoutube: Optional[str] = None
     rutainformacion: Optional[str] = None

@@ -6,6 +6,7 @@ from typing import List, Optional
 from datetime import datetime, timezone
 from . import models, schemas
 from .database import engine, get_db
+from .routes.auth_router import router as auth_router
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
@@ -29,41 +30,43 @@ sentry_sdk.init(
 
 app = FastAPI(
     title="Space API",
-    description="API for Space portal with Companies, Rockets, Satellites, and Launches",
+    description="API for Space portal",
     version="1.0.0",
 )
 
-# Initialize Rate Limiter
-limiter = Limiter(key_func=get_remote_address)
-app.state.limiter = limiter
-app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
-
-# Enable CORS for the frontend to communicate with this backend
-env = os.getenv("ENVIRONMENT", "development")
-cors_origins_str = os.getenv("CORS_ORIGINS", "")
-
-if env == "development":
-    # Default development origins if none provided
-    origins = cors_origins_str.split(",") if cors_origins_str else [
-        "http://localhost",
-        "http://localhost:5173",
-        "http://localhost:3000",
-        "http://127.0.0.1",
-        "http://127.0.0.1:5173",
-        "http://127.0.0.1:3000",
-        "http://[::1]:5173",
-    ]
-else:
-    # Strict origins in production
-    origins = cors_origins_str.split(",") if cors_origins_str else []
+# --- 1. CONFIGURACIÓN DE CORS (DEBE SER LO PRIMERO) ---
+# Definimos los orígenes exactos permitidos
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
     allow_headers=["*"],
+    expose_headers=["*"],
 )
+
+# --- 2. REGISTRO DE ROUTERS ---
+app.include_router(auth_router)
+
+# --- 3. LOG DE RUTAS PARA DEBUG ---
+@app.on_event("startup")
+async def list_routes():
+    print("--- RUTAS REGISTRADAS ---")
+    for route in app.routes:
+        if hasattr(route, "methods"):
+            print(f"{route.methods} {route.path}")
+    print("-------------------------")
+
+# --- 4. RATE LIMITER ---
+limiter = Limiter(key_func=get_remote_address)
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # Serve news markdown files
 news_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "news")

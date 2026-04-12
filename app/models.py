@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String, Float, Boolean, Date, ForeignKey, JSON, DateTime
 from sqlalchemy.orm import relationship
 from .database import Base
+from datetime import datetime, timezone
 
 class Company(Base):
     __tablename__ = "companies"
@@ -210,3 +211,66 @@ class AppSetting(Base):
     value = Column(String, nullable=False)
     type = Column(String, default="string")
     description = Column(String, nullable=True)
+
+
+# ============================================================
+# AUTH MODELS
+# ============================================================
+
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True, index=True)
+    email = Column(String, unique=True, index=True, nullable=False)
+    name = Column(String, nullable=True)
+    avatar_url = Column(String, nullable=True)
+
+    # Roles y suscripción
+    role = Column(String, default="free")                   # "free", "premium", "admin"
+    subscription_status = Column(String, default="inactive") # "active", "inactive", "trial"
+    subscription_expires_at = Column(DateTime(timezone=True), nullable=True)
+    subscription_plan = Column(String, nullable=True)         # "monthly", "annual"
+
+    # Proveedor de autenticación
+    auth_provider = Column(String, default="magic_link")    # "magic_link", "google", "password"
+    google_id = Column(String, unique=True, nullable=True)
+    hashed_password = Column(String, nullable=True)         # Solo si usa password
+
+    # Estado
+    is_active = Column(Boolean, default=True)
+    is_verified = Column(Boolean, default=False)
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    updated_at = Column(DateTime(timezone=True), onupdate=lambda: datetime.now(timezone.utc))
+    last_login_at = Column(DateTime(timezone=True), nullable=True)
+
+    # Relaciones
+    magic_tokens = relationship("MagicLinkToken", back_populates="user")
+    refresh_tokens = relationship("RefreshToken", back_populates="user")
+
+
+class MagicLinkToken(Base):
+    __tablename__ = "magic_link_tokens"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=True)
+    token = Column(String, unique=True, index=True, nullable=False)
+    email = Column(String, index=True, nullable=False)
+    purpose = Column(String, default="login")               # "login", "email_verify"
+    used = Column(Boolean, default=False)
+    expires_at = Column(DateTime(timezone=True), nullable=False)
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+
+    user = relationship("User", back_populates="magic_tokens")
+
+
+class RefreshToken(Base):
+    __tablename__ = "refresh_tokens"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"))
+    token = Column(String(500), unique=True, nullable=False)
+    expires_at = Column(DateTime(timezone=True), nullable=False)
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    revoked = Column(Boolean, default=False)
+
+    user = relationship("User", back_populates="refresh_tokens")
