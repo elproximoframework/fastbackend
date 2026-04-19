@@ -1,0 +1,281 @@
+[
+    {
+        "title": "Starship Vuelo 12: Primer bloque V3 con 33 motores Raptor 3 entra en acción",
+        "title_en": "Starship Flight 12: First V3 Block with 33 Raptor 3 Engines Roars to Life",
+        "excerpt": "SpaceX estrena la Versión 3 de Starship. El 15 de abril, el Booster 19 realizó su primer encendido estático de 5 segundos con sus 33 Raptor 3 en el Pad 2, sin usar escudo térmico entre motores gracias al enfriamiento regenerativo.",
+        "excerpt_en": "SpaceX debuts Starship Version 3. On April 15, Booster 19 performed its first 5-second static fire with all 33 Raptor 3 engines on Pad 2, notably missing a heat shield between engines due to regenerative cooling.",
+        "category": "Starship",
+        "category_en": "Starship",
+        "location": "Starbase",
+        "location_en": "Starbase",
+        "date": "2026-04-15",
+        "slug": "starship-vuelo-12-static-fire-booster-19-v3",
+        "image": "booster19_static_fire.png",
+        "tags": [
+            "Starship",
+            "Booster 19",
+            "Raptor 3",
+            "Vuelo 12",
+            "Static Fire"
+        ],
+        "tags_en": [
+            "Starship",
+            "Booster 19",
+            "Raptor 3",
+            "Flight 12",
+            "Static Fire"
+        ],
+        "rutanoticia": "/api/v1/newsspacex_content/starship-vuelo-12-static-fire-booster-19-v3.md",
+        "featured": false,
+        "covered": false,
+        "show": true
+    },
+    {
+        "title": "El Booster 19 completa su Wet Dress Rehearsal validando el Pad 2",
+        "title_en": "Booster 19 Completes Wet Dress Rehearsal, Validating Pad 2",
+        "excerpt": "El 16 de abril, SpaceX realizó una prueba de llenado completa del Booster 19. El GSE del Pad 2 funcionó maravillosamente cargando miles de toneladas de propelente a un ritmo frenético.",
+        "excerpt_en": "On April 16, SpaceX conducted a full wet dress rehearsal on Booster 19. The Pad 2 Ground Support Equipment performed marvelously, loading thousands of tons of propellant at a frantic pace.",
+        "category": "Starship",
+        "category_en": "Starship",
+        "location": "Starbase",
+        "location_en": "Starbase",
+        "date": "2026-04-16",
+        "slug": "booster-19-wet-dress-rehearsal-pad-2",
+        "image": "booster19_wdr.png",
+        "tags": [
+            "Starship",
+            "Booster 19",
+            "WDR",
+            "Pad 2",
+            "GSE"
+        ],
+        "tags_en": [
+            "Starship",
+            "Booster 19",
+            "WDR",
+            "Pad 2",
+            "GSE"
+        ],
+        "rutanoticia": "/api/v1/newsspacex_content/booster-19-wet-dress-rehearsal-pad-2.md",
+        "featured": false,
+        "covered": false,
+        "show": true
+    },
+    {
+        "title": "Ship 39 asombra con un Static Fire de 60 segundos en Massey's",
+        "title_en": "Ship 39 Stuns with a 60-Second Static Fire at Massey's",
+        "excerpt": "La nave Ship 39 encendió sus seis motores Raptor 3 durante un minuto entero el 14 de abril, demostrando su capacidad operativa sin apagones y usando parches térmicos como laboratorio volador.",
+        "excerpt_en": "Ship 39 fired its six Raptor 3 engines for a full minute on April 14, demonstrating its operational capability without flame-outs and testing thermal tile patches as a flying laboratory.",
+        "category": "Starship",
+        "category_en": "Starship",
+        "location": "Starbase",
+        "location_en": "Starbase",
+        "date": "2026-04-14",
+        "slug": "ship-39-static-fire-60-segundos",
+        "image": "ship39_static_fire.png",
+        "tags": [
+            "Starship",
+            "Ship 39",
+            "Raptor 3",
+            "Massey's",
+            "Pruebas"
+        ],
+        "tags_en": [
+            "Starship",
+            "Ship 39",
+            "Raptor 3",
+            "Massey's",
+            "Testing"
+        ],
+        "rutanoticia": "/api/v1/newsspacex_content/ship-39-static-fire-60-segundos.md",
+        "featured": false,
+        "covered": false,
+        "show": true
+    },
+    {
+        "title": "Expansión sin freno en Starbase y Cabo Cañaveral para el futuro de Starship",
+        "title_en": "Unstoppable Expansion at Starbase and Cape Canaveral for Starship's Future",
+        "excerpt": "El Pad 1 está siendo reconstruido velozmente mientras SpaceX anuncia la construcción de una cuarta torre de lanzamiento en el complejo 37 de Florida, preparando el terreno para vuelos masivos y frecuentes.",
+        "excerpt_en": "Pad 1 is undergoing rapid reconstruction while SpaceX announces a fourth orbital launch tower at Complex 37 in Florida, paving the way for frequent and massive Starship flights.",
+        "category": "Starship",
+        "category_en": "Starship",
+        "location": "Starbase",
+        "location_en": "Starbase",
+        "date": "2026-04-17",
+        "slug": "expansion-starbase-pad37-florida-torres-starship",
+        "image": "starbase_florida_expansion.png",
+        "tags": [
+            "Starship",
+            "Starbase",
+            "Cabo Cañaveral",
+            "Pad 1",
+            "Pad 37"
+        ],
+        "tags_en": [
+            "Starship",
+            "Starbase",
+            "Cape Canaveral",
+            "Pad 1",
+            "Pad 37"
+        ],
+        "rutanoticia": "/api/v1/newsspacex_content/expansion-starbase-pad37-florida-torres-starship.md",
+        "featured": false,
+        "covered": false,
+        "show": true
+    },
+    {
+        "title": "El misterio de la Ship 44 y el simulador lunar de Starbase",
+        "title_en": "The Mystery of Ship 44 and Starbase's Lunar Simulator",
+        "excerpt": "Desaparecida desde septiembre de 2025, se especula fuertemente que la Ship 44 es el prototipo HLS oculto de SpaceX. Un gran barril con patas en el área sur podría ser su simulador.",
+        "excerpt_en": "Missing since September 2025, Ship 44 is heavily rumored to be SpaceX's hidden HLS prototype. A large barrel segment with legs in the south area hints at an incoming landing simulator.",
+        "category": "Starship",
+        "category_en": "Starship",
+        "location": "Starbase",
+        "location_en": "Starbase",
+        "date": "2026-04-17",
+        "slug": "misterio-ship-44-simulador-lunar-hls",
+        "image": "ship44_hls_mystery.png",
+        "tags": [
+            "Starship",
+            "Ship 44",
+            "HLS",
+            "Luna",
+            "Simulador"
+        ],
+        "tags_en": [
+            "Starship",
+            "Ship 44",
+            "HLS",
+            "Moon",
+            "Simulator"
+        ],
+        "rutanoticia": "/api/v1/newsspacex_content/misterio-ship-44-simulador-lunar-hls.md",
+        "featured": false,
+        "covered": false,
+        "show": true
+    },
+    {
+        "title": "Exhibición de SpaceX: Dos vuelos de Falcon 9 en un día y récord de Starlink",
+        "title_en": "SpaceX Showtime: Two Falcon 9 Flights in One Day and a Starlink Record",
+        "excerpt": "El 14 de abril, la empresa lanzó dos misiones Falcon 9 desde distintas costas, elevando la constelación de Starlink por encima de los 10.200 satélites en órbita.",
+        "excerpt_en": "On April 14, the company launched two Falcon 9 missions from different coasts, pushing the Starlink constellation past 10,200 satellites in orbit.",
+        "category": "Falcon 9",
+        "category_en": "Falcon 9",
+        "location": "Florida",
+        "location_en": "Florida",
+        "date": "2026-04-14",
+        "slug": "dos-vuelos-falcon-9-record-starlink",
+        "image": "falcon9_dual_launch.png",
+        "tags": [
+            "Falcon 9",
+            "Starlink",
+            "Lanzamientos",
+            "SpaceX",
+            "Órbita"
+        ],
+        "tags_en": [
+            "Falcon 9",
+            "Starlink",
+            "Launches",
+            "SpaceX",
+            "Orbit"
+        ],
+        "rutanoticia": "/api/v1/newsspacex_content/dos-vuelos-falcon-9-record-starlink.md",
+        "featured": false,
+        "covered": false,
+        "show": true
+    },
+    {
+        "title": "El Falcon Heavy vuelve con Viasat-3",
+        "title_en": "Falcon Heavy Returns with Viasat-3",
+        "excerpt": "Tras un año y medio inactivo, el imponente Falcon Heavy lanzará el satélite de comunicaciones Viasat-3 a una órbita geoestacionaria a fines de abril, sacrificando su núcleo central.",
+        "excerpt_en": "After eighteen months on standby, the mighty Falcon Heavy will launch the Viasat-3 communications satellite into Geostationary Transfer Orbit by late April, fully expending its center core.",
+        "category": "Falcon Heavy",
+        "category_en": "Falcon Heavy",
+        "location": "Florida",
+        "location_en": "Florida",
+        "date": "2026-04-17",
+        "slug": "falcon-heavy-regreso-viasat-3",
+        "image": "falcon_heavy_viasat3.png",
+        "tags": [
+            "Falcon Heavy",
+            "Viasat-3",
+            "Lanzamiento",
+            "Florida",
+            "SpaceX"
+        ],
+        "tags_en": [
+            "Falcon Heavy",
+            "Viasat-3",
+            "Launch",
+            "Florida",
+            "SpaceX"
+        ],
+        "rutanoticia": "/api/v1/newsspacex_content/falcon-heavy-regreso-viasat-3.md",
+        "featured": false,
+        "covered": false,
+        "show": true
+    },
+    {
+        "title": "Artemis 2 regresa con éxito a la Tierra incrementando la presión en el programa lunar",
+        "title_en": "Artemis 2 Splashes Down Successfully, Raising Stakes for the Lunar Program",
+        "excerpt": "La cápsula Orion cayó al Pacífico el 10 de abril tras su periplo lunar. El tremendo éxito de la misión coloca la atención sobre las demoras del módulo de aterrizaje HLS de SpaceX.",
+        "excerpt_en": "The Orion capsule splashed into the Pacific on April 10 following a perfect lunar flyby. The mission's success immediately shifts focus to delays surrounding SpaceX's HLS lunar lander.",
+        "category": "Otros",
+        "category_en": "Others",
+        "location": "Otros",
+        "location_en": "Others",
+        "date": "2026-04-10",
+        "slug": "artemis-2-regreso-exitoso-tierra",
+        "image": "artemis2_splashdown.png",
+        "tags": [
+            "Artemis 2",
+            "NASA",
+            "Orion",
+            "Luna",
+            "HLS"
+        ],
+        "tags_en": [
+            "Artemis 2",
+            "NASA",
+            "Orion",
+            "Moon",
+            "HLS"
+        ],
+        "rutanoticia": "/api/v1/newsspacex_content/artemis-2-regreso-exitoso-tierra.md",
+        "featured": false,
+        "covered": false,
+        "show": true
+    },
+    {
+        "title": "New Glenn de Blue Origin prepara su tercer lanzamiento intentando recuperar el booster",
+        "title_en": "Blue Origin's New Glenn Preps Third Launch to Attempt Booster Recovery",
+        "excerpt": "El vuelo NG-3 está planeado para el 19 de abril. Blue Origin intentará capturar su primer propulsor orbital, bautizado 'Never Tell Me The Odds', y acortar diferencias en la carrera por la reutilización.",
+        "excerpt_en": "Targeting April 19, the NG-3 flight aims to be a milestone for Blue Origin as they attempt to recover a first-stage orbital booster named 'Never Tell Me The Odds'.",
+        "category": "Otros",
+        "category_en": "Others",
+        "location": "Florida",
+        "location_en": "Florida",
+        "date": "2026-04-17",
+        "slug": "new-glenn-lanzamiento-recuperacion-booster",
+        "image": "new_glenn_ng3.png",
+        "tags": [
+            "Blue Origin",
+            "New Glenn",
+            "Reutilización",
+            "Florida",
+            "Espacio"
+        ],
+        "tags_en": [
+            "Blue Origin",
+            "New Glenn",
+            "Reusability",
+            "Florida",
+            "Space"
+        ],
+        "rutanoticia": "/api/v1/newsspacex_content/new-glenn-lanzamiento-recuperacion-booster.md",
+        "featured": false,
+        "covered": false,
+        "show": true
+    }
+]

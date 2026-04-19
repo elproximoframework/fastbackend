@@ -12,7 +12,7 @@
     "description_en": "Roscosmos is the state corporation of the Russian Federation responsible for space flights, cosmonautics programs, and aerospace research. It manages launchers such as the Soyuz family and the Angara series, and is a key partner in the International Space Station.",
     "founded": 1992,
     "ceo": "Dmitry Bakanov",
-    "sector": "agencies",
+    "sector": "regulatory_body",
     "tags": ["Soyuz", "ISS", "Angara", "GLONASS", "Russia"],
     "socialLinks": {
       "twitter": "https://twitter.com/roscosmos",
@@ -97,7 +97,7 @@
     "description_en": "ESA is Europe's gateway to space. Its mission is to shape the development of Europe's space capability and ensure that investment in space continues to deliver benefits to the citizens of Europe and the world. It manages Ariane and Vega rockets.",
     "founded": 1975,
     "ceo": "Josef Aschbacher",
-    "sector": "agencies",
+    "sector": "regulatory_body",
     "tags": ["Ariane", "Vega", "Copernicus", "Galileo", "Europe", "Science"],
     "socialLinks": {
       "twitter": "https://twitter.com/esa",

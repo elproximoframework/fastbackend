@@ -35,6 +35,8 @@ class CompanyBase(BaseModel):
     slug: Optional[str] = None
     rutainformacion: Optional[str] = None
     featured_espacio: bool = False
+    validated: bool = False
+    company_validated: bool = False
     show: bool = True
 
 class CompanyCreate(CompanyBase):
@@ -281,3 +283,53 @@ class StatsResponse(BaseModel):
     launches_count: int
     satellites_count: int
     spacex_inventory_count: int
+
+
+# ---- Media Hub Schemas ----
+
+class MediaSourceBase(BaseModel):
+    slug: str
+    category: str
+    subcategory: Optional[str] = None
+    language: str = "en"
+    country: Optional[str] = None
+    country_name: Optional[str] = None
+    name: str
+    description: Optional[str] = None
+    description_en: Optional[str] = None
+    tagline: Optional[str] = None
+    tagline_en: Optional[str] = None
+    rating: int = 3
+    recommended: bool = False
+    difficulty: str = "general"
+    website: Optional[str] = None
+    youtube_url: Optional[str] = None
+    youtube_handle: Optional[str] = None
+    twitter_url: Optional[str] = None
+    instagram_url: Optional[str] = None
+    linkedin_url: Optional[str] = None
+    spotify_url: Optional[str] = None
+    apple_podcasts_url: Optional[str] = None
+    rss_feed_url: Optional[str] = None
+    newsletter_url: Optional[str] = None
+    content_format: Optional[List[str]] = []
+    topics: Optional[List[str]] = []
+    is_free: bool = True
+    paywall: bool = False
+    featured: bool = False
+    show: bool = True
+
+class MediaSourceCreate(MediaSourceBase):
+    pass
+
+class MediaSourceResponse(MediaSourceBase):
+    id: int
+    created_at: Optional[datetime] = None
+    updated_at: Optional[datetime] = None
+
+    class Config:
+        from_attributes = True
+
+class CategoryCount(BaseModel):
+    category: str
+    count: int

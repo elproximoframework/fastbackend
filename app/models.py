@@ -31,6 +31,8 @@ class Company(Base):
     slug = Column(String, index=True, unique=True)
     rutainformacion = Column(String, nullable=True)
     featured_espacio = Column(Boolean, default=False)
+    validated = Column(Boolean, default=False)
+    company_validated = Column(Boolean, default=False)
     show = Column(Boolean, default=True)
 
     rockets = relationship("Rocket", back_populates="manufacturer")
@@ -274,3 +276,54 @@ class RefreshToken(Base):
     revoked = Column(Boolean, default=False)
 
     user = relationship("User", back_populates="refresh_tokens")
+
+
+class MediaSource(Base):
+    __tablename__ = "media_sources"
+
+    # === Identificación ===
+    id = Column(Integer, primary_key=True, index=True)
+    slug = Column(String, unique=True, index=True, nullable=False)
+
+    # === Clasificación ===
+    category = Column(String, index=True, nullable=False) # 'portal', 'youtube', 'revista', 'podcast', etc.
+    subcategory = Column(String)                          # 'divulgacion', 'industria', 'tecnico', etc.
+    language = Column(String, index=True, default='en')   # 'es', 'en', 'multi'
+    country = Column(String, index=True)                  # 'US', 'ES', etc.
+    country_name = Column(String)
+
+    # === Información Principal ===
+    name = Column(String, nullable=False)
+    description = Column(String)                         # TEXT
+    description_en = Column(String)                      # TEXT
+    tagline = Column(String)
+    tagline_en = Column(String)
+
+    # === Calificación ===
+    rating = Column(Integer, default=3)                  # SMALLINT (1-5 estrellas)
+    recommended = Column(Boolean, default=False)
+    difficulty = Column(String, default='general')        # 'general', 'intermedio', 'avanzado', 'experto'
+
+    # === Links ===
+    website = Column(String)
+    youtube_url = Column(String)
+    youtube_handle = Column(String)
+    twitter_url = Column(String)
+    instagram_url = Column(String)
+    linkedin_url = Column(String)
+    spotify_url = Column(String)
+    apple_podcasts_url = Column(String)
+    rss_feed_url = Column(String)
+    newsletter_url = Column(String)
+
+    # === Metadatos de contenido ===
+    content_format = Column(JSON)                        # List of strings
+    topics = Column(JSON)                                # List of strings
+    is_free = Column(Boolean, default=True)
+    paywall = Column(Boolean, default=False)
+
+    # === Control ===
+    featured = Column(Boolean, index=True, default=False)
+    show = Column(Boolean, default=True)
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    updated_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))

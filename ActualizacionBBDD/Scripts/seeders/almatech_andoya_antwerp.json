@@ -39,7 +39,7 @@
     "description_en": "Andøya Space is a Norwegian space center operating Europe's first continental spaceport for small satellite launches, while also providing atmospheric research services and defense testing.",
     "founded": 1962,
     "ceo": "Ketil Olsen",
-    "sector": "spaceport",
+    "sector": "launch_site",
     "tags": ["Spaceport", "Norway", "Sounding Rockets", "Satellite Launch", "Defense Testing"],
     "socialLinks": {
       "linkedin": "https://www.linkedin.com/company/andoyaspace/",
