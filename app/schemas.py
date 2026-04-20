@@ -115,7 +115,9 @@ class SatelliteResponse(SatelliteBase):
 
 class LaunchBase(BaseModel):
     name: str
+    name_mission: Optional[str] = None
     api_id: Optional[str] = None
+
     rocket_id: Optional[int] = None
     provider_id: Optional[int] = None
     net: Optional[datetime] = None

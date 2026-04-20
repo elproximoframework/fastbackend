@@ -96,6 +96,8 @@ class Launch(Base):
     id = Column(Integer, primary_key=True, index=True)
     api_id = Column(String, unique=True, index=True) # ID from Space Devs API
     name = Column(String, index=True, nullable=False)
+    name_mission = Column(String, nullable=True)  # Nombre de la misión (parte derecha del '|')
+
     rocket_id = Column(Integer, ForeignKey("rockets.id"))
     provider_id = Column(Integer, ForeignKey("companies.id"))
     net = Column(DateTime(timezone=True)) # Next Estimated Time (TIMESTAMP WITH TIME ZONE)

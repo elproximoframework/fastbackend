@@ -80,8 +80,17 @@ def sync_to_db(db_url, data, label="DB"):
         comp_map, rock_map = get_mappings(cur)
         
         for l in data:
-            api_id = str(l.get("id"))
-            name = str(l.get("name"))
+            api_id   = str(l.get("id"))
+            raw_name  = str(l.get("name") or "")
+
+            # Separar nombre del cohete y nombre de la mision
+            if "|" in raw_name:
+                parts        = raw_name.split("|", 1)
+                name         = parts[0].strip()
+                name_mission = parts[1].strip()
+            else:
+                name         = raw_name.strip()
+                name_mission = None
             
             # LSP / Provider
             lsp = l.get("launch_service_provider") or {}
@@ -130,21 +139,23 @@ def sync_to_db(db_url, data, label="DB"):
             webcast_live = l.get("webcast_live", False)
             
             params = (
-                api_id, name, rocket_id, provider_id, net_dt, status_name,
+                api_id, name, name_mission, rocket_id, provider_id, net_dt, status_name,
                 m_desc, m_type, orbit_name, pad_name, loc_name, celestial,
                 image_url, json.dumps(vid_urls), json.dumps(info_urls), webcast_live
             )
             
             query = """
                 INSERT INTO launches (
-                    api_id, name, rocket_id, provider_id, net, status, 
+                    api_id, name, name_mission, rocket_id, provider_id, net, status, 
                     mission_description, mission_type, orbit_name, 
                     pad_name, pad_location, celestial_body, 
                     image, vid_urls, info_urls, webcast_live
                 ) VALUES (
-                    %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+                    %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
                 )
                 ON CONFLICT (api_id) DO UPDATE SET
+                    name = EXCLUDED.name,
+                    name_mission = EXCLUDED.name_mission,
                     status = EXCLUDED.status,
                     net = EXCLUDED.net,
                     image = EXCLUDED.image,
