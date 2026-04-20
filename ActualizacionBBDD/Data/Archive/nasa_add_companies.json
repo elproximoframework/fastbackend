@@ -1,0 +1,28 @@
+[
+  {
+    "name": "NASA",
+    "description": "La Administración Nacional de Aeronáutica y del Espacio es una agencia independiente del gobierno federal de los Estados Unidos responsable del programa espacial civil, la investigación aeronáutica y la investigación espacial.",
+    "description_en": "The National Aeronautics and Space Administration is an independent agency of the U.S. federal government responsible for the civil space program, aeronautics research, and space research.",
+    "country": "US",
+    "countryName": "United States",
+    "city": "Washington, D.C.",
+    "founded": 1958,
+    "website": "https://www.nasa.gov",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
+    "type": "agency",
+    "slug": "nasa"
+  },
+  {
+    "name": "Agency for Defense Development (ADD)",
+    "description": "La Agencia para el Desarrollo de la Defensa es la agencia nacional de Corea del Sur responsable de la investigación y el desarrollo de tecnología de defensa.",
+    "description_en": "The Agency for Defense Development is the South Korean national agency for research and development in defense technology, funded by the Defense Acquisition Program Administration.",
+    "country": "KR",
+    "countryName": "South Korea",
+    "city": "Daejeon",
+    "founded": 1970,
+    "website": "https://www.add.re.kr",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_of_ADD.svg/1200px-Logo_of_ADD.svg.png",
+    "type": "agency",
+    "slug": "add-korea"
+  }
+]

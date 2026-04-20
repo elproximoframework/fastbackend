@@ -1,0 +1,17 @@
+{
+  "name": "Indian Space Research Organisation",
+  "type": "agency",
+  "country": "in",
+  "countryName": "India",
+  "city": "Bengaluru",
+  "website": "https://www.isro.gov.in",
+  "description": "La organización espacial nacional de la India, encargada de la investigación espacial y el desarrollo tecnológico para aplicaciones nacionales y exploración.",
+  "description_en": "The national space agency of India, responsible for space research and technological development for national applications and exploration.",
+  "founded": 1969,
+  "ceo": "S. Somanath",
+  "sector": "Space Agency",
+  "tags": ["Space Agency", "India", "Launch Provider", "Satellite Operator"],
+  "validated": true,
+  "company_validated": true,
+  "show": true
+}

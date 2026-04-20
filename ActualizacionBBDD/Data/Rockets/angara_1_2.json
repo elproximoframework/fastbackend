@@ -1,0 +1,20 @@
+{
+  "name": "Angara 1.2",
+  "manufacturer_id": 26,
+  "country": "ru",
+  "height": 41.5,
+  "diameter": 2.9,
+  "stages": 2,
+  "fuel": "LOX / RP-1",
+  "leoCapacity": 3700.0,
+  "gtoCapacity": 0.0,
+  "firstFlight": "2014-07-09",
+  "totalLaunches": 3,
+  "successRate": 100.0,
+  "status": "active",
+  "image": "/api/v1/rocket_images/angara-1-2.png",
+  "description": "El Angara 1.2 es un cohete de lanzamiento ligero ruso, parte de la familia de cohetes Angara. Utiliza motores ecológicos basados en oxígeno líquido y queroseno. Está diseñado para poner en órbita satélites pequeños y medianos de forma fiable.",
+  "description_en": "Angara 1.2 is a Russian light-lift launch vehicle, part of the Angara rocket family. It utilizes environmentally friendly liquid oxygen and kerosene propellants. It is designed to place small to medium satellites into orbit reliably.",
+  "costPerLaunch": 31.0,
+  "reusable": false
+}

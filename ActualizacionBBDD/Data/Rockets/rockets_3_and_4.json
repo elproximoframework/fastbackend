@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ariane 64 Block 2",
+    "manufacturer_id": 13,
+    "country": "eu",
+    "height": 63.0,
+    "diameter": 5.4,
+    "stages": 2,
+    "fuel": "LOX / LH2 (Hydrolox) + P120C+ Boosters",
+    "leoCapacity": 23000.0,
+    "gtoCapacity": 12000.0,
+    "firstFlight": "2026-06-01",
+    "totalLaunches": 0,
+    "successRate": 0.0,
+    "status": "development",
+    "image": "/api/v1/rocket_images/default-rocket.png",
+    "description": "Una evolución del Ariane 64 que incorpora los nuevos propulsores P120C+ y mejoras en la etapa superior Vinci, aumentando significativamente su capacidad de carga.",
+    "description_en": "An evolution of the Ariane 64 incorporating the new P120C+ boosters and Vinci upper stage improvements, significantly increasing its payload capacity.",
+    "costPerLaunch": 90.0,
+    "reusable": false
+  },
+  {
+    "name": "Atlas V 551",
+    "manufacturer_id": 27,
+    "country": "us",
+    "height": 58.3,
+    "diameter": 3.81,
+    "stages": 2,
+    "fuel": "RP-1 / LOX (1st), LH2 / LOX (2nd)",
+    "leoCapacity": 18810.0,
+    "gtoCapacity": 8900.0,
+    "firstFlight": "2006-01-19",
+    "totalLaunches": 100,
+    "successRate": 100.0,
+    "status": "active",
+    "image": "/api/v1/rocket_images/default-rocket.png",
+    "description": "La configuración más potente del Atlas V de ULA, con cinco motores de combustible sólido. Conocido por su fiabilidad extrema, ha lanzado misiones como New Horizons y Juno.",
+    "description_en": "The most powerful configuration of ULA's Atlas V, featuring five solid rocket boosters. Renowned for its extreme reliability, it has launched missions such as New Horizons and Juno.",
+    "costPerLaunch": 153.0,
+    "reusable": false
+  }
+]

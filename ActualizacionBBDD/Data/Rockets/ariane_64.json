@@ -1,0 +1,20 @@
+{
+  "name": "Ariane 64",
+  "manufacturer_id": 13,
+  "country": "eu",
+  "height": 62.0,
+  "diameter": 5.4,
+  "stages": 2,
+  "fuel": "LOX / LH2 (Hydrolox)",
+  "leoCapacity": 21600.0,
+  "gtoCapacity": 11500.0,
+  "firstFlight": "2026-02-12",
+  "totalLaunches": 1,
+  "successRate": 100.0,
+  "status": "active",
+  "image": "/api/v1/rocket_images/ariane-64.png",
+  "description": "La configuración más potente del Ariane 6, equipada con cuatro propulsores P120C. Este cohete de carga pesada es el pilar de la autonomía espacial europea, diseñado para misiones comerciales e institucionales complejas.",
+  "description_en": "The most powerful configuration of Ariane 6, featuring four P120C boosters. This heavy-lift vehicle is the cornerstone of European space autonomy, designed for complex commercial and institutional missions.",
+  "costPerLaunch": 85.0,
+  "reusable": false
+}

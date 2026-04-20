@@ -20,17 +20,18 @@ def upsert_rocket(cur, rocket):
         print("[!] Skipping record: 'name' field is missing.")
         return
 
-    # In this version, we take the JSON keys directly and treat them as column names.
-    # This allows the script to be flexible as long as the JSON matches the DB schema.
-    # We exclude 'name' from the data dict because it's used in the WHERE clause.
+    # Exclude name and id from the data dict
     data = {k: v for k, v in rocket.items() if k != 'name' and k != 'id'}
-    
-    # Automatic JSON serialization for known list/dict fields (none currently for rockets, but keeping for future)
-    # Based on the schema: keyPrograms, etc. (actually rockets doesn't have JSON fields yet based on instructions_cohetes.md)
-    json_candidates = []
-    for field in json_candidates:
-        if field in data and (isinstance(data[field], (dict, list))):
-            data[field] = Json(data[field])
+
+    # Resolve manufacturer_id from manufacturer_slug if manufacturer_id is missing but slug is present
+    if 'manufacturer_id' not in data and 'manufacturer_slug' in data:
+        slug = data.pop('manufacturer_slug')
+        cur.execute("SELECT id FROM companies WHERE slug = %s", (slug,))
+        row = cur.fetchone()
+        if row:
+            data['manufacturer_id'] = row[0]
+        else:
+            print(f"[!] Warning: Company slug '{slug}' not found for rocket '{name}'.")
 
     cols = list(data.keys())
     vals = [data[k] for k in cols]
@@ -47,7 +48,7 @@ def upsert_rocket(cur, rocket):
                 sql.SQL(', ').join(set_clauses)
             )
             cur.execute(query, vals + [name])
-            print(f"[✓] Updated: {name}")
+            print(f"[OK] Updated: {name}")
         else:
             # INSERT: Use sql.Identifier for column names.
             query = sql.SQL("INSERT INTO rockets ({}, name) VALUES ({}, %s)").format(
@@ -55,7 +56,7 @@ def upsert_rocket(cur, rocket):
                 sql.SQL(', ').join([sql.Placeholder()] * len(vals))
             )
             cur.execute(query, vals + [name])
-            print(f"[✓] Inserted: {name}")
+            print(f"[OK] Inserted: {name}")
             
     except Exception as e:
         print(f"[!] Error processing {name}: {e}")
