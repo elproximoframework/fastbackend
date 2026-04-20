@@ -329,3 +329,20 @@ class MediaSource(Base):
     show = Column(Boolean, default=True)
     created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
     updated_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))
+
+
+class Training(Base):
+    __tablename__ = "training"
+
+    id = Column(Integer, primary_key=True, index=True)
+    slug = Column(String, unique=True, index=True, nullable=False)
+    name = Column(String, nullable=False)
+    name_en = Column(String)
+    type = Column(String) # grade, master, phd, university
+    name_file = Column(String) # markdown path/filename
+    description = Column(String)
+    description_en = Column(String)
+    link = Column(String) # website link (mainly for universities)
+    show = Column(Boolean, default=True)
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    updated_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))

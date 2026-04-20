@@ -335,3 +335,27 @@ class MediaSourceResponse(MediaSourceBase):
 class CategoryCount(BaseModel):
     category: str
     count: int
+
+# ---- Training Schemas ----
+
+class TrainingBase(BaseModel):
+    slug: str
+    name: str
+    name_en: Optional[str] = None
+    type: str # grade, master, phd, university
+    name_file: Optional[str] = None
+    description: Optional[str] = None
+    description_en: Optional[str] = None
+    link: Optional[str] = None
+    show: bool = True
+
+class TrainingCreate(TrainingBase):
+    pass
+
+class TrainingResponse(TrainingBase):
+    id: int
+    created_at: Optional[datetime] = None
+    updated_at: Optional[datetime] = None
+
+    class Config:
+        from_attributes = True
