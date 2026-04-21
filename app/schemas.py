@@ -370,6 +370,7 @@ class YouTubeVideoBase(BaseModel):
     description: Optional[str] = None
     description_en: Optional[str] = None
     date: Optional[str] = None
+    own: bool = False
     show: bool = True
 
 class YouTubeVideoCreate(YouTubeVideoBase):

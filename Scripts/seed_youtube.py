@@ -9,9 +9,9 @@ def seed():
         cur = conn.cursor()
         
         videos = [
-            ("Starship IFT-3 Flight", "https://www.youtube.com/watch?v=1pE6Vl95r0A", "Lanzamientos", "Increíble vuelo de Starship", "Amazing Starship flight", "2024-03-14"),
-            ("Falcon 9 Landing", "https://www.youtube.com/watch?v=Z4TXNE5L1zs", "Tecnología", "Aterrizaje perfecto", "Perfect landing", "2023-12-23"),
-            ("James Webb Discovery", "https://www.youtube.com/watch?v=nmMRMvKeb_h", "Descubrimiento", "Nuevas imágenes del universo", "New images of the universe", "2024-01-10"),
+            ("Starship IFT-3 Flight", "https://www.youtube.com/watch?v=1pE6Vl95r0A", "launches_starship", "Increíble vuelo de Starship", "Amazing Starship flight", "2024-03-14"),
+            ("Falcon 9 Landing", "https://www.youtube.com/watch?v=Z4TXNE5L1zs", "channel_spacex", "Aterrizaje perfecto", "Perfect landing", "2023-12-23"),
+            ("James Webb Discovery", "https://www.youtube.com/watch?v=nmMRMvKeb_h", "other", "Nuevas imágenes del universo", "New images of the universe", "2024-01-10"),
         ]
         
         for v in videos:

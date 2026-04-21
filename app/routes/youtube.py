@@ -13,6 +13,7 @@ router = APIRouter(
 def get_youtube_videos(
     request: Request,
     type: Optional[str] = Query(None, description="Filter by video type"),
+    own: Optional[bool] = Query(None, description="Filter by own content"),
     skip: int = 0,
     limit: int = 100,
     db: Session = Depends(get_db)
@@ -21,6 +22,9 @@ def get_youtube_videos(
     
     if type:
         query = query.filter(models.YouTubeVideo.type == type)
+    
+    if own is not None:
+        query = query.filter(models.YouTubeVideo.own == own)
     
     videos = query.order_by(models.YouTubeVideo.date.desc()).offset(skip).limit(limit).all()
     return videos

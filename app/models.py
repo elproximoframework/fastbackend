@@ -359,6 +359,7 @@ class YouTubeVideo(Base):
     description = Column(String)
     description_en = Column(String)
     date = Column(String)
+    own = Column(Boolean, default=False)
     show = Column(Boolean, default=True)
 
 
