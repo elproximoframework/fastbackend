@@ -34,6 +34,7 @@ class Company(Base):
     validated = Column(Boolean, default=False)
     company_validated = Column(Boolean, default=False)
     show = Column(Boolean, default=True)
+    comentario = Column(String, nullable=True) # Team internal comments
 
     rockets = relationship("Rocket", back_populates="manufacturer")
     satellites = relationship("Satellite", back_populates="operator")

@@ -38,6 +38,7 @@ class CompanyBase(BaseModel):
     validated: bool = False
     company_validated: bool = False
     show: bool = True
+    comentario: Optional[str] = None
 
 class CompanyCreate(CompanyBase):
     pass

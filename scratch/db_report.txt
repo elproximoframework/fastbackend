@@ -1,0 +1,291 @@
+
+--- TABLE: app_settings ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: key                  Type: VARCHAR              Nullable: False
+  Column: value                Type: VARCHAR              Nullable: False
+  Column: type                 Type: VARCHAR              Nullable: True
+  Column: description          Type: VARCHAR              Nullable: True
+  Primary Key: ['id']
+
+--- TABLE: news ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: title                Type: VARCHAR              Nullable: False
+  Column: title_en             Type: VARCHAR              Nullable: True
+  Column: excerpt              Type: TEXT                 Nullable: True
+  Column: excerpt_en           Type: TEXT                 Nullable: True
+  Column: category             Type: VARCHAR              Nullable: True
+  Column: category_en          Type: VARCHAR              Nullable: True
+  Column: location             Type: VARCHAR              Nullable: True
+  Column: location_en          Type: VARCHAR              Nullable: True
+  Column: covered              Type: BOOLEAN              Nullable: True
+  Column: date                 Type: VARCHAR              Nullable: True
+  Column: image                Type: VARCHAR              Nullable: True
+  Column: slug                 Type: VARCHAR              Nullable: True
+  Column: tags                 Type: JSONB                Nullable: True
+  Column: tags_en              Type: JSONB                Nullable: True
+  Column: featured             Type: BOOLEAN              Nullable: True
+  Column: linkyoutube          Type: VARCHAR              Nullable: True
+  Column: rutanoticia          Type: VARCHAR              Nullable: True
+  Column: timestart            Type: INTEGER              Nullable: True
+  Column: show                 Type: BOOLEAN              Nullable: True
+  Primary Key: ['id']
+
+--- TABLE: satellites ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: name                 Type: VARCHAR              Nullable: False
+  Column: noradId              Type: VARCHAR              Nullable: True
+  Column: operator_id          Type: INTEGER              Nullable: True
+  Column: purpose              Type: VARCHAR              Nullable: True
+  Column: launchDate           Type: DATE                 Nullable: True
+  Column: orbitType            Type: VARCHAR              Nullable: True
+  Column: altitude             Type: DOUBLE PRECISION     Nullable: True
+  Column: inclination          Type: DOUBLE PRECISION     Nullable: True
+  Column: description          Type: TEXT                 Nullable: True
+  Column: image                Type: VARCHAR              Nullable: True
+  Column: isFeatured           Type: BOOLEAN              Nullable: True
+  Column: funFact              Type: TEXT                 Nullable: True
+  Column: description_en       Type: TEXT                 Nullable: True
+  Column: funFact_en           Type: TEXT                 Nullable: True
+  Column: show                 Type: BOOLEAN              Nullable: True
+  Primary Key: ['id']
+  Foreign Key: ['operator_id'] -> companies.['id']
+
+--- TABLE: refresh_tokens ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: user_id              Type: INTEGER              Nullable: True
+  Column: token                Type: VARCHAR(500)         Nullable: False
+  Column: expires_at           Type: TIMESTAMP            Nullable: False
+  Column: created_at           Type: TIMESTAMP            Nullable: True
+  Column: revoked              Type: BOOLEAN              Nullable: True
+  Primary Key: ['id']
+  Foreign Key: ['user_id'] -> users.['id']
+
+--- TABLE: media_sources ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: slug                 Type: VARCHAR              Nullable: False
+  Column: category             Type: VARCHAR              Nullable: False
+  Column: subcategory          Type: VARCHAR              Nullable: True
+  Column: language             Type: VARCHAR              Nullable: True
+  Column: country              Type: VARCHAR              Nullable: True
+  Column: country_name         Type: VARCHAR              Nullable: True
+  Column: name                 Type: VARCHAR              Nullable: False
+  Column: description          Type: VARCHAR              Nullable: True
+  Column: description_en       Type: VARCHAR              Nullable: True
+  Column: tagline              Type: VARCHAR              Nullable: True
+  Column: tagline_en           Type: VARCHAR              Nullable: True
+  Column: rating               Type: INTEGER              Nullable: True
+  Column: recommended          Type: BOOLEAN              Nullable: True
+  Column: difficulty           Type: VARCHAR              Nullable: True
+  Column: website              Type: VARCHAR              Nullable: True
+  Column: youtube_url          Type: VARCHAR              Nullable: True
+  Column: youtube_handle       Type: VARCHAR              Nullable: True
+  Column: twitter_url          Type: VARCHAR              Nullable: True
+  Column: instagram_url        Type: VARCHAR              Nullable: True
+  Column: linkedin_url         Type: VARCHAR              Nullable: True
+  Column: spotify_url          Type: VARCHAR              Nullable: True
+  Column: apple_podcasts_url   Type: VARCHAR              Nullable: True
+  Column: rss_feed_url         Type: VARCHAR              Nullable: True
+  Column: newsletter_url       Type: VARCHAR              Nullable: True
+  Column: content_format       Type: JSON                 Nullable: True
+  Column: topics               Type: JSON                 Nullable: True
+  Column: is_free              Type: BOOLEAN              Nullable: True
+  Column: paywall              Type: BOOLEAN              Nullable: True
+  Column: featured             Type: BOOLEAN              Nullable: True
+  Column: show                 Type: BOOLEAN              Nullable: True
+  Column: created_at           Type: TIMESTAMP            Nullable: True
+  Column: updated_at           Type: TIMESTAMP            Nullable: True
+  Primary Key: ['id']
+
+--- TABLE: launches ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: name                 Type: VARCHAR              Nullable: False
+  Column: rocket_id            Type: INTEGER              Nullable: True
+  Column: provider_id          Type: INTEGER              Nullable: True
+  Column: net                  Type: TIMESTAMP            Nullable: True
+  Column: status               Type: VARCHAR              Nullable: True
+  Column: mission_description  Type: TEXT                 Nullable: True
+  Column: mission_type         Type: VARCHAR              Nullable: True
+  Column: orbit_name           Type: VARCHAR              Nullable: True
+  Column: pad_name             Type: VARCHAR              Nullable: True
+  Column: pad_location         Type: VARCHAR              Nullable: True
+  Column: webcast_live         Type: BOOLEAN              Nullable: True
+  Column: image                Type: VARCHAR              Nullable: True
+  Column: api_id               Type: VARCHAR              Nullable: True
+  Column: celestial_body       Type: VARCHAR              Nullable: True
+  Column: vid_urls             Type: JSON                 Nullable: True
+  Column: info_urls            Type: JSON                 Nullable: True
+  Column: show                 Type: BOOLEAN              Nullable: True
+  Column: name_mission         Type: TEXT                 Nullable: True
+  Primary Key: ['id']
+  Foreign Key: ['provider_id'] -> companies.['id']
+  Foreign Key: ['rocket_id'] -> rockets.['id']
+
+--- TABLE: newsspacex ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: title                Type: VARCHAR              Nullable: False
+  Column: title_en             Type: VARCHAR              Nullable: True
+  Column: excerpt              Type: VARCHAR              Nullable: True
+  Column: excerpt_en           Type: VARCHAR              Nullable: True
+  Column: category             Type: VARCHAR              Nullable: True
+  Column: category_en          Type: VARCHAR              Nullable: True
+  Column: location             Type: VARCHAR              Nullable: True
+  Column: location_en          Type: VARCHAR              Nullable: True
+  Column: covered              Type: BOOLEAN              Nullable: True
+  Column: date                 Type: VARCHAR              Nullable: True
+  Column: image                Type: VARCHAR              Nullable: True
+  Column: slug                 Type: VARCHAR              Nullable: True
+  Column: tags                 Type: JSON                 Nullable: True
+  Column: tags_en              Type: JSON                 Nullable: True
+  Column: featured             Type: BOOLEAN              Nullable: True
+  Column: linkyoutube          Type: VARCHAR              Nullable: True
+  Column: rutanoticia          Type: VARCHAR              Nullable: True
+  Column: timestart            Type: INTEGER              Nullable: True
+  Column: show                 Type: BOOLEAN              Nullable: True
+  Primary Key: ['id']
+
+--- TABLE: rockets ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: name                 Type: VARCHAR              Nullable: False
+  Column: manufacturer_id      Type: INTEGER              Nullable: True
+  Column: country              Type: VARCHAR              Nullable: True
+  Column: height               Type: DOUBLE PRECISION     Nullable: True
+  Column: diameter             Type: DOUBLE PRECISION     Nullable: True
+  Column: stages               Type: INTEGER              Nullable: True
+  Column: fuel                 Type: VARCHAR              Nullable: True
+  Column: leoCapacity          Type: DOUBLE PRECISION     Nullable: True
+  Column: gtoCapacity          Type: DOUBLE PRECISION     Nullable: True
+  Column: firstFlight          Type: DATE                 Nullable: True
+  Column: totalLaunches        Type: INTEGER              Nullable: True
+  Column: successRate          Type: DOUBLE PRECISION     Nullable: True
+  Column: status               Type: VARCHAR              Nullable: True
+  Column: image                Type: VARCHAR              Nullable: True
+  Column: description          Type: TEXT                 Nullable: True
+  Column: costPerLaunch        Type: DOUBLE PRECISION     Nullable: True
+  Column: reusable             Type: BOOLEAN              Nullable: True
+  Column: description_en       Type: TEXT                 Nullable: True
+  Primary Key: ['id']
+  Foreign Key: ['manufacturer_id'] -> companies.['id']
+
+--- TABLE: spacex_inventory ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: title                Type: VARCHAR              Nullable: False
+  Column: title_en             Type: VARCHAR              Nullable: True
+  Column: excerpt              Type: VARCHAR              Nullable: True
+  Column: excerpt_en           Type: VARCHAR              Nullable: True
+  Column: category             Type: VARCHAR              Nullable: True
+  Column: category_en          Type: VARCHAR              Nullable: True
+  Column: location             Type: VARCHAR              Nullable: True
+  Column: location_en          Type: VARCHAR              Nullable: True
+  Column: version              Type: VARCHAR              Nullable: True
+  Column: datestartfabrication Type: VARCHAR              Nullable: True
+  Column: datesfinishfabrication Type: VARCHAR              Nullable: True
+  Column: state                Type: VARCHAR              Nullable: True
+  Column: state_en             Type: VARCHAR              Nullable: True
+  Column: datelaunch           Type: VARCHAR              Nullable: True
+  Column: resultlaunch         Type: VARCHAR              Nullable: True
+  Column: resultlaunch_en      Type: VARCHAR              Nullable: True
+  Column: covered              Type: BOOLEAN              Nullable: True
+  Column: date                 Type: VARCHAR              Nullable: True
+  Column: image                Type: VARCHAR              Nullable: True
+  Column: slug                 Type: VARCHAR              Nullable: True
+  Column: tags                 Type: JSON                 Nullable: True
+  Column: tags_en              Type: JSON                 Nullable: True
+  Column: featured             Type: BOOLEAN              Nullable: True
+  Column: linkyoutube          Type: VARCHAR              Nullable: True
+  Column: rutainformacion      Type: VARCHAR              Nullable: True
+  Column: timestart            Type: VARCHAR(255)         Nullable: True
+  Column: show                 Type: BOOLEAN              Nullable: True
+  Column: serial_number        Type: VARCHAR              Nullable: True
+  Column: block                Type: VARCHAR              Nullable: True
+  Column: specs                Type: JSONB                Nullable: True
+  Column: flight_data          Type: JSONB                Nullable: True
+  Column: milestones           Type: JSONB                Nullable: True
+  Primary Key: ['id']
+
+--- TABLE: users ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: email                Type: VARCHAR              Nullable: False
+  Column: name                 Type: VARCHAR              Nullable: True
+  Column: avatar_url           Type: VARCHAR              Nullable: True
+  Column: role                 Type: VARCHAR              Nullable: True
+  Column: subscription_status  Type: VARCHAR              Nullable: True
+  Column: subscription_expires_at Type: TIMESTAMP            Nullable: True
+  Column: subscription_plan    Type: VARCHAR              Nullable: True
+  Column: auth_provider        Type: VARCHAR              Nullable: True
+  Column: google_id            Type: VARCHAR              Nullable: True
+  Column: hashed_password      Type: VARCHAR              Nullable: True
+  Column: is_active            Type: BOOLEAN              Nullable: True
+  Column: is_verified          Type: BOOLEAN              Nullable: True
+  Column: created_at           Type: TIMESTAMP            Nullable: True
+  Column: updated_at           Type: TIMESTAMP            Nullable: True
+  Column: last_login_at        Type: TIMESTAMP            Nullable: True
+  Primary Key: ['id']
+
+--- TABLE: magic_link_tokens ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: user_id              Type: INTEGER              Nullable: True
+  Column: token                Type: VARCHAR              Nullable: False
+  Column: email                Type: VARCHAR              Nullable: False
+  Column: purpose              Type: VARCHAR              Nullable: True
+  Column: used                 Type: BOOLEAN              Nullable: True
+  Column: expires_at           Type: TIMESTAMP            Nullable: False
+  Column: created_at           Type: TIMESTAMP            Nullable: True
+  Primary Key: ['id']
+  Foreign Key: ['user_id'] -> users.['id']
+
+--- TABLE: companies ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: name                 Type: VARCHAR              Nullable: False
+  Column: type                 Type: VARCHAR              Nullable: True
+  Column: country              Type: VARCHAR              Nullable: True
+  Column: countryName          Type: VARCHAR              Nullable: True
+  Column: city                 Type: VARCHAR              Nullable: True
+  Column: coordinates          Type: JSON                 Nullable: True
+  Column: employees            Type: INTEGER              Nullable: True
+  Column: website              Type: VARCHAR              Nullable: True
+  Column: description          Type: TEXT                 Nullable: True
+  Column: founded              Type: INTEGER              Nullable: True
+  Column: ceo                  Type: VARCHAR              Nullable: True
+  Column: sector               Type: VARCHAR              Nullable: True
+  Column: tags                 Type: JSON                 Nullable: True
+  Column: socialLinks          Type: JSON                 Nullable: True
+  Column: keyPrograms          Type: JSON                 Nullable: True
+  Column: fundingStage         Type: VARCHAR              Nullable: True
+  Column: totalFunding         Type: VARCHAR              Nullable: True
+  Column: stockTicker          Type: VARCHAR              Nullable: True
+  Column: description_en       Type: TEXT                 Nullable: True
+  Column: show                 Type: BOOLEAN              Nullable: True
+  Column: otrassede            Type: VARCHAR              Nullable: True
+  Column: logo                 Type: VARCHAR              Nullable: True
+  Column: featured_espacio     Type: BOOLEAN              Nullable: True
+  Column: slug                 Type: VARCHAR              Nullable: True
+  Column: rutainformacion      Type: VARCHAR              Nullable: True
+  Column: validated            Type: BOOLEAN              Nullable: True
+  Column: company_validated    Type: BOOLEAN              Nullable: True
+  Primary Key: ['id']
+
+--- TABLE: training ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: slug                 Type: VARCHAR              Nullable: False
+  Column: name                 Type: VARCHAR              Nullable: False
+  Column: name_en              Type: VARCHAR              Nullable: True
+  Column: type                 Type: VARCHAR              Nullable: True
+  Column: name_file            Type: VARCHAR              Nullable: True
+  Column: description          Type: VARCHAR              Nullable: True
+  Column: description_en       Type: VARCHAR              Nullable: True
+  Column: link                 Type: VARCHAR              Nullable: True
+  Column: show                 Type: BOOLEAN              Nullable: True
+  Column: created_at           Type: TIMESTAMP            Nullable: True
+  Column: updated_at           Type: TIMESTAMP            Nullable: True
+  Primary Key: ['id']
+
+--- TABLE: youtube ---
+  Column: id                   Type: INTEGER              Nullable: False
+  Column: video_name           Type: VARCHAR(255)         Nullable: False
+  Column: url                  Type: VARCHAR(500)         Nullable: False
+  Column: type                 Type: VARCHAR(100)         Nullable: True
+  Column: description          Type: TEXT                 Nullable: True
+  Column: description_en       Type: TEXT                 Nullable: True
+  Column: date                 Type: VARCHAR(50)          Nullable: True
+  Column: show                 Type: BOOLEAN              Nullable: True
+  Primary Key: ['id']
