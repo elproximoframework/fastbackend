@@ -359,3 +359,24 @@ class TrainingResponse(TrainingBase):
 
     class Config:
         from_attributes = True
+
+# ---- YouTube Schemas ----
+
+class YouTubeVideoBase(BaseModel):
+    video_name: str
+    url: str
+    type: Optional[str] = None
+    description: Optional[str] = None
+    description_en: Optional[str] = None
+    date: Optional[str] = None
+    show: bool = True
+
+class YouTubeVideoCreate(YouTubeVideoBase):
+    pass
+
+class YouTubeVideoResponse(YouTubeVideoBase):
+    id: int
+
+    class Config:
+        from_attributes = True
+

@@ -1,6 +1,8 @@
 __pycache__/
 .env
+.env.remote
 .venv
 venv/
 *.pyc
 client_secret*.json
+ActualizacionBBDD/DB_Backups/

@@ -346,3 +346,17 @@ class Training(Base):
     show = Column(Boolean, default=True)
     created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
     updated_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))
+
+
+class YouTubeVideo(Base):
+    __tablename__ = "youtube"
+
+    id = Column(Integer, primary_key=True, index=True)
+    video_name = Column(String, nullable=False)
+    url = Column(String, nullable=False)
+    type = Column(String)
+    description = Column(String)
+    description_en = Column(String)
+    date = Column(String)
+    show = Column(Boolean, default=True)
+
