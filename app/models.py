@@ -362,6 +362,7 @@ class YouTubeVideo(Base):
     show = Column(Boolean, default=True)
 
 
+
 class ResearchDevelopment(Base):
     __tablename__ = "researchdevelopment"
 
@@ -377,3 +378,18 @@ class ResearchDevelopment(Base):
     file = Column(String) # markdown path/filename
     created_date = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
     update_date = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))
+
+
+class Course(Base):
+    __tablename__ = "course"
+
+    id = Column(Integer, primary_key=True, index=True)
+    namecourse = Column(String, index=True, nullable=False)
+    chapter = Column(String)
+    lesson = Column(String)
+    slug = Column(String, unique=True, index=True, nullable=False)
+    url_youtube = Column(String)
+    markdown_file = Column(String) # Cloudinary URL
+    orden_index = Column(Integer, default=0, index=True)
+    show = Column(Boolean, default=True)
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))

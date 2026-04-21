@@ -398,10 +398,33 @@ class ResearchDevelopmentBase(BaseModel):
 class ResearchDevelopmentCreate(ResearchDevelopmentBase):
     pass
 
+
 class ResearchDevelopmentResponse(ResearchDevelopmentBase):
     id: int
     created_date: Optional[datetime] = None
     update_date: Optional[datetime] = None
+
+    class Config:
+        from_attributes = True
+
+# ---- Course Schemas ----
+
+class CourseBase(BaseModel):
+    namecourse: str
+    chapter: Optional[str] = None
+    lesson: Optional[str] = None
+    slug: str
+    url_youtube: Optional[str] = None
+    markdown_file: Optional[str] = None
+    orden_index: int = 0
+    show: bool = True
+
+class CourseCreate(CourseBase):
+    pass
+
+class CourseResponse(CourseBase):
+    id: int
+    created_at: Optional[datetime] = None
 
     class Config:
         from_attributes = True
