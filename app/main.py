@@ -10,6 +10,7 @@ from .routes.auth_router import router as auth_router
 from .routes.media import router as media_router
 from .routes.training import router as training_router
 from .routes.youtube import router as youtube_router
+from .routes.research_development import router as research_router
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
@@ -61,6 +62,7 @@ app.include_router(auth_router)
 app.include_router(media_router)
 app.include_router(training_router)
 app.include_router(youtube_router)
+app.include_router(research_router)
 
 # --- 3. LOG DE RUTAS PARA DEBUG ---
 @app.on_event("startup")

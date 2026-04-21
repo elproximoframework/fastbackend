@@ -361,3 +361,19 @@ class YouTubeVideo(Base):
     date = Column(String)
     show = Column(Boolean, default=True)
 
+
+class ResearchDevelopment(Base):
+    __tablename__ = "researchdevelopment"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String, nullable=False)
+    name_en = Column(String)
+    type = Column(String) # researchcenter, researchmagazine, paper, conference, estateoftheart
+    description = Column(String)
+    description_en = Column(String)
+    show = Column(Boolean, default=True)
+    link = Column(String)
+    slug = Column(String, unique=True, index=True, nullable=False)
+    file = Column(String) # markdown path/filename
+    created_date = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    update_date = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))

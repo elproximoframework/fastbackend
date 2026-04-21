@@ -381,3 +381,27 @@ class YouTubeVideoResponse(YouTubeVideoBase):
     class Config:
         from_attributes = True
 
+
+# ---- Research & Development Schemas ----
+
+class ResearchDevelopmentBase(BaseModel):
+    name: str
+    name_en: Optional[str] = None
+    type: str  # researchcenter, researchmagazine, paper, conference, estateoftheart
+    description: Optional[str] = None
+    description_en: Optional[str] = None
+    show: bool = True
+    link: Optional[str] = None
+    slug: str
+    file: Optional[str] = None
+
+class ResearchDevelopmentCreate(ResearchDevelopmentBase):
+    pass
+
+class ResearchDevelopmentResponse(ResearchDevelopmentBase):
+    id: int
+    created_date: Optional[datetime] = None
+    update_date: Optional[datetime] = None
+
+    class Config:
+        from_attributes = True
