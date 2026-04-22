@@ -1,6 +1,8 @@
 import uuid
 import os
-import resend
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta, timezone
 from jose import jwt, JWTError
 from fastapi import HTTPException, Depends
@@ -14,7 +16,13 @@ SECRET_KEY = os.getenv("JWT_SECRET_KEY", "CAMBIA_ESTO_EN_PRODUCCION")
 ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("JWT_ACCESS_TOKEN_EXPIRE_MINUTES", "60"))
 FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
-resend.api_key = os.getenv("RESEND_API_KEY", "")
+
+# SMTP Config
+SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
+SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
+SMTP_USER = os.getenv("SMTP_USER", "")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
+EMAIL_FROM = os.getenv("EMAIL_FROM", SMTP_USER)
 
 security = HTTPBearer()
 
@@ -38,148 +46,132 @@ def create_refresh_token() -> str:
     return str(uuid.uuid4()) + str(uuid.uuid4())
 
 
-# ---- Email sender ----
+# ---- Email helper ----
 
-def send_magic_link_email(to_email: str, token: str, name: str = None):
-    """Envía el magic link por email usando Resend."""
-    if not resend.api_key:
-        resend.api_key = os.getenv("RESEND_API_KEY", "")
+def _send_email_smtp(to_email: str, subject: str, html_content: str):
+    """Función auxiliar para enviar correos vía SMTP."""
+    if not SMTP_USER or not SMTP_PASSWORD:
+        print("Error: SMTP_USER o SMTP_PASSWORD no configurados")
+        return
 
-    greeting = f"Hola {name}," if name else "Hola,"
+    msg = MIMEMultipart()
+    msg['From'] = EMAIL_FROM
+    msg['To'] = to_email
+    msg['Subject'] = subject
+
+    msg.attach(MIMEText(html_content, 'html'))
 
     try:
-        resend.Emails.send({
-            "from": os.getenv("EMAIL_FROM", "login@elproximoframework.com"),
-            "to": [to_email],
-            "subject": "🚀 Tu enlace de acceso al Portal Espacial",
-            "html": f"""
-            <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;
-                        background:#0a0a1a;color:#fff;padding:40px;border-radius:12px;">
-                <h1 style="color:#60a5fa;text-align:center;margin-bottom:8px;">🚀 Portal Espacial</h1>
-                <p style="color:#9ca3af;text-align:center;margin-top:0;">El próximo framework en el espacio</p>
-                <hr style="border:1px solid #1f2937;margin:24px 0;">
-                <p style="font-size:16px;">{greeting}</p>
-                <p style="color:#d1d5db;">Haz clic en el botón para acceder a tu cuenta.
-                   Este enlace es válido durante <strong style="color:#fff;">15 minutos</strong>.</p>
-                <div style="text-align:center;margin:32px 0;">
-                    <a href="{magic_url}"
-                       style="background:linear-gradient(135deg,#3b82f6,#8b5cf6);
-                              color:white;padding:16px 32px;text-decoration:none;
-                              border-radius:8px;font-size:16px;font-weight:bold;
-                              display:inline-block;">
-                        ✨ Acceder al Portal
-                    </a>
-                </div>
-                <p style="color:#6b7280;font-size:12px;text-align:center;">
-                    Si no solicitaste este enlace, puedes ignorar este email.<br>
-                    El enlace expirará automáticamente en 15 minutos.
-                </p>
-            </div>
-            """,
-        })
+        server = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+        server.starttls()
+        server.login(SMTP_USER, SMTP_PASSWORD)
+        server.send_message(msg)
+        server.quit()
+        print(f"Email enviado correctamente a {to_email}")
     except Exception as e:
-        raise Exception(f"Error enviando email: {str(e)}")
+        print(f"Error enviando email vía SMTP: {str(e)}")
+        raise e
+
+
+# ---- Email senders ----
+
+def send_magic_link_email(to_email: str, token: str, name: str = None):
+    """Envía el magic link por email usando SMTP."""
+    greeting = f"Hola {name}," if name else "Hola,"
+    magic_url = f"{FRONTEND_URL}/auth/callback?token={token}"
+
+    html = f"""
+    <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;
+                background:#0a0a1a;color:#fff;padding:40px;border-radius:12px;">
+        <h1 style="color:#60a5fa;text-align:center;margin-bottom:8px;">🚀 Portal Espacial</h1>
+        <p style="color:#9ca3af;text-align:center;margin-top:0;">El próximo framework en el espacio</p>
+        <hr style="border:1px solid #1f2937;margin:24px 0;">
+        <p style="font-size:16px;">{greeting}</p>
+        <p style="color:#d1d5db;">Haz clic en el botón para acceder a tu cuenta.
+           Este enlace es válido durante <strong style="color:#fff;">15 minutos</strong>.</p>
+        <div style="text-align:center;margin:32px 0;">
+            <a href="{magic_url}"
+               style="background:linear-gradient(135deg,#3b82f6,#8b5cf6);
+                      color:white;padding:16px 32px;text-decoration:none;
+                      border-radius:8px;font-size:16px;font-weight:bold;
+                      display:inline-block;">
+                ✨ Acceder al Portal
+            </a>
+        </div>
+        <p style="color:#6b7280;font-size:12px;text-align:center;">
+            Si no solicitaste este enlace, puedes ignorar este email.<br>
+            El enlace expirará automáticamente en 15 minutos.
+        </p>
+    </div>
+    """
+    
+    try:
+        _send_email_smtp(to_email, "🚀 Tu enlace de acceso al Portal Espacial", html)
+    except Exception as e:
+        raise Exception(f"Error enviando magic link: {str(e)}")
 
 
 def send_prediction_confirmation(to_email: str, nickname: str, challenge_title: str, prediction_date: str, code: str):
-    """Envía la confirmación de la predicción con el código de verificación."""
-    if not resend.api_key:
-        resend.api_key = os.getenv("RESEND_API_KEY", "")
+    """Envía la confirmación de la predicción con el código de verificación usando SMTP."""
+    html = f"""
+    <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;
+                background:#0a0a1a;color:#fff;padding:40px;border-radius:24px;
+                border: 1px solid #1f2937;">
+        <div style="text-align:center;margin-bottom:32px;">
+            <h1 style="color:#60a5fa;margin-bottom:8px;font-size:28px;">🚀 Desafío Espacial</h1>
+            <p style="color:#9ca3af;margin-top:0;">Confirmación de participación</p>
+        </div>
+        
+        <div style="background:#111827;padding:24px;border-radius:16px;margin-bottom:32px;">
+            <p style="color:#d1d5db;margin-top:0;">¡Hola <strong style="color:#fff;">{nickname}</strong>!</p>
+            <p style="color:#d1d5db;">Hemos registrado correctamente tu predicción para el desafío:</p>
+            <p style="background:linear-gradient(90deg,#3b82f6,#8b5cf6);
+                      -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+                      font-size:20px;font-weight:bold;margin:16px 0;">
+                {challenge_title}
+            </p>
+            <p style="color:#9ca3af;font-size:14px;">Fecha predicha: <strong style="color:#fff;">{prediction_date}</strong></p>
+        </div>
 
-    try:
-        resend.Emails.send({
-            "from": os.getenv("EMAIL_FROM", "mision@elproximoframework.com"),
-            "to": [to_email],
-            "subject": f"✅ Predicción Confirmada: {challenge_title}",
-            "html": f"""
-            <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;
-                        background:#0a0a1a;color:#fff;padding:40px;border-radius:24px;
-                        border: 1px solid #1f2937;">
-                <div style="text-align:center;margin-bottom:32px;">
-                    <h1 style="color:#60a5fa;margin-bottom:8px;font-size:28px;">🚀 Desafío Espacial</h1>
-                    <p style="color:#9ca3af;margin-top:0;">Confirmación de participación</p>
-                </div>
-                
-                <div style="background:#111827;padding:24px;border-radius:16px;margin-bottom:32px;">
-                    <p style="color:#d1d5db;margin-top:0;">¡Hola <strong style="color:#fff;">{nickname}</strong>!</p>
-                    <p style="color:#d1d5db;">Hemos registrado correctamente tu predicción para el desafío:</p>
-                    <p style="background:linear-gradient(90deg,#3b82f6,#8b5cf6);
-                              -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-                              font-size:20px;font-weight:bold;margin:16px 0;">
-                        {challenge_title}
-                    </p>
-                    <p style="color:#9ca3af;font-size:14px;">Fecha predicha: <strong style="color:#fff;">{prediction_date}</strong></p>
-                </div>
+        <div style="text-align:center;border:2px dashed #3b82f6;padding:24px;border-radius:16px;">
+            <p style="color:#60a5fa;font-size:12px;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Tu Código de Validación</p>
+            <p style="font-family:monospace;font-size:32px;font-weight:bold;color:#fff;margin:0;letter-spacing:4px;">
+                {code}
+            </p>
+        </div>
 
-                <div style="text-align:center;border:2px dashed #3b82f6;padding:24px;border-radius:16px;">
-                    <p style="color:#60a5fa;font-size:12px;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Tu Código de Validación</p>
-                    <p style="font-family:monospace;font-size:32px;font-weight:bold;color:#fff;margin:0;letter-spacing:4px;">
-                        {code}
-                    </p>
-                </div>
+        <p style="color:#9ca3af;font-size:14px;margin-top:32px;line-height:1.6;">
+            Conserva este código. Si resultas ganador, te lo pediremos para validar tu identidad y entregarte el premio.
+        </p>
 
-                <p style="color:#9ca3af;font-size:14px;margin-top:32px;line-height:1.6;">
-                    Conserva este código. Si resultas ganador, te lo pediremos para validar tu identidad y entregarte el premio.
-                </p>
-
-                <!-- Rules and Privacy Section -->
-                <div style="margin-top:40px;padding-top:40px;border-top:1px solid #1f2937;">
-                    <h2 style="color:#60a5fa;font-size:18px;margin-bottom:16px;text-transform:uppercase;letter-spacing:1px;font-style:italic;">📜 Normas y Privacidad</h2>
-                    
-                    <div style="margin-bottom:24px;">
-                        <h3 style="color:#fff;font-size:14px;margin-bottom:8px;">🔒 Uso de tus Datos</h3>
-                        <p style="color:#9ca3af;font-size:13px;line-height:1.5;margin:0;">
-                            Tu privacidad es nuestra prioridad absoluta. No hacemos uso de tus datos para fines externos, nunca serán vendidos ni cedidos a terceros. Tu email solo se utiliza para verificar tu identidad y contactarte si ganas. Cumplimos estrictamente con el RGPD y LOPD.
-                        </p>
-                    </div>
-
-                    <div style="margin-bottom:24px;display:grid;grid-template-columns:1fr 1fr;gap:16px;">
-                        <div>
-                            <h3 style="color:#fff;font-size:14px;margin-bottom:8px;">✨ Ética</h3>
-                            <p style="color:#9ca3af;font-size:13px;line-height:1.5;margin:0;">
-                                Una participación por persona. El fraude resultará en descalificación.
-                            </p>
-                        </div>
-                        <div>
-                            <h3 style="color:#fff;font-size:14px;margin-bottom:8px;">⚖️ Legal</h3>
-                            <p style="color:#9ca3af;font-size:13px;line-height:1.5;margin:0;">
-                                Concurso de habilidad gratuito (Ley 13/2011). Sin riesgo económico.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div style="background:#0f172a;padding:20px;border-radius:16px;border:1px solid #1e293b;">
-                        <h3 style="color:#fff;font-size:14px;margin-bottom:12px;border-bottom:1px solid #1e293b;padding-bottom:8px;text-transform:uppercase;font-style:italic;">Reglas Desafío Espacial</h3>
-                        <ul style="color:#9ca3af;font-size:12px;line-height:1.6;padding-left:0;list-style:none;margin:0;">
-                            <li style="margin-bottom:10px;">
-                                <strong style="color:#d1d5db;display:block;margin-bottom:2px;">1. Cierre</strong> 
-                                Las predicciones cierran en la fecha fijada en el evento.
-                            </li>
-                            <li style="margin-bottom:10px;">
-                                <strong style="color:#d1d5db;display:block;margin-bottom:2px;">2. Resolución</strong> 
-                                Se determina por exactitud. En caso de empate, se aplicarán criterios de desempate.
-                            </li>
-                            <li style="margin-bottom:10px;">
-                                <strong style="color:#d1d5db;display:block;margin-bottom:2px;">3. Validación</strong> 
-                                Mediante este código. Se podrá requerir una verificación de identidad real para premios físicos.
-                            </li>
-                            <li>
-                                <strong style="color:#d1d5db;display:block;margin-bottom:2px;">4. Entrega</strong> 
-                                Confirmaremos la dirección de entrega por email tras finalizar el desafío.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <hr style="border:1px solid #1f2937;margin:40px 0;">
-                
-                <p style="color:#4b5563;font-size:11px;text-align:center;line-height:1.4;">
-                    Este es un mensaje automático del Portal Espacial para garantizar la transparencia del concurso.<br>
-                    <strong>El Próximo Framework en el Espacio</strong>
+        <div style="margin-top:40px;padding-top:40px;border-top:1px solid #1f2937;">
+            <h2 style="color:#60a5fa;font-size:18px;margin-bottom:16px;text-transform:uppercase;letter-spacing:1px;font-style:italic;">📜 Normas y Privacidad</h2>
+            <div style="margin-bottom:24px;">
+                <h3 style="color:#fff;font-size:14px;margin-bottom:8px;">🔒 Uso de tus Datos</h3>
+                <p style="color:#9ca3af;font-size:13px;line-height:1.5;margin:0;">
+                    Tu privacidad es nuestra prioridad absoluta. No hacemos uso de tus datos para fines externos. Tu email solo se utiliza para verificar tu identidad y contactarte si ganas.
                 </p>
             </div>
-            """,
-        })
+            <div style="background:#0f172a;padding:20px;border-radius:16px;border:1px solid #1e293b;">
+                <h3 style="color:#fff;font-size:14px;margin-bottom:12px;border-bottom:1px solid #1e293b;padding-bottom:8px;text-transform:uppercase;font-style:italic;">Reglas Desafío Espacial</h3>
+                <ul style="color:#9ca3af;font-size:12px;line-height:1.6;padding-left:0;list-style:none;margin:0;">
+                    <li style="margin-bottom:10px;">1. Cierre en la fecha fijada.</li>
+                    <li style="margin-bottom:10px;">2. Resolución por exactitud.</li>
+                    <li style="margin-bottom:10px;">3. Validación mediante este código.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <hr style="border:1px solid #1f2937;margin:40px 0;">
+        <p style="color:#4b5563;font-size:11px;text-align:center;line-height:1.4;">
+            Este es un mensaje automático del Portal Espacial.<br>
+            <strong>El Próximo Framework en el Espacio</strong>
+        </p>
+    </div>
+    """
+
+    try:
+        _send_email_smtp(to_email, f"✅ Predicción Confirmada: {challenge_title}", html)
     except Exception as e:
         print(f"Error enviando email de confirmación: {str(e)}")
         # No lanzamos excepción aquí para no bloquear el guardado en DB si falla el mail
