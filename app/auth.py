@@ -48,34 +48,46 @@ def create_refresh_token() -> str:
 
 # ---- Email helper ----
 
+import socket
+
 def _send_email_smtp(to_email: str, subject: str, html_content: str):
-    """Función auxiliar para enviar correos vía SMTP."""
+    """Función auxiliar para enviar correos vía SMTP con forzado de IPv4 y debug logs."""
     if not SMTP_USER or not SMTP_PASSWORD:
         print("Error: SMTP_USER o SMTP_PASSWORD no configurados")
         return
+
+    print(f"DEBUG: Intentando enviar email a {to_email}")
+    print(f"DEBUG: Usando host={SMTP_HOST}, puerto={SMTP_PORT}, usuario={SMTP_USER}")
 
     msg = MIMEMultipart()
     msg['From'] = EMAIL_FROM
     msg['To'] = to_email
     msg['Subject'] = subject
-
     msg.attach(MIMEText(html_content, 'html'))
 
     try:
+        # Intentamos resolver el host para ver qué IPs devuelve (útil para el log)
+        try:
+            ips = [info[4][0] for info in socket.getaddrinfo(SMTP_HOST, SMTP_PORT, socket.AF_INET)]
+            print(f"DEBUG: IPs encontradas para {SMTP_HOST}: {ips}")
+        except Exception as dns_err:
+            print(f"DEBUG: Error resolviendo DNS: {dns_err}")
+
         if SMTP_PORT == 465:
-            # SMTP sobre SSL
-            server = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT)
+            print("DEBUG: Iniciando conexión SMTP_SSL (Puerto 465)...")
+            server = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, timeout=15)
         else:
-            # SMTP estándar con STARTTLS
-            server = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+            print(f"DEBUG: Iniciando conexión SMTP (Puerto {SMTP_PORT})...")
+            server = smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=15)
             server.starttls()
             
+        print("DEBUG: Intentando login...")
         server.login(SMTP_USER, SMTP_PASSWORD)
         server.send_message(msg)
         server.quit()
-        print(f"Email enviado correctamente a {to_email}")
+        print(f"✅ Email enviado correctamente a {to_email}")
     except Exception as e:
-        print(f"Error enviando email vía SMTP: {str(e)}")
+        print(f"❌ Error crítico en SMTP: {type(e).__name__}: {str(e)}")
         raise e
 
 
