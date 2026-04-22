@@ -35,6 +35,7 @@ sentry_sdk.init(
     send_default_pii=True
 )
 
+
 app = FastAPI(
     title="Space API",
     description="API for Space portal",
