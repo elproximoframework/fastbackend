@@ -11,10 +11,13 @@ def migrate():
         
         # Mapping definitions
         mapping = {
-            'Lanzamientos': 'launches_starship',
+            'channel_spacex': 'new_spacex',
+            'channel_news': 'new_space',
+            'channel_china_news': 'new_china',
+            'launches_starship': 'launches',
+            'Lanzamientos': 'launches',
             'Tecnología': 'other',
-            'Descubrimiento': 'other',
-            'Tecnolog\u00eda': 'other' # Handling potential encoding issues seen in previous output
+            'Descubrimiento': 'other'
         }
         
         print("Starting YouTube types migration...")
