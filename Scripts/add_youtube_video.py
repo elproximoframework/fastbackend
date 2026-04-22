@@ -12,9 +12,11 @@ except ImportError:
     print("Error: 'yt-dlp' is not installed. Please run: pip install yt-dlp")
     sys.exit(1)
 
-# Load database configuration
-load_dotenv()
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://space_user:space_password@localhost:5433/space_db")
+# Database configuration
+LOCAL_URL = "postgresql://space_user:space_password@localhost:5433/space_db"
+REMOTE_URL = "postgresql://postgres:zjRYAsATFmvPlnQOZruilNIwwEBZcmyU@crossover.proxy.rlwy.net:29288/railway"
+
+DB_URLS = [LOCAL_URL, REMOTE_URL]
 
 def get_video_info(url):
     """Fetches video metadata using yt-dlp"""
@@ -46,48 +48,49 @@ def get_video_info(url):
         return None
 
 def save_to_db(video_data, video_type, own=False):
-    """Inserts the video record into the database"""
-    try:
-        conn = psycopg2.connect(DATABASE_URL)
-        conn.autocommit = True
-        cur = conn.cursor()
-        
-        query = """
-            INSERT INTO youtube (video_name, url, type, description, description_en, date, own, show)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
-            ON CONFLICT (url) DO UPDATE SET
-                video_name = EXCLUDED.video_name,
-                type = EXCLUDED.type,
-                description = EXCLUDED.description,
-                date = EXCLUDED.date
-            RETURNING id;
-        """
-        
-        # We use url as a unique identifier to avoid duplicates if url is unique in DB
-        # Note: If your table doesn't have a UNIQUE constraint on 'url', ON CONFLICT won't work.
-        # I'll use a simple insert if you prefer.
-        
-        cur.execute(
-            "INSERT INTO youtube (video_name, url, type, description, description_en, date, own, show) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",
-            (
-                video_data['video_name'],
-                video_data['url'],
-                video_type,
-                video_data['description'],
-                video_data['description'], # Using same for EN
-                video_data['date'],
-                own,
-                True # show = True by default
+    """Inserts the video record into all configured databases"""
+    successCount = 0
+    for db_url in DB_URLS:
+        db_name = "Local" if "localhost" in db_url else "Remote"
+        try:
+            conn = psycopg2.connect(db_url)
+            conn.autocommit = True
+            cur = conn.cursor()
+            
+            # Using UPSERT (INSERT ... ON CONFLICT)
+            cur.execute(
+                """
+                INSERT INTO youtube (video_name, url, type, description, description_en, date, own, show) 
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT (url) DO UPDATE SET
+                    video_name = EXCLUDED.video_name,
+                    type = EXCLUDED.type,
+                    description = EXCLUDED.description,
+                    description_en = EXCLUDED.description_en,
+                    date = EXCLUDED.date,
+                    own = EXCLUDED.own,
+                    show = EXCLUDED.show
+                """,
+                (
+                    video_data['video_name'],
+                    video_data['url'],
+                    video_type,
+                    video_data['description'],
+                    video_data['description'], # Using same for EN
+                    video_data['date'],
+                    own,
+                    True # show = True by default
+                )
             )
-        )
-        
-        print(f"Successfully added: {video_data['video_name']} ({video_type})")
-        cur.close()
-        conn.close()
-        return True
-    except Exception as e:
-        print(f"Database error: {e}")
-        return False
+            
+            print(f"[{db_name}] Successfully added: {video_data['video_name']}")
+            cur.close()
+            conn.close()
+            successCount += 1
+        except Exception as e:
+            print(f"[{db_name}] Database error: {e}")
+    
+    return successCount > 0
 
 def main():
     parser = argparse.ArgumentParser(description="Add a YouTube video to the database automatically.")

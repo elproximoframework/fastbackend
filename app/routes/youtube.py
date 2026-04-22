@@ -9,7 +9,7 @@ router = APIRouter(
     tags=["youtube"]
 )
 
-@router.get("/", response_model=List[schemas.YouTubeVideoResponse])
+@router.get("", response_model=List[schemas.YouTubeVideoResponse])
 def get_youtube_videos(
     request: Request,
     type: Optional[str] = Query(None, description="Filter by video type"),

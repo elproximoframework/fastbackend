@@ -4,6 +4,7 @@ load_dotenv()
 from fastapi import FastAPI, Depends, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from starlette.middleware.proxy_headers import ProxyHeadersMiddleware
 from sqlalchemy.orm import Session
 from typing import List, Optional
 from datetime import datetime, timezone
@@ -60,6 +61,9 @@ app.add_middleware(
     allow_headers=["*"],
     expose_headers=["*"],
 )
+
+# --- 1.1. PROXY HEADERS (Essential for Railway/HTTPS) ---
+app.add_middleware(ProxyHeadersMiddleware, trusted_hosts="*")
 
 # --- 2. REGISTRO DE ROUTERS ---
 app.include_router(auth_router)
