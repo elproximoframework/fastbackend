@@ -1,8 +1,6 @@
 import uuid
 import os
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+import requests
 from datetime import datetime, timedelta, timezone
 from jose import jwt, JWTError
 from fastapi import HTTPException, Depends
@@ -17,12 +15,9 @@ ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("JWT_ACCESS_TOKEN_EXPIRE_MINUTES", "60"))
 FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
 
-# SMTP Config
-SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
-SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
-SMTP_USER = os.getenv("SMTP_USER", "")
-SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
-EMAIL_FROM = os.getenv("EMAIL_FROM", SMTP_USER)
+# Brevo Config
+BREVO_API_KEY = os.getenv("BREVO_API_KEY", "")
+EMAIL_FROM = os.getenv("EMAIL_FROM", "mision@elproximoframework.com")
 
 security = HTTPBearer()
 
@@ -46,55 +41,44 @@ def create_refresh_token() -> str:
     return str(uuid.uuid4()) + str(uuid.uuid4())
 
 
-# ---- Email helper ----
+# ---- Email helper (Brevo API) ----
 
-import socket
-
-def _send_email_smtp(to_email: str, subject: str, html_content: str):
-    """Función auxiliar para enviar correos vía SMTP con forzado de IPv4 y debug logs."""
-    if not SMTP_USER or not SMTP_PASSWORD:
-        print("Error: SMTP_USER o SMTP_PASSWORD no configurados")
+def _send_email_brevo(to_email: str, subject: str, html_content: str):
+    """Función auxiliar para enviar correos vía la API de Brevo."""
+    if not BREVO_API_KEY:
+        print("❌ Error: BREVO_API_KEY no configurada")
         return
 
-    print(f"DEBUG: Intentando enviar email a {to_email}")
-    print(f"DEBUG: Usando host={SMTP_HOST}, puerto={SMTP_PORT}, usuario={SMTP_USER}")
-
-    msg = MIMEMultipart()
-    msg['From'] = EMAIL_FROM
-    msg['To'] = to_email
-    msg['Subject'] = subject
-    msg.attach(MIMEText(html_content, 'html'))
+    url = "https://api.brevo.com/v3/smtp/email"
+    headers = {
+        "accept": "application/json",
+        "api-key": BREVO_API_KEY,
+        "content-type": "application/json"
+    }
+    
+    payload = {
+        "sender": {"email": EMAIL_FROM, "name": "Portal Espacial"},
+        "to": [{"email": to_email}],
+        "subject": subject,
+        "htmlContent": html_content
+    }
 
     try:
-        # Intentamos resolver el host para ver qué IPs devuelve (útil para el log)
-        try:
-            ips = [info[4][0] for info in socket.getaddrinfo(SMTP_HOST, SMTP_PORT, socket.AF_INET)]
-            print(f"DEBUG: IPs encontradas para {SMTP_HOST}: {ips}")
-        except Exception as dns_err:
-            print(f"DEBUG: Error resolviendo DNS: {dns_err}")
-
-        if SMTP_PORT == 465:
-            print("DEBUG: Iniciando conexión SMTP_SSL (Puerto 465)...")
-            server = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, timeout=15)
+        print(f"DEBUG: Enviando email vía Brevo API a {to_email}...")
+        response = requests.post(url, json=payload, headers=headers, timeout=10)
+        
+        if response.status_code in [201, 202, 200]:
+            print(f"✅ Email enviado correctamente a {to_email} (ID: {response.json().get('messageId')})")
         else:
-            print(f"DEBUG: Iniciando conexión SMTP (Puerto {SMTP_PORT})...")
-            server = smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=15)
-            server.starttls()
-            
-        print("DEBUG: Intentando login...")
-        server.login(SMTP_USER, SMTP_PASSWORD)
-        server.send_message(msg)
-        server.quit()
-        print(f"✅ Email enviado correctamente a {to_email}")
+            print(f"❌ Error de Brevo ({response.status_code}): {response.text}")
     except Exception as e:
-        print(f"❌ Error crítico en SMTP: {type(e).__name__}: {str(e)}")
-        raise e
+        print(f"❌ Error crítico contactando con Brevo: {str(e)}")
 
 
 # ---- Email senders ----
 
 def send_magic_link_email(to_email: str, token: str, name: str = None):
-    """Envía el magic link por email usando SMTP."""
+    """Envía el magic link por email usando la API de Brevo."""
     greeting = f"Hola {name}," if name else "Hola,"
     magic_url = f"{FRONTEND_URL}/auth/callback?token={token}"
 
@@ -124,13 +108,13 @@ def send_magic_link_email(to_email: str, token: str, name: str = None):
     """
     
     try:
-        _send_email_smtp(to_email, "🚀 Tu enlace de acceso al Portal Espacial", html)
+        _send_email_brevo(to_email, "🚀 Tu enlace de acceso al Portal Espacial", html)
     except Exception as e:
         raise Exception(f"Error enviando magic link: {str(e)}")
 
 
 def send_prediction_confirmation(to_email: str, nickname: str, challenge_title: str, prediction_date: str, code: str):
-    """Envía la confirmación de la predicción con el código de verificación usando SMTP."""
+    """Envía la confirmación de la predicción con el código de verificación usando la API de Brevo."""
     html = f"""
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;
                 background:#0a0a1a;color:#fff;padding:40px;border-radius:24px;
@@ -189,7 +173,7 @@ def send_prediction_confirmation(to_email: str, nickname: str, challenge_title: 
     """
 
     try:
-        _send_email_smtp(to_email, f"✅ Predicción Confirmada: {challenge_title}", html)
+        _send_email_brevo(to_email, f"✅ Predicción Confirmada: {challenge_title}", html)
     except Exception as e:
         print(f"Error enviando email de confirmación: {str(e)}")
         # No lanzamos excepción aquí para no bloquear el guardado en DB si falla el mail
