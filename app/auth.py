@@ -42,7 +42,9 @@ def create_refresh_token() -> str:
 
 def send_magic_link_email(to_email: str, token: str, name: str = None):
     """Envía el magic link por email usando Resend."""
-    magic_url = f"{FRONTEND_URL}/auth/verify?token={token}"
+    if not resend.api_key:
+        resend.api_key = os.getenv("RESEND_API_KEY", "")
+
     greeting = f"Hola {name}," if name else "Hola,"
 
     try:
@@ -77,6 +79,110 @@ def send_magic_link_email(to_email: str, token: str, name: str = None):
         })
     except Exception as e:
         raise Exception(f"Error enviando email: {str(e)}")
+
+
+def send_prediction_confirmation(to_email: str, nickname: str, challenge_title: str, prediction_date: str, code: str):
+    """Envía la confirmación de la predicción con el código de verificación."""
+    if not resend.api_key:
+        resend.api_key = os.getenv("RESEND_API_KEY", "")
+
+    try:
+        resend.Emails.send({
+            "from": os.getenv("EMAIL_FROM", "mision@elproximoframework.com"),
+            "to": [to_email],
+            "subject": f"✅ Predicción Confirmada: {challenge_title}",
+            "html": f"""
+            <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;
+                        background:#0a0a1a;color:#fff;padding:40px;border-radius:24px;
+                        border: 1px solid #1f2937;">
+                <div style="text-align:center;margin-bottom:32px;">
+                    <h1 style="color:#60a5fa;margin-bottom:8px;font-size:28px;">🚀 Desafío Espacial</h1>
+                    <p style="color:#9ca3af;margin-top:0;">Confirmación de participación</p>
+                </div>
+                
+                <div style="background:#111827;padding:24px;border-radius:16px;margin-bottom:32px;">
+                    <p style="color:#d1d5db;margin-top:0;">¡Hola <strong style="color:#fff;">{nickname}</strong>!</p>
+                    <p style="color:#d1d5db;">Hemos registrado correctamente tu predicción para el desafío:</p>
+                    <p style="background:linear-gradient(90deg,#3b82f6,#8b5cf6);
+                              -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+                              font-size:20px;font-weight:bold;margin:16px 0;">
+                        {challenge_title}
+                    </p>
+                    <p style="color:#9ca3af;font-size:14px;">Fecha predicha: <strong style="color:#fff;">{prediction_date}</strong></p>
+                </div>
+
+                <div style="text-align:center;border:2px dashed #3b82f6;padding:24px;border-radius:16px;">
+                    <p style="color:#60a5fa;font-size:12px;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Tu Código de Validación</p>
+                    <p style="font-family:monospace;font-size:32px;font-weight:bold;color:#fff;margin:0;letter-spacing:4px;">
+                        {code}
+                    </p>
+                </div>
+
+                <p style="color:#9ca3af;font-size:14px;margin-top:32px;line-height:1.6;">
+                    Conserva este código. Si resultas ganador, te lo pediremos para validar tu identidad y entregarte el premio.
+                </p>
+
+                <!-- Rules and Privacy Section -->
+                <div style="margin-top:40px;padding-top:40px;border-top:1px solid #1f2937;">
+                    <h2 style="color:#60a5fa;font-size:18px;margin-bottom:16px;text-transform:uppercase;letter-spacing:1px;font-style:italic;">📜 Normas y Privacidad</h2>
+                    
+                    <div style="margin-bottom:24px;">
+                        <h3 style="color:#fff;font-size:14px;margin-bottom:8px;">🔒 Uso de tus Datos</h3>
+                        <p style="color:#9ca3af;font-size:13px;line-height:1.5;margin:0;">
+                            Tu privacidad es nuestra prioridad absoluta. No hacemos uso de tus datos para fines externos, nunca serán vendidos ni cedidos a terceros. Tu email solo se utiliza para verificar tu identidad y contactarte si ganas. Cumplimos estrictamente con el RGPD y LOPD.
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom:24px;display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+                        <div>
+                            <h3 style="color:#fff;font-size:14px;margin-bottom:8px;">✨ Ética</h3>
+                            <p style="color:#9ca3af;font-size:13px;line-height:1.5;margin:0;">
+                                Una participación por persona. El fraude resultará en descalificación.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 style="color:#fff;font-size:14px;margin-bottom:8px;">⚖️ Legal</h3>
+                            <p style="color:#9ca3af;font-size:13px;line-height:1.5;margin:0;">
+                                Concurso de habilidad gratuito (Ley 13/2011). Sin riesgo económico.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background:#0f172a;padding:20px;border-radius:16px;border:1px solid #1e293b;">
+                        <h3 style="color:#fff;font-size:14px;margin-bottom:12px;border-bottom:1px solid #1e293b;padding-bottom:8px;text-transform:uppercase;font-style:italic;">Reglas Desafío Espacial</h3>
+                        <ul style="color:#9ca3af;font-size:12px;line-height:1.6;padding-left:0;list-style:none;margin:0;">
+                            <li style="margin-bottom:10px;">
+                                <strong style="color:#d1d5db;display:block;margin-bottom:2px;">1. Cierre</strong> 
+                                Las predicciones cierran en la fecha fijada en el evento.
+                            </li>
+                            <li style="margin-bottom:10px;">
+                                <strong style="color:#d1d5db;display:block;margin-bottom:2px;">2. Resolución</strong> 
+                                Se determina por exactitud. En caso de empate, se aplicarán criterios de desempate.
+                            </li>
+                            <li style="margin-bottom:10px;">
+                                <strong style="color:#d1d5db;display:block;margin-bottom:2px;">3. Validación</strong> 
+                                Mediante este código. Se podrá requerir una verificación de identidad real para premios físicos.
+                            </li>
+                            <li>
+                                <strong style="color:#d1d5db;display:block;margin-bottom:2px;">4. Entrega</strong> 
+                                Confirmaremos la dirección de entrega por email tras finalizar el desafío.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <hr style="border:1px solid #1f2937;margin:40px 0;">
+                
+                <p style="color:#4b5563;font-size:11px;text-align:center;line-height:1.4;">
+                    Este es un mensaje automático del Portal Espacial para garantizar la transparencia del concurso.<br>
+                    <strong>El Próximo Framework en el Espacio</strong>
+                </p>
+            </div>
+            """,
+        })
+    except Exception as e:
+        print(f"Error enviando email de confirmación: {str(e)}")
+        # No lanzamos excepción aquí para no bloquear el guardado en DB si falla el mail
 
 
 # ---- JWT validation dependencies ----

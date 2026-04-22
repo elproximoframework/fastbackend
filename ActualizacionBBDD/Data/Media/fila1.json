@@ -1,0 +1,2816 @@
+[
+    {
+        "name": "NASA",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "ESA - European Space Agency",
+        "country": "EU",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "SpaceX",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Blue Origin",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "JAXA",
+        "country": "Japan",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "ISRO",
+        "country": "India",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "CNSA - China National Space Administration",
+        "country": "China",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "Roscosmos",
+        "country": "Russia",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "CSA - Canadian Space Agency",
+        "country": "Canada",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "CNES",
+        "country": "France",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "DLR - German Aerospace Center",
+        "country": "Germany",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "ASI - Agenzia Spaziale Italiana",
+        "country": "Italy",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "UKSA - UK Space Agency",
+        "country": "UK",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "AEB - Agência Espacial Brasileira",
+        "country": "Brazil",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "UAE Space Agency",
+        "country": "UAE",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "KARI - Korea Aerospace Research Institute",
+        "country": "South Korea",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "CONAE - Comisión Nacional de Actividades Espaciales",
+        "country": "Argentina",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "Rocket Lab",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Arianespace",
+        "country": "France",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "ULA - United Launch Alliance",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "SpaceNews",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Space.com",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "NASASpaceFlight.com",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Spaceflight Now",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "The Planetary Society",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Astronomy Magazine",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Sky & Telescope",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Aviation Week & Space Technology",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Ars Technica Space Section",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "The Verge Space Section",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Reuters Space News",
+        "country": "global",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "BBC Science & Space",
+        "country": "UK",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "New Scientist Space",
+        "country": "UK",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Nature Astronomy",
+        "country": "UK",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Science Magazine",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Quartz Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Parabolic Arc",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Space Policy Online",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Everyday Astronaut",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Scott Manley",
+        "country": "UK",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "NASA YouTube",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SpaceX YouTube",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Real Engineering",
+        "country": "Ireland",
+        "category": "youtube",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Kurzgesagt – In a Nutshell",
+        "country": "Germany",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "PBS Space Time",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Anton Petrov",
+        "country": "Canada",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "The Science Asylum",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Fraser Cain - Universe Today",
+        "country": "Canada",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Veritasium",
+        "country": "Australia",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SciShow Space",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Cool Worlds",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "John Michael Godier",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SEA - Space Exploration Alliance",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Orbit Logic",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "NASASpaceFlight YouTube",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "LabPadre",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Marcus House",
+        "country": "Australia",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "What About It!?",
+        "country": "Germany",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "BPS.space",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Vintage Space",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Primal Space",
+        "country": "UK",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Isaac Arthur",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "CrashCourse Astronomy",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "ESA YouTube",
+        "country": "EU",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Blue Origin YouTube",
+        "country": "USA",
+        "category": "youtube",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Astrum",
+        "country": "UK",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Perun",
+        "country": "Australia",
+        "category": "youtube",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Universo Binario",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "QuantumFracture",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Astrofísica y Física",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "La Cuna del Universo",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "AstroMundus",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Somos Curiosos",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Date un Voltio",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Dot CSV",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Confluencias",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Eureka! TV",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "La Hiperactina",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Nanakorobiyaoki",
+        "country": "Mexico",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "UNAM Global",
+        "country": "Mexico",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "AstroAfición",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Space Policy Edition Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "industria"
+    },
+    {
+        "name": "StarTalk Radio",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Planetary Radio",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Main Engine Cut Off (MECO)",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Orbital Path",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "The Space Show",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "industria"
+    },
+    {
+        "name": "NASA's Curious Universe",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Houston We Have a Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Space Boffins",
+        "country": "UK",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "The Infinite Monkey Cage",
+        "country": "UK",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Shortwave",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Big Picture Science",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Mission to the Moon Media",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Space Rocket History Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Cosmos & Culture - NPR",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Are We There Yet? Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "AstroCoffee Podcast",
+        "country": "global",
+        "category": "podcast",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "SpaceQ Podcast",
+        "country": "Canada",
+        "category": "podcast",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Omega Tau Podcast",
+        "country": "Germany",
+        "category": "podcast",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "La Brecha Espacial",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Astronomía para Principiantes",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "El Podcast de la Ciencia",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Catástrofe Ultravioleta",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "El Universo en un Segundo",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "RocketCast",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Ciencia Ficción Podcast",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Universe Today",
+        "country": "Canada",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Spaceflight Insider",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "NASA Solar System Exploration",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Astronomy Picture of the Day (APOD)",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Hubble Site",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "James Webb Space Telescope Portal",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "EarthSky",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Spaceweather.com",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Heavens-Above",
+        "country": "Czech Republic",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Celestrak",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Encyclopedia Astronautica",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Gunter's Space Page",
+        "country": "Germany",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Jonathan's Space Report",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Next Spaceflight",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "RocketWatch",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Space Launch Schedule",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Astronomer's Telegram",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "ArXiv Astro-ph",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "ADS - Astrophysics Data System",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "SETI Institute",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Breakthrough Initiatives",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "SpaceRef",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Espacio Ciencia",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Astrobitácora",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Ciencia y Cosmos",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "AstroMadrid",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Astrofísica y Ciencia",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Astronomía Universal",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "FisicaNet",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Infoastro",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "El Cosmos",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Área Espacial",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "MIT OpenCourseWare - Aeronautics",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Coursera - Astronomy Courses",
+        "country": "global",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "edX - Space Science",
+        "country": "global",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Khan Academy Cosmology",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "NASA STEM Engagement",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "ESA Education",
+        "country": "EU",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Caltech Astronomy Online",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Duke Astronomy MOOC",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Open University Space Science",
+        "country": "UK",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Australian National University Astrophysics",
+        "country": "Australia",
+        "category": "education",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Smithsonian Air and Space Museum",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Space Academy - NASA",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "IAU - International Astronomical Union",
+        "country": "global",
+        "category": "education",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Astro Edu",
+        "country": "global",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Universe Awareness",
+        "country": "global",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Teach Astronomy",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Centro de Astrobiología - CSIC-INTA",
+        "country": "Spain",
+        "category": "education",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "UPV X - Espacio y Astronomía",
+        "country": "Spain",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "UNED Astrofísica",
+        "country": "Spain",
+        "category": "education",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "RedAstro - Red de Divulgación Astronómica",
+        "country": "Spain",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SpaceNews Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "The Downlink - Planetary Society",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Main Engine Cut Off Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Payload Space Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Eric Berger - Ars Technica Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Space Explored Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Cosmos Weekly",
+        "country": "global",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "AstroAlert",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Space Intel Report",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Jeff Foust Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "SpaceWatch.Global Newsletter",
+        "country": "global",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "T-Minus Space Daily Newsletter",
+        "country": "global",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Space Capital Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Reddit r/space",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Reddit r/spacex",
+        "country": "global",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Reddit r/astronomy",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Cloudy Nights Forum",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Starship Gazer App",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SkySafari App",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Stellarium",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SpaceX Twitter/X",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Elon Musk Twitter/X",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "NASA Twitter/X",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Spaceflight Now Twitter/X",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Space Force",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "NOAA Space Weather",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Spacewatch Africa",
+        "country": "global",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "SpaceWatch Global",
+        "country": "global",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Via Satellite",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Satellite Today",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Room - The Space Journal",
+        "country": "UK",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Astronomy Now",
+        "country": "UK",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "The Astronomer",
+        "country": "UK",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Acta Astronautica",
+        "country": "global",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Journal of Spacecraft and Rockets",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Icarus Journal",
+        "country": "global",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Astrofisica.es",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Nautilus Science",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Quanta Magazine - Space",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Scientific American - Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Discover Magazine - Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Popular Science - Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Wired - Space Section",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Gizmodo Science",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "The Guardian - Science & Space",
+        "country": "UK",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "ScienceAlert",
+        "country": "Australia",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Phys.org - Space News",
+        "country": "global",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Science Daily - Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "IFLScience",
+        "country": "UK",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "ZME Science Space",
+        "country": "Romania",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SpaceFlight101",
+        "country": "Germany",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "AmericaSpace",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Coalition for Deep Space Exploration",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Commercial Spaceflight Federation",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Space Foundation",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Space Generation Advisory Council",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "International Astronautical Federation",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "American Astronomical Society",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Royal Astronomical Society",
+        "country": "UK",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Sociedad Española de Astronomía",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "AIAA - American Institute of Aeronautics",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Galactic Tick Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Titanium Physicists Podcast",
+        "country": "Canada",
+        "category": "podcast",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Jodcast",
+        "country": "UK",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "365 Days of Astronomy",
+        "country": "global",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Astronomy Cast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Space Nuts Podcast",
+        "country": "Australia",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Reinventing Space Podcast",
+        "country": "UK",
+        "category": "podcast",
+        "subcategory": "industria"
+    },
+    {
+        "name": "NASA in Silicon Valley Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Are We Alone - SETI",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Breaking Math Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "La Hora Cero - Ciencia y Espacio",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Espacio Profundo Podcast",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Ciencia al Cubo - RTVE",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Radio Telescopio Podcast",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Cero y Uno Podcast",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Elucidando Podcast",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "No Es Ciencia Ficción",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "T-Minus Space Daily Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Space Policy Podcast - Secure World Foundation",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Center for Strategic and International Studies Space",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Bryce Tech - Space Report",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Novaspace Analytics",
+        "country": "France",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "SIA - Satellite Industry Association",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "ESOA - European Satellite Operators Association",
+        "country": "EU",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "NASA Jet Propulsion Laboratory",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Goddard Space Flight Center",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Kennedy Space Center",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "IAEA - Nuclear Space Applications",
+        "country": "global",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "EUMETSAT",
+        "country": "EU",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "GFZ German Research Centre for Geosciences",
+        "country": "Germany",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Space Telescope Science Institute",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "IRSA - NASA Infrared Science Archive",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Vizier Catalogue Service",
+        "country": "France",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "SIMBAD Astronomical Database",
+        "country": "France",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "NASA Exoplanet Archive",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Eyes on the Solar System - NASA",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "NASA Worldview",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Zoom in on the Cosmos - Chandra",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Chandra X-ray Observatory",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "SpaceWeatherLive",
+        "country": "Netherlands",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Meteorwatch",
+        "country": "UK",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "International Meteor Organization",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Minor Planet Center",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Spacewatch - Asteroid Survey",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "NASA Center for Near Earth Object Studies",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Virtual Telescope Project",
+        "country": "Italy",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "AAVSO - American Association of Variable Star Observers",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Zooniverse Galaxy Zoo",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Citizen Science - NASA",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Globe at Night",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "IDA - International Dark Sky Association",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Light Pollution Map",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Astronomer Without Borders",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Observatorio Astronómico Nacional - España",
+        "country": "Spain",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Instituto de Astrofísica de Canarias",
+        "country": "Spain",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "INTA - Instituto Nacional de Técnica Aeroespacial",
+        "country": "Spain",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Instituto de Astrofísica de Andalucía",
+        "country": "Spain",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Ciencia.nasa.gov en Español",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Muy Interesante Espacio",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "National Geographic España Ciencia",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "El País Ciencia",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "El Confidencial Tecnología y Espacio",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "ABC Ciencia",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "La Vanguardia Ciencia",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Agencia SINC",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Spaceholic.es",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Noticias del Espacio",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Hipertextual Ciencia",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Xataka Ciencia",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Innovación Espacial LAC",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Open Cosmos",
+        "country": "UK",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Planet Labs",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Maxar Technologies",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Satellogic",
+        "country": "Argentina",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Relativity Space",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Firefly Aerospace",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "ABL Space Systems",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Astroscale",
+        "country": "Japan",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "D-Orbit",
+        "country": "Italy",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Axiom Space",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Sierra Space",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Nanoracks",
+        "country": "USA",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "OHB SE",
+        "country": "Germany",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Thales Alenia Space",
+        "country": "France",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "ArianeGroup",
+        "country": "France",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "ISAR Aerospace",
+        "country": "Germany",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "PLD Space",
+        "country": "Spain",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Zero 2 Infinity",
+        "country": "Spain",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "GMV Aerospace",
+        "country": "Spain",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Indra Espacio",
+        "country": "Spain",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "CubeSat Community Forum",
+        "country": "global",
+        "category": "other",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "NASA Tech Briefs",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Aerospace America",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "MIT Technology Review - Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Space Policy Journal - Elsevier",
+        "country": "global",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "NewSpace Journal",
+        "country": "global",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Space Education and Outreach",
+        "country": "global",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "ESERO Spain",
+        "country": "Spain",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Europlanet Society",
+        "country": "EU",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "EuroPlanet Media Centre",
+        "country": "EU",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "COSPAR - Committee on Space Research",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "UN COPUOS - Committee on Peaceful Uses of Outer Space",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "UNOOSA - UN Office for Outer Space Affairs",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Moon Village Association",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Mars Society",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "National Space Society",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SpaceUp Community",
+        "country": "global",
+        "category": "other",
+        "subcategory": "global"
+    },
+    {
+        "name": "Space Hackers Forum",
+        "country": "global",
+        "category": "other",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Eyes on Exoplanets - NASA App",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "ISS Tracker App",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "NASA App",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "ESA App",
+        "country": "EU",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Astro Drone Newsletter",
+        "country": "global",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Space Commerce Weekly Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Space News Weekly - AIAA",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Supercluster",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "NASA History Division",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Smithsonian Magazine - Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "National Geographic - Space",
+        "country": "global",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Futurism - Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Teslarati Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "SpacePolicyInstitute - George Washington University",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Harvard CfA - Center for Astrophysics",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Space Sector Investing Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Air & Space Forces Magazine",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "C4ISRNET Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "industria"
+    },
+    {
+        "name": "The Atlantic - Space Articles",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Neowise Sky Survey",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "ESO - European Southern Observatory",
+        "country": "EU",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "ALMA Observatory",
+        "country": "global",
+        "category": "agency",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Event Horizon Telescope",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "NOIRLab",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "LIGO Scientific Collaboration",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "VIRGO Collaboration",
+        "country": "EU",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Laser Interferometer Space Antenna - LISA",
+        "country": "EU",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "IceCube Neutrino Observatory",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Pierre Auger Observatory",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "RadioAstron - Astro Space Center",
+        "country": "Russia",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Square Kilometre Array Observatory",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Parkes Observatory",
+        "country": "Australia",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Green Bank Observatory",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "High-Energy Astrophysics Archive - HEASARC",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "MAST - Mikulski Archive for Space Telescopes",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Gaia ESA Archive",
+        "country": "EU",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Vera Rubin Observatory",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Astrobiology Magazine",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Space Science Reviews - Springer",
+        "country": "global",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Earth and Space Science - AGU",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "The Astrophysical Journal",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Astronomy & Astrophysics Journal",
+        "country": "EU",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Monthly Notices of the Royal Astronomical Society",
+        "country": "UK",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "SpaceNews Events",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Space Symposium",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "IAC - International Astronautical Congress",
+        "country": "global",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "SmallSat Conference",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Space Tech Expo",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "NewSpace Europe",
+        "country": "EU",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Space Generation Congress",
+        "country": "global",
+        "category": "other",
+        "subcategory": "global"
+    },
+    {
+        "name": "Going Interstellar Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Planetary Radio Live",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Star Stuff Podcast",
+        "country": "Australia",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Orbital Mechanics Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Space and Things Podcast",
+        "country": "UK",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Spacecraft FM Podcast",
+        "country": "UK",
+        "category": "podcast",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Weird Orbit Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SpaceTime with Stuart Gary",
+        "country": "Australia",
+        "category": "podcast",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "SEDS - Students for Exploration and Development of Space",
+        "country": "global",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Yuri's Night",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "World Space Week",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "International Space Apps Challenge",
+        "country": "global",
+        "category": "other",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Open Astronomy Catalogs",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Spacehack.org",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "NSSDC - National Space Science Data Center",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Planetary.org Blog",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SpaceQ Media",
+        "country": "Canada",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Nouvelles de l'Espace - CNES",
+        "country": "France",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "DLR Blog",
+        "country": "Germany",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Science in School - ESA",
+        "country": "EU",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Teach with Space - ESA",
+        "country": "EU",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "GTTP - Galileo Teacher Training Program",
+        "country": "global",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Space4U Academy",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SpaceMath NASA",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "NASA GLOBE Observer",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "ISS National Lab Education",
+        "country": "USA",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "AWS Space Accelerator Newsletter",
+        "country": "global",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Seraphim Space Newsletter",
+        "country": "UK",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "SpaceTech Analytics Newsletter",
+        "country": "UK",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Orbital Index Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Space Café Newsletter",
+        "country": "global",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Astral Prospector Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "SpaceFactory Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Cosmoknowledge",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Orbital Today",
+        "country": "global",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Aerospaceamerica.aiaa.org",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "The Debrief Space",
+        "country": "USA",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Space Policy Institute Podcast",
+        "country": "USA",
+        "category": "podcast",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Astrofísica de Galaxias - IAC",
+        "country": "Spain",
+        "category": "education",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Cosmos Safari YouTube",
+        "country": "Spain",
+        "category": "youtube",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Astronomo Podcast",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "AstroNoticias",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "ESA ESRIN Portal",
+        "country": "EU",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "IAC - Instituto de Astrofísica de Canarias Divulgación",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Observatorio de Madrid - IGN",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Fundación Descubre",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Espacio Lejano Blog",
+        "country": "Spain",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Cosmología e Inflación Podcast",
+        "country": "Spain",
+        "category": "podcast",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Ciencia en Órbita - RTVE",
+        "country": "Spain",
+        "category": "news",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Tecnológico de Monterrey - Space Courses",
+        "country": "Mexico",
+        "category": "education",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "AEM - Agencia Espacial Mexicana",
+        "country": "Mexico",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "CONIDA - Comisión Nacional de Investigación y Desarrollo Aeroespacial",
+        "country": "Peru",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "FAE - Fuerza Aérea Ecuatoriana - Espacio",
+        "country": "Ecuador",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "AEA - Autoridad Espacial Argentina",
+        "country": "Argentina",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "Invap SE",
+        "country": "Argentina",
+        "category": "agency",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Ministerio de Ciencia Colombia Espacio",
+        "country": "Colombia",
+        "category": "agency",
+        "subcategory": "global"
+    },
+    {
+        "name": "Explorers International Club Newsletter",
+        "country": "global",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Astrowatch.net",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "noticias"
+    },
+    {
+        "name": "Space Safety Magazine",
+        "country": "global",
+        "category": "news",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Debris Field Newsletter",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "SpaceLegalIssues.com",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Outer Space Treaty Blog",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Space Traffic Management Forum",
+        "country": "global",
+        "category": "other",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Celestia - Free Space Simulation",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "SpaceEngine Simulator",
+        "country": "Russia",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Universe Sandbox",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Kerbal Space Program Community",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "NASA 3D Resources",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Open NASA Data Portal",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Copernicus Open Access Hub",
+        "country": "EU",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Sentinel Hub",
+        "country": "EU",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Planet Explorer",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "NASA Earthdata",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "GlobCover - ESA Land Cover",
+        "country": "EU",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "SpaceFab.us",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "industria"
+    },
+    {
+        "name": "Open Asteroid Deflection Alliance",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "IAWN - International Asteroid Warning Network",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Space Exploration Reddit Megathread",
+        "country": "global",
+        "category": "other",
+        "subcategory": "global"
+    },
+    {
+        "name": "Twitter/X AstroTwitter Community",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Mastodon Astronomy Community",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Bluesky Space Science Community",
+        "country": "global",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "LinkedIn Space Industry Network",
+        "country": "global",
+        "category": "other",
+        "subcategory": "industria"
+    },
+    {
+        "name": "ResearchGate Astrophysics",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Academia.edu Space Science",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "ORCID for Astronomers",
+        "country": "global",
+        "category": "other",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Astropy Project",
+        "country": "global",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "OpenSpace Software",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "NASA Eyes on the Earth",
+        "country": "USA",
+        "category": "other",
+        "subcategory": "divulgacion"
+    },
+    {
+        "name": "Planetary Data System - NASA",
+        "country": "USA",
+        "category": "portal",
+        "subcategory": "tecnico"
+    },
+    {
+        "name": "Spacethings Newsletter",
+        "country": "global",
+        "category": "other",
+        "subcategory": "newsletter"
+    },
+    {
+        "name": "Monday Morning Teapot - Astronomy Newsletter",
+        "country": "global",
+        "category": "other",
+        "subcategory": "newsletter"
+    }
+]

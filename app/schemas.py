@@ -1,4 +1,4 @@
-from pydantic import BaseModel, HttpUrl
+from pydantic import BaseModel, HttpUrl, field_serializer
 from typing import Optional, List, Any, Dict
 from datetime import date, datetime
 
@@ -142,6 +142,12 @@ class LaunchResponse(LaunchBase):
     id: int
     rocket: Optional[RocketResponse] = None
     provider: Optional[CompanyResponse] = None
+
+    @field_serializer('net')
+    def serialize_dt(self, dt: datetime, _info):
+        if dt is None:
+            return None
+        return dt.isoformat().replace("+00:00", "Z")
 
     class Config:
         from_attributes = True
@@ -426,6 +432,74 @@ class CourseCreate(CourseBase):
 class CourseResponse(CourseBase):
     id: int
     created_at: Optional[datetime] = None
+
+    class Config:
+        from_attributes = True
+
+# ---- Challenge & Prediction Schemas ----
+
+class PredictionBase(BaseModel):
+    nickname: str
+    email: str
+    prediction_value: str
+
+class PredictionCreate(PredictionBase):
+    pass
+
+class PredictionResponse(PredictionBase):
+    id: int
+    challenge_id: int
+    created_at: datetime
+
+    @field_serializer('created_at')
+    def serialize_dt(self, dt: datetime, _info):
+        return dt.isoformat().replace("+00:00", "Z")
+
+    class Config:
+        from_attributes = True
+
+class PredictionPublic(BaseModel):
+    id: int
+    nickname: str
+    prediction_value: str
+    created_at: datetime
+
+    @field_serializer('created_at')
+    def serialize_dt(self, dt: datetime, _info):
+        return dt.isoformat().replace("+00:00", "Z")
+
+    class Config:
+        from_attributes = True
+
+class ChallengeBase(BaseModel):
+    title: str
+    title_en: Optional[str] = None
+    description: Optional[str] = None
+    description_en: Optional[str] = None
+    image_url: Optional[str] = None
+    end_date: datetime
+    prediction_deadline: Optional[datetime] = None
+    actual_event_date: Optional[datetime] = None
+    is_active: bool = True
+    prize_description: Optional[str] = None
+    prize_description_en: Optional[str] = None
+    prize_image_url: Optional[str] = None
+    type: str = "date"
+    options: Optional[List[str]] = None
+
+class ChallengeCreate(ChallengeBase):
+    pass
+
+class ChallengeResponse(ChallengeBase):
+    id: int
+    created_at: datetime
+    participant_count: Optional[int] = 0
+
+    @field_serializer('end_date', 'prediction_deadline', 'actual_event_date', 'created_at')
+    def serialize_dt(self, dt: datetime, _info):
+        if dt is None:
+            return None
+        return dt.isoformat().replace("+00:00", "Z")
 
     class Config:
         from_attributes = True

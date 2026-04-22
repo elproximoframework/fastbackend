@@ -394,3 +394,39 @@ class Course(Base):
     orden_index = Column(Integer, default=0, index=True)
     show = Column(Boolean, default=True)
     created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+
+class Challenge(Base):
+    __tablename__ = "challenges"
+
+    id = Column(Integer, primary_key=True, index=True)
+    title = Column(String, index=True, nullable=False)
+    title_en = Column(String, index=True)
+    description = Column(String)
+    description_en = Column(String)
+    image_url = Column(String, nullable=True)
+    end_date = Column(DateTime(timezone=True), nullable=False)
+    prediction_deadline = Column(DateTime(timezone=True), nullable=True)
+    actual_event_date = Column(DateTime(timezone=True), nullable=True)
+    is_active = Column(Boolean, default=True)
+    prize_description = Column(String, nullable=True)
+    prize_description_en = Column(String, nullable=True)
+    prize_image_url = Column(String, nullable=True)
+    type = Column(String, default="date") # 'date', 'choice', 'coordinate'
+    options = Column(JSON, nullable=True) # For 'choice' type challenges
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+
+    predictions = relationship("Prediction", back_populates="challenge")
+
+
+class Prediction(Base):
+    __tablename__ = "predictions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    challenge_id = Column(Integer, ForeignKey("challenges.id"), nullable=False)
+    nickname = Column(String, nullable=False)
+    email = Column(String, index=True, nullable=False)
+    prediction_value = Column(String, nullable=False) # Store the date or choice as string
+    verification_code = Column(String, nullable=True) # Unique code sent by email
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+
+    challenge = relationship("Challenge", back_populates="predictions")
