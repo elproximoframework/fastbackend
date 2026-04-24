@@ -45,7 +45,7 @@ def upsert_satellite(cur, satellite):
                 sql.SQL(', ').join(set_clauses)
             )
             cur.execute(query, vals + [name])
-            print(f"[✓] Updated: {name}")
+            print(f"[OK] Updated: {name}")
         else:
             # INSERT
             query = sql.SQL("INSERT INTO satellites ({}, name) VALUES ({}, %s)").format(
@@ -53,7 +53,7 @@ def upsert_satellite(cur, satellite):
                 sql.SQL(', ').join([sql.Placeholder()] * len(vals))
             )
             cur.execute(query, vals + [name])
-            print(f"[✓] Inserted: {name}")
+            print(f"[OK] Inserted: {name}")
             
     except Exception as e:
         print(f"[!] Error processing {name}: {e}")

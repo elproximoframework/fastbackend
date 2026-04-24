@@ -1,0 +1,1198 @@
+--- Local ---
+1: AAC Clyde Space
+122: ABL Space Systems
+429: ADA Space
+129: AI SpaceFactory
+402: ALE Co. (Astro Live Experiences)
+14: ARIS (Academic Space Initiative)
+481: ARSAT
+16: ASI (Agenzia Spaziale Italiana)
+142: AST SpaceMobile
+18: ATG Europe
+121: Aalyria
+6: Aboa Space Research Oy
+123: Accion Systems
+7: Admatis LTD
+555: Advanced Navigation
+124: Advanced Space
+125: Aerojet Rocketdyne
+126: Aerospace Corporation
+127: Aevum
+485: Agencia Espacial Mexicana (AEM)
+487: Agencia Espacial del Perú (CONIDA)
+630: Agency for Defense Development (ADD)
+128: Agile Space Industries
+442: Agnikul Cosmos
+472: Agência Espacial Brasileira (AEB)
+8: Airbus Defence and Space
+130: Airbus US Space & Defense
+131: Albedo
+9: Aldoria
+489: Aliena
+10: Almatech
+132: Altius Space Machines
+133: Amazon Web Services (AWS) Space
+134: Amentum Space
+135: Analytical Graphics Inc (AGI)
+457: Ananth Technologies
+11: Andøya Space
+12: Antwerp Space
+136: AnySignal
+137: Apex Space
+138: Apogee Semiconductor
+139: Arcfield
+140: Arete Associates
+13: ArianeGroup
+413: ArkEdge Space
+15: Arkadia Space
+141: Arkisys
+551: Arlula
+143: Astra
+144: Astranis
+561: Astrix Astronautics
+145: Astro Digital
+146: Astrobotic Technology
+529: Astrofica
+446: Astrome
+394: Astroscale (Japón HQ)
+17: Astroscale France
+586: Astroscale Israel
+147: Astroscale US
+148: Astrotech Corporation
+149: Atlas Space Operations
+150: Atomos Space
+19: Aurora Propulsion Tech.
+536: Australian Space Agency (ASA)
+20: Austrian Space Forum (ÖWF)
+151: Avalanche Energy
+475: Avibras Space
+21: Avio
+395: Axelspace
+152: Axiom Space
+454: Azista BST Aerospace
+30: B2Space
+153: BAE Systems Space & Mission Systems
+33: BME Suborbitals
+501: BRIN (antigua LAPAN)
+154: Ball Aerospace
+444: Bellatrix Aerospace
+155: Benchmark Space Systems
+31: Beyond Gravity
+156: Beyond Gravity US
+303: Beyond Gravity USA
+157: Black River Systems
+550: Black Sky Industries
+158: BlackSky
+32: Blackswan Space
+159: Blue Canyon Technologies
+23: Blue Origin
+160: Boeing Space & Launch
+161: Booz Allen Hamilton Space
+34: Bradford Space
+162: Bradford Space US
+566: Bright Ascension
+567: Brno Space Cluster
+163: BryceTech
+568: Bulgarian Aerospace Cluster
+35: Bulgarian Space Research
+164: Busek Co.
+377: C-COM Satellite Systems
+36: C3S LLC
+165: CACI International Space
+433: CAS Space
+418: CASC (China Aerospace Science and Technology Corp.)
+419: CASIC (China Aerospace Science and Industry Corp.)
+37: CDS
+38: CIRA
+40: CNES
+172: COMSPOC
+478: CONAE (Comisión Nacional de Actividades Espaciales)
+468: CONTEC
+384: Calian Group Space
+374: Canadensys Aerospace
+367: Canadian Space Agency (CSA)
+166: Capella Space
+167: Capstone
+576: Capstone Research Corporation
+477: Cenic
+168: CesiumAstro
+430: Chang Guang Satellite Technology (CGSTL)
+417: China National Space Administration (CNSA)
+436: Chuangxing Space
+169: Cimarron Software Services
+170: CisLunar Industries
+39: ClearSpace
+171: Cobham Advanced Electronic Solutions
+577: Cobham Advanced Electronic Solutions (CAES)
+428: Commsat
+173: Comtech Telecommunications
+174: Constellation Space
+42: Copenhagen Suborbitals
+175: Cosmic Shielding Corporation
+578: Crane Aerospace & Electronics
+579: Creare
+580: Creative Microsystems Corp
+43: Creotech Instruments
+581: CubeSpace
+44: D-Orbit
+45: DA-Group
+46: DANSTAR
+49: DARE
+48: DCUBED
+50: DLR
+47: Dawn Aerospace
+176: Dawn Aerospace US
+177: Daybreak
+423: Deep Blue Aerospace
+178: Deep Space Systems
+582: Deep Space Systems (Redwire)
+179: Defense Innovation Unit (DIU) Space
+486: Dereum Labs
+180: Descartes Labs
+445: Dhruva Space
+450: Digantara
+527: Dragonfly Aerospace
+181: Draper Laboratory
+407: Dymon
+583: Dynetics
+188: E-Space
+52: ECAPS
+53: EMXYS
+55: EPFL Rocket Team
+56: ESA BIC
+57: ESA Tech Broker
+58: EUSPA
+585: EaglePicher Technologies
+379: EarthDaily Analytics
+182: EchoStar
+51: Ecosmic
+531: Egyptian Space Agency (EgSA)
+507: Elbit Systems Space
+587: Elbit Systems Space & Defense
+556: Electro Optic Systems (EOS)
+455: Elena Geo Systems
+410: ElevationSpace
+54: EnduroSat
+183: EnduroSat US
+184: Enpulsion US
+185: Ensign-Bickford Aerospace & Defense
+484: Epic Aerospace
+186: Epirus
+187: Epsilon3
+542: Equatorial Launch Australia (ELA)
+490: Equatorial Space Systems
+458: EtherealX
+29: European Space Agency (ESA)
+59: Europropulsion
+189: Eutelsat America Corp
+431: ExPace
+190: ExoAnalytic Solutions
+191: ExoLaunch US
+60: Exotrail
+192: Faraday Technology
+193: Federal Aviation Administration (FAA) AST
+476: Fibraforte
+61: Finnish Meteorological Inst.
+569: Finnish Meteorological Institute
+194: Firefly Aerospace
+195: First Resonance
+538: Fleet Space Technologies
+196: Fleet Space US
+498: Foxconn Space Division
+197: Frontier Aerospace
+62: GATE Space
+371: GHGSat
+500: GISTDA
+64: GKN Aerospace
+570: GKN Aerospace Sweden
+593: GMV
+67: GTD
+422: Galactic Energy
+449: GalaxEye Space
+427: GalaxySpace
+437: Geespace
+588: General Atomics
+589: General Dynamics Mission Systems
+198: General Dynamics Space
+199: Generation Orbit
+63: Genesis Space Flight Lab
+200: GeoOptics
+513: Gilat Satellite Networks
+537: Gilmour Space Technologies
+201: Gilmour Space US
+406: Gitai
+202: Globalstar
+65: GomSpace
+66: Goonhilly Earth Station
+590: Gradiant
+543: HEO
+591: HEO Space
+438: HK Aerospace Technology Group
+597: HPS GmbH
+462: Hanwha Aerospace
+203: HawkEye 360
+204: Hedron
+205: Helicity Space
+512: Helios
+206: Hemisphere Ventures
+592: Hera Systems
+207: Hermeus
+208: Honeybee Robotics
+594: Honeywell Aerospace
+595: Horizon Technologies
+209: Howe Industries
+210: Hughes Network Systems
+68: HyImpulse
+69: HyPrSpace
+211: Hydrosat
+549: Hypersonix Launch Systems
+71: ICEYE
+212: ICON
+72: IENAI SPACE
+398: IHI Aerospace
+213: ILC Dover
+215: IN Space LLC
+479: INVAP
+74: ISISpace
+75: ISPTech
+70: Iceland Space Agency
+509: ImageSat International (ISI)
+214: Impulse Space
+628: Indian Space Research Organisation
+440: Indian Space Research Organisation (ISRO)
+401: Infostellar
+216: Infostellar US
+464: Innospace
+483: Innova Space
+544: Inovor Technologies
+451: InspeCity
+473: Instituto Nacional de Pesquisas Espaciais (INPE)
+217: Intelsat
+396: Interstellar Technologies
+218: Intuitive Machines
+219: Inversion Space
+220: Iridium Communications
+73: Isar Aerospace
+505: Israel Aerospace Industries (IAI)
+504: Israel Space Agency (ISA)
+221: Jacobs Space Exploration Group
+392: Japan Aerospace Exploration Agency (JAXA)
+439: Jiuzhou Yunjian
+222: Johns Hopkins University APL
+224: KBR Space
+77: KP Labs
+470: KTSat
+448: Kawa Space
+414: Kawasaki Heavy Industries (Space Division)
+223: Kayhan Space
+559: Kea Aerospace
+534: Kenya Space Agency (KSA)
+607: Kepler Communications
+370: Kepler Communications (Canada HQ)
+225: Kepler Communications US
+76: Kongsberg NanoAvionics
+226: Kongsberg Satellite Services (KSAT) US
+461: Korea Aerospace Industries (KAI)
+460: Korea Aerospace Research Institute (KARI)
+227: Kratos Space
+228: Kuiper Systems (Amazon)
+78: Kurs Orbital
+79: Kuva Space
+229: Kymeta
+230: L3Harris Space
+471: LIG Nex1 (Space division)
+235: LJT & Associates
+421: LandSpace
+80: Latitude
+81: Leaf Space
+231: Leaf Space US
+378: Leap Biosystems
+232: Leidos Space
+233: LeoLabs
+409: Letara
+82: Liftero
+234: Ligado Networks
+435: LinkSpace
+83: LiveEO
+236: Lockheed Martin Space
+84: Look Up Space
+466: Lumir
+237: Lunar Outpost
+85: Luxembourg Space Agency
+238: Lynk Global
+368: MDA Space
+245: MDA US Systems
+503: MEASAT
+249: MIT Lincoln Laboratory
+250: MMA Design LLC
+88: MT Aerospace
+239: Made In Space
+373: Magellan Aerospace
+240: Magpie
+86: MaiaSpace
+452: Manastu Space
+241: Mangata Networks
+380: Maritime Launch Services
+242: Marotta Controls
+243: Masten Space Systems
+244: Maxar Technologies
+389: Metaspectral
+246: Microchip Technology Space
+247: Microcosm
+248: Millennium Space Systems
+426: MinoSpace
+376: Mission Control Space Services
+399: Mitsubishi Heavy Industries (MHI) Space
+514: Mohammed bin Rashid Space Centre (MBRSC)
+251: Momentus
+252: Moog Space
+87: Morpheus Space
+253: Morpheus Space US
+254: Motiv Space Systems
+256: Muon Space
+257: Mynaric US
+539: Myriota
+258: Myriota US
+629: NASA
+260: NASA Ames Research Center
+261: NASA Goddard Space Flight Center
+262: NASA Jet Propulsion Laboratory (JPL)
+263: NASA Johnson Space Center
+264: NASA Kennedy Space Center
+265: NASA Marshall Space Flight Center
+415: NEC Space Technologies
+391: NGC Aerospace
+267: NOAA NESDIS
+511: NSLComm
+89: Nammo
+259: Nanoracks
+467: Nara Space Technology
+533: National Space Research and Development Agency (NASRDA)
+266: Near Earth Autonomy
+90: Needronix
+540: Neumann Space
+91: Neuraspace
+558: New Zealand Space Agency (NZSA)
+528: NewSpace Systems
+532: Nilesat
+553: Nominal Systems
+372: NorthStar Earth & Space
+28: Northrop Grumman
+92: Norwegian Space Agency
+493: NuSpace
+385: Nüvü Camēras
+93: OHB
+94: OKAPI:Orbits
+95: OPUS Aerospace
+268: Odyssey Space Research
+269: OffWorld
+456: Omnipresent Robot Tech
+270: Omnispace
+96: Orbex
+271: Orbit Fab
+272: Orbit Logic
+273: Orbital Sidekick
+432: Orienspace
+424: Origin Space
+274: Outpost Technologies
+404: PD Aerospace
+98: PIAP Space
+24: PLD Space
+99: POLARIS Raumflugzeuge
+275: PacSci EMC
+276: Palantir Space
+411: Pale Blue
+97: Pangea Aerospace
+277: Paragon Space Development
+278: Parsons Space
+502: Pasifik Satelit Nusantara (PSN)
+463: Perigee Aerospace
+279: Phantom Space
+280: Phase Four
+281: Pioneer Astronautics
+443: Pixxel (India HQ)
+282: Pixxel US
+522: Plan-S
+283: Planet Labs
+284: PlanetIQ
+285: Positron Dynamics
+286: PredaSAR
+287: Prewitt Ridge
+288: Prime Movers Lab Space
+289: Promus Ventures
+290: Pulsar Fusion US
+291: Pumpkin Space
+552: Q-CTRL Space
+386: Qeynet
+292: Quantum Space
+545: Quasar Satellite Technologies
+297: RBC Signals
+293: Radian Aerospace
+294: Radiant
+506: Rafael Advanced Defense Systems (Space)
+564: Rakon
+510: Ramon.Space (Israel HQ)
+295: Ramon.Space US
+296: Raytheon Intelligence & Space
+100: ReOrbit
+298: Red House
+299: Redwire Space
+300: Relativity Space
+301: Roccor
+101: Rocket Factory Augsburg
+571: Rocket Factory Augsburg (RFA)
+565: Rocket Lab (Nueva Zelanda)
+302: Rocket Lab USA
+520: Roketsan
+26: Roscosmos
+535: Rwanda Space Agency (RSA)
+102: S.A.B. Aerospace
+304: SA Photonics
+103: SAGA Space Architects
+305: SAIC
+525: SCS Space
+307: SEOPS
+309: SES Space & Defense
+469: SI Imaging Services (SIIS)
+107: SITAEL
+113: SSC (Swedish Space Corp)
+575: SSC (Swedish Space Corporation)
+112: SSTL
+574: SSTL (Surrey Satellite Technology Ltd.)
+114: SWISSto12
+548: Saber Astronautics
+447: SatSure
+596: SatVu (Satellite Vu)
+480: Satellogic (Sede operativa LatAm)
+104: Satlab
+465: Satrec Initiative
+518: Saudi Space Agency (SSA)
+306: Sedaro
+572: Sener
+308: Seraphim Space
+105: Sidereus Space Dynamics
+310: Sidus Space
+311: Sierra Nevada Corporation
+312: Sierra Space
+526: Simera Sense
+488: Singapore Space and Technology Ltd (SSTL)
+106: Sirius Space Services
+387: SkyWatch
+557: Skykraft
+313: Skyloom
+441: Skyroot Aerospace
+314: Slingshot Aerospace
+524: South African National Space Agency (SANSA)
+541: Southern Launch
+315: Southwest Research Institute (SwRI)
+397: Space BD
+316: Space BD US
+317: Space Capital
+318: Space Dynamics Laboratory (SDL)
+375: Space Flight Laboratory (SFL)
+546: Space Machines Company
+319: Space Micro
+108: Space Norway
+320: Space Nuclear Power Corp (SpaceNukes)
+416: Space One
+321: Space Perspective
+25: Space Pioneer
+322: Space Systems Command
+405: Space Walker
+388: SpaceAlpha Insights
+563: SpaceBase
+382: SpaceBridge
+109: SpaceForest
+325: SpaceForge US
+326: SpaceFund
+508: SpaceIL
+327: SpaceLogistics
+111: SpaceTech
+573: SpaceTech (STI)
+22: SpaceX
+323: Spaceflight Inc
+110: Spacemanic
+425: Spacety
+492: SpeQtral
+328: SpiderOak Space
+329: SpinLaunch
+547: Spiral Blue
+330: Spire Global
+331: Starburst Aerospace US
+390: Stardust Technologies
+332: Starfish Space
+333: Stoke Space
+334: Stratolaunch
+335: Swarm Technologies
+400: Synspective
+336: Systima Technologies
+115: T-Minus
+523: TAI (Turkish Aerospace Industries Space)
+624: TAI Space
+495: Taiwan Space Agency (TASA)
+337: Techstars Space Accelerator
+338: Teledyne Brown Engineering Space
+584: Teledyne e2v
+369: Telesat
+339: Telesat US Services
+412: Tenchijin
+497: Tensor Tech
+340: Terran Orbital
+341: Tethers Unlimited
+342: Thales Alenia Space US
+116: The Exploration Company
+343: ThinkOrbital
+517: Thuraya
+496: TiSPACE
+344: Tomorrow.io Space
+491: Transcelestial
+345: TriSept
+346: True Anomaly
+347: Turion Space
+519: Turkish Space Agency (TUA)
+521: Turksat
+348: Type One Ventures
+349: Tyvak Nano-Satellite Systems
+515: UAE Space Agency (UAESA)
+117: UK Space Agency
+351: UP Aerospace
+350: Umbra Space
+27: United Launch Alliance (ULA)
+324: United States Space Force (USSF)
+352: Ursa Major
+482: VENG
+353: Vacco Industries
+354: Valcor Engineering Space
+554: Valiant Space
+355: Varda Space Industries
+356: Vast Space
+453: Vasundharaa Geo Technologies
+357: Vaya Space
+358: Venturi Astrolab
+359: Venus Aerospace
+459: VestaSpace Technology
+360: Viasat
+361: Virgin Galactic
+118: Vision Space
+474: Visiona Tecnologia Espacial
+362: Vorago Technologies
+363: Voyager Space
+119: Vyoma
+408: Warpspace
+364: World View
+381: Wyvern
+365: X-Bow Systems
+562: Xerra Earth Observation Institute
+530: XinaBox
+383: Xiphos Systems
+366: Xona Space Systems
+516: Yahsat
+120: ZARM
+560: Zenith Tecnica
+494: Zero Error Systems (ZES)
+434: ZeroG Aerospace
+41: constellr
+403: iQPS (QPS-SOLARIS)
+420: iSpace (Beijing Interstellar Glory)
+393: ispace
+255: mPower Technology
+499: mu Space
+--- Remote ---
+1: AAC Clyde Space
+121: Aalyria
+122: ABL Space Systems
+6: Aboa Space Research Oy
+123: Accion Systems
+429: ADA Space
+7: Admatis LTD
+555: Advanced Navigation
+124: Advanced Space
+125: Aerojet Rocketdyne
+126: Aerospace Corporation
+127: Aevum
+472: Agência Espacial Brasileira (AEB)
+487: Agencia Espacial del Perú (CONIDA)
+485: Agencia Espacial Mexicana (AEM)
+627: Agency for Defense Development (ADD)
+128: Agile Space Industries
+442: Agnikul Cosmos
+8: Airbus Defence and Space
+130: Airbus US Space & Defense
+129: AI SpaceFactory
+131: Albedo
+9: Aldoria
+402: ALE Co. (Astro Live Experiences)
+489: Aliena
+10: Almatech
+132: Altius Space Machines
+133: Amazon Web Services (AWS) Space
+134: Amentum Space
+135: Analytical Graphics Inc (AGI)
+457: Ananth Technologies
+11: Andøya Space
+12: Antwerp Space
+136: AnySignal
+137: Apex Space
+138: Apogee Semiconductor
+139: Arcfield
+140: Arete Associates
+13: ArianeGroup
+14: ARIS (Academic Space Initiative)
+15: Arkadia Space
+413: ArkEdge Space
+141: Arkisys
+551: Arlula
+481: ARSAT
+16: ASI (Agenzia Spaziale Italiana)
+143: Astra
+144: Astranis
+561: Astrix Astronautics
+146: Astrobotic Technology
+145: Astro Digital
+529: Astrofica
+446: Astrome
+17: Astroscale France
+586: Astroscale Israel
+394: Astroscale (Japón HQ)
+147: Astroscale US
+148: Astrotech Corporation
+142: AST SpaceMobile
+18: ATG Europe
+149: Atlas Space Operations
+150: Atomos Space
+19: Aurora Propulsion Tech.
+536: Australian Space Agency (ASA)
+20: Austrian Space Forum (ÖWF)
+151: Avalanche Energy
+475: Avibras Space
+21: Avio
+395: Axelspace
+152: Axiom Space
+454: Azista BST Aerospace
+30: B2Space
+153: BAE Systems Space & Mission Systems
+154: Ball Aerospace
+444: Bellatrix Aerospace
+155: Benchmark Space Systems
+31: Beyond Gravity
+156: Beyond Gravity US
+303: Beyond Gravity USA
+157: Black River Systems
+158: BlackSky
+550: Black Sky Industries
+32: Blackswan Space
+159: Blue Canyon Technologies
+23: Blue Origin
+33: BME Suborbitals
+160: Boeing Space & Launch
+161: Booz Allen Hamilton Space
+34: Bradford Space
+162: Bradford Space US
+566: Bright Ascension
+501: BRIN (antigua LAPAN)
+567: Brno Space Cluster
+163: BryceTech
+568: Bulgarian Aerospace Cluster
+35: Bulgarian Space Research
+164: Busek Co.
+36: C3S LLC
+165: CACI International Space
+384: Calian Group Space
+374: Canadensys Aerospace
+367: Canadian Space Agency (CSA)
+166: Capella Space
+167: Capstone
+576: Capstone Research Corporation
+418: CASC (China Aerospace Science and Technology Corp.)
+419: CASIC (China Aerospace Science and Industry Corp.)
+433: CAS Space
+377: C-COM Satellite Systems
+37: CDS
+477: Cenic
+168: CesiumAstro
+430: Chang Guang Satellite Technology (CGSTL)
+417: China National Space Administration (CNSA)
+436: Chuangxing Space
+169: Cimarron Software Services
+38: CIRA
+170: CisLunar Industries
+39: ClearSpace
+40: CNES
+171: Cobham Advanced Electronic Solutions
+577: Cobham Advanced Electronic Solutions (CAES)
+428: Commsat
+172: COMSPOC
+173: Comtech Telecommunications
+478: CONAE (Comisión Nacional de Actividades Espaciales)
+174: Constellation Space
+41: constellr
+468: CONTEC
+42: Copenhagen Suborbitals
+175: Cosmic Shielding Corporation
+578: Crane Aerospace & Electronics
+579: Creare
+580: Creative Microsystems Corp
+43: Creotech Instruments
+581: CubeSpace
+45: DA-Group
+46: DANSTAR
+49: DARE
+47: Dawn Aerospace
+176: Dawn Aerospace US
+177: Daybreak
+48: DCUBED
+423: Deep Blue Aerospace
+178: Deep Space Systems
+582: Deep Space Systems (Redwire)
+179: Defense Innovation Unit (DIU) Space
+486: Dereum Labs
+180: Descartes Labs
+445: Dhruva Space
+450: Digantara
+50: DLR
+44: D-Orbit
+527: Dragonfly Aerospace
+181: Draper Laboratory
+407: Dymon
+583: Dynetics
+585: EaglePicher Technologies
+379: EarthDaily Analytics
+52: ECAPS
+182: EchoStar
+51: Ecosmic
+531: Egyptian Space Agency (EgSA)
+507: Elbit Systems Space
+587: Elbit Systems Space & Defense
+556: Electro Optic Systems (EOS)
+455: Elena Geo Systems
+410: ElevationSpace
+53: EMXYS
+54: EnduroSat
+183: EnduroSat US
+184: Enpulsion US
+185: Ensign-Bickford Aerospace & Defense
+55: EPFL Rocket Team
+484: Epic Aerospace
+186: Epirus
+187: Epsilon3
+542: Equatorial Launch Australia (ELA)
+490: Equatorial Space Systems
+56: ESA BIC
+57: ESA Tech Broker
+188: E-Space
+458: EtherealX
+29: European Space Agency (ESA)
+59: Europropulsion
+58: EUSPA
+189: Eutelsat America Corp
+190: ExoAnalytic Solutions
+191: ExoLaunch US
+60: Exotrail
+431: ExPace
+192: Faraday Technology
+193: Federal Aviation Administration (FAA) AST
+476: Fibraforte
+61: Finnish Meteorological Inst.
+569: Finnish Meteorological Institute
+194: Firefly Aerospace
+195: First Resonance
+538: Fleet Space Technologies
+196: Fleet Space US
+498: Foxconn Space Division
+197: Frontier Aerospace
+422: Galactic Energy
+449: GalaxEye Space
+427: GalaxySpace
+62: GATE Space
+437: Geespace
+588: General Atomics
+589: General Dynamics Mission Systems
+198: General Dynamics Space
+199: Generation Orbit
+63: Genesis Space Flight Lab
+200: GeoOptics
+371: GHGSat
+513: Gilat Satellite Networks
+537: Gilmour Space Technologies
+201: Gilmour Space US
+500: GISTDA
+406: Gitai
+64: GKN Aerospace
+570: GKN Aerospace Sweden
+202: Globalstar
+593: GMV
+65: GomSpace
+66: Goonhilly Earth Station
+590: Gradiant
+67: GTD
+462: Hanwha Aerospace
+203: HawkEye 360
+204: Hedron
+205: Helicity Space
+512: Helios
+206: Hemisphere Ventures
+543: HEO
+591: HEO Space
+592: Hera Systems
+207: Hermeus
+438: HK Aerospace Technology Group
+208: Honeybee Robotics
+594: Honeywell Aerospace
+595: Horizon Technologies
+209: Howe Industries
+597: HPS GmbH
+210: Hughes Network Systems
+211: Hydrosat
+68: HyImpulse
+549: Hypersonix Launch Systems
+69: HyPrSpace
+70: Iceland Space Agency
+71: ICEYE
+212: ICON
+72: IENAI SPACE
+398: IHI Aerospace
+213: ILC Dover
+509: ImageSat International (ISI)
+214: Impulse Space
+625: Indian Space Research Organisation
+440: Indian Space Research Organisation (ISRO)
+401: Infostellar
+216: Infostellar US
+464: Innospace
+483: Innova Space
+544: Inovor Technologies
+215: IN Space LLC
+451: InspeCity
+473: Instituto Nacional de Pesquisas Espaciais (INPE)
+217: Intelsat
+396: Interstellar Technologies
+218: Intuitive Machines
+479: INVAP
+219: Inversion Space
+403: iQPS (QPS-SOLARIS)
+220: Iridium Communications
+73: Isar Aerospace
+74: ISISpace
+393: ispace
+420: iSpace (Beijing Interstellar Glory)
+75: ISPTech
+505: Israel Aerospace Industries (IAI)
+504: Israel Space Agency (ISA)
+221: Jacobs Space Exploration Group
+392: Japan Aerospace Exploration Agency (JAXA)
+439: Jiuzhou Yunjian
+222: Johns Hopkins University APL
+414: Kawasaki Heavy Industries (Space Division)
+448: Kawa Space
+223: Kayhan Space
+224: KBR Space
+559: Kea Aerospace
+534: Kenya Space Agency (KSA)
+607: Kepler Communications
+370: Kepler Communications (Canada HQ)
+225: Kepler Communications US
+76: Kongsberg NanoAvionics
+226: Kongsberg Satellite Services (KSAT) US
+461: Korea Aerospace Industries (KAI)
+460: Korea Aerospace Research Institute (KARI)
+77: KP Labs
+227: Kratos Space
+470: KTSat
+228: Kuiper Systems (Amazon)
+78: Kurs Orbital
+79: Kuva Space
+229: Kymeta
+230: L3Harris Space
+421: LandSpace
+80: Latitude
+81: Leaf Space
+231: Leaf Space US
+378: Leap Biosystems
+232: Leidos Space
+233: LeoLabs
+409: Letara
+82: Liftero
+234: Ligado Networks
+471: LIG Nex1 (Space division)
+435: LinkSpace
+83: LiveEO
+235: LJT & Associates
+236: Lockheed Martin Space
+84: Look Up Space
+466: Lumir
+237: Lunar Outpost
+85: Luxembourg Space Agency
+238: Lynk Global
+239: Made In Space
+373: Magellan Aerospace
+240: Magpie
+86: MaiaSpace
+452: Manastu Space
+241: Mangata Networks
+380: Maritime Launch Services
+242: Marotta Controls
+243: Masten Space Systems
+244: Maxar Technologies
+368: MDA Space
+245: MDA US Systems
+503: MEASAT
+389: Metaspectral
+246: Microchip Technology Space
+247: Microcosm
+248: Millennium Space Systems
+426: MinoSpace
+376: Mission Control Space Services
+249: MIT Lincoln Laboratory
+399: Mitsubishi Heavy Industries (MHI) Space
+250: MMA Design LLC
+514: Mohammed bin Rashid Space Centre (MBRSC)
+251: Momentus
+252: Moog Space
+87: Morpheus Space
+253: Morpheus Space US
+254: Motiv Space Systems
+255: mPower Technology
+88: MT Aerospace
+256: Muon Space
+499: mu Space
+257: Mynaric US
+539: Myriota
+258: Myriota US
+89: Nammo
+259: Nanoracks
+467: Nara Space Technology
+626: NASA
+260: NASA Ames Research Center
+261: NASA Goddard Space Flight Center
+262: NASA Jet Propulsion Laboratory (JPL)
+263: NASA Johnson Space Center
+264: NASA Kennedy Space Center
+265: NASA Marshall Space Flight Center
+533: National Space Research and Development Agency (NASRDA)
+266: Near Earth Autonomy
+415: NEC Space Technologies
+90: Needronix
+540: Neumann Space
+91: Neuraspace
+528: NewSpace Systems
+558: New Zealand Space Agency (NZSA)
+391: NGC Aerospace
+532: Nilesat
+267: NOAA NESDIS
+553: Nominal Systems
+28: Northrop Grumman
+372: NorthStar Earth & Space
+92: Norwegian Space Agency
+511: NSLComm
+493: NuSpace
+385: Nüvü Camēras
+268: Odyssey Space Research
+269: OffWorld
+93: OHB
+94: OKAPI:Orbits
+456: Omnipresent Robot Tech
+270: Omnispace
+95: OPUS Aerospace
+96: Orbex
+273: Orbital Sidekick
+271: Orbit Fab
+272: Orbit Logic
+432: Orienspace
+424: Origin Space
+274: Outpost Technologies
+275: PacSci EMC
+276: Palantir Space
+411: Pale Blue
+97: Pangea Aerospace
+277: Paragon Space Development
+278: Parsons Space
+502: Pasifik Satelit Nusantara (PSN)
+404: PD Aerospace
+463: Perigee Aerospace
+279: Phantom Space
+280: Phase Four
+98: PIAP Space
+281: Pioneer Astronautics
+443: Pixxel (India HQ)
+282: Pixxel US
+284: PlanetIQ
+283: Planet Labs
+522: Plan-S
+24: PLD Space
+99: POLARIS Raumflugzeuge
+285: Positron Dynamics
+286: PredaSAR
+287: Prewitt Ridge
+288: Prime Movers Lab Space
+289: Promus Ventures
+290: Pulsar Fusion US
+291: Pumpkin Space
+552: Q-CTRL Space
+386: Qeynet
+292: Quantum Space
+545: Quasar Satellite Technologies
+293: Radian Aerospace
+294: Radiant
+506: Rafael Advanced Defense Systems (Space)
+564: Rakon
+510: Ramon.Space (Israel HQ)
+295: Ramon.Space US
+296: Raytheon Intelligence & Space
+297: RBC Signals
+298: Red House
+299: Redwire Space
+300: Relativity Space
+100: ReOrbit
+301: Roccor
+101: Rocket Factory Augsburg
+571: Rocket Factory Augsburg (RFA)
+565: Rocket Lab (Nueva Zelanda)
+302: Rocket Lab USA
+520: Roketsan
+26: Roscosmos
+535: Rwanda Space Agency (RSA)
+102: S.A.B. Aerospace
+548: Saber Astronautics
+103: SAGA Space Architects
+305: SAIC
+304: SA Photonics
+480: Satellogic (Sede operativa LatAm)
+104: Satlab
+465: Satrec Initiative
+447: SatSure
+596: SatVu (Satellite Vu)
+518: Saudi Space Agency (SSA)
+525: SCS Space
+306: Sedaro
+572: Sener
+307: SEOPS
+308: Seraphim Space
+309: SES Space & Defense
+105: Sidereus Space Dynamics
+310: Sidus Space
+311: Sierra Nevada Corporation
+312: Sierra Space
+469: SI Imaging Services (SIIS)
+526: Simera Sense
+488: Singapore Space and Technology Ltd (SSTL)
+106: Sirius Space Services
+107: SITAEL
+557: Skykraft
+313: Skyloom
+441: Skyroot Aerospace
+387: SkyWatch
+314: Slingshot Aerospace
+524: South African National Space Agency (SANSA)
+541: Southern Launch
+315: Southwest Research Institute (SwRI)
+388: SpaceAlpha Insights
+563: SpaceBase
+397: Space BD
+316: Space BD US
+382: SpaceBridge
+317: Space Capital
+318: Space Dynamics Laboratory (SDL)
+323: Spaceflight Inc
+375: Space Flight Laboratory (SFL)
+109: SpaceForest
+325: SpaceForge US
+326: SpaceFund
+508: SpaceIL
+327: SpaceLogistics
+546: Space Machines Company
+110: Spacemanic
+319: Space Micro
+108: Space Norway
+320: Space Nuclear Power Corp (SpaceNukes)
+416: Space One
+321: Space Perspective
+25: Space Pioneer
+322: Space Systems Command
+111: SpaceTech
+573: SpaceTech (STI)
+425: Spacety
+405: Space Walker
+22: SpaceX
+492: SpeQtral
+328: SpiderOak Space
+329: SpinLaunch
+547: Spiral Blue
+330: Spire Global
+113: SSC (Swedish Space Corp)
+575: SSC (Swedish Space Corporation)
+112: SSTL
+574: SSTL (Surrey Satellite Technology Ltd.)
+331: Starburst Aerospace US
+390: Stardust Technologies
+332: Starfish Space
+333: Stoke Space
+334: Stratolaunch
+335: Swarm Technologies
+114: SWISSto12
+400: Synspective
+336: Systima Technologies
+624: TAI Space
+523: TAI (Turkish Aerospace Industries Space)
+495: Taiwan Space Agency (TASA)
+337: Techstars Space Accelerator
+338: Teledyne Brown Engineering Space
+584: Teledyne e2v
+369: Telesat
+339: Telesat US Services
+412: Tenchijin
+497: Tensor Tech
+340: Terran Orbital
+341: Tethers Unlimited
+342: Thales Alenia Space US
+116: The Exploration Company
+343: ThinkOrbital
+517: Thuraya
+496: TiSPACE
+115: T-Minus
+344: Tomorrow.io Space
+491: Transcelestial
+345: TriSept
+346: True Anomaly
+347: Turion Space
+519: Turkish Space Agency (TUA)
+521: Turksat
+348: Type One Ventures
+349: Tyvak Nano-Satellite Systems
+515: UAE Space Agency (UAESA)
+117: UK Space Agency
+350: Umbra Space
+27: United Launch Alliance (ULA)
+324: United States Space Force (USSF)
+351: UP Aerospace
+352: Ursa Major
+353: Vacco Industries
+354: Valcor Engineering Space
+554: Valiant Space
+355: Varda Space Industries
+356: Vast Space
+453: Vasundharaa Geo Technologies
+357: Vaya Space
+482: VENG
+358: Venturi Astrolab
+359: Venus Aerospace
+459: VestaSpace Technology
+360: Viasat
+361: Virgin Galactic
+474: Visiona Tecnologia Espacial
+118: Vision Space
+362: Vorago Technologies
+363: Voyager Space
+119: Vyoma
+408: Warpspace
+364: World View
+381: Wyvern
+365: X-Bow Systems
+562: Xerra Earth Observation Institute
+530: XinaBox
+383: Xiphos Systems
+366: Xona Space Systems
+516: Yahsat
+120: ZARM
+560: Zenith Tecnica
+494: Zero Error Systems (ZES)
+434: ZeroG Aerospace

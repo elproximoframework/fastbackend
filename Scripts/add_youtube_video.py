@@ -54,6 +54,7 @@ def save_to_db(video_data, video_type, own=False):
         db_name = "Local" if "localhost" in db_url else "Remote"
         try:
             conn = psycopg2.connect(db_url)
+            conn.set_client_encoding('UTF8')
             conn.autocommit = True
             cur = conn.cursor()
             
@@ -83,7 +84,12 @@ def save_to_db(video_data, video_type, own=False):
                 )
             )
             
-            print(f"[{db_name}] Successfully added: {video_data['video_name']}")
+            # Using encode/decode to avoid console print errors on Windows
+            try:
+                print(f"[{db_name}] Successfully added: {video_data['video_name']}")
+            except UnicodeEncodeError:
+                print(f"[{db_name}] Successfully added: {video_data['video_name'].encode('ascii', 'ignore').decode('ascii')}")
+            
             cur.close()
             conn.close()
             successCount += 1

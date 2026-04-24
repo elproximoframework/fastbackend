@@ -52,9 +52,9 @@ Para cada noticia de SpaceX, tendrás dos archivos: `archivo.md` (español) y `a
 6. **Featured y YouTube:** Si se proporciona un enlace de YouTube (`linkyoutube`), establecer `featured` en `True`.
 7. **Covered:** El campo `covered` debe ser `False` por defecto, a menos que la noticia ya haya sido cubierta en un vídeo del canal.
 8. **Imagen:**
-   * Generar una imagen representativa y guardarla en `D:\YoutubeElProximoFrameworkEnElEspacio\Web\backendfast\newsspacex_images`.
+   * Generar una imagen representativa y guardarla en `D:\YoutubeElProximoFrameworkEnElEspacio\Web\Cloudinary\newsspacex_images`.
    * El campo `image` en la BBDD solo contiene el nombre del archivo (ej: `starship_flight.webp`).
-9. **Ruta Noticia:** Usar siempre la ruta `/api/v1/newsspacex_content/` seguida del nombre del archivo (ej: `/api/v1/newsspacex_content/260331_starship_update.md`).
+9. **Ruta Noticia:** Usar siempre la ruta `D:\YoutubeElProximoFrameworkEnElEspacio\Web\Cloudinary/newsspacex_content/` seguida del nombre del archivo (ej: `260331_starship_update.md`).
 
 ## 3. Ejemplo de Estructura JSON:
 
@@ -75,3 +75,12 @@ Desde el directorio raíz `backendfast/`:
 ```
 
 El script utiliza el campo `slug` como identificador único para realizar un **upsert** (insertar si no existe o actualizar si ya existe) tanto en el entorno **local** como en el **remoto (Railway)**.
+ 
+## Fuentes de Noticias (Abril 2026)
+- https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-17-22-b1097-vsfb-ofisly-600th-falcon-landing
+- https://spaceflightnow.com/2026/04/21/live-coverage-spacex-to-launch-final-gps-iii-satellite-for-the-u-s-space-force/
+- https://spaceflightnow.com/2026/04/23/live-coverage-spacex-to-launch-25-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-3/
+- https://www.nasa.gov/news-release/nasa-shares-spacex-crew-13-assignments-for-space-station-mission/
+- https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-says-it-is-going-to-begin-manufacturing-gpus-usd1-75-trillion-ipo-listing-reportedly-includes-in-house-gpu-production
+- https://defence-blog.com/spacex-wins-57m-pentagon-deal-for-military-space-comms/
+- https://www.pcmag.com/news/spacex-preps-next-gen-gateway-to-accelerate-starlink-speeds

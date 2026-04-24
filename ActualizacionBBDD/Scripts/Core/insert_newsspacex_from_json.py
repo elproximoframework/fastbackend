@@ -44,7 +44,7 @@ def upsert_news_item(cur, item):
                 sql.SQL(', ').join(set_clauses)
             )
             cur.execute(query, vals + [slug])
-            print(f"[✓] Updated: {slug}")
+            print(f"[OK] Updated: {slug}")
         else:
             # INSERT
             query = sql.SQL("INSERT INTO newsspacex ({}) VALUES ({})").format(
@@ -52,7 +52,7 @@ def upsert_news_item(cur, item):
                 sql.SQL(', ').join([sql.Placeholder()] * len(vals))
             )
             cur.execute(query, vals)
-            print(f"[✓] Inserted: {slug}")
+            print(f"[OK] Inserted: {slug}")
             
     except Exception as e:
         print(f"[!] Error processing {slug}: {e}")
