@@ -80,7 +80,7 @@ def _send_email_brevo(to_email: str, subject: str, html_content: str):
 def send_magic_link_email(to_email: str, token: str, name: str = None):
     """Envía el magic link por email usando la API de Brevo."""
     greeting = f"Hola {name}," if name else "Hola,"
-    magic_url = f"{FRONTEND_URL}/auth/callback?token={token}"
+    magic_url = f"{FRONTEND_URL}/auth/verify?token={token}"
 
     html = f"""
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;

@@ -527,3 +527,105 @@ class ChallengeResponse(ChallengeBase):
 
     class Config:
         from_attributes = True
+
+
+# ============================================================
+# FORUM SCHEMAS
+# ============================================================
+
+class ForumAuthorSchema(BaseModel):
+    id: int
+    name: Optional[str] = None
+    email: str
+    avatar_url: Optional[str] = None
+    role: str
+
+    class Config:
+        from_attributes = True
+
+
+class ForumCategoryResponse(BaseModel):
+    id: int
+    name: str
+    slug: str
+    description: Optional[str] = None
+    icon: Optional[str] = None
+    color: str = "#22d3ee"
+    order: int = 0
+    thread_count: int = 0
+    post_count: int = 0
+
+    class Config:
+        from_attributes = True
+
+
+class ForumThreadSummaryResponse(BaseModel):
+    id: int
+    title: str
+    slug: str
+    author: ForumAuthorSchema
+    category_slug: str
+    post_count: int = 0
+    views: int = 0
+    is_pinned: bool = False
+    is_locked: bool = False
+    created_at: datetime
+    updated_at: Optional[datetime] = None
+
+    @field_serializer("created_at", "updated_at")
+    def serialize_dt(self, dt: Optional[datetime], _info):
+        return dt.isoformat().replace("+00:00", "Z") if dt else None
+
+    class Config:
+        from_attributes = True
+
+
+class ForumThreadDetailResponse(ForumThreadSummaryResponse):
+    content: str
+    category: ForumCategoryResponse
+
+
+class ForumPostResponse(BaseModel):
+    id: int
+    content: str
+    thread_id: int
+    author: ForumAuthorSchema
+    like_count: int = 0
+    user_has_liked: bool = False
+    created_at: datetime
+    updated_at: Optional[datetime] = None
+
+    @field_serializer("created_at", "updated_at")
+    def serialize_dt(self, dt: Optional[datetime], _info):
+        return dt.isoformat().replace("+00:00", "Z") if dt else None
+
+    class Config:
+        from_attributes = True
+
+
+class PaginatedThreadsResponse(BaseModel):
+    items: List[ForumThreadSummaryResponse]
+    total: int
+    page: int
+    page_size: int
+    total_pages: int
+
+
+class PaginatedPostsResponse(BaseModel):
+    items: List[ForumPostResponse]
+    total: int
+    page: int
+    page_size: int
+    total_pages: int
+
+
+class CreateThreadRequest(BaseModel):
+    title: str
+    content: str
+    category_id: int
+
+
+class CreatePostRequest(BaseModel):
+    content: str
+    thread_id: int
+

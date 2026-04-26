@@ -213,10 +213,21 @@ async def google_callback(code: str, db: Session = Depends(get_db)):
     db.commit()
     db.refresh(user)
 
-    # 4. Emitir JWT propio y redirigir al frontend
+    # 4. Emitir JWT propio + refresh token → redirigir al frontend
     access_token = create_access_token(user.id, user.email, user.role)
+    refresh_token_str = create_refresh_token()
+
+    db.add(models.RefreshToken(
+        user_id=user.id,
+        token=refresh_token_str,
+        expires_at=datetime.now(timezone.utc) + timedelta(days=30)
+    ))
+    db.commit()
+
     frontend_url = os.getenv("FRONTEND_URL", "http://localhost:5173")
-    return RedirectResponse(url=f"{frontend_url}/auth/callback/google?token={access_token}")
+    return RedirectResponse(
+        url=f"{frontend_url}/auth/callback/google?token={access_token}&refresh_token={refresh_token_str}"
+    )
 
 
 # ============================================================
@@ -248,3 +259,42 @@ async def logout(
     ).update({"revoked": True})
     db.commit()
     return {"message": "Sesión cerrada correctamente"}
+
+
+# ============================================================
+# REFRESH TOKEN
+# ============================================================
+
+class RefreshRequest(BaseModel):
+    refresh_token: str
+
+class RefreshResponse(BaseModel):
+    access_token: str
+    token_type: str
+
+@router.post("/refresh", response_model=RefreshResponse)
+async def refresh_access_token(body: RefreshRequest, db: Session = Depends(get_db)):
+    """
+    Renova el access_token usando un refresh_token válido.
+    No requiere que el access_token anterior sea válido.
+    """
+    now = datetime.now(timezone.utc)
+
+    stored = db.query(models.RefreshToken).filter(
+        models.RefreshToken.token == body.refresh_token,
+        models.RefreshToken.revoked == False,
+        models.RefreshToken.expires_at > now
+    ).first()
+
+    if not stored:
+        raise HTTPException(
+            status_code=401,
+            detail="Refresh token inválido o expirado. Vuelve a iniciar sesión."
+        )
+
+    user = stored.user
+    if not user or not user.is_active:
+        raise HTTPException(status_code=401, detail="Usuario no encontrado o inactivo.")
+
+    new_access_token = create_access_token(user.id, user.email, user.role)
+    return {"access_token": new_access_token, "token_type": "bearer"}

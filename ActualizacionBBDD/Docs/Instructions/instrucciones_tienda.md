@@ -13,8 +13,10 @@ Este documento es la referencia para que el Agente IA pueda poblar automáticame
 
 Asegúrate de preparar los siguientes campos para la inserción:
 
-- **name** (String): Nombre del producto (ej: "SpaceX Starship & Launch Tower Model").
-- **description** (String): Una pequeña descripción atractiva del producto en Amazon. Puede ser resumida.
+- **name** (String): Nombre del producto en español (ej: "Maqueta Starship & Torre de Lanzamiento").
+- **name_en** (String): Nombre del producto en inglés (ej: "SpaceX Starship & Launch Tower Model").
+- **description** (String): Una pequeña descripción atractiva del producto en español.
+- **description_en** (String): Una pequeña descripción atractiva del producto en inglés.
 - **price** (String): El precio actual o aproximado como texto, ej "89.99€".
 - **image** (String): ¡Atención! Solo debes guardar el **Nomenclador (nombre.png)**. No guardar rutas completas ni la URL pública (ejemplo: `maqueta_starship.png`).
 - **affiliateUrl** (String): El enlace final de afiliado.
@@ -30,6 +32,6 @@ Asegúrate de preparar los siguientes campos para la inserción:
 
 Para automatizar la entrada, utilizar:
 ```bash
-python insert_shop.py --name "..." --description "..." --price "..." --image "..." --url "..." --category "..." --featured True
+python insert_shop.py --name "..." --name_en "..." --description "..." --description_en "..." --price "..." --image "..." --url "..." --category "..." --featured True
 ```
 (O la estructura JSON equivalente si el script lo soporta).

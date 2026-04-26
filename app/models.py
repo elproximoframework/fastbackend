@@ -446,3 +446,76 @@ class Prediction(Base):
     created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
 
     challenge = relationship("Challenge", back_populates="predictions")
+
+
+# ============================================================
+# FORUM MODELS
+# ============================================================
+
+class ForumCategory(Base):
+    __tablename__ = "forum_categories"
+
+    id          = Column(Integer, primary_key=True, index=True)
+    name        = Column(String(100), nullable=False)
+    slug        = Column(String(100), unique=True, index=True, nullable=False)
+    description = Column(String(300), nullable=True)
+    icon        = Column(String(10), nullable=True)   # emoji, ej: "🚀"
+    color       = Column(String(20), default="#22d3ee") # hex para UI
+    order       = Column(Integer, default=0)
+    is_active   = Column(Boolean, default=True)
+    created_at  = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+
+    threads = relationship("ForumThread", back_populates="category", lazy="dynamic")
+
+
+class ForumThread(Base):
+    __tablename__ = "forum_threads"
+
+    id          = Column(Integer, primary_key=True, index=True)
+    title       = Column(String(200), nullable=False, index=True)
+    slug        = Column(String(220), unique=True, index=True, nullable=False)
+    content     = Column(String, nullable=False)          # Markdown
+    category_id = Column(Integer, ForeignKey("forum_categories.id"), nullable=False)
+    author_id   = Column(Integer, ForeignKey("users.id"), nullable=False)
+    views       = Column(Integer, default=0)
+    is_pinned   = Column(Boolean, default=False)
+    is_locked   = Column(Boolean, default=False)          # Admin puede bloquear
+    created_at  = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    updated_at  = Column(DateTime(timezone=True), onupdate=lambda: datetime.now(timezone.utc))
+
+    category = relationship("ForumCategory", back_populates="threads")
+    author   = relationship("User", foreign_keys=[author_id])
+    posts    = relationship("ForumPost", back_populates="thread", lazy="dynamic",
+                            cascade="all, delete-orphan")
+
+
+class ForumPost(Base):
+    __tablename__ = "forum_posts"
+
+    id        = Column(Integer, primary_key=True, index=True)
+    content   = Column(String, nullable=False)            # Markdown
+    thread_id = Column(Integer, ForeignKey("forum_threads.id"), nullable=False)
+    author_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    updated_at = Column(DateTime(timezone=True), onupdate=lambda: datetime.now(timezone.utc))
+
+    thread = relationship("ForumThread", back_populates="posts")
+    author = relationship("User", foreign_keys=[author_id])
+    likes  = relationship("ForumPostLike", back_populates="post", cascade="all, delete-orphan")
+
+
+class ForumPostLike(Base):
+    """Un usuario solo puede dar like una vez a cada post (unique constraint)."""
+    __tablename__ = "forum_post_likes"
+
+    id        = Column(Integer, primary_key=True, index=True)
+    post_id   = Column(Integer, ForeignKey("forum_posts.id"), nullable=False)
+    user_id   = Column(Integer, ForeignKey("users.id"), nullable=False)
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+
+    post = relationship("ForumPost", back_populates="likes")
+    user = relationship("User", foreign_keys=[user_id])
+
+    from sqlalchemy import UniqueConstraint
+    __table_args__ = (UniqueConstraint("post_id", "user_id", name="uq_post_like"),)
+
