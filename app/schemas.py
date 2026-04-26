@@ -266,6 +266,28 @@ class SpaceXInventoryResponse(SpaceXInventoryBase):
         from_attributes = True
 
 
+# ---- ShopProduct Schemas ----
+
+class ShopProductBase(BaseModel):
+    name: str
+    description: Optional[str] = None
+    price: Optional[str] = None
+    image: Optional[str] = None
+    affiliateUrl: Optional[str] = None
+    category: Optional[str] = None
+    featured: bool = False
+    show: bool = True
+
+class ShopProductCreate(ShopProductBase):
+    pass
+
+class ShopProductResponse(ShopProductBase):
+    id: int
+
+    class Config:
+        from_attributes = True
+
+
 # ---- Setting Schemas ----
 
 class AppSettingBase(BaseModel):

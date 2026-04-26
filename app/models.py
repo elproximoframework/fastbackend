@@ -208,6 +208,20 @@ class SpaceXInventory(Base):
     milestones = Column(JSON, nullable=True)        # List of {date, event} dicts
 
 
+class ShopProduct(Base):
+    __tablename__ = "shop_products"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String, index=True, nullable=False)
+    description = Column(String)
+    price = Column(String)
+    image = Column(String)              # Only filename like "starship_model.png"
+    affiliateUrl = Column(String)
+    category = Column(String, index=True) # e.g., models, books, gear, clothing
+    featured = Column(Boolean, default=False)
+    show = Column(Boolean, default=True)
+
+
 class AppSetting(Base):
     __tablename__ = "app_settings"
 

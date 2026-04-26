@@ -17,6 +17,7 @@ from .routes.youtube import router as youtube_router
 from .routes.research_development import router as research_router
 from .routes.courses import router as courses_router
 from .routes.challenges import router as challenges_router
+from .routes.shop import router as shop_router
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
@@ -73,6 +74,7 @@ app.include_router(youtube_router)
 app.include_router(research_router)
 app.include_router(courses_router)
 app.include_router(challenges_router)
+app.include_router(shop_router)
 
 # --- 3. LOG DE RUTAS PARA DEBUG ---
 @app.on_event("startup")
