@@ -213,7 +213,9 @@ class ShopProduct(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True, nullable=False)
+    name_en = Column(String, index=True)
     description = Column(String)
+    description_en = Column(String)
     price = Column(String)
     image = Column(String)              # Only filename like "starship_model.png"
     affiliateUrl = Column(String)

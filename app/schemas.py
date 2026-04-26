@@ -270,7 +270,9 @@ class SpaceXInventoryResponse(SpaceXInventoryBase):
 
 class ShopProductBase(BaseModel):
     name: str
+    name_en: Optional[str] = None
     description: Optional[str] = None
+    description_en: Optional[str] = None
     price: Optional[str] = None
     image: Optional[str] = None
     affiliateUrl: Optional[str] = None
