@@ -10,6 +10,7 @@ load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
 if not DATABASE_URL:
     print("Error: DATABASE_URL not found")
+    
     sys.exit(1)
 
 engine = create_engine(DATABASE_URL)
