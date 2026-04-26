@@ -9,6 +9,7 @@ load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file_
 LOCAL_DB_URL = os.getenv("DATABASE_URL")
 REMOTE_DB_URL = "postgresql://postgres:zjRYAsATFmvPlnQOZruilNIwwEBZcmyU@crossover.proxy.rlwy.net:29288/railway"
 
+
 def add_columns(db_url, label):
     if not db_url:
         print(f"[{label}] Skip: URL not provided")
