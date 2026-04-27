@@ -261,6 +261,47 @@ async def logout(
     return {"message": "Sesión cerrada correctamente"}
 
 
+@router.delete("/me")
+async def delete_account(
+    current_user: models.User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """
+    Eliminar la cuenta del usuario y todos los datos asociados de forma permanente.
+    """
+    user_id = current_user.id
+    user_email = current_user.email
+
+    try:
+        # 1. Eliminar tokens de sesión y acceso
+        db.query(models.RefreshToken).filter(models.RefreshToken.user_id == user_id).delete()
+        db.query(models.MagicLinkToken).filter(models.MagicLinkToken.user_id == user_id).delete()
+
+        # 2. Eliminar actividad en el foro
+        # Borramos primero los likes dados por el usuario
+        db.query(models.ForumPostLike).filter(models.ForumPostLike.user_id == user_id).delete()
+        
+        # Al borrar los posts del usuario, se borrarán en cascada sus likes (aunque ya los borramos arriba por seguridad)
+        db.query(models.ForumPost).filter(models.ForumPost.author_id == user_id).delete()
+        
+        # Al borrar los threads del usuario, se borrarán en cascada sus posts y sus likes
+        db.query(models.ForumThread).filter(models.ForumThread.author_id == user_id).delete()
+
+        # 3. Eliminar predicciones en desafíos (asociadas por email)
+        db.query(models.Prediction).filter(models.Prediction.email == user_email).delete()
+
+        # 4. Eliminar el usuario
+        db.delete(current_user)
+        
+        db.commit()
+        return {"message": "Cuenta eliminada correctamente"}
+    
+    except Exception as e:
+        db.rollback()
+        print(f"Error al eliminar cuenta: {str(e)}")
+        raise HTTPException(status_code=500, detail="Error interno al procesar la eliminación de la cuenta")
+
+
 # ============================================================
 # REFRESH TOKEN
 # ============================================================
