@@ -519,3 +519,16 @@ class ForumPostLike(Base):
     from sqlalchemy import UniqueConstraint
     __table_args__ = (UniqueConstraint("post_id", "user_id", name="uq_post_like"),)
 
+
+class Comment(Base):
+    __tablename__ = "comments"
+
+    id = Column(Integer, primary_key=True, index=True)
+    content = Column(String, nullable=False)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    item_type = Column(String, index=True, nullable=False) # 'news', 'newsspacex'
+    item_id = Column(Integer, index=True, nullable=False)
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    updated_at = Column(DateTime(timezone=True), onupdate=lambda: datetime.now(timezone.utc), default=lambda: datetime.now(timezone.utc))
+
+    user = relationship("User")

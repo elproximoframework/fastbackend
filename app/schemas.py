@@ -629,3 +629,29 @@ class CreatePostRequest(BaseModel):
     content: str
     thread_id: int
 
+
+# ============================================================
+# COMMENT SCHEMAS
+# ============================================================
+
+class CommentBase(BaseModel):
+    content: str
+    item_type: str  # 'news' or 'newsspacex'
+    item_id: int
+
+class CommentCreate(CommentBase):
+    pass
+
+class CommentResponse(CommentBase):
+    id: int
+    user_id: int
+    author: ForumAuthorSchema  # We can reuse this schema since it has name, email, avatar
+    created_at: datetime
+    updated_at: datetime
+
+    @field_serializer("created_at", "updated_at")
+    def serialize_dt(self, dt: datetime, _info):
+        return dt.isoformat().replace("+00:00", "Z")
+
+    class Config:
+        from_attributes = True
